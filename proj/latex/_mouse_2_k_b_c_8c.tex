@@ -1,0 +1,61 @@
+\doxysection{Referência ao ficheiro src/\+Controlers/\+Mouse/\+KBC.c}
+\hypertarget{_mouse_2_k_b_c_8c}{}\label{_mouse_2_k_b_c_8c}\index{src/Controlers/Mouse/KBC.c@{src/Controlers/Mouse/KBC.c}}
+{\ttfamily \#include "{}KBC.\+h"{}}\newline
+Diagrama de dependências de inclusão para KBC.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_mouse_2_k_b_c_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int() \mbox{\hyperlink{_mouse_2_k_b_c_8c_ac024af91b156e4fc61ee3886b891de21}{read\+\_\+\+KBC\+\_\+status}} (uint8\+\_\+t \texorpdfstring{$\ast$}{*}status)
+\item 
+int \mbox{\hyperlink{_mouse_2_k_b_c_8c_a52ac1bb096b341741d01d49dd38c0cd4}{read\+\_\+\+KBC\+\_\+output}} (uint8\+\_\+t port, uint8\+\_\+t \texorpdfstring{$\ast$}{*}output, uint8\+\_\+t mouse)
+\item 
+int() \mbox{\hyperlink{_mouse_2_k_b_c_8c_a34b653b3939fffe883c903cdadb36d3a}{write\+\_\+\+KBC\+\_\+command}} (uint8\+\_\+t port, uint8\+\_\+t command\+Byte)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{_mouse_2_k_b_c_8c_a52ac1bb096b341741d01d49dd38c0cd4}\label{_mouse_2_k_b_c_8c_a52ac1bb096b341741d01d49dd38c0cd4} 
+\index{KBC.c@{KBC.c}!read\_KBC\_output@{read\_KBC\_output}}
+\index{read\_KBC\_output@{read\_KBC\_output}!KBC.c@{KBC.c}}
+\doxysubsubsection{\texorpdfstring{read\_KBC\_output()}{read\_KBC\_output()}}
+{\footnotesize\ttfamily int read\+\_\+\+KBC\+\_\+output (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{port,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{output,  }\item[{uint8\+\_\+t}]{mouse }\end{DoxyParamCaption})}
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_mouse_2_k_b_c_8c_a52ac1bb096b341741d01d49dd38c0cd4_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_mouse_2_k_b_c_8c_ac024af91b156e4fc61ee3886b891de21}\label{_mouse_2_k_b_c_8c_ac024af91b156e4fc61ee3886b891de21} 
+\index{KBC.c@{KBC.c}!read\_KBC\_status@{read\_KBC\_status}}
+\index{read\_KBC\_status@{read\_KBC\_status}!KBC.c@{KBC.c}}
+\doxysubsubsection{\texorpdfstring{read\_KBC\_status()}{read\_KBC\_status()}}
+{\footnotesize\ttfamily int() read\+\_\+\+KBC\+\_\+status (\begin{DoxyParamCaption}\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{status }\end{DoxyParamCaption})}
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{_mouse_2_k_b_c_8c_ac024af91b156e4fc61ee3886b891de21_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_mouse_2_k_b_c_8c_a34b653b3939fffe883c903cdadb36d3a}\label{_mouse_2_k_b_c_8c_a34b653b3939fffe883c903cdadb36d3a} 
+\index{KBC.c@{KBC.c}!write\_KBC\_command@{write\_KBC\_command}}
+\index{write\_KBC\_command@{write\_KBC\_command}!KBC.c@{KBC.c}}
+\doxysubsubsection{\texorpdfstring{write\_KBC\_command()}{write\_KBC\_command()}}
+{\footnotesize\ttfamily int() write\+\_\+\+KBC\+\_\+command (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{port,  }\item[{uint8\+\_\+t}]{command\+Byte }\end{DoxyParamCaption})}
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_mouse_2_k_b_c_8c_a34b653b3939fffe883c903cdadb36d3a_cgraph}
+\end{center}
+\end{figure}

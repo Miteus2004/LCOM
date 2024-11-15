@@ -1,0 +1,33 @@
+<map id="start_classic" name="start_classic">
+<area shape="rect" id="Node000001" title="Starts the classic game mode." alt="" coords="5,56,101,83"/>
+<area shape="rect" id="Node000002" href="$gamesprites_8c.html#ac103e63dac5103633d00970cf59e1543" title="Clears the screen." alt="" coords="375,5,463,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,53,148,41,260,26,359,19,359,24,260,32,149,47,101,58"/>
+<area shape="rect" id="Node000005" href="$gamesprites_8c.html#ad86d096ca847f40c12b29273b3b61d9c" title="Draws the aim game in classic mode." alt="" coords="149,56,307,83"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="101,67,133,67,133,72,101,72"/>
+<area shape="rect" id="Node000014" href="$aim_train_controler_8h.html#a4b999fbcc3f9daf879b8de3def1c2919" title="Generates a random position for the target." alt="" coords="155,107,301,133"/>
+<area shape="poly" id="edge17_Node000001_Node000014" title=" " alt="" coords="102,80,166,99,164,104,100,86"/>
+<area shape="rect" id="Node000003" href="$sprites_8c.html#a6db4230a0003a09515d78b790d8ec52d" title="Function to draw a sprite on the screen." alt="" coords="782,5,902,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="463,16,766,16,766,21,463,21"/>
+<area shape="rect" id="Node000004" href="$graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741" title=" " alt="" coords="998,56,1099,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="900,30,983,51,982,56,899,35"/>
+<area shape="rect" id="Node000006" href="$gamesprites_8c.html#a15e08b9e3a391846626898577dc44a18" title="Draws a word starting at a specified position." alt="" coords="378,56,460,83"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="307,67,362,67,362,72,307,72"/>
+<area shape="rect" id="Node000009" href="$graphics_8c.html#a99d2da2559e11200c6b40c469e9977ec" title=" " alt="" coords="355,107,482,133"/>
+<area shape="poly" id="edge10_Node000005_Node000009" title=" " alt="" coords="282,81,352,100,350,105,280,86"/>
+<area shape="rect" id="Node000007" href="$gamesprites_8c.html#adbbc28980f638e62a4f25f2c2a71a927" title="Draws a letter at a specified position." alt="" coords="580,56,665,83"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="460,67,565,67,565,72,460,72"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="664,57,766,33,768,38,666,62"/>
+<area shape="rect" id="Node000008" href="$sprites_8c.html#a68f38f4a0ef4671439737a88745eb2d9" title="Function to draw a sprite on the screen, changing white pixels to a specified color." alt="" coords="780,56,904,83"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="665,67,764,67,764,72,665,72"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="904,67,982,67,982,72,904,72"/>
+<area shape="rect" id="Node000010" href="$graphics_8c.html#a5e5b25bd525250f61f40b9e9f212d5e6" title=" " alt="" coords="572,107,673,133"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="483,117,556,117,556,123,483,123"/>
+<area shape="rect" id="Node000013" href="$graphics_8c.html#a44e494a51a5dc0493c86b36a9a7789e1" title=" " alt="" coords="530,157,715,184"/>
+<area shape="poly" id="edge15_Node000009_Node000013" title=" " alt="" coords="476,131,552,150,551,156,475,137"/>
+<area shape="poly" id="edge14_Node000010_Node000004" title=" " alt="" coords="673,115,787,107,921,92,982,81,983,86,921,97,787,112,674,120"/>
+<area shape="rect" id="Node000011" href="$graphics_8c.html#a5a414d4675d3674e1b3c5fb28511fce9" title=" " alt="" coords="763,157,921,184"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="674,129,767,151,766,156,673,134"/>
+<area shape="rect" id="Node000012" href="$graphics_8c.html#a249385ce2aecc014c24f3466c0a4df18" title=" " alt="" coords="969,157,1127,184"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="921,168,953,168,953,173,921,173"/>
+<area shape="poly" id="edge16_Node000013_Node000011" title=" " alt="" coords="715,168,747,168,747,173,715,173"/>
+</map>

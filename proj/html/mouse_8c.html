@@ -1,0 +1,541 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Gamers Gym: Referência ao ficheiro src/Controlers/Mouse/mouse.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Gamers Gym
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('mouse_8c.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrada</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funções</a> &#124;
+<a href="#var-members">Variáveis</a>  </div>
+  <div class="headertitle"><div class="title">Referência ao ficheiro mouse.c</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="mouse_8h_source.html">mouse.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Diagrama de dependências de inclusão para mouse.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="mouse_8c__incl.png" border="0" usemap="#asrc_2_controlers_2_mouse_2mouse_8c" alt=""/></div>
+<map name="asrc_2_controlers_2_mouse_2mouse_8c" id="asrc_2_controlers_2_mouse_2mouse_8c">
+<area shape="rect" title=" " alt="" coords="235,5,380,48"/>
+<area shape="rect" href="mouse_8h.html" title=" " alt="" coords="272,96,343,123"/>
+<area shape="poly" title=" " alt="" coords="310,49,310,80,305,80,305,49"/>
+<area shape="rect" href="_mouse_2_k_b_c_8h.html" title=" " alt="" coords="165,171,330,197"/>
+<area shape="poly" title=" " alt="" coords="299,125,269,161,265,157,295,122"/>
+<area shape="rect" href="i8042_8h.html" title=" " alt="" coords="5,245,175,272"/>
+<area shape="poly" title=" " alt="" coords="272,121,214,140,183,154,154,173,126,202,105,233,101,230,122,199,151,169,180,150,212,135,270,116"/>
+<area shape="rect" title=" " alt="" coords="329,245,406,272"/>
+<area shape="poly" title=" " alt="" coords="318,122,344,170,364,230,359,231,340,172,313,124"/>
+<area shape="rect" title=" " alt="" coords="405,171,469,197"/>
+<area shape="poly" title=" " alt="" coords="331,121,402,160,399,165,329,126"/>
+<area shape="rect" title=" " alt="" coords="199,245,304,272"/>
+<area shape="poly" title=" " alt="" coords="251,198,252,230,247,230,245,198"/>
+<area shape="poly" title=" " alt="" coords="221,200,133,241,130,236,219,195"/>
+<area shape="poly" title=" " alt="" coords="270,196,335,235,332,239,267,200"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:a20285aed4b3ef45812cd967532dd09db" id="r_a20285aed4b3ef45812cd967532dd09db"><td class="memItemLeft" align="right" valign="top">int()&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mouse_8c.html#a20285aed4b3ef45812cd967532dd09db">mouse_subscribe_int</a> (uint8_t *bit_no)</td></tr>
+<tr class="separator:a20285aed4b3ef45812cd967532dd09db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ecf823d80520009ae5e0d76ae40a3c3" id="r_a3ecf823d80520009ae5e0d76ae40a3c3"><td class="memItemLeft" align="right" valign="top">int()&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mouse_8c.html#a3ecf823d80520009ae5e0d76ae40a3c3">mouse_unsubscribe_int</a> ()</td></tr>
+<tr class="separator:a3ecf823d80520009ae5e0d76ae40a3c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a210374b50462acdedab00df64d5cea3c" id="r_a210374b50462acdedab00df64d5cea3c"><td class="memItemLeft" align="right" valign="top">void()&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mouse_8c.html#a210374b50462acdedab00df64d5cea3c">mouse_ih</a> ()</td></tr>
+<tr class="separator:a210374b50462acdedab00df64d5cea3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d6ee7592c47e8f3830a140c1c36587d" id="r_a8d6ee7592c47e8f3830a140c1c36587d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mouse_8c.html#a8d6ee7592c47e8f3830a140c1c36587d">mouse_sync_bytes</a> ()</td></tr>
+<tr class="separator:a8d6ee7592c47e8f3830a140c1c36587d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38c00abcff29c777f8e956e7ed9ffb77" id="r_a38c00abcff29c777f8e956e7ed9ffb77"><td class="memItemLeft" align="right" valign="top">void()&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mouse_8c.html#a38c00abcff29c777f8e956e7ed9ffb77">mouse_set_info</a> ()</td></tr>
+<tr class="separator:a38c00abcff29c777f8e956e7ed9ffb77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1703c3c5b61eef30d724b15cafd1d75e" id="r_a1703c3c5b61eef30d724b15cafd1d75e"><td class="memItemLeft" align="right" valign="top">int()&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mouse_8c.html#a1703c3c5b61eef30d724b15cafd1d75e">mouse_write</a> (uint8_t command)</td></tr>
+<tr class="separator:a1703c3c5b61eef30d724b15cafd1d75e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d1e0d0e4bfdbf729105c13188094e1b" id="r_a1d1e0d0e4bfdbf729105c13188094e1b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mouse_8c.html#a1d1e0d0e4bfdbf729105c13188094e1b">set_sample_rate</a> (uint8_t rate)</td></tr>
+<tr class="separator:a1d1e0d0e4bfdbf729105c13188094e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variáveis</h2></td></tr>
+<tr class="memitem:a99e3a39a732a4347b2b972bc06245eb5" id="r_a99e3a39a732a4347b2b972bc06245eb5"><td class="memItemLeft" align="right" valign="top">vbe_mode_info_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mouse_8c.html#a99e3a39a732a4347b2b972bc06245eb5">modeinf</a></td></tr>
+<tr class="separator:a99e3a39a732a4347b2b972bc06245eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b0da21bbdff62b7b28e9af7ec3d0d76" id="r_a0b0da21bbdff62b7b28e9af7ec3d0d76"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mouse_8c.html#a0b0da21bbdff62b7b28e9af7ec3d0d76">hook_id_mouse</a> = 3</td></tr>
+<tr class="separator:a0b0da21bbdff62b7b28e9af7ec3d0d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a419ddb548814ee8d98648423c8caad82" id="r_a419ddb548814ee8d98648423c8caad82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mouse_info.html">MouseInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mouse_8c.html#a419ddb548814ee8d98648423c8caad82">mouse_packet</a></td></tr>
+<tr class="separator:a419ddb548814ee8d98648423c8caad82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8884dab9d88cd6c24f21afc6c7144a7b" id="r_a8884dab9d88cd6c24f21afc6c7144a7b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mouse_8c.html#a8884dab9d88cd6c24f21afc6c7144a7b">byte_index</a> = 0</td></tr>
+<tr class="separator:a8884dab9d88cd6c24f21afc6c7144a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addea07e4cbaf9574f38de24dcf0bf3cb" id="r_addea07e4cbaf9574f38de24dcf0bf3cb"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mouse_8c.html#addea07e4cbaf9574f38de24dcf0bf3cb">mouse_bytes</a> [3]</td></tr>
+<tr class="separator:addea07e4cbaf9574f38de24dcf0bf3cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b988e1163cc65c6d3e5562fbc36a98" id="r_a65b988e1163cc65c6d3e5562fbc36a98"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mouse_8c.html#a65b988e1163cc65c6d3e5562fbc36a98">current_byte</a></td></tr>
+<tr class="separator:a65b988e1163cc65c6d3e5562fbc36a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentação das funções</h2>
+<a id="a210374b50462acdedab00df64d5cea3c" name="a210374b50462acdedab00df64d5cea3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a210374b50462acdedab00df64d5cea3c">&#9670;&#160;</a></span>mouse_ih()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void() mouse_ih </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Grafo de chamadas desta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="mouse_8c_a210374b50462acdedab00df64d5cea3c_cgraph.png" border="0" usemap="#amouse_8c_a210374b50462acdedab00df64d5cea3c_cgraph" alt=""/></div>
+<map name="amouse_8c_a210374b50462acdedab00df64d5cea3c_cgraph" id="amouse_8c_a210374b50462acdedab00df64d5cea3c_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,83,57"/>
+<area shape="rect" href="_keyboard_2_k_b_c_8c.html#ac7f264677f62648ac34476a46980af2f" title=" " alt="" coords="131,31,254,57"/>
+<area shape="poly" title=" " alt="" coords="83,41,115,41,115,47,83,47"/>
+<area shape="rect" href="_keyboard_2_k_b_c_8c.html#ac024af91b156e4fc61ee3886b891de21" title=" " alt="" coords="302,5,425,32"/>
+<area shape="poly" title=" " alt="" coords="254,32,286,27,287,33,255,37"/>
+<area shape="rect" href="utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="473,31,564,57"/>
+<area shape="poly" title=" " alt="" coords="255,41,458,41,458,47,255,47"/>
+<area shape="poly" title=" " alt="" coords="426,26,458,31,457,37,425,31"/>
+</map>
+</div>
+<div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="mouse_8c_a210374b50462acdedab00df64d5cea3c_icgraph.png" border="0" usemap="#amouse_8c_a210374b50462acdedab00df64d5cea3c_icgraph" alt=""/></div>
+<map name="amouse_8c_a210374b50462acdedab00df64d5cea3c_icgraph" id="amouse_8c_a210374b50462acdedab00df64d5cea3c_icgraph">
+<area shape="rect" title=" " alt="" coords="445,5,523,32"/>
+<area shape="rect" href="gamehandlers_8c.html#a1d865d087780c7f07862aa420ca32182" title="Function to handle mouse events. This function processes mouse input events and updates the game stat..." alt="" coords="288,5,397,32"/>
+<area shape="poly" title=" " alt="" coords="430,21,398,21,398,16,430,16"/>
+<area shape="rect" href="main_8c.html#a22613a4ed426179d00643f6bf2d90320" title="Main game loop." alt="" coords="162,5,240,32"/>
+<area shape="poly" title=" " alt="" coords="273,21,240,21,240,16,273,16"/>
+<area shape="rect" href="main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,114,32"/>
+<area shape="poly" title=" " alt="" coords="146,21,114,21,114,16,146,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a38c00abcff29c777f8e956e7ed9ffb77" name="a38c00abcff29c777f8e956e7ed9ffb77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38c00abcff29c777f8e956e7ed9ffb77">&#9670;&#160;</a></span>mouse_set_info()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void() mouse_set_info </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="mouse_8c_a38c00abcff29c777f8e956e7ed9ffb77_icgraph.png" border="0" usemap="#amouse_8c_a38c00abcff29c777f8e956e7ed9ffb77_icgraph" alt=""/></div>
+<map name="amouse_8c_a38c00abcff29c777f8e956e7ed9ffb77_icgraph" id="amouse_8c_a38c00abcff29c777f8e956e7ed9ffb77_icgraph">
+<area shape="rect" title=" " alt="" coords="445,5,558,32"/>
+<area shape="rect" href="gamehandlers_8c.html#a1d865d087780c7f07862aa420ca32182" title="Function to handle mouse events. This function processes mouse input events and updates the game stat..." alt="" coords="288,5,397,32"/>
+<area shape="poly" title=" " alt="" coords="429,21,398,21,398,16,429,16"/>
+<area shape="rect" href="main_8c.html#a22613a4ed426179d00643f6bf2d90320" title="Main game loop." alt="" coords="162,5,240,32"/>
+<area shape="poly" title=" " alt="" coords="273,21,240,21,240,16,273,16"/>
+<area shape="rect" href="main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,114,32"/>
+<area shape="poly" title=" " alt="" coords="146,21,114,21,114,16,146,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a20285aed4b3ef45812cd967532dd09db" name="a20285aed4b3ef45812cd967532dd09db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20285aed4b3ef45812cd967532dd09db">&#9670;&#160;</a></span>mouse_subscribe_int()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int() mouse_subscribe_int </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>bit_no</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="mouse_8c_a20285aed4b3ef45812cd967532dd09db_icgraph.png" border="0" usemap="#amouse_8c_a20285aed4b3ef45812cd967532dd09db_icgraph" alt=""/></div>
+<map name="amouse_8c_a20285aed4b3ef45812cd967532dd09db_icgraph" id="amouse_8c_a20285aed4b3ef45812cd967532dd09db_icgraph">
+<area shape="rect" title=" " alt="" coords="270,5,414,32"/>
+<area shape="rect" href="main_8c.html#a0de60936a74f16fb1479b110f8131e87" title="Set up the initial configuration for the game." alt="" coords="162,5,222,32"/>
+<area shape="poly" title=" " alt="" coords="254,21,222,21,222,16,254,16"/>
+<area shape="rect" href="main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,114,32"/>
+<area shape="poly" title=" " alt="" coords="146,21,114,21,114,16,146,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8d6ee7592c47e8f3830a140c1c36587d" name="a8d6ee7592c47e8f3830a140c1c36587d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d6ee7592c47e8f3830a140c1c36587d">&#9670;&#160;</a></span>mouse_sync_bytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mouse_sync_bytes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="mouse_8c_a8d6ee7592c47e8f3830a140c1c36587d_icgraph.png" border="0" usemap="#amouse_8c_a8d6ee7592c47e8f3830a140c1c36587d_icgraph" alt=""/></div>
+<map name="amouse_8c_a8d6ee7592c47e8f3830a140c1c36587d_icgraph" id="amouse_8c_a8d6ee7592c47e8f3830a140c1c36587d_icgraph">
+<area shape="rect" title=" " alt="" coords="445,5,580,32"/>
+<area shape="rect" href="gamehandlers_8c.html#a1d865d087780c7f07862aa420ca32182" title="Function to handle mouse events. This function processes mouse input events and updates the game stat..." alt="" coords="288,5,397,32"/>
+<area shape="poly" title=" " alt="" coords="430,21,398,21,398,16,430,16"/>
+<area shape="rect" href="main_8c.html#a22613a4ed426179d00643f6bf2d90320" title="Main game loop." alt="" coords="162,5,240,32"/>
+<area shape="poly" title=" " alt="" coords="273,21,240,21,240,16,273,16"/>
+<area shape="rect" href="main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,114,32"/>
+<area shape="poly" title=" " alt="" coords="146,21,114,21,114,16,146,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3ecf823d80520009ae5e0d76ae40a3c3" name="a3ecf823d80520009ae5e0d76ae40a3c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ecf823d80520009ae5e0d76ae40a3c3">&#9670;&#160;</a></span>mouse_unsubscribe_int()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int() mouse_unsubscribe_int </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="mouse_8c_a3ecf823d80520009ae5e0d76ae40a3c3_icgraph.png" border="0" usemap="#amouse_8c_a3ecf823d80520009ae5e0d76ae40a3c3_icgraph" alt=""/></div>
+<map name="amouse_8c_a3ecf823d80520009ae5e0d76ae40a3c3_icgraph" id="amouse_8c_a3ecf823d80520009ae5e0d76ae40a3c3_icgraph">
+<area shape="rect" title=" " alt="" coords="403,5,562,32"/>
+<area shape="rect" href="main_8c.html#a88e1b2b26622517143098307a971d9ed" title="Clean up resources and exit the game." alt="" coords="288,5,355,32"/>
+<area shape="poly" title=" " alt="" coords="388,21,356,21,356,16,388,16"/>
+<area shape="rect" href="main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,114,32"/>
+<area shape="poly" title=" " alt="" coords="273,21,114,21,114,16,273,16"/>
+<area shape="rect" href="main_8c.html#a22613a4ed426179d00643f6bf2d90320" title="Main game loop." alt="" coords="162,31,240,57"/>
+<area shape="poly" title=" " alt="" coords="273,31,241,38,240,33,272,26"/>
+<area shape="poly" title=" " alt="" coords="146,37,114,31,114,26,147,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1703c3c5b61eef30d724b15cafd1d75e" name="a1703c3c5b61eef30d724b15cafd1d75e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1703c3c5b61eef30d724b15cafd1d75e">&#9670;&#160;</a></span>mouse_write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int() mouse_write </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>command</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Grafo de chamadas desta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="mouse_8c_a1703c3c5b61eef30d724b15cafd1d75e_cgraph.png" border="0" usemap="#amouse_8c_a1703c3c5b61eef30d724b15cafd1d75e_cgraph" alt=""/></div>
+<map name="amouse_8c_a1703c3c5b61eef30d724b15cafd1d75e_cgraph" id="amouse_8c_a1703c3c5b61eef30d724b15cafd1d75e_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,100,57"/>
+<area shape="rect" href="_keyboard_2_k_b_c_8c.html#ac7f264677f62648ac34476a46980af2f" title=" " alt="" coords="159,56,283,83"/>
+<area shape="poly" title=" " alt="" coords="100,48,144,55,144,60,100,54"/>
+<area shape="rect" href="_keyboard_2_k_b_c_8c.html#a34b653b3939fffe883c903cdadb36d3a" title=" " alt="" coords="148,5,294,32"/>
+<area shape="poly" title=" " alt="" coords="100,34,132,29,133,35,100,40"/>
+<area shape="rect" href="_keyboard_2_k_b_c_8c.html#ac024af91b156e4fc61ee3886b891de21" title=" " alt="" coords="342,5,465,32"/>
+<area shape="poly" title=" " alt="" coords="271,53,337,34,339,39,273,58"/>
+<area shape="rect" href="utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="513,31,604,57"/>
+<area shape="poly" title=" " alt="" coords="283,62,498,46,498,51,283,67"/>
+<area shape="poly" title=" " alt="" coords="466,26,498,31,497,37,465,31"/>
+<area shape="poly" title=" " alt="" coords="294,16,326,16,326,21,294,21"/>
+</map>
+</div>
+<div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="mouse_8c_a1703c3c5b61eef30d724b15cafd1d75e_icgraph.png" border="0" usemap="#amouse_8c_a1703c3c5b61eef30d724b15cafd1d75e_icgraph" alt=""/></div>
+<map name="amouse_8c_a1703c3c5b61eef30d724b15cafd1d75e_icgraph" id="amouse_8c_a1703c3c5b61eef30d724b15cafd1d75e_icgraph">
+<area shape="rect" title=" " alt="" coords="453,56,548,83"/>
+<area shape="rect" href="main_8c.html#a88e1b2b26622517143098307a971d9ed" title="Clean up resources and exit the game." alt="" coords="313,5,380,32"/>
+<area shape="poly" title=" " alt="" coords="443,53,380,32,382,27,444,48"/>
+<area shape="rect" href="mouse_8c.html#a1d1e0d0e4bfdbf729105c13188094e1b" title=" " alt="" coords="288,56,405,83"/>
+<area shape="poly" title=" " alt="" coords="438,72,406,72,406,67,438,67"/>
+<area shape="rect" href="main_8c.html#a0de60936a74f16fb1479b110f8131e87" title="Set up the initial configuration for the game." alt="" coords="171,81,231,108"/>
+<area shape="poly" title=" " alt="" coords="443,90,406,97,310,103,231,100,232,94,310,97,405,92,442,85"/>
+<area shape="rect" href="main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,31,114,57"/>
+<area shape="poly" title=" " alt="" coords="297,18,233,17,162,21,107,33,106,28,161,16,233,12,297,13"/>
+<area shape="rect" href="main_8c.html#a22613a4ed426179d00643f6bf2d90320" title="Main game loop." alt="" coords="162,31,240,57"/>
+<area shape="poly" title=" " alt="" coords="298,30,241,40,240,35,297,24"/>
+<area shape="poly" title=" " alt="" coords="146,47,114,47,114,41,146,41"/>
+<area shape="poly" title=" " alt="" coords="273,85,232,92,231,87,272,80"/>
+<area shape="poly" title=" " alt="" coords="155,81,98,60,100,55,157,76"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1d1e0d0e4bfdbf729105c13188094e1b" name="a1d1e0d0e4bfdbf729105c13188094e1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d1e0d0e4bfdbf729105c13188094e1b">&#9670;&#160;</a></span>set_sample_rate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int set_sample_rate </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>rate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Grafo de chamadas desta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="mouse_8c_a1d1e0d0e4bfdbf729105c13188094e1b_cgraph.png" border="0" usemap="#amouse_8c_a1d1e0d0e4bfdbf729105c13188094e1b_cgraph" alt=""/></div>
+<map name="amouse_8c_a1d1e0d0e4bfdbf729105c13188094e1b_cgraph" id="amouse_8c_a1d1e0d0e4bfdbf729105c13188094e1b_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,123,57"/>
+<area shape="rect" href="mouse_8c.html#a1703c3c5b61eef30d724b15cafd1d75e" title=" " alt="" coords="171,31,265,57"/>
+<area shape="poly" title=" " alt="" coords="123,41,155,41,155,47,123,47"/>
+<area shape="rect" href="_keyboard_2_k_b_c_8c.html#ac7f264677f62648ac34476a46980af2f" title=" " alt="" coords="325,56,448,83"/>
+<area shape="poly" title=" " alt="" coords="266,48,310,55,309,60,265,54"/>
+<area shape="rect" href="_keyboard_2_k_b_c_8c.html#a34b653b3939fffe883c903cdadb36d3a" title=" " alt="" coords="313,5,459,32"/>
+<area shape="poly" title=" " alt="" coords="265,34,298,29,298,35,266,40"/>
+<area shape="rect" href="_keyboard_2_k_b_c_8c.html#ac024af91b156e4fc61ee3886b891de21" title=" " alt="" coords="507,5,631,32"/>
+<area shape="poly" title=" " alt="" coords="436,53,503,34,504,39,438,58"/>
+<area shape="rect" href="utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="679,31,769,57"/>
+<area shape="poly" title=" " alt="" coords="448,62,663,46,664,51,448,67"/>
+<area shape="poly" title=" " alt="" coords="631,26,663,31,663,37,630,31"/>
+<area shape="poly" title=" " alt="" coords="460,16,492,16,492,21,460,21"/>
+</map>
+</div>
+<div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="mouse_8c_a1d1e0d0e4bfdbf729105c13188094e1b_icgraph.png" border="0" usemap="#amouse_8c_a1d1e0d0e4bfdbf729105c13188094e1b_icgraph" alt=""/></div>
+<map name="amouse_8c_a1d1e0d0e4bfdbf729105c13188094e1b_icgraph" id="amouse_8c_a1d1e0d0e4bfdbf729105c13188094e1b_icgraph">
+<area shape="rect" title=" " alt="" coords="270,5,387,32"/>
+<area shape="rect" href="main_8c.html#a0de60936a74f16fb1479b110f8131e87" title="Set up the initial configuration for the game." alt="" coords="162,5,222,32"/>
+<area shape="poly" title=" " alt="" coords="255,21,222,21,222,16,255,16"/>
+<area shape="rect" href="main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,114,32"/>
+<area shape="poly" title=" " alt="" coords="146,21,114,21,114,16,146,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação das variáveis</h2>
+<a id="a8884dab9d88cd6c24f21afc6c7144a7b" name="a8884dab9d88cd6c24f21afc6c7144a7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8884dab9d88cd6c24f21afc6c7144a7b">&#9670;&#160;</a></span>byte_index</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t byte_index = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65b988e1163cc65c6d3e5562fbc36a98" name="a65b988e1163cc65c6d3e5562fbc36a98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65b988e1163cc65c6d3e5562fbc36a98">&#9670;&#160;</a></span>current_byte</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t current_byte</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b0da21bbdff62b7b28e9af7ec3d0d76" name="a0b0da21bbdff62b7b28e9af7ec3d0d76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b0da21bbdff62b7b28e9af7ec3d0d76">&#9670;&#160;</a></span>hook_id_mouse</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int hook_id_mouse = 3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99e3a39a732a4347b2b972bc06245eb5" name="a99e3a39a732a4347b2b972bc06245eb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99e3a39a732a4347b2b972bc06245eb5">&#9670;&#160;</a></span>modeinf</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vbe_mode_info_t modeinf</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="addea07e4cbaf9574f38de24dcf0bf3cb" name="addea07e4cbaf9574f38de24dcf0bf3cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addea07e4cbaf9574f38de24dcf0bf3cb">&#9670;&#160;</a></span>mouse_bytes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t mouse_bytes[3]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a419ddb548814ee8d98648423c8caad82" name="a419ddb548814ee8d98648423c8caad82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a419ddb548814ee8d98648423c8caad82">&#9670;&#160;</a></span>mouse_packet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_mouse_info.html">MouseInfo</a> mouse_packet</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_d377e7cb03d3b579ed473f6e7757f224.html">Controlers</a></li><li class="navelem"><a class="el" href="dir_101cd6ac45ab50ef30294717710cdca7.html">Mouse</a></li><li class="navelem"><a class="el" href="mouse_8c.html">mouse.c</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<map id="keyboard_handler" name="keyboard_handler">
+<area shape="rect" id="Node000001" title="Function to handle keyboard events. This function processes keyboard input events and updates the gam..." alt="" coords="5,144,129,171"/>
+<area shape="rect" id="Node000002" href="$keyboard_8c.html#aea970a154161a35f6894898a092ed70a" title=" " alt="" coords="239,87,299,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,141,224,110,225,115,117,146"/>
+<area shape="rect" id="Node000006" href="$reactgamecontroller_8c.html#ae976514e32707158d01bb38814ad2769" title="Function to handle space key press event in the reaction game. Updates the game state based on the cu..." alt="" coords="177,144,361,171"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="129,155,161,155,161,160,129,160"/>
+<area shape="rect" id="Node000008" href="$statecontroler_8c.html#afb7e8eee947a2d603dfd05cf396fd0a6" title="Initializes the game to the main menu state. This function sets up the main menu and transitions the ..." alt="" coords="229,220,309,247"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="106,169,218,211,216,216,104,174"/>
+<area shape="rect" id="Node000003" href="$_keyboard_2_k_b_c_8c.html#ac7f264677f62648ac34476a46980af2f" title=" " alt="" coords="786,31,910,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="299,95,770,49,771,54,299,100"/>
+<area shape="rect" id="Node000004" href="$_keyboard_2_k_b_c_8c.html#ac024af91b156e4fc61ee3886b891de21" title=" " alt="" coords="959,5,1082,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="910,32,943,27,944,33,911,38"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="1147,56,1238,83"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="910,46,1132,62,1132,68,910,51"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1069,30,1133,49,1132,54,1068,35"/>
+<area shape="rect" id="Node000007" href="$reactgamecontroller_8c.html#a3d60f84d486731f678669b9cfe660de3" title="Function to generate a random time for the user to wait. Generates a random countdown time between 2 ..." alt="" coords="409,144,564,171"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="361,155,393,155,393,160,361,160"/>
+<area shape="rect" id="Node000009" href="$gamesprites_8c.html#a827220a6b9f738eba8b094586855b0b7" title="Draws the main menu of the game." alt="" coords="426,220,548,247"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="309,231,410,231,410,236,309,236"/>
+<area shape="rect" id="Node000010" href="$gamesprites_8c.html#a903c5d1ee8efee13250ccac7022306c0" title="Draws the real&#45;time clock." alt="" coords="639,233,710,260"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="548,235,624,240,623,246,548,240"/>
+<area shape="rect" id="Node000013" href="$sprites_8c.html#a6db4230a0003a09515d78b790d8ec52d" title="Function to draw a sprite on the screen." alt="" coords="1133,284,1252,311"/>
+<area shape="poly" id="edge18_Node000009_Node000013" title=" " alt="" coords="527,245,613,269,751,290,890,300,1017,302,1117,299,1117,304,1017,307,890,305,751,296,612,275,525,250"/>
+<area shape="rect" id="Node000016" href="$rtc_8c.html#a0197bede1e4328f24aced9c462662281" title=" " alt="" coords="612,157,737,184"/>
+<area shape="poly" id="edge19_Node000009_Node000016" title=" " alt="" coords="528,217,617,187,619,192,530,222"/>
+<area shape="rect" id="Node000011" href="$gamesprites_8c.html#a4743c346aef3789257d9b7329015d479" title="Draws a sequence of numbers starting at a specified position." alt="" coords="785,233,911,260"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="710,244,769,244,769,249,710,249"/>
+<area shape="poly" id="edge17_Node000010_Node000013" title=" " alt="" coords="710,254,785,269,874,280,964,287,1117,294,1117,299,963,293,874,285,784,275,709,259"/>
+<area shape="rect" id="Node000012" href="$gamesprites_8c.html#af3c7e15abf4b4b99529968fb2b709107" title="Draws a number at a specified position." alt="" coords="972,233,1070,260"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="912,244,956,244,956,249,912,249"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="1069,258,1131,277,1130,282,1068,263"/>
+<area shape="rect" id="Node000015" href="$sprites_8c.html#a68f38f4a0ef4671439737a88745eb2d9" title="Function to draw a sprite on the screen, changing white pixels to a specified color." alt="" coords="1130,233,1255,260"/>
+<area shape="poly" id="edge15_Node000012_Node000015" title=" " alt="" coords="1070,244,1115,244,1115,249,1070,249"/>
+<area shape="rect" id="Node000014" href="$graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741" title=" " alt="" coords="1303,259,1404,285"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="1252,285,1287,280,1288,285,1253,291"/>
+<area shape="poly" id="edge16_Node000015_Node000014" title=" " alt="" coords="1255,254,1288,259,1287,264,1255,259"/>
+<area shape="rect" id="Node000017" href="$rtc_8c.html#afafa8030361ab3092516837d1fac4412" title=" " alt="" coords="987,107,1055,133"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="737,159,971,124,971,130,738,164"/>
+<area shape="rect" id="Node000018" href="$rtc_8c.html#a891509fed13e0cac396e9c401f887d72" title=" " alt="" coords="811,183,885,209"/>
+<area shape="poly" id="edge22_Node000016_Node000018" title=" " alt="" coords="737,177,796,186,795,191,737,182"/>
+<area shape="rect" id="Node000019" href="$rtc_8c.html#a7fe883c461adb41cb2e74695c14bbec8" title=" " alt="" coords="802,81,894,108"/>
+<area shape="poly" id="edge23_Node000016_Node000019" title=" " alt="" coords="706,154,800,112,803,117,708,159"/>
+<area shape="poly" id="edge21_Node000017_Node000005" title=" " alt="" coords="1055,107,1131,84,1133,90,1056,113"/>
+<area shape="poly" id="edge24_Node000019_Node000017" title=" " alt="" coords="895,99,971,110,970,115,894,104"/>
+</map>

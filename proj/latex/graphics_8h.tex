@@ -1,0 +1,410 @@
+\doxysection{Referência ao ficheiro src/\+Controlers/\+Graphic/graphics.h}
+\hypertarget{graphics_8h}{}\label{graphics_8h}\index{src/Controlers/Graphic/graphics.h@{src/Controlers/Graphic/graphics.h}}
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+Diagrama de dependências de inclusão para graphics.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=194pt]{graphics_8h__incl}
+\end{center}
+\end{figure}
+Este grafo mostra quais são os ficheiros que incluem directamente ou indirectamente este ficheiro\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graphics_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{graphics_8h_aa1736cd349cf2b4f9dbe368c2a13e5be}{DIRECT\+\_\+\+COLOR}}~0x06
+\item 
+\#define \mbox{\hyperlink{graphics_8h_a8cc35ceb6edb14480e5afceb3ce2ee8b}{INDEXED\+\_\+\+COLOR}}~0x105
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int() \mbox{\hyperlink{graphics_8h_a8a1eed03f0ea8ebba149f4336a90b73f}{ret\+\_\+video}} (uint16\+\_\+t mode)
+\item 
+int() \mbox{\hyperlink{graphics_8h_a545ee17de5cb7d7e394f36d8fea6c941}{waiting\+\_\+\+ESC\+\_\+key}} ()
+\item 
+int() \mbox{\hyperlink{graphics_8h_a62f63672fd06c462a0873e30f5e32ef8}{set\+\_\+text\+\_\+mode}} ()
+\item 
+int() \mbox{\hyperlink{graphics_8h_a4b8bdcf4c048c4130fe10ce375a93ad6}{frame\+\_\+buffer}} (uint16\+\_\+t mode)
+\item 
+int() \mbox{\hyperlink{graphics_8h_a08c498ffeb0a3962e3b7711b57397741}{vg\+\_\+draw\+\_\+pixel}} (uint16\+\_\+t x, uint16\+\_\+t y, uint32\+\_\+t color)
+\item 
+int() \mbox{\hyperlink{graphics_8h_a5e5b25bd525250f61f40b9e9f212d5e6}{vg\+\_\+draw\+\_\+hline}} (uint16\+\_\+t x, uint16\+\_\+t y, uint16\+\_\+t len, uint32\+\_\+t color)
+\item 
+int() \mbox{\hyperlink{graphics_8h_a99d2da2559e11200c6b40c469e9977ec}{vg\+\_\+draw\+\_\+rectangle}} (uint16\+\_\+t x, uint16\+\_\+t y, uint16\+\_\+t width, uint16\+\_\+t height, uint32\+\_\+t color)
+\item 
+int() \mbox{\hyperlink{graphics_8h_a269d2f54bca5b873f474c9506c91d97d}{get\+\_\+color}} (uint32\+\_\+t color, uint32\+\_\+t \texorpdfstring{$\ast$}{*}new\+\_\+color)
+\item 
+int() \mbox{\hyperlink{graphics_8h_af7be676c7f6db3e91ab5165ad52b7416}{vg\+\_\+draw\+\_\+pattern}} (uint8\+\_\+t no\+\_\+rectangles, uint32\+\_\+t first, uint8\+\_\+t step)
+\item 
+int() \mbox{\hyperlink{graphics_8h_a78c191e322b2ea6fb16fb6d59d200725}{vg\+\_\+draw\+\_\+xpm}} (xpm\+\_\+map\+\_\+t xpm, uint16\+\_\+t x, uint16\+\_\+t y)
+\item 
+int() \mbox{\hyperlink{graphics_8h_a000daa65e22edd8402677354b598eb93}{frame\+\_\+buffer\+\_\+with\+\_\+buff}} (uint16\+\_\+t mode, char \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{graphics_8c_a1f8aa1e788ea34bf127d6b69808343cb}{frame\+\_\+buffer}})
+\item 
+int() \mbox{\hyperlink{graphics_8h_a8714df8d5fc019c6b0448df24636a847}{vg\+\_\+draw\+\_\+pixel\+\_\+with\+\_\+buff}} (uint16\+\_\+t x, uint16\+\_\+t y, uint32\+\_\+t color)
+\item 
+int() \mbox{\hyperlink{graphics_8h_a5a414d4675d3674e1b3c5fb28511fce9}{vg\+\_\+draw\+\_\+hline\+\_\+with\+\_\+buff}} (uint16\+\_\+t x, uint16\+\_\+t y, uint16\+\_\+t len, uint32\+\_\+t color)
+\item 
+int() \mbox{\hyperlink{graphics_8h_a44e494a51a5dc0493c86b36a9a7789e1}{vg\+\_\+draw\+\_\+rectangle\+\_\+with\+\_\+buff}} (uint16\+\_\+t x, uint16\+\_\+t y, uint16\+\_\+t width, uint16\+\_\+t height, uint32\+\_\+t color)
+\item 
+uint32\+\_\+t() \mbox{\hyperlink{graphics_8h_a00cbe3ad8ffc67411a11b96b6237fba3}{direct\+\_\+mode}} (uint32\+\_\+t \mbox{\hyperlink{graphics_8c_a3b0ee3706bd0c5bd06c24cd519b26f39}{R}}, uint32\+\_\+t \mbox{\hyperlink{graphics_8c_a34103732d16ab1b6ad266f756d0ec569}{G}}, uint32\+\_\+t \mbox{\hyperlink{graphics_8c_a1c221f260a94426d6e484757ff49491a}{B}})
+\item 
+uint32\+\_\+t() \mbox{\hyperlink{graphics_8h_ab1b6b16c005069e07ec294d25c7143a1}{indexed\+\_\+mode}} (uint16\+\_\+t col, uint16\+\_\+t row, uint8\+\_\+t step, uint32\+\_\+t first, uint8\+\_\+t n)
+\item 
+uint32\+\_\+t() \mbox{\hyperlink{graphics_8h_ae3578c57c17dced18fd11d48af250188}{Red}} (unsigned j, uint8\+\_\+t step, uint32\+\_\+t first)
+\item 
+uint32\+\_\+t() \mbox{\hyperlink{graphics_8h_a6001a01c37fe85b5dec7bbd242386ade}{Green}} (unsigned i, uint8\+\_\+t step, uint32\+\_\+t first)
+\item 
+uint32\+\_\+t() \mbox{\hyperlink{graphics_8h_a83fd02ad635b3d382b8ab30d465ca4a9}{Blue}} (unsigned j, unsigned i, uint8\+\_\+t step, uint32\+\_\+t first)
+\item 
+uint32\+\_\+t() \mbox{\hyperlink{graphics_8h_a3b0ee3706bd0c5bd06c24cd519b26f39}{R}} (uint32\+\_\+t first)
+\item 
+uint32\+\_\+t() \mbox{\hyperlink{graphics_8h_a34103732d16ab1b6ad266f756d0ec569}{G}} (uint32\+\_\+t first)
+\item 
+uint32\+\_\+t() \mbox{\hyperlink{graphics_8h_a1c221f260a94426d6e484757ff49491a}{B}} (uint32\+\_\+t first)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação das macros}
+\Hypertarget{graphics_8h_aa1736cd349cf2b4f9dbe368c2a13e5be}\label{graphics_8h_aa1736cd349cf2b4f9dbe368c2a13e5be} 
+\index{graphics.h@{graphics.h}!DIRECT\_COLOR@{DIRECT\_COLOR}}
+\index{DIRECT\_COLOR@{DIRECT\_COLOR}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{DIRECT\_COLOR}{DIRECT\_COLOR}}
+{\footnotesize\ttfamily \#define DIRECT\+\_\+\+COLOR~0x06}
+
+\Hypertarget{graphics_8h_a8cc35ceb6edb14480e5afceb3ce2ee8b}\label{graphics_8h_a8cc35ceb6edb14480e5afceb3ce2ee8b} 
+\index{graphics.h@{graphics.h}!INDEXED\_COLOR@{INDEXED\_COLOR}}
+\index{INDEXED\_COLOR@{INDEXED\_COLOR}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{INDEXED\_COLOR}{INDEXED\_COLOR}}
+{\footnotesize\ttfamily \#define INDEXED\+\_\+\+COLOR~0x105}
+
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{graphics_8h_a1c221f260a94426d6e484757ff49491a}\label{graphics_8h_a1c221f260a94426d6e484757ff49491a} 
+\index{graphics.h@{graphics.h}!B@{B}}
+\index{B@{B}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{B()}{B()}}
+{\footnotesize\ttfamily uint32\+\_\+t() B (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{first }\end{DoxyParamCaption})}
+
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{graphics_8h_a1c221f260a94426d6e484757ff49491a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_a83fd02ad635b3d382b8ab30d465ca4a9}\label{graphics_8h_a83fd02ad635b3d382b8ab30d465ca4a9} 
+\index{graphics.h@{graphics.h}!Blue@{Blue}}
+\index{Blue@{Blue}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{Blue()}{Blue()}}
+{\footnotesize\ttfamily uint32\+\_\+t() Blue (\begin{DoxyParamCaption}\item[{unsigned}]{j,  }\item[{unsigned}]{i,  }\item[{uint8\+\_\+t}]{step,  }\item[{uint32\+\_\+t}]{first }\end{DoxyParamCaption})}
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=180pt]{graphics_8h_a83fd02ad635b3d382b8ab30d465ca4a9_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=241pt]{graphics_8h_a83fd02ad635b3d382b8ab30d465ca4a9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_a00cbe3ad8ffc67411a11b96b6237fba3}\label{graphics_8h_a00cbe3ad8ffc67411a11b96b6237fba3} 
+\index{graphics.h@{graphics.h}!direct\_mode@{direct\_mode}}
+\index{direct\_mode@{direct\_mode}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{direct\_mode()}{direct\_mode()}}
+{\footnotesize\ttfamily uint32\+\_\+t() direct\+\_\+mode (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{R,  }\item[{uint32\+\_\+t}]{G,  }\item[{uint32\+\_\+t}]{B }\end{DoxyParamCaption})}
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{graphics_8h_a00cbe3ad8ffc67411a11b96b6237fba3_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=271pt]{graphics_8h_a00cbe3ad8ffc67411a11b96b6237fba3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_a4b8bdcf4c048c4130fe10ce375a93ad6}\label{graphics_8h_a4b8bdcf4c048c4130fe10ce375a93ad6} 
+\index{graphics.h@{graphics.h}!frame\_buffer@{frame\_buffer}}
+\index{frame\_buffer@{frame\_buffer}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{frame\_buffer()}{frame\_buffer()}}
+{\footnotesize\ttfamily int() frame\+\_\+buffer (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{mode }\end{DoxyParamCaption})}
+
+\Hypertarget{graphics_8h_a000daa65e22edd8402677354b598eb93}\label{graphics_8h_a000daa65e22edd8402677354b598eb93} 
+\index{graphics.h@{graphics.h}!frame\_buffer\_with\_buff@{frame\_buffer\_with\_buff}}
+\index{frame\_buffer\_with\_buff@{frame\_buffer\_with\_buff}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{frame\_buffer\_with\_buff()}{frame\_buffer\_with\_buff()}}
+{\footnotesize\ttfamily int() frame\+\_\+buffer\+\_\+with\+\_\+buff (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{mode,  }\item[{char \texorpdfstring{$\ast$}{*}}]{frame\+\_\+buffer }\end{DoxyParamCaption})}
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=296pt]{graphics_8h_a000daa65e22edd8402677354b598eb93_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graphics_8h_a000daa65e22edd8402677354b598eb93_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_a34103732d16ab1b6ad266f756d0ec569}\label{graphics_8h_a34103732d16ab1b6ad266f756d0ec569} 
+\index{graphics.h@{graphics.h}!G@{G}}
+\index{G@{G}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{G()}{G()}}
+{\footnotesize\ttfamily uint32\+\_\+t() G (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{first }\end{DoxyParamCaption})}
+
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{graphics_8h_a34103732d16ab1b6ad266f756d0ec569_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_a269d2f54bca5b873f474c9506c91d97d}\label{graphics_8h_a269d2f54bca5b873f474c9506c91d97d} 
+\index{graphics.h@{graphics.h}!get\_color@{get\_color}}
+\index{get\_color@{get\_color}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{get\_color()}{get\_color()}}
+{\footnotesize\ttfamily int() get\+\_\+color (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{color,  }\item[{uint32\+\_\+t \texorpdfstring{$\ast$}{*}}]{new\+\_\+color }\end{DoxyParamCaption})}
+
+\Hypertarget{graphics_8h_a6001a01c37fe85b5dec7bbd242386ade}\label{graphics_8h_a6001a01c37fe85b5dec7bbd242386ade} 
+\index{graphics.h@{graphics.h}!Green@{Green}}
+\index{Green@{Green}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{Green()}{Green()}}
+{\footnotesize\ttfamily uint32\+\_\+t() Green (\begin{DoxyParamCaption}\item[{unsigned}]{i,  }\item[{uint8\+\_\+t}]{step,  }\item[{uint32\+\_\+t}]{first }\end{DoxyParamCaption})}
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=187pt]{graphics_8h_a6001a01c37fe85b5dec7bbd242386ade_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=248pt]{graphics_8h_a6001a01c37fe85b5dec7bbd242386ade_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_ab1b6b16c005069e07ec294d25c7143a1}\label{graphics_8h_ab1b6b16c005069e07ec294d25c7143a1} 
+\index{graphics.h@{graphics.h}!indexed\_mode@{indexed\_mode}}
+\index{indexed\_mode@{indexed\_mode}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{indexed\_mode()}{indexed\_mode()}}
+{\footnotesize\ttfamily uint32\+\_\+t() indexed\+\_\+mode (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{col,  }\item[{uint16\+\_\+t}]{row,  }\item[{uint8\+\_\+t}]{step,  }\item[{uint32\+\_\+t}]{first,  }\item[{uint8\+\_\+t}]{n }\end{DoxyParamCaption})}
+
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=281pt]{graphics_8h_ab1b6b16c005069e07ec294d25c7143a1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_a3b0ee3706bd0c5bd06c24cd519b26f39}\label{graphics_8h_a3b0ee3706bd0c5bd06c24cd519b26f39} 
+\index{graphics.h@{graphics.h}!R@{R}}
+\index{R@{R}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{R()}{R()}}
+{\footnotesize\ttfamily uint32\+\_\+t() R (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{first }\end{DoxyParamCaption})}
+
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{graphics_8h_a3b0ee3706bd0c5bd06c24cd519b26f39_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_ae3578c57c17dced18fd11d48af250188}\label{graphics_8h_ae3578c57c17dced18fd11d48af250188} 
+\index{graphics.h@{graphics.h}!Red@{Red}}
+\index{Red@{Red}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{Red()}{Red()}}
+{\footnotesize\ttfamily uint32\+\_\+t() Red (\begin{DoxyParamCaption}\item[{unsigned}]{j,  }\item[{uint8\+\_\+t}]{step,  }\item[{uint32\+\_\+t}]{first }\end{DoxyParamCaption})}
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{graphics_8h_ae3578c57c17dced18fd11d48af250188_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=239pt]{graphics_8h_ae3578c57c17dced18fd11d48af250188_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_a8a1eed03f0ea8ebba149f4336a90b73f}\label{graphics_8h_a8a1eed03f0ea8ebba149f4336a90b73f} 
+\index{graphics.h@{graphics.h}!ret\_video@{ret\_video}}
+\index{ret\_video@{ret\_video}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{ret\_video()}{ret\_video()}}
+{\footnotesize\ttfamily int() ret\+\_\+video (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{mode }\end{DoxyParamCaption})}
+
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{graphics_8h_a8a1eed03f0ea8ebba149f4336a90b73f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_a62f63672fd06c462a0873e30f5e32ef8}\label{graphics_8h_a62f63672fd06c462a0873e30f5e32ef8} 
+\index{graphics.h@{graphics.h}!set\_text\_mode@{set\_text\_mode}}
+\index{set\_text\_mode@{set\_text\_mode}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{set\_text\_mode()}{set\_text\_mode()}}
+{\footnotesize\ttfamily int() set\+\_\+text\+\_\+mode (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{graphics_8h_a5e5b25bd525250f61f40b9e9f212d5e6}\label{graphics_8h_a5e5b25bd525250f61f40b9e9f212d5e6} 
+\index{graphics.h@{graphics.h}!vg\_draw\_hline@{vg\_draw\_hline}}
+\index{vg\_draw\_hline@{vg\_draw\_hline}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{vg\_draw\_hline()}{vg\_draw\_hline()}}
+{\footnotesize\ttfamily int() vg\+\_\+draw\+\_\+hline (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y,  }\item[{uint16\+\_\+t}]{len,  }\item[{uint32\+\_\+t}]{color }\end{DoxyParamCaption})}
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graphics_8h_a5e5b25bd525250f61f40b9e9f212d5e6_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graphics_8h_a5e5b25bd525250f61f40b9e9f212d5e6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_a5a414d4675d3674e1b3c5fb28511fce9}\label{graphics_8h_a5a414d4675d3674e1b3c5fb28511fce9} 
+\index{graphics.h@{graphics.h}!vg\_draw\_hline\_with\_buff@{vg\_draw\_hline\_with\_buff}}
+\index{vg\_draw\_hline\_with\_buff@{vg\_draw\_hline\_with\_buff}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{vg\_draw\_hline\_with\_buff()}{vg\_draw\_hline\_with\_buff()}}
+{\footnotesize\ttfamily int() vg\+\_\+draw\+\_\+hline\+\_\+with\+\_\+buff (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y,  }\item[{uint16\+\_\+t}]{len,  }\item[{uint32\+\_\+t}]{color }\end{DoxyParamCaption})}
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graphics_8h_a5a414d4675d3674e1b3c5fb28511fce9_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graphics_8h_a5a414d4675d3674e1b3c5fb28511fce9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_af7be676c7f6db3e91ab5165ad52b7416}\label{graphics_8h_af7be676c7f6db3e91ab5165ad52b7416} 
+\index{graphics.h@{graphics.h}!vg\_draw\_pattern@{vg\_draw\_pattern}}
+\index{vg\_draw\_pattern@{vg\_draw\_pattern}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{vg\_draw\_pattern()}{vg\_draw\_pattern()}}
+{\footnotesize\ttfamily int() vg\+\_\+draw\+\_\+pattern (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{no\+\_\+rectangles,  }\item[{uint32\+\_\+t}]{first,  }\item[{uint8\+\_\+t}]{step }\end{DoxyParamCaption})}
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graphics_8h_af7be676c7f6db3e91ab5165ad52b7416_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_a08c498ffeb0a3962e3b7711b57397741}\label{graphics_8h_a08c498ffeb0a3962e3b7711b57397741} 
+\index{graphics.h@{graphics.h}!vg\_draw\_pixel@{vg\_draw\_pixel}}
+\index{vg\_draw\_pixel@{vg\_draw\_pixel}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{vg\_draw\_pixel()}{vg\_draw\_pixel()}}
+{\footnotesize\ttfamily int() vg\+\_\+draw\+\_\+pixel (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y,  }\item[{uint32\+\_\+t}]{color }\end{DoxyParamCaption})}
+
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graphics_8h_a08c498ffeb0a3962e3b7711b57397741_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_a8714df8d5fc019c6b0448df24636a847}\label{graphics_8h_a8714df8d5fc019c6b0448df24636a847} 
+\index{graphics.h@{graphics.h}!vg\_draw\_pixel\_with\_buff@{vg\_draw\_pixel\_with\_buff}}
+\index{vg\_draw\_pixel\_with\_buff@{vg\_draw\_pixel\_with\_buff}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{vg\_draw\_pixel\_with\_buff()}{vg\_draw\_pixel\_with\_buff()}}
+{\footnotesize\ttfamily int() vg\+\_\+draw\+\_\+pixel\+\_\+with\+\_\+buff (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y,  }\item[{uint32\+\_\+t}]{color }\end{DoxyParamCaption})}
+
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graphics_8h_a8714df8d5fc019c6b0448df24636a847_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_a99d2da2559e11200c6b40c469e9977ec}\label{graphics_8h_a99d2da2559e11200c6b40c469e9977ec} 
+\index{graphics.h@{graphics.h}!vg\_draw\_rectangle@{vg\_draw\_rectangle}}
+\index{vg\_draw\_rectangle@{vg\_draw\_rectangle}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{vg\_draw\_rectangle()}{vg\_draw\_rectangle()}}
+{\footnotesize\ttfamily int() vg\+\_\+draw\+\_\+rectangle (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y,  }\item[{uint16\+\_\+t}]{width,  }\item[{uint16\+\_\+t}]{height,  }\item[{uint32\+\_\+t}]{color }\end{DoxyParamCaption})}
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graphics_8h_a99d2da2559e11200c6b40c469e9977ec_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graphics_8h_a99d2da2559e11200c6b40c469e9977ec_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_a44e494a51a5dc0493c86b36a9a7789e1}\label{graphics_8h_a44e494a51a5dc0493c86b36a9a7789e1} 
+\index{graphics.h@{graphics.h}!vg\_draw\_rectangle\_with\_buff@{vg\_draw\_rectangle\_with\_buff}}
+\index{vg\_draw\_rectangle\_with\_buff@{vg\_draw\_rectangle\_with\_buff}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{vg\_draw\_rectangle\_with\_buff()}{vg\_draw\_rectangle\_with\_buff()}}
+{\footnotesize\ttfamily int() vg\+\_\+draw\+\_\+rectangle\+\_\+with\+\_\+buff (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y,  }\item[{uint16\+\_\+t}]{width,  }\item[{uint16\+\_\+t}]{height,  }\item[{uint32\+\_\+t}]{color }\end{DoxyParamCaption})}
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graphics_8h_a44e494a51a5dc0493c86b36a9a7789e1_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{graphics_8h_a44e494a51a5dc0493c86b36a9a7789e1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_a78c191e322b2ea6fb16fb6d59d200725}\label{graphics_8h_a78c191e322b2ea6fb16fb6d59d200725} 
+\index{graphics.h@{graphics.h}!vg\_draw\_xpm@{vg\_draw\_xpm}}
+\index{vg\_draw\_xpm@{vg\_draw\_xpm}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{vg\_draw\_xpm()}{vg\_draw\_xpm()}}
+{\footnotesize\ttfamily int() vg\+\_\+draw\+\_\+xpm (\begin{DoxyParamCaption}\item[{xpm\+\_\+map\+\_\+t}]{xpm,  }\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y }\end{DoxyParamCaption})}
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=267pt]{graphics_8h_a78c191e322b2ea6fb16fb6d59d200725_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{graphics_8h_a545ee17de5cb7d7e394f36d8fea6c941}\label{graphics_8h_a545ee17de5cb7d7e394f36d8fea6c941} 
+\index{graphics.h@{graphics.h}!waiting\_ESC\_key@{waiting\_ESC\_key}}
+\index{waiting\_ESC\_key@{waiting\_ESC\_key}!graphics.h@{graphics.h}}
+\doxysubsubsection{\texorpdfstring{waiting\_ESC\_key()}{waiting\_ESC\_key()}}
+{\footnotesize\ttfamily int() waiting\+\_\+\+ESC\+\_\+key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+

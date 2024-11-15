@@ -1,0 +1,26 @@
+var gamehandlers_8c =
+[
+    [ "buttons_handler", "gamehandlers_8c.html#a0799773fe68b229a25bff9ee444c6eba", null ],
+    [ "keyboard_handler", "gamehandlers_8c.html#a0fb71e2b76b368ba43295cdc9174558b", null ],
+    [ "mouse_handler", "gamehandlers_8c.html#a1d865d087780c7f07862aa420ca32182", null ],
+    [ "rtc_handler", "gamehandlers_8c.html#a8a299763beeb94c941b3dc4aa97be5f7", null ],
+    [ "timer_handler", "gamehandlers_8c.html#a8759d40e96a35c89970bcd4c2e03c241", null ],
+    [ "aim_mode", "gamehandlers_8c.html#a7c3c9fb57af63e2a638526757dabe7a5", null ],
+    [ "byte_index", "gamehandlers_8c.html#a8884dab9d88cd6c24f21afc6c7144a7b", null ],
+    [ "elapsed_time_ms", "gamehandlers_8c.html#a0639e9161e9b5e2bf1178945359f0f78", null ],
+    [ "fps", "gamehandlers_8c.html#a45b67662d620a977a2cfe519f7ab6273", null ],
+    [ "mouse_packet", "gamehandlers_8c.html#a419ddb548814ee8d98648423c8caad82", null ],
+    [ "next_target_sec", "gamehandlers_8c.html#aac1c4f6eb254d51260b7bcde4de14091", null ],
+    [ "Otimized", "gamehandlers_8c.html#a3b357b6d80b9f1d4dfa293a7c35ed7a5", null ],
+    [ "react_mode", "gamehandlers_8c.html#a392d0ea37638a1b7cbf2ef228289ca74", null ],
+    [ "scancode", "gamehandlers_8c.html#aa1de7a5557e9d96b83cf03f73c92163f", null ],
+    [ "space_pressed", "gamehandlers_8c.html#aa7b352d32e84441c3916ed272ce119a5", null ],
+    [ "state", "gamehandlers_8c.html#a25362b33bad9ff6222dc40646c411649", null ],
+    [ "targets_left", "gamehandlers_8c.html#adb5154305833f07824822bfc997bd9e6", null ],
+    [ "tgt", "gamehandlers_8c.html#aa2c23cb5d2ffda53366267c486dcdb5e", null ],
+    [ "timer_counter_aim", "gamehandlers_8c.html#a6f4a1b33d7f6e9dcba9d6e3ae70eee77", null ],
+    [ "timer_interrupts", "gamehandlers_8c.html#a9dd86e05eb51b73ffa496d0478503939", null ],
+    [ "timer_react_countdown", "gamehandlers_8c.html#af4ef30ecce5abf253808531406cb5cdd", null ],
+    [ "timer_running", "gamehandlers_8c.html#a23958e610207eb28549d8d13255aa129", null ],
+    [ "usr", "gamehandlers_8c.html#ae9bc5feef97e9701305a26e94e61f90c", null ]
+];

@@ -1,0 +1,34 @@
+<map id="rtc_read" name="rtc_read">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1237,69,1305,96"/>
+<area shape="rect" id="Node000002" href="$rtc_8c.html#ad51465c638b22f0e39eb6843ecb44a35" title=" " alt="" coords="1104,19,1182,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1222,66,1178,48,1180,43,1224,61"/>
+<area shape="rect" id="Node000005" href="$rtc_8c.html#a0197bede1e4328f24aced9c462662281" title=" " alt="" coords="924,95,1049,121"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1223,103,1189,111,1117,116,1049,115,1049,110,1116,111,1189,105,1221,98"/>
+<area shape="rect" id="Node000014" href="$rtc_8c.html#a7fe883c461adb41cb2e74695c14bbec8" title=" " alt="" coords="1097,69,1189,96"/>
+<area shape="poly" id="edge17_Node000001_Node000014" title=" " alt="" coords="1222,85,1189,85,1189,80,1222,80"/>
+<area shape="rect" id="Node000003" href="$rtc_8c.html#abab442ae73d1dfe5d55d7a24aafde942" title=" " alt="" coords="965,44,1008,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1088,43,1009,57,1008,51,1088,38"/>
+<area shape="rect" id="Node000004" href="$rtc_8c.html#a9e961a2e8e8309e4fd490ac35f68a293" title=" " alt="" coords="778,5,853,32"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="1088,32,853,23,853,18,1089,27"/>
+<area shape="poly" id="edge16_Node000005_Node000004" title=" " alt="" coords="934,90,923,85,837,35,839,30,926,80,937,86"/>
+<area shape="rect" id="Node000006" href="$gamesprites_8c.html#a827220a6b9f738eba8b094586855b0b7" title="Draws the main menu of the game." alt="" coords="754,139,876,165"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="918,128,871,141,869,135,916,123"/>
+<area shape="rect" id="Node000013" href="$gamehandlers_8c.html#a8a299763beeb94c941b3dc4aa97be5f7" title="Function to handle RTC (Real&#45;Time Clock) events. This function is responsible for handling RTC events..." alt="" coords="621,76,706,103"/>
+<area shape="poly" id="edge14_Node000005_Node000013" title=" " alt="" coords="908,106,706,94,707,89,909,101"/>
+<area shape="rect" id="Node000007" href="$statecontroler_8c.html#afb7e8eee947a2d603dfd05cf396fd0a6" title="Initializes the game to the main menu state. This function sets up the main menu and transitions the ..." alt="" coords="624,139,703,165"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="738,155,703,155,703,149,738,149"/>
+<area shape="rect" id="Node000008" href="$gamehandlers_8c.html#a0799773fe68b229a25bff9ee444c6eba" title=" " alt="" coords="459,164,573,191"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="609,164,574,170,573,165,608,159"/>
+<area shape="rect" id="Node000011" href="$main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,189,114,216"/>
+<area shape="poly" id="edge13_Node000007_Node000011" title=" " alt="" coords="633,177,605,193,573,205,511,219,446,227,318,231,203,225,114,214,115,209,203,219,318,226,446,221,510,213,572,200,603,188,630,172"/>
+<area shape="rect" id="Node000012" href="$gamehandlers_8c.html#a0fb71e2b76b368ba43295cdc9174558b" title="Function to handle keyboard events. This function processes keyboard input events and updates the gam..." alt="" coords="288,113,411,140"/>
+<area shape="poly" id="edge11_Node000007_Node000012" title=" " alt="" coords="608,150,411,134,412,129,608,145"/>
+<area shape="rect" id="Node000009" href="$gamehandlers_8c.html#a1d865d087780c7f07862aa420ca32182" title="Function to handle mouse events. This function processes mouse input events and updates the game stat..." alt="" coords="295,164,404,191"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="444,180,405,180,405,175,444,175"/>
+<area shape="rect" id="Node000010" href="$main_8c.html#a22613a4ed426179d00643f6bf2d90320" title="Main game loop." alt="" coords="162,139,240,165"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="279,168,240,161,241,156,280,163"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="148,174,100,191,98,186,146,169"/>
+<area shape="poly" id="edge12_Node000012_Node000010" title=" " alt="" coords="273,142,241,148,240,143,272,137"/>
+<area shape="poly" id="edge15_Node000013_Node000010" title=" " alt="" coords="605,85,540,81,460,80,373,87,289,104,251,120,221,141,218,136,249,116,287,99,373,81,460,75,540,75,606,80"/>
+<area shape="poly" id="edge18_Node000014_Node000005" title=" " alt="" coords="1082,95,1050,100,1049,95,1081,90"/>
+</map>

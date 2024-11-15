@@ -1,0 +1,12 @@
+<map id="src/GameControlers/buffering.h" name="src/GameControlers/buffering.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="167,5,304,48"/>
+<area shape="rect" id="Node000002" href="$buffering_8c.html" title=" " alt="" coords="5,96,143,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,58,113,98,110,93,183,54"/>
+<area shape="rect" id="Node000003" href="$gamehandlers_8h.html" title=" " alt="" coords="167,96,304,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="238,64,238,96,233,96,233,64"/>
+<area shape="rect" id="Node000005" href="$main_8c.html" title=" " alt="" coords="301,195,383,221"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="283,56,302,74,319,95,331,121,339,148,344,194,339,194,333,149,326,123,314,97,299,77,279,60"/>
+<area shape="rect" id="Node000004" href="$gamehandlers_8c.html" title=" " alt="" coords="140,187,277,229"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="227,154,217,187,212,186,222,153"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="274,147,329,192,325,196,270,151"/>
+</map>

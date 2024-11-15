@@ -1,0 +1,30 @@
+<map id="update_Classic" name="update_Classic">
+<area shape="rect" id="Node000001" title="Updates the classic mode of the aim game." alt="" coords="5,63,116,90"/>
+<area shape="rect" id="Node000002" href="$gamesprites_8c.html#a82ae85bb101bb2717943a4230be62426" title="Draws the remaining lives of the player." alt="" coords="355,114,433,140"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,82,340,116,339,122,116,87"/>
+<area shape="rect" id="Node000004" href="$sprites_8c.html#a6db4230a0003a09515d78b790d8ec52d" title="Function to draw a sprite on the screen." alt="" coords="654,38,774,64"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="81,60,118,40,163,23,227,11,293,5,424,5,543,17,639,32,638,38,543,22,424,11,293,11,228,17,164,28,120,45,84,65"/>
+<area shape="rect" id="Node000007" href="$gamesprites_8c.html#a1938f6d2b49581924d9976c832a45bb2" title="Draws the scores in the game." alt="" coords="176,38,271,64"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="116,65,160,58,161,63,116,71"/>
+<area shape="rect" id="Node000009" href="$gamesprites_8c.html#a0754d983144811685eed1439b5f6dd7f" title="Draws the number of targets left in the aim game." alt="" coords="164,139,283,166"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="92,88,180,130,178,134,90,93"/>
+<area shape="rect" id="Node000003" href="$gamesprites_8c.html#af3c7e15abf4b4b99529968fb2b709107" title="Draws a number at a specified position." alt="" coords="505,63,604,90"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="433,112,494,93,496,98,434,117"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="604,66,638,60,639,66,605,71"/>
+<area shape="rect" id="Node000006" href="$sprites_8c.html#a68f38f4a0ef4671439737a88745eb2d9" title="Function to draw a sprite on the screen, changing white pixels to a specified color." alt="" coords="652,88,776,115"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="605,82,637,87,636,92,604,87"/>
+<area shape="rect" id="Node000005" href="$graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741" title=" " alt="" coords="824,63,925,90"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="774,58,809,64,808,69,774,63"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="776,89,808,84,809,89,777,95"/>
+<area shape="poly" id="edge10_Node000007_Node000004" title=" " alt="" coords="271,48,639,48,639,54,271,54"/>
+<area shape="rect" id="Node000008" href="$gamesprites_8c.html#a4743c346aef3789257d9b7329015d479" title="Draws a sequence of numbers starting at a specified position." alt="" coords="331,63,457,90"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="271,55,316,62,315,67,271,61"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="458,74,490,74,490,79,458,79"/>
+<area shape="poly" id="edge13_Node000009_Node000008" title=" " alt="" coords="252,136,330,99,343,94,345,99,332,104,254,141"/>
+<area shape="rect" id="Node000010" href="$gamesprites_8c.html#a15e08b9e3a391846626898577dc44a18" title="Draws a word starting at a specified position." alt="" coords="353,164,435,191"/>
+<area shape="poly" id="edge14_Node000009_Node000010" title=" " alt="" coords="284,159,338,167,338,172,283,164"/>
+<area shape="rect" id="Node000011" href="$gamesprites_8c.html#adbbc28980f638e62a4f25f2c2a71a927" title="Draws a letter at a specified position." alt="" coords="512,114,597,140"/>
+<area shape="poly" id="edge15_Node000010_Node000011" title=" " alt="" coords="435,162,497,142,498,148,437,167"/>
+<area shape="poly" id="edge16_Node000011_Node000004" title=" " alt="" coords="581,111,650,74,663,69,665,73,653,79,583,116"/>
+<area shape="poly" id="edge17_Node000011_Node000006" title=" " alt="" coords="597,118,636,111,637,117,597,123"/>
+</map>

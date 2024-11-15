@@ -1,0 +1,14 @@
+<map id="draw_scores" name="draw_scores">
+<area shape="rect" id="Node000001" title="Draws the scores in the game." alt="" coords="635,31,729,57"/>
+<area shape="rect" id="Node000002" href="$gamesprites_8c.html#a1aa8d5efd98ff559471089bf156b75ff" title="Updates the classic mode of the aim game." alt="" coords="465,5,575,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="618,37,575,30,576,25,619,32"/>
+<area shape="rect" id="Node000006" href="$gamesprites_8c.html#a016c8a8f3075d031e9b88e7efee83606" title="Updates the time attack mode of the aim game." alt="" coords="453,56,587,83"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="620,56,587,62,587,56,619,51"/>
+<area shape="rect" id="Node000003" href="$gamesprites_8c.html#a9fe4780cd99177b2f789bc9c22b4dbd3" title="Draws a new frame." alt="" coords="288,31,405,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="450,32,406,38,405,33,449,26"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a22613a4ed426179d00643f6bf2d90320" title="Main game loop." alt="" coords="162,31,240,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="272,47,240,47,240,41,272,41"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,31,114,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="146,47,114,47,114,41,146,41"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="437,60,405,55,406,50,438,55"/>
+</map>

@@ -1,0 +1,274 @@
+\doxysection{Referência ao ficheiro src/\+Game\+Controlers/aim\+Train\+Controler.c}
+\hypertarget{aim_train_controler_8c}{}\label{aim_train_controler_8c}\index{src/GameControlers/aimTrainControler.c@{src/GameControlers/aimTrainControler.c}}
+{\ttfamily \#include "{}aim\+Train\+Controler.\+h"{}}\newline
+Diagrama de dependências de inclusão para aim\+Train\+Controler.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{aim_train_controler_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int() \mbox{\hyperlink{aim_train_controler_8c_a26ffc73134f565144e60846579345671}{start\+\_\+aim\+\_\+game}} ()
+\begin{DoxyCompactList}\small\item\em Starts the aim training game based on the current aim mode. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{aim_train_controler_8c_a5a439d8c1a06d202e2aa5e3422b14070}{start\+\_\+time\+\_\+attack}} ()
+\begin{DoxyCompactList}\small\item\em Starts the time attack game mode. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{aim_train_controler_8c_ad16657c13f7191a0478ae8bea72fd871}{start\+\_\+classic}} ()
+\begin{DoxyCompactList}\small\item\em Starts the classic game mode. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{aim_train_controler_8c_a0fa54e7a714698cf335027b548f4c8b6}{give\+\_\+random\+\_\+position}} (\mbox{\hyperlink{structtarget}{target}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{aim_train_controler_8c_aa2c23cb5d2ffda53366267c486dcdb5e}{tgt}})
+\item 
+int \mbox{\hyperlink{aim_train_controler_8c_aaca9d09569d5ad992cff9c384a7fc6a4}{take\+\_\+life}} ()
+\begin{DoxyCompactList}\small\item\em Decreases the user\textquotesingle{}s life count. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{aim_train_controler_8c_a9b22b72ca7f8d05c24e67261e6e247b4}{target\+\_\+hit}} ()
+\begin{DoxyCompactList}\small\item\em Handles when a target is hit. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{aim_train_controler_8c_a9dc7d70ee2b3f196644d4d51257df4ee}{miss\+\_\+target}} ()
+\begin{DoxyCompactList}\small\item\em Handles a target is miss. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variáveis}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_pixel_color}{Pixel\+Color}} \mbox{\hyperlink{aim_train_controler_8c_a5a96239d4e1af3871b12fb3ee351fa83}{saved\+\_\+pixels}} \mbox{[}21 \texorpdfstring{$\ast$}{*}21\mbox{]}
+\item 
+\mbox{\hyperlink{aim_train_controler_8h_a8cb4c92db9bb83fa36c66e5e6907b291}{Aim\+Mode}} \mbox{\hyperlink{aim_train_controler_8c_a7c3c9fb57af63e2a638526757dabe7a5}{aim\+\_\+mode}} = \mbox{\hyperlink{aim_train_controler_8h_a8cb4c92db9bb83fa36c66e5e6907b291a70e4bd6bfe223430f1680ad0daddb9be}{AIM\+\_\+\+TRAIN\+\_\+\+MENU}}
+\item 
+\mbox{\hyperlink{structtarget}{target}} \mbox{\hyperlink{aim_train_controler_8c_aa2c23cb5d2ffda53366267c486dcdb5e}{tgt}}
+\item 
+int \mbox{\hyperlink{aim_train_controler_8c_adb5154305833f07824822bfc997bd9e6}{targets\+\_\+left}}
+\item 
+int \mbox{\hyperlink{aim_train_controler_8c_aac1c4f6eb254d51260b7bcde4de14091}{next\+\_\+target\+\_\+sec}} = 0
+\item 
+vbe\+\_\+mode\+\_\+info\+\_\+t \mbox{\hyperlink{aim_train_controler_8c_a99e3a39a732a4347b2b972bc06245eb5}{modeinf}}
+\item 
+int \mbox{\hyperlink{aim_train_controler_8c_a6f4a1b33d7f6e9dcba9d6e3ae70eee77}{timer\+\_\+counter\+\_\+aim}}
+\item 
+int \mbox{\hyperlink{aim_train_controler_8c_a9dd86e05eb51b73ffa496d0478503939}{timer\+\_\+interrupts}}
+\item 
+int \mbox{\hyperlink{aim_train_controler_8c_adf916204820072417ed73a32de1cefcf}{flag}}
+\item 
+\mbox{\hyperlink{structuser}{user}} \mbox{\hyperlink{aim_train_controler_8c_ae9bc5feef97e9701305a26e94e61f90c}{usr}} = \{3, 0, 0, 0, 0\}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{aim_train_controler_8c_a0fa54e7a714698cf335027b548f4c8b6}\label{aim_train_controler_8c_a0fa54e7a714698cf335027b548f4c8b6} 
+\index{aimTrainControler.c@{aimTrainControler.c}!give\_random\_position@{give\_random\_position}}
+\index{give\_random\_position@{give\_random\_position}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{give\_random\_position()}{give\_random\_position()}}
+{\footnotesize\ttfamily int give\+\_\+random\+\_\+position (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structtarget}{target}} \texorpdfstring{$\ast$}{*}}]{tgt }\end{DoxyParamCaption})}
+
+\Hypertarget{aim_train_controler_8c_a9dc7d70ee2b3f196644d4d51257df4ee}\label{aim_train_controler_8c_a9dc7d70ee2b3f196644d4d51257df4ee} 
+\index{aimTrainControler.c@{aimTrainControler.c}!miss\_target@{miss\_target}}
+\index{miss\_target@{miss\_target}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{miss\_target()}{miss\_target()}}
+{\footnotesize\ttfamily int() miss\+\_\+target (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Handles a target is miss. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero on failure. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{aim_train_controler_8c_a9dc7d70ee2b3f196644d4d51257df4ee_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{aim_train_controler_8c_a9dc7d70ee2b3f196644d4d51257df4ee_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{aim_train_controler_8c_a26ffc73134f565144e60846579345671}\label{aim_train_controler_8c_a26ffc73134f565144e60846579345671} 
+\index{aimTrainControler.c@{aimTrainControler.c}!start\_aim\_game@{start\_aim\_game}}
+\index{start\_aim\_game@{start\_aim\_game}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{start\_aim\_game()}{start\_aim\_game()}}
+{\footnotesize\ttfamily int() start\+\_\+aim\+\_\+game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Starts the aim training game based on the current aim mode. 
+
+This module controls the gameplay logic for an aiming training program. It includes functions for starting different game modes such as Time Attack and Classic, handling target hits and misses, updating scores and lives, and managing the display of the game interface. It also includes functions for generating random target positions and drawing the game interface. This module contributes to approximately 22\% of the project. Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{aim_train_controler_8c_a26ffc73134f565144e60846579345671_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{aim_train_controler_8c_a26ffc73134f565144e60846579345671_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{aim_train_controler_8c_ad16657c13f7191a0478ae8bea72fd871}\label{aim_train_controler_8c_ad16657c13f7191a0478ae8bea72fd871} 
+\index{aimTrainControler.c@{aimTrainControler.c}!start\_classic@{start\_classic}}
+\index{start\_classic@{start\_classic}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{start\_classic()}{start\_classic()}}
+{\footnotesize\ttfamily int() start\+\_\+classic (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Starts the classic game mode. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero on failure. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{aim_train_controler_8c_ad16657c13f7191a0478ae8bea72fd871_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{aim_train_controler_8c_ad16657c13f7191a0478ae8bea72fd871_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{aim_train_controler_8c_a5a439d8c1a06d202e2aa5e3422b14070}\label{aim_train_controler_8c_a5a439d8c1a06d202e2aa5e3422b14070} 
+\index{aimTrainControler.c@{aimTrainControler.c}!start\_time\_attack@{start\_time\_attack}}
+\index{start\_time\_attack@{start\_time\_attack}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{start\_time\_attack()}{start\_time\_attack()}}
+{\footnotesize\ttfamily int() start\+\_\+time\+\_\+attack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Starts the time attack game mode. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero on failure. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{aim_train_controler_8c_a5a439d8c1a06d202e2aa5e3422b14070_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{aim_train_controler_8c_a5a439d8c1a06d202e2aa5e3422b14070_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{aim_train_controler_8c_aaca9d09569d5ad992cff9c384a7fc6a4}\label{aim_train_controler_8c_aaca9d09569d5ad992cff9c384a7fc6a4} 
+\index{aimTrainControler.c@{aimTrainControler.c}!take\_life@{take\_life}}
+\index{take\_life@{take\_life}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{take\_life()}{take\_life()}}
+{\footnotesize\ttfamily int take\+\_\+life (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Decreases the user\textquotesingle{}s life count. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero on failure. 
+\end{DoxyReturn}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{aim_train_controler_8c_aaca9d09569d5ad992cff9c384a7fc6a4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{aim_train_controler_8c_a9b22b72ca7f8d05c24e67261e6e247b4}\label{aim_train_controler_8c_a9b22b72ca7f8d05c24e67261e6e247b4} 
+\index{aimTrainControler.c@{aimTrainControler.c}!target\_hit@{target\_hit}}
+\index{target\_hit@{target\_hit}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{target\_hit()}{target\_hit()}}
+{\footnotesize\ttfamily int target\+\_\+hit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Handles when a target is hit. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero on failure. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{aim_train_controler_8c_a9b22b72ca7f8d05c24e67261e6e247b4_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{aim_train_controler_8c_a9b22b72ca7f8d05c24e67261e6e247b4_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Documentação das variáveis}
+\Hypertarget{aim_train_controler_8c_a7c3c9fb57af63e2a638526757dabe7a5}\label{aim_train_controler_8c_a7c3c9fb57af63e2a638526757dabe7a5} 
+\index{aimTrainControler.c@{aimTrainControler.c}!aim\_mode@{aim\_mode}}
+\index{aim\_mode@{aim\_mode}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{aim\_mode}{aim\_mode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{aim_train_controler_8h_a8cb4c92db9bb83fa36c66e5e6907b291}{Aim\+Mode}} aim\+\_\+mode = \mbox{\hyperlink{aim_train_controler_8h_a8cb4c92db9bb83fa36c66e5e6907b291a70e4bd6bfe223430f1680ad0daddb9be}{AIM\+\_\+\+TRAIN\+\_\+\+MENU}}}
+
+The State Controller module is responsible for managing the overall state and flow of the game. It provides functions to initialize different game states, such as displaying the main menu, starting the game of testing the reaction speed, aiming, handling game over scenarios, and displaying the scoreboard. Each function within the module transitions the game to a specific state and ensures proper initialization by invoking necessary setup functions. If any setup function fails, the state transitions to EXIT, signaling an error state. \Hypertarget{aim_train_controler_8c_adf916204820072417ed73a32de1cefcf}\label{aim_train_controler_8c_adf916204820072417ed73a32de1cefcf} 
+\index{aimTrainControler.c@{aimTrainControler.c}!flag@{flag}}
+\index{flag@{flag}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{flag}{flag}}
+{\footnotesize\ttfamily int flag\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{aim_train_controler_8c_a99e3a39a732a4347b2b972bc06245eb5}\label{aim_train_controler_8c_a99e3a39a732a4347b2b972bc06245eb5} 
+\index{aimTrainControler.c@{aimTrainControler.c}!modeinf@{modeinf}}
+\index{modeinf@{modeinf}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{modeinf}{modeinf}}
+{\footnotesize\ttfamily vbe\+\_\+mode\+\_\+info\+\_\+t modeinf\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{aim_train_controler_8c_aac1c4f6eb254d51260b7bcde4de14091}\label{aim_train_controler_8c_aac1c4f6eb254d51260b7bcde4de14091} 
+\index{aimTrainControler.c@{aimTrainControler.c}!next\_target\_sec@{next\_target\_sec}}
+\index{next\_target\_sec@{next\_target\_sec}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{next\_target\_sec}{next\_target\_sec}}
+{\footnotesize\ttfamily int next\+\_\+target\+\_\+sec = 0}
+
+\Hypertarget{aim_train_controler_8c_a5a96239d4e1af3871b12fb3ee351fa83}\label{aim_train_controler_8c_a5a96239d4e1af3871b12fb3ee351fa83} 
+\index{aimTrainControler.c@{aimTrainControler.c}!saved\_pixels@{saved\_pixels}}
+\index{saved\_pixels@{saved\_pixels}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{saved\_pixels}{saved\_pixels}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_pixel_color}{Pixel\+Color}} saved\+\_\+pixels\mbox{[}21 \texorpdfstring{$\ast$}{*}21\mbox{]}\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{aim_train_controler_8c_adb5154305833f07824822bfc997bd9e6}\label{aim_train_controler_8c_adb5154305833f07824822bfc997bd9e6} 
+\index{aimTrainControler.c@{aimTrainControler.c}!targets\_left@{targets\_left}}
+\index{targets\_left@{targets\_left}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{targets\_left}{targets\_left}}
+{\footnotesize\ttfamily int targets\+\_\+left}
+
+\Hypertarget{aim_train_controler_8c_aa2c23cb5d2ffda53366267c486dcdb5e}\label{aim_train_controler_8c_aa2c23cb5d2ffda53366267c486dcdb5e} 
+\index{aimTrainControler.c@{aimTrainControler.c}!tgt@{tgt}}
+\index{tgt@{tgt}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{tgt}{tgt}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structtarget}{target}} tgt}
+
+\Hypertarget{aim_train_controler_8c_a6f4a1b33d7f6e9dcba9d6e3ae70eee77}\label{aim_train_controler_8c_a6f4a1b33d7f6e9dcba9d6e3ae70eee77} 
+\index{aimTrainControler.c@{aimTrainControler.c}!timer\_counter\_aim@{timer\_counter\_aim}}
+\index{timer\_counter\_aim@{timer\_counter\_aim}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{timer\_counter\_aim}{timer\_counter\_aim}}
+{\footnotesize\ttfamily int timer\+\_\+counter\+\_\+aim\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{aim_train_controler_8c_a9dd86e05eb51b73ffa496d0478503939}\label{aim_train_controler_8c_a9dd86e05eb51b73ffa496d0478503939} 
+\index{aimTrainControler.c@{aimTrainControler.c}!timer\_interrupts@{timer\_interrupts}}
+\index{timer\_interrupts@{timer\_interrupts}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{timer\_interrupts}{timer\_interrupts}}
+{\footnotesize\ttfamily int timer\+\_\+interrupts\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{aim_train_controler_8c_ae9bc5feef97e9701305a26e94e61f90c}\label{aim_train_controler_8c_ae9bc5feef97e9701305a26e94e61f90c} 
+\index{aimTrainControler.c@{aimTrainControler.c}!usr@{usr}}
+\index{usr@{usr}!aimTrainControler.c@{aimTrainControler.c}}
+\doxysubsubsection{\texorpdfstring{usr}{usr}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structuser}{user}} usr = \{3, 0, 0, 0, 0\}}
+

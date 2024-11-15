@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Gamers Gym: Código-Fonte de src/Controlers/Graphic/graphics.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Gamers Gym
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('graphics_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrada</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">graphics.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="graphics_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef LCOM_GRAPHICS_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define LCOM_GRAPHICS_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;lcom/lcf.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="graphics_8h.html#aa1736cd349cf2b4f9dbe368c2a13e5be">    5</a></span><span class="preprocessor">#define DIRECT_COLOR 0x06</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="graphics_8h.html#a8cc35ceb6edb14480e5afceb3ce2ee8b">    6</a></span><span class="preprocessor">#define INDEXED_COLOR 0x105</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>int(<a class="code hl_function" href="graphics_8h.html#a8a1eed03f0ea8ebba149f4336a90b73f">ret_video</a>)(uint16_t mode);</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="graphics_8h.html#a545ee17de5cb7d7e394f36d8fea6c941">   10</a></span>int(<a class="code hl_function" href="graphics_8h.html#a545ee17de5cb7d7e394f36d8fea6c941">waiting_ESC_key</a>)();</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>int(<a class="code hl_function" href="graphics_8h.html#a62f63672fd06c462a0873e30f5e32ef8">set_text_mode</a>)();</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="graphics_8h.html#a4b8bdcf4c048c4130fe10ce375a93ad6">   14</a></span>int(<a class="code hl_function" href="graphics_8h.html#a4b8bdcf4c048c4130fe10ce375a93ad6">frame_buffer</a>)(uint16_t mode);</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>int(<a class="code hl_function" href="graphics_8h.html#a08c498ffeb0a3962e3b7711b57397741">vg_draw_pixel</a>)(uint16_t x, uint16_t y, uint32_t color);</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>int(<a class="code hl_function" href="graphics_8h.html#a5e5b25bd525250f61f40b9e9f212d5e6">vg_draw_hline</a>)(uint16_t x, uint16_t y, uint16_t len, uint32_t color);</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>int(<a class="code hl_function" href="graphics_8h.html#a99d2da2559e11200c6b40c469e9977ec">vg_draw_rectangle</a>)(uint16_t x, uint16_t y, uint16_t width, uint16_t height, uint32_t color);</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>int(<a class="code hl_function" href="graphics_8h.html#a269d2f54bca5b873f474c9506c91d97d">get_color</a>)(uint32_t color, uint32_t *new_color);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>int(<a class="code hl_function" href="graphics_8h.html#af7be676c7f6db3e91ab5165ad52b7416">vg_draw_pattern</a>)(uint8_t no_rectangles, uint32_t first, uint8_t step);</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>int(<a class="code hl_function" href="graphics_8h.html#a78c191e322b2ea6fb16fb6d59d200725">vg_draw_xpm</a>)(xpm_map_t xpm, uint16_t x, uint16_t y);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">// with buffer</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>int(<a class="code hl_function" href="graphics_8h.html#a000daa65e22edd8402677354b598eb93">frame_buffer_with_buff</a>)(uint16_t mode, <span class="keywordtype">char</span> *<a class="code hl_function" href="graphics_8h.html#a4b8bdcf4c048c4130fe10ce375a93ad6">frame_buffer</a>);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>int(<a class="code hl_function" href="graphics_8h.html#a8714df8d5fc019c6b0448df24636a847">vg_draw_pixel_with_buff</a>)(uint16_t x, uint16_t y, uint32_t color);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>int(<a class="code hl_function" href="graphics_8h.html#a5a414d4675d3674e1b3c5fb28511fce9">vg_draw_hline_with_buff</a>)(uint16_t x, uint16_t y, uint16_t len, uint32_t color);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>int(<a class="code hl_function" href="graphics_8h.html#a44e494a51a5dc0493c86b36a9a7789e1">vg_draw_rectangle_with_buff</a>)(uint16_t x, uint16_t y, uint16_t width, uint16_t height, uint32_t color);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>uint32_t(<a class="code hl_function" href="graphics_8h.html#a00cbe3ad8ffc67411a11b96b6237fba3">direct_mode</a>)(uint32_t <a class="code hl_function" href="graphics_8h.html#a3b0ee3706bd0c5bd06c24cd519b26f39">R</a>, uint32_t <a class="code hl_function" href="graphics_8h.html#a34103732d16ab1b6ad266f756d0ec569">G</a>, uint32_t <a class="code hl_function" href="graphics_8h.html#a1c221f260a94426d6e484757ff49491a">B</a>);</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>uint32_t(<a class="code hl_function" href="graphics_8h.html#ab1b6b16c005069e07ec294d25c7143a1">indexed_mode</a>)(uint16_t col, uint16_t row, uint8_t step, uint32_t first, uint8_t n);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>uint32_t(<a class="code hl_function" href="graphics_8h.html#ae3578c57c17dced18fd11d48af250188">Red</a>)(<span class="keywordtype">unsigned</span> j, uint8_t step, uint32_t first);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>uint32_t(<a class="code hl_function" href="graphics_8h.html#a6001a01c37fe85b5dec7bbd242386ade">Green</a>)(<span class="keywordtype">unsigned</span> i, uint8_t step, uint32_t first);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>uint32_t(<a class="code hl_function" href="graphics_8h.html#a83fd02ad635b3d382b8ab30d465ca4a9">Blue</a>)(<span class="keywordtype">unsigned</span> j, <span class="keywordtype">unsigned</span> i, uint8_t step, uint32_t first);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>uint32_t(<a class="code hl_function" href="graphics_8h.html#a3b0ee3706bd0c5bd06c24cd519b26f39">R</a>)(uint32_t first);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>uint32_t(<a class="code hl_function" href="graphics_8h.html#a34103732d16ab1b6ad266f756d0ec569">G</a>)(uint32_t first);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>uint32_t(<a class="code hl_function" href="graphics_8h.html#a1c221f260a94426d6e484757ff49491a">B</a>)(uint32_t first);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#endif </span><span class="comment">// LCOM_GRAPHICS_H //</span></div>
+<div class="ttc" id="agraphics_8h_html_a000daa65e22edd8402677354b598eb93"><div class="ttname"><a href="graphics_8h.html#a000daa65e22edd8402677354b598eb93">frame_buffer_with_buff</a></div><div class="ttdeci">int() frame_buffer_with_buff(uint16_t mode, char *frame_buffer)</div><div class="ttdef"><b>Definição</b> graphics.c:179</div></div>
+<div class="ttc" id="agraphics_8h_html_a00cbe3ad8ffc67411a11b96b6237fba3"><div class="ttname"><a href="graphics_8h.html#a00cbe3ad8ffc67411a11b96b6237fba3">direct_mode</a></div><div class="ttdeci">uint32_t() direct_mode(uint32_t R, uint32_t G, uint32_t B)</div><div class="ttdef"><b>Definição</b> graphics.c:133</div></div>
+<div class="ttc" id="agraphics_8h_html_a08c498ffeb0a3962e3b7711b57397741"><div class="ttname"><a href="graphics_8h.html#a08c498ffeb0a3962e3b7711b57397741">vg_draw_pixel</a></div><div class="ttdeci">int() vg_draw_pixel(uint16_t x, uint16_t y, uint32_t color)</div><div class="ttdef"><b>Definição</b> graphics.c:56</div></div>
+<div class="ttc" id="agraphics_8h_html_a1c221f260a94426d6e484757ff49491a"><div class="ttname"><a href="graphics_8h.html#a1c221f260a94426d6e484757ff49491a">B</a></div><div class="ttdeci">uint32_t() B(uint32_t first)</div><div class="ttdef"><b>Definição</b> graphics.c:161</div></div>
+<div class="ttc" id="agraphics_8h_html_a269d2f54bca5b873f474c9506c91d97d"><div class="ttname"><a href="graphics_8h.html#a269d2f54bca5b873f474c9506c91d97d">get_color</a></div><div class="ttdeci">int() get_color(uint32_t color, uint32_t *new_color)</div><div class="ttdef"><b>Definição</b> graphics.c:123</div></div>
+<div class="ttc" id="agraphics_8h_html_a34103732d16ab1b6ad266f756d0ec569"><div class="ttname"><a href="graphics_8h.html#a34103732d16ab1b6ad266f756d0ec569">G</a></div><div class="ttdeci">uint32_t() G(uint32_t first)</div><div class="ttdef"><b>Definição</b> graphics.c:157</div></div>
+<div class="ttc" id="agraphics_8h_html_a3b0ee3706bd0c5bd06c24cd519b26f39"><div class="ttname"><a href="graphics_8h.html#a3b0ee3706bd0c5bd06c24cd519b26f39">R</a></div><div class="ttdeci">uint32_t() R(uint32_t first)</div><div class="ttdef"><b>Definição</b> graphics.c:153</div></div>
+<div class="ttc" id="agraphics_8h_html_a44e494a51a5dc0493c86b36a9a7789e1"><div class="ttname"><a href="graphics_8h.html#a44e494a51a5dc0493c86b36a9a7789e1">vg_draw_rectangle_with_buff</a></div><div class="ttdeci">int() vg_draw_rectangle_with_buff(uint16_t x, uint16_t y, uint16_t width, uint16_t height, uint32_t color)</div><div class="ttdef"><b>Definição</b> graphics.c:223</div></div>
+<div class="ttc" id="agraphics_8h_html_a4b8bdcf4c048c4130fe10ce375a93ad6"><div class="ttname"><a href="graphics_8h.html#a4b8bdcf4c048c4130fe10ce375a93ad6">frame_buffer</a></div><div class="ttdeci">int() frame_buffer(uint16_t mode)</div></div>
+<div class="ttc" id="agraphics_8h_html_a545ee17de5cb7d7e394f36d8fea6c941"><div class="ttname"><a href="graphics_8h.html#a545ee17de5cb7d7e394f36d8fea6c941">waiting_ESC_key</a></div><div class="ttdeci">int() waiting_ESC_key()</div></div>
+<div class="ttc" id="agraphics_8h_html_a5a414d4675d3674e1b3c5fb28511fce9"><div class="ttname"><a href="graphics_8h.html#a5a414d4675d3674e1b3c5fb28511fce9">vg_draw_hline_with_buff</a></div><div class="ttdeci">int() vg_draw_hline_with_buff(uint16_t x, uint16_t y, uint16_t len, uint32_t color)</div><div class="ttdef"><b>Definição</b> graphics.c:216</div></div>
+<div class="ttc" id="agraphics_8h_html_a5e5b25bd525250f61f40b9e9f212d5e6"><div class="ttname"><a href="graphics_8h.html#a5e5b25bd525250f61f40b9e9f212d5e6">vg_draw_hline</a></div><div class="ttdeci">int() vg_draw_hline(uint16_t x, uint16_t y, uint16_t len, uint32_t color)</div><div class="ttdef"><b>Definição</b> graphics.c:66</div></div>
+<div class="ttc" id="agraphics_8h_html_a6001a01c37fe85b5dec7bbd242386ade"><div class="ttname"><a href="graphics_8h.html#a6001a01c37fe85b5dec7bbd242386ade">Green</a></div><div class="ttdeci">uint32_t() Green(unsigned i, uint8_t step, uint32_t first)</div><div class="ttdef"><b>Definição</b> graphics.c:145</div></div>
+<div class="ttc" id="agraphics_8h_html_a62f63672fd06c462a0873e30f5e32ef8"><div class="ttname"><a href="graphics_8h.html#a62f63672fd06c462a0873e30f5e32ef8">set_text_mode</a></div><div class="ttdeci">int() set_text_mode()</div><div class="ttdef"><b>Definição</b> graphics.c:21</div></div>
+<div class="ttc" id="agraphics_8h_html_a78c191e322b2ea6fb16fb6d59d200725"><div class="ttname"><a href="graphics_8h.html#a78c191e322b2ea6fb16fb6d59d200725">vg_draw_xpm</a></div><div class="ttdeci">int() vg_draw_xpm(xpm_map_t xpm, uint16_t x, uint16_t y)</div><div class="ttdef"><b>Definição</b> graphics.c:165</div></div>
+<div class="ttc" id="agraphics_8h_html_a83fd02ad635b3d382b8ab30d465ca4a9"><div class="ttname"><a href="graphics_8h.html#a83fd02ad635b3d382b8ab30d465ca4a9">Blue</a></div><div class="ttdeci">uint32_t() Blue(unsigned j, unsigned i, uint8_t step, uint32_t first)</div><div class="ttdef"><b>Definição</b> graphics.c:149</div></div>
+<div class="ttc" id="agraphics_8h_html_a8714df8d5fc019c6b0448df24636a847"><div class="ttname"><a href="graphics_8h.html#a8714df8d5fc019c6b0448df24636a847">vg_draw_pixel_with_buff</a></div><div class="ttdeci">int() vg_draw_pixel_with_buff(uint16_t x, uint16_t y, uint32_t color)</div><div class="ttdef"><b>Definição</b> graphics.c:206</div></div>
+<div class="ttc" id="agraphics_8h_html_a8a1eed03f0ea8ebba149f4336a90b73f"><div class="ttname"><a href="graphics_8h.html#a8a1eed03f0ea8ebba149f4336a90b73f">ret_video</a></div><div class="ttdeci">int() ret_video(uint16_t mode)</div><div class="ttdef"><b>Definição</b> graphics.c:7</div></div>
+<div class="ttc" id="agraphics_8h_html_a99d2da2559e11200c6b40c469e9977ec"><div class="ttname"><a href="graphics_8h.html#a99d2da2559e11200c6b40c469e9977ec">vg_draw_rectangle</a></div><div class="ttdeci">int() vg_draw_rectangle(uint16_t x, uint16_t y, uint16_t width, uint16_t height, uint32_t color)</div><div class="ttdef"><b>Definição</b> graphics.c:76</div></div>
+<div class="ttc" id="agraphics_8h_html_ab1b6b16c005069e07ec294d25c7143a1"><div class="ttname"><a href="graphics_8h.html#ab1b6b16c005069e07ec294d25c7143a1">indexed_mode</a></div><div class="ttdeci">uint32_t() indexed_mode(uint16_t col, uint16_t row, uint8_t step, uint32_t first, uint8_t n)</div><div class="ttdef"><b>Definição</b> graphics.c:137</div></div>
+<div class="ttc" id="agraphics_8h_html_ae3578c57c17dced18fd11d48af250188"><div class="ttname"><a href="graphics_8h.html#ae3578c57c17dced18fd11d48af250188">Red</a></div><div class="ttdeci">uint32_t() Red(unsigned j, uint8_t step, uint32_t first)</div><div class="ttdef"><b>Definição</b> graphics.c:141</div></div>
+<div class="ttc" id="agraphics_8h_html_af7be676c7f6db3e91ab5165ad52b7416"><div class="ttname"><a href="graphics_8h.html#af7be676c7f6db3e91ab5165ad52b7416">vg_draw_pattern</a></div><div class="ttdeci">int() vg_draw_pattern(uint8_t no_rectangles, uint32_t first, uint8_t step)</div><div class="ttdef"><b>Definição</b> graphics.c:86</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_d377e7cb03d3b579ed473f6e7757f224.html">Controlers</a></li><li class="navelem"><a class="el" href="dir_b7be37eca50e7b9eac331e2dda476bb6.html">Graphic</a></li><li class="navelem"><a class="el" href="graphics_8h.html">graphics.h</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

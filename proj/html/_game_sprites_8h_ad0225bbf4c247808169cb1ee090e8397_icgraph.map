@@ -1,0 +1,21 @@
+<map id="draw_aimgame_TimeAttack" name="draw_aimgame_TimeAttack">
+<area shape="rect" id="Node000001" title="Draws the aim game in time attack mode." alt="" coords="1062,31,1243,57"/>
+<area shape="rect" id="Node000002" href="$aim_train_controler_8c.html#a5a439d8c1a06d202e2aa5e3422b14070" title="Starts the time attack game mode." alt="" coords="891,31,1014,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1046,47,1014,47,1014,41,1046,41"/>
+<area shape="rect" id="Node000003" href="$gamehandlers_8c.html#a0799773fe68b229a25bff9ee444c6eba" title=" " alt="" coords="445,5,559,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="876,42,559,24,559,19,876,37"/>
+<area shape="rect" id="Node000007" href="$aim_train_controler_8c.html#a26ffc73134f565144e60846579345671" title="Starts the aim training game based on the current aim mode." alt="" coords="729,56,843,83"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="876,58,844,63,844,58,875,53"/>
+<area shape="rect" id="Node000004" href="$gamehandlers_8c.html#a1d865d087780c7f07862aa420ca32182" title="Function to handle mouse events. This function processes mouse input events and updates the game stat..." alt="" coords="288,5,397,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="430,21,398,21,398,16,430,16"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a22613a4ed426179d00643f6bf2d90320" title="Main game loop." alt="" coords="162,31,240,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="273,34,241,40,240,34,272,29"/>
+<area shape="rect" id="Node000006" href="$main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,31,114,57"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="146,47,114,47,114,41,146,41"/>
+<area shape="rect" id="Node000008" href="$statecontroler_8c.html#a12768f066e85226b4dca9e09ae9e0f98" title="Transitions the game to the aiming game state. This function sets the aiming mode and transitions the..." alt="" coords="607,56,681,83"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="713,72,681,72,681,67,713,67"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="591,53,540,35,542,30,593,48"/>
+<area shape="rect" id="Node000009" href="$gamehandlers_8c.html#a8759d40e96a35c89970bcd4c2e03c241" title="Function to handle timer events and update game state accordingly. This function is responsible for m..." alt="" coords="293,56,392,83"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="591,72,392,72,392,67,591,67"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="277,60,240,54,241,48,278,55"/>
+</map>

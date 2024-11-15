@@ -1,0 +1,1024 @@
+\doxysection{Referência ao ficheiro src/\+Game\+Controlers/gamesprites.c}
+\hypertarget{gamesprites_8c}{}\label{gamesprites_8c}\index{src/GameControlers/gamesprites.c@{src/GameControlers/gamesprites.c}}
+{\ttfamily \#include "{}gamesprites.\+h"{}}\newline
+Diagrama de dependências de inclusão para gamesprites.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{gamesprites_8c_ae494403e4e7f01000028eb0dd96e23db}{bac\+\_\+color}}~0xde9301
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int() \mbox{\hyperlink{gamesprites_8c_ac103e63dac5103633d00970cf59e1543}{clearscreen}} ()
+\begin{DoxyCompactList}\small\item\em Clears the screen. \end{DoxyCompactList}\item 
+void() \mbox{\hyperlink{gamesprites_8c_a412f5ccd4b1f1245c4d96dedebd31d8d}{set\+\_\+sprites}} ()
+\begin{DoxyCompactList}\small\item\em Sets up the game sprites. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_a827220a6b9f738eba8b094586855b0b7}{draw\+\_\+main\+\_\+menu}} ()
+\begin{DoxyCompactList}\small\item\em Draws the main menu of the game. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_a9fe4780cd99177b2f789bc9c22b4dbd3}{draw\+\_\+new\+\_\+frame}} ()
+\begin{DoxyCompactList}\small\item\em Draws a new frame. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{gamesprites_8c_a31c317bc65751b0b9347dd0a414ea178}{update\+\_\+\+React\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Updates the reaction game. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_a200295a23b82ace74b8d576bf2c53439}{draw\+\_\+title\+\_\+score\+\_\+react}} ()
+\begin{DoxyCompactList}\small\item\em Draws the title and score for the reaction game. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_a680b9b6bf1feeb927e76c706fff2db60}{draw\+\_\+timer\+\_\+scores}} ()
+\begin{DoxyCompactList}\small\item\em Draws the timer and scores for the reaction game. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_adb6784daf2c307ecc6833fd379270744}{draw\+\_\+target}} ()
+\begin{DoxyCompactList}\small\item\em Draws a target. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{gamesprites_8c_a0f9d87b0bea416d794ed80855026d550}{draw\+\_\+mouse}} ()
+\begin{DoxyCompactList}\small\item\em Draws the mouse cursor. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_a65f7ead6178ca6b7ef49f3a633c363cc}{draw\+\_\+aimgame\+\_\+\+Time\+Attack\+\_\+timer}} ()
+\begin{DoxyCompactList}\small\item\em Draws the timer for the aim game in time attack mode. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_a6f42985a19f6efc69416113c3f9e539a}{draw\+\_\+aimgame\+\_\+\+Time\+Attack}} ()
+\begin{DoxyCompactList}\small\item\em Draws the aim game in time attack mode. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_a1938f6d2b49581924d9976c832a45bb2}{draw\+\_\+scores}} ()
+\begin{DoxyCompactList}\small\item\em Draws the scores in the game. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_a016c8a8f3075d031e9b88e7efee83606}{update\+\_\+\+Time\+Attack}} ()
+\begin{DoxyCompactList}\small\item\em Updates the time attack mode of the aim game. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_a1aa8d5efd98ff559471089bf156b75ff}{update\+\_\+\+Classic}} ()
+\begin{DoxyCompactList}\small\item\em Updates the classic mode of the aim game. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_a0754d983144811685eed1439b5f6dd7f}{draw\+\_\+targets\+\_\+left}} ()
+\begin{DoxyCompactList}\small\item\em Draws the number of targets left in the aim game. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_ad86d096ca847f40c12b29273b3b61d9c}{draw\+\_\+aimgame\+\_\+\+Classic}} ()
+\begin{DoxyCompactList}\small\item\em Draws the aim game in classic mode. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_a82ae85bb101bb2717943a4230be62426}{draw\+\_\+lifes}} ()
+\begin{DoxyCompactList}\small\item\em Draws the remaining lives of the player. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_af3c7e15abf4b4b99529968fb2b709107}{draw\+\_\+number}} (int n, uint16\+\_\+t x, uint16\+\_\+t y)
+\begin{DoxyCompactList}\small\item\em Draws a number at a specified position. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_adbbc28980f638e62a4f25f2c2a71a927}{draw\+\_\+letter}} (char letter, uint16\+\_\+t x, uint16\+\_\+t y)
+\begin{DoxyCompactList}\small\item\em Draws a letter at a specified position. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_a15e08b9e3a391846626898577dc44a18}{draw\+\_\+word}} (char \texorpdfstring{$\ast$}{*}word, uint16\+\_\+t x, uint16\+\_\+t y)
+\begin{DoxyCompactList}\small\item\em Draws a word starting at a specified position. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_a4743c346aef3789257d9b7329015d479}{draw\+\_\+number\+\_\+seq}} (int number, uint16\+\_\+t x, uint16\+\_\+t y)
+\begin{DoxyCompactList}\small\item\em Draws a sequence of numbers starting at a specified position. \end{DoxyCompactList}\item 
+void() \mbox{\hyperlink{gamesprites_8c_a91588fc3708befb835dc9ef72fb3ecf0}{save\+\_\+background\+\_\+pixels}} (\mbox{\hyperlink{struct_sprite}{Sprite}} \texorpdfstring{$\ast$}{*}sprite, int x, int y)
+\begin{DoxyCompactList}\small\item\em Saves the background pixels of a sprite at a specified position. \end{DoxyCompactList}\item 
+void() \mbox{\hyperlink{gamesprites_8c_aaea81135098b3c87fe95d9f8ab047e8d}{restore\+\_\+background\+\_\+pixels}} ()
+\begin{DoxyCompactList}\small\item\em Restores the background pixels that were saved previously. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_a285c8f3bf9bf7cb9c17278c732e90c10}{draw\+\_\+aim\+\_\+menu}} ()
+\begin{DoxyCompactList}\small\item\em Draws the aim menu. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_a903c5d1ee8efee13250ccac7022306c0}{draw\+\_\+rtc}} ()
+\begin{DoxyCompactList}\small\item\em Draws the real-\/time clock. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{gamesprites_8c_a72c28731734c5ecb2afd804648cf7de8}{update\+\_\+rtc}} ()
+\begin{DoxyCompactList}\small\item\em Updates the real-\/time clock. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variáveis}
+\begin{DoxyCompactItemize}
+\item 
+vbe\+\_\+mode\+\_\+info\+\_\+t \mbox{\hyperlink{gamesprites_8c_a99e3a39a732a4347b2b972bc06245eb5}{modeinf}}
+\item 
+\mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} \mbox{\hyperlink{gamesprites_8c_a25362b33bad9ff6222dc40646c411649}{state}}
+\item 
+\mbox{\hyperlink{aim_train_controler_8h_a8cb4c92db9bb83fa36c66e5e6907b291}{Aim\+Mode}} \mbox{\hyperlink{gamesprites_8c_a7c3c9fb57af63e2a638526757dabe7a5}{aim\+\_\+mode}}
+\item 
+\mbox{\hyperlink{structtarget}{target}} \mbox{\hyperlink{gamesprites_8c_aa2c23cb5d2ffda53366267c486dcdb5e}{tgt}}
+\item 
+int \mbox{\hyperlink{gamesprites_8c_a6f4a1b33d7f6e9dcba9d6e3ae70eee77}{timer\+\_\+counter\+\_\+aim}}
+\item 
+int \mbox{\hyperlink{gamesprites_8c_a9dd86e05eb51b73ffa496d0478503939}{timer\+\_\+interrupts}}
+\item 
+char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{gamesprites_8c_a3fbbadb0b253dadd11ee69ebe56a2145}{vidio\+\_\+mem}}
+\item 
+\mbox{\hyperlink{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17}{Reactmode}} \mbox{\hyperlink{gamesprites_8c_a392d0ea37638a1b7cbf2ef228289ca74}{react\+\_\+mode}}
+\item 
+\mbox{\hyperlink{struct_mouse_info}{Mouse\+Info}} \mbox{\hyperlink{gamesprites_8c_a419ddb548814ee8d98648423c8caad82}{mouse\+\_\+packet}}
+\item 
+\mbox{\hyperlink{structuser}{user}} \mbox{\hyperlink{gamesprites_8c_ae9bc5feef97e9701305a26e94e61f90c}{usr}}
+\item 
+int \mbox{\hyperlink{gamesprites_8c_adb5154305833f07824822bfc997bd9e6}{targets\+\_\+left}}
+\item 
+bool \mbox{\hyperlink{gamesprites_8c_a23958e610207eb28549d8d13255aa129}{timer\+\_\+running}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{gamesprites_8c_a0639e9161e9b5e2bf1178945359f0f78}{elapsed\+\_\+time\+\_\+ms}}
+\item 
+\mbox{\hyperlink{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17}{Reactmode}} \mbox{\hyperlink{gamesprites_8c_a288e6c48794737eb2caea2d4932d773e}{curent\+\_\+r}} = -\/1
+\item 
+int \mbox{\hyperlink{gamesprites_8c_adf916204820072417ed73a32de1cefcf}{flag}} = INT32\+\_\+\+MAX
+\item 
+int \mbox{\hyperlink{gamesprites_8c_ab68622330fe025bf5a1840fb72abf4c8}{c\+\_\+score}} = -\/1
+\item 
+int \mbox{\hyperlink{gamesprites_8c_a127dc14f4f0b12aa45d69a3fa1a4a74b}{c\+\_\+lifes}} = 4
+\item 
+int \mbox{\hyperlink{gamesprites_8c_aef4c60704023519bc5cecc4deb686a11}{c\+\_\+targets}} = -\/1
+\item 
+uint32\+\_\+t \mbox{\hyperlink{gamesprites_8c_aa359b4c12280b1072b28f1dae81a57a2}{c\+\_\+enlaps}} = -\/1
+\item 
+uint32\+\_\+t \mbox{\hyperlink{gamesprites_8c_abd7e476e507becedb45e335ca0c9128d}{c\+\_\+bestreact}} = -\/1
+\item 
+\mbox{\hyperlink{structtarget}{target}} \mbox{\hyperlink{gamesprites_8c_a16a6fb48d831768f1f28aeb648fb4adf}{lst\+\_\+pos}} = \{0, 0\}
+\item 
+bool \mbox{\hyperlink{gamesprites_8c_a3c96a3477831ce66c00afeb7d9e2bce7}{white\+\_\+text}} = false
+\item 
+\mbox{\hyperlink{struct_pixel_color}{Pixel\+Color}} \mbox{\hyperlink{gamesprites_8c_a5a96239d4e1af3871b12fb3ee351fa83}{saved\+\_\+pixels}} \mbox{[}21 \texorpdfstring{$\ast$}{*}21\mbox{]}
+\item 
+uint16\+\_\+t \mbox{\hyperlink{gamesprites_8c_aa831213680110009b8f1edc309da68b0}{saved\+\_\+pixels\+\_\+count}} = 0
+\item 
+bool \mbox{\hyperlink{gamesprites_8c_a916cc765160cf7f6fc51144ca57337c4}{flag\+\_\+2}} = true
+\item 
+bool \mbox{\hyperlink{gamesprites_8c_aaeb8cc5ede934ddf385bdc31c0a20434}{flag\+\_\+3}} = true
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação das macros}
+\Hypertarget{gamesprites_8c_ae494403e4e7f01000028eb0dd96e23db}\label{gamesprites_8c_ae494403e4e7f01000028eb0dd96e23db} 
+\index{gamesprites.c@{gamesprites.c}!bac\_color@{bac\_color}}
+\index{bac\_color@{bac\_color}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{bac\_color}{bac\_color}}
+{\footnotesize\ttfamily \#define bac\+\_\+color~0xde9301}
+
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{gamesprites_8c_ac103e63dac5103633d00970cf59e1543}\label{gamesprites_8c_ac103e63dac5103633d00970cf59e1543} 
+\index{gamesprites.c@{gamesprites.c}!clearscreen@{clearscreen}}
+\index{clearscreen@{clearscreen}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{clearscreen()}{clearscreen()}}
+{\footnotesize\ttfamily int() clearscreen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clears the screen. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_ac103e63dac5103633d00970cf59e1543_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_ac103e63dac5103633d00970cf59e1543_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a285c8f3bf9bf7cb9c17278c732e90c10}\label{gamesprites_8c_a285c8f3bf9bf7cb9c17278c732e90c10} 
+\index{gamesprites.c@{gamesprites.c}!draw\_aim\_menu@{draw\_aim\_menu}}
+\index{draw\_aim\_menu@{draw\_aim\_menu}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_aim\_menu()}{draw\_aim\_menu()}}
+{\footnotesize\ttfamily int() draw\+\_\+aim\+\_\+menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the aim menu. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a285c8f3bf9bf7cb9c17278c732e90c10_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a285c8f3bf9bf7cb9c17278c732e90c10_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_ad86d096ca847f40c12b29273b3b61d9c}\label{gamesprites_8c_ad86d096ca847f40c12b29273b3b61d9c} 
+\index{gamesprites.c@{gamesprites.c}!draw\_aimgame\_Classic@{draw\_aimgame\_Classic}}
+\index{draw\_aimgame\_Classic@{draw\_aimgame\_Classic}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_aimgame\_Classic()}{draw\_aimgame\_Classic()}}
+{\footnotesize\ttfamily int() draw\+\_\+aimgame\+\_\+\+Classic (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the aim game in classic mode. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_ad86d096ca847f40c12b29273b3b61d9c_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_ad86d096ca847f40c12b29273b3b61d9c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a6f42985a19f6efc69416113c3f9e539a}\label{gamesprites_8c_a6f42985a19f6efc69416113c3f9e539a} 
+\index{gamesprites.c@{gamesprites.c}!draw\_aimgame\_TimeAttack@{draw\_aimgame\_TimeAttack}}
+\index{draw\_aimgame\_TimeAttack@{draw\_aimgame\_TimeAttack}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_aimgame\_TimeAttack()}{draw\_aimgame\_TimeAttack()}}
+{\footnotesize\ttfamily int() draw\+\_\+aimgame\+\_\+\+Time\+Attack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the aim game in time attack mode. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a6f42985a19f6efc69416113c3f9e539a_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a6f42985a19f6efc69416113c3f9e539a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a65f7ead6178ca6b7ef49f3a633c363cc}\label{gamesprites_8c_a65f7ead6178ca6b7ef49f3a633c363cc} 
+\index{gamesprites.c@{gamesprites.c}!draw\_aimgame\_TimeAttack\_timer@{draw\_aimgame\_TimeAttack\_timer}}
+\index{draw\_aimgame\_TimeAttack\_timer@{draw\_aimgame\_TimeAttack\_timer}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_aimgame\_TimeAttack\_timer()}{draw\_aimgame\_TimeAttack\_timer()}}
+{\footnotesize\ttfamily int() draw\+\_\+aimgame\+\_\+\+Time\+Attack\+\_\+timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the timer for the aim game in time attack mode. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a65f7ead6178ca6b7ef49f3a633c363cc_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a65f7ead6178ca6b7ef49f3a633c363cc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_adbbc28980f638e62a4f25f2c2a71a927}\label{gamesprites_8c_adbbc28980f638e62a4f25f2c2a71a927} 
+\index{gamesprites.c@{gamesprites.c}!draw\_letter@{draw\_letter}}
+\index{draw\_letter@{draw\_letter}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_letter()}{draw\_letter()}}
+{\footnotesize\ttfamily int() draw\+\_\+letter (\begin{DoxyParamCaption}\item[{char}]{letter,  }\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y }\end{DoxyParamCaption})}
+
+
+
+Draws a letter at a specified position. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em letter} & The letter to draw. \\
+\hline
+{\em x} & The x-\/coordinate of the position. \\
+\hline
+{\em y} & The y-\/coordinate of the position. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_adbbc28980f638e62a4f25f2c2a71a927_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_adbbc28980f638e62a4f25f2c2a71a927_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a82ae85bb101bb2717943a4230be62426}\label{gamesprites_8c_a82ae85bb101bb2717943a4230be62426} 
+\index{gamesprites.c@{gamesprites.c}!draw\_lifes@{draw\_lifes}}
+\index{draw\_lifes@{draw\_lifes}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_lifes()}{draw\_lifes()}}
+{\footnotesize\ttfamily int() draw\+\_\+lifes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the remaining lives of the player. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a82ae85bb101bb2717943a4230be62426_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a82ae85bb101bb2717943a4230be62426_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a827220a6b9f738eba8b094586855b0b7}\label{gamesprites_8c_a827220a6b9f738eba8b094586855b0b7} 
+\index{gamesprites.c@{gamesprites.c}!draw\_main\_menu@{draw\_main\_menu}}
+\index{draw\_main\_menu@{draw\_main\_menu}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_main\_menu()}{draw\_main\_menu()}}
+{\footnotesize\ttfamily int() draw\+\_\+main\+\_\+menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the main menu of the game. 
+
+The Game Sprites Controller module manages graphics rendering, user input, and game logic. It handles drawing various elements such as numbers, letters, sprites, and rectangles essential for the game\textquotesingle{}s visual representation and interaction. Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a827220a6b9f738eba8b094586855b0b7_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a827220a6b9f738eba8b094586855b0b7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a0f9d87b0bea416d794ed80855026d550}\label{gamesprites_8c_a0f9d87b0bea416d794ed80855026d550} 
+\index{gamesprites.c@{gamesprites.c}!draw\_mouse@{draw\_mouse}}
+\index{draw\_mouse@{draw\_mouse}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_mouse()}{draw\_mouse()}}
+{\footnotesize\ttfamily int draw\+\_\+mouse (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the mouse cursor. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a0f9d87b0bea416d794ed80855026d550_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a0f9d87b0bea416d794ed80855026d550_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a9fe4780cd99177b2f789bc9c22b4dbd3}\label{gamesprites_8c_a9fe4780cd99177b2f789bc9c22b4dbd3} 
+\index{gamesprites.c@{gamesprites.c}!draw\_new\_frame@{draw\_new\_frame}}
+\index{draw\_new\_frame@{draw\_new\_frame}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_new\_frame()}{draw\_new\_frame()}}
+{\footnotesize\ttfamily int() draw\+\_\+new\+\_\+frame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws a new frame. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a9fe4780cd99177b2f789bc9c22b4dbd3_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a9fe4780cd99177b2f789bc9c22b4dbd3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_af3c7e15abf4b4b99529968fb2b709107}\label{gamesprites_8c_af3c7e15abf4b4b99529968fb2b709107} 
+\index{gamesprites.c@{gamesprites.c}!draw\_number@{draw\_number}}
+\index{draw\_number@{draw\_number}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_number()}{draw\_number()}}
+{\footnotesize\ttfamily int() draw\+\_\+number (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y }\end{DoxyParamCaption})}
+
+
+
+Draws a number at a specified position. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em n} & The number to draw. \\
+\hline
+{\em x} & The x-\/coordinate of the position. \\
+\hline
+{\em y} & The y-\/coordinate of the position. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_af3c7e15abf4b4b99529968fb2b709107_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_af3c7e15abf4b4b99529968fb2b709107_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a4743c346aef3789257d9b7329015d479}\label{gamesprites_8c_a4743c346aef3789257d9b7329015d479} 
+\index{gamesprites.c@{gamesprites.c}!draw\_number\_seq@{draw\_number\_seq}}
+\index{draw\_number\_seq@{draw\_number\_seq}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_number\_seq()}{draw\_number\_seq()}}
+{\footnotesize\ttfamily int() draw\+\_\+number\+\_\+seq (\begin{DoxyParamCaption}\item[{int}]{number,  }\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y }\end{DoxyParamCaption})}
+
+
+
+Draws a sequence of numbers starting at a specified position. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em number} & The number to draw. \\
+\hline
+{\em x} & The x-\/coordinate of the starting position. \\
+\hline
+{\em y} & The y-\/coordinate of the starting position. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a4743c346aef3789257d9b7329015d479_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a4743c346aef3789257d9b7329015d479_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a903c5d1ee8efee13250ccac7022306c0}\label{gamesprites_8c_a903c5d1ee8efee13250ccac7022306c0} 
+\index{gamesprites.c@{gamesprites.c}!draw\_rtc@{draw\_rtc}}
+\index{draw\_rtc@{draw\_rtc}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_rtc()}{draw\_rtc()}}
+{\footnotesize\ttfamily int() draw\+\_\+rtc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the real-\/time clock. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a903c5d1ee8efee13250ccac7022306c0_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a903c5d1ee8efee13250ccac7022306c0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a1938f6d2b49581924d9976c832a45bb2}\label{gamesprites_8c_a1938f6d2b49581924d9976c832a45bb2} 
+\index{gamesprites.c@{gamesprites.c}!draw\_scores@{draw\_scores}}
+\index{draw\_scores@{draw\_scores}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_scores()}{draw\_scores()}}
+{\footnotesize\ttfamily int() draw\+\_\+scores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the scores in the game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a1938f6d2b49581924d9976c832a45bb2_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a1938f6d2b49581924d9976c832a45bb2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_adb6784daf2c307ecc6833fd379270744}\label{gamesprites_8c_adb6784daf2c307ecc6833fd379270744} 
+\index{gamesprites.c@{gamesprites.c}!draw\_target@{draw\_target}}
+\index{draw\_target@{draw\_target}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_target()}{draw\_target()}}
+{\footnotesize\ttfamily int() draw\+\_\+target (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws a target. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_adb6784daf2c307ecc6833fd379270744_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_adb6784daf2c307ecc6833fd379270744_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a0754d983144811685eed1439b5f6dd7f}\label{gamesprites_8c_a0754d983144811685eed1439b5f6dd7f} 
+\index{gamesprites.c@{gamesprites.c}!draw\_targets\_left@{draw\_targets\_left}}
+\index{draw\_targets\_left@{draw\_targets\_left}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_targets\_left()}{draw\_targets\_left()}}
+{\footnotesize\ttfamily int() draw\+\_\+targets\+\_\+left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the number of targets left in the aim game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a0754d983144811685eed1439b5f6dd7f_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a0754d983144811685eed1439b5f6dd7f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a680b9b6bf1feeb927e76c706fff2db60}\label{gamesprites_8c_a680b9b6bf1feeb927e76c706fff2db60} 
+\index{gamesprites.c@{gamesprites.c}!draw\_timer\_scores@{draw\_timer\_scores}}
+\index{draw\_timer\_scores@{draw\_timer\_scores}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_timer\_scores()}{draw\_timer\_scores()}}
+{\footnotesize\ttfamily int() draw\+\_\+timer\+\_\+scores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the timer and scores for the reaction game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a680b9b6bf1feeb927e76c706fff2db60_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a680b9b6bf1feeb927e76c706fff2db60_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a200295a23b82ace74b8d576bf2c53439}\label{gamesprites_8c_a200295a23b82ace74b8d576bf2c53439} 
+\index{gamesprites.c@{gamesprites.c}!draw\_title\_score\_react@{draw\_title\_score\_react}}
+\index{draw\_title\_score\_react@{draw\_title\_score\_react}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_title\_score\_react()}{draw\_title\_score\_react()}}
+{\footnotesize\ttfamily int() draw\+\_\+title\+\_\+score\+\_\+react (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the title and score for the reaction game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a200295a23b82ace74b8d576bf2c53439_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a200295a23b82ace74b8d576bf2c53439_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a15e08b9e3a391846626898577dc44a18}\label{gamesprites_8c_a15e08b9e3a391846626898577dc44a18} 
+\index{gamesprites.c@{gamesprites.c}!draw\_word@{draw\_word}}
+\index{draw\_word@{draw\_word}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_word()}{draw\_word()}}
+{\footnotesize\ttfamily int() draw\+\_\+word (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{word,  }\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y }\end{DoxyParamCaption})}
+
+
+
+Draws a word starting at a specified position. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em word} & The word to draw. \\
+\hline
+{\em x} & The x-\/coordinate of the starting position. \\
+\hline
+{\em y} & The y-\/coordinate of the starting position. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a15e08b9e3a391846626898577dc44a18_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a15e08b9e3a391846626898577dc44a18_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_aaea81135098b3c87fe95d9f8ab047e8d}\label{gamesprites_8c_aaea81135098b3c87fe95d9f8ab047e8d} 
+\index{gamesprites.c@{gamesprites.c}!restore\_background\_pixels@{restore\_background\_pixels}}
+\index{restore\_background\_pixels@{restore\_background\_pixels}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{restore\_background\_pixels()}{restore\_background\_pixels()}}
+{\footnotesize\ttfamily void() restore\+\_\+background\+\_\+pixels (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Restores the background pixels that were saved previously. 
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{gamesprites_8c_aaea81135098b3c87fe95d9f8ab047e8d_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_aaea81135098b3c87fe95d9f8ab047e8d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a91588fc3708befb835dc9ef72fb3ecf0}\label{gamesprites_8c_a91588fc3708befb835dc9ef72fb3ecf0} 
+\index{gamesprites.c@{gamesprites.c}!save\_background\_pixels@{save\_background\_pixels}}
+\index{save\_background\_pixels@{save\_background\_pixels}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{save\_background\_pixels()}{save\_background\_pixels()}}
+{\footnotesize\ttfamily void() save\+\_\+background\+\_\+pixels (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_sprite}{Sprite}} \texorpdfstring{$\ast$}{*}}]{sprite,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Saves the background pixels of a sprite at a specified position. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sprite} & The sprite whose background pixels are to be saved. \\
+\hline
+{\em x} & The x-\/coordinate of the position. \\
+\hline
+{\em y} & The y-\/coordinate of the position. \\
+\hline
+\end{DoxyParams}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a91588fc3708befb835dc9ef72fb3ecf0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a412f5ccd4b1f1245c4d96dedebd31d8d}\label{gamesprites_8c_a412f5ccd4b1f1245c4d96dedebd31d8d} 
+\index{gamesprites.c@{gamesprites.c}!set\_sprites@{set\_sprites}}
+\index{set\_sprites@{set\_sprites}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{set\_sprites()}{set\_sprites()}}
+{\footnotesize\ttfamily void() set\+\_\+sprites (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Sets up the game sprites. 
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{gamesprites_8c_a412f5ccd4b1f1245c4d96dedebd31d8d_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{gamesprites_8c_a412f5ccd4b1f1245c4d96dedebd31d8d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a1aa8d5efd98ff559471089bf156b75ff}\label{gamesprites_8c_a1aa8d5efd98ff559471089bf156b75ff} 
+\index{gamesprites.c@{gamesprites.c}!update\_Classic@{update\_Classic}}
+\index{update\_Classic@{update\_Classic}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{update\_Classic()}{update\_Classic()}}
+{\footnotesize\ttfamily int() update\+\_\+\+Classic (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Updates the classic mode of the aim game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a1aa8d5efd98ff559471089bf156b75ff_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a1aa8d5efd98ff559471089bf156b75ff_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a31c317bc65751b0b9347dd0a414ea178}\label{gamesprites_8c_a31c317bc65751b0b9347dd0a414ea178} 
+\index{gamesprites.c@{gamesprites.c}!update\_ReactGame@{update\_ReactGame}}
+\index{update\_ReactGame@{update\_ReactGame}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{update\_ReactGame()}{update\_ReactGame()}}
+{\footnotesize\ttfamily int update\+\_\+\+React\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Updates the reaction game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a31c317bc65751b0b9347dd0a414ea178_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a31c317bc65751b0b9347dd0a414ea178_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a72c28731734c5ecb2afd804648cf7de8}\label{gamesprites_8c_a72c28731734c5ecb2afd804648cf7de8} 
+\index{gamesprites.c@{gamesprites.c}!update\_rtc@{update\_rtc}}
+\index{update\_rtc@{update\_rtc}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{update\_rtc()}{update\_rtc()}}
+{\footnotesize\ttfamily int() update\+\_\+rtc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Updates the real-\/time clock. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a72c28731734c5ecb2afd804648cf7de8_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a72c28731734c5ecb2afd804648cf7de8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamesprites_8c_a016c8a8f3075d031e9b88e7efee83606}\label{gamesprites_8c_a016c8a8f3075d031e9b88e7efee83606} 
+\index{gamesprites.c@{gamesprites.c}!update\_TimeAttack@{update\_TimeAttack}}
+\index{update\_TimeAttack@{update\_TimeAttack}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{update\_TimeAttack()}{update\_TimeAttack()}}
+{\footnotesize\ttfamily int() update\+\_\+\+Time\+Attack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Updates the time attack mode of the aim game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a016c8a8f3075d031e9b88e7efee83606_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamesprites_8c_a016c8a8f3075d031e9b88e7efee83606_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Documentação das variáveis}
+\Hypertarget{gamesprites_8c_a7c3c9fb57af63e2a638526757dabe7a5}\label{gamesprites_8c_a7c3c9fb57af63e2a638526757dabe7a5} 
+\index{gamesprites.c@{gamesprites.c}!aim\_mode@{aim\_mode}}
+\index{aim\_mode@{aim\_mode}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{aim\_mode}{aim\_mode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{aim_train_controler_8h_a8cb4c92db9bb83fa36c66e5e6907b291}{Aim\+Mode}} aim\+\_\+mode\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{gamesprites_8c_abd7e476e507becedb45e335ca0c9128d}\label{gamesprites_8c_abd7e476e507becedb45e335ca0c9128d} 
+\index{gamesprites.c@{gamesprites.c}!c\_bestreact@{c\_bestreact}}
+\index{c\_bestreact@{c\_bestreact}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{c\_bestreact}{c\_bestreact}}
+{\footnotesize\ttfamily uint32\+\_\+t c\+\_\+bestreact = -\/1}
+
+\Hypertarget{gamesprites_8c_aa359b4c12280b1072b28f1dae81a57a2}\label{gamesprites_8c_aa359b4c12280b1072b28f1dae81a57a2} 
+\index{gamesprites.c@{gamesprites.c}!c\_enlaps@{c\_enlaps}}
+\index{c\_enlaps@{c\_enlaps}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{c\_enlaps}{c\_enlaps}}
+{\footnotesize\ttfamily uint32\+\_\+t c\+\_\+enlaps = -\/1}
+
+\Hypertarget{gamesprites_8c_a127dc14f4f0b12aa45d69a3fa1a4a74b}\label{gamesprites_8c_a127dc14f4f0b12aa45d69a3fa1a4a74b} 
+\index{gamesprites.c@{gamesprites.c}!c\_lifes@{c\_lifes}}
+\index{c\_lifes@{c\_lifes}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{c\_lifes}{c\_lifes}}
+{\footnotesize\ttfamily int c\+\_\+lifes = 4}
+
+\Hypertarget{gamesprites_8c_ab68622330fe025bf5a1840fb72abf4c8}\label{gamesprites_8c_ab68622330fe025bf5a1840fb72abf4c8} 
+\index{gamesprites.c@{gamesprites.c}!c\_score@{c\_score}}
+\index{c\_score@{c\_score}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{c\_score}{c\_score}}
+{\footnotesize\ttfamily int c\+\_\+score = -\/1}
+
+\Hypertarget{gamesprites_8c_aef4c60704023519bc5cecc4deb686a11}\label{gamesprites_8c_aef4c60704023519bc5cecc4deb686a11} 
+\index{gamesprites.c@{gamesprites.c}!c\_targets@{c\_targets}}
+\index{c\_targets@{c\_targets}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{c\_targets}{c\_targets}}
+{\footnotesize\ttfamily int c\+\_\+targets = -\/1}
+
+\Hypertarget{gamesprites_8c_a288e6c48794737eb2caea2d4932d773e}\label{gamesprites_8c_a288e6c48794737eb2caea2d4932d773e} 
+\index{gamesprites.c@{gamesprites.c}!curent\_r@{curent\_r}}
+\index{curent\_r@{curent\_r}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{curent\_r}{curent\_r}}
+{\footnotesize\ttfamily \mbox{\hyperlink{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17}{Reactmode}} curent\+\_\+r = -\/1}
+
+\Hypertarget{gamesprites_8c_a0639e9161e9b5e2bf1178945359f0f78}\label{gamesprites_8c_a0639e9161e9b5e2bf1178945359f0f78} 
+\index{gamesprites.c@{gamesprites.c}!elapsed\_time\_ms@{elapsed\_time\_ms}}
+\index{elapsed\_time\_ms@{elapsed\_time\_ms}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{elapsed\_time\_ms}{elapsed\_time\_ms}}
+{\footnotesize\ttfamily uint32\+\_\+t elapsed\+\_\+time\+\_\+ms\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{gamesprites_8c_adf916204820072417ed73a32de1cefcf}\label{gamesprites_8c_adf916204820072417ed73a32de1cefcf} 
+\index{gamesprites.c@{gamesprites.c}!flag@{flag}}
+\index{flag@{flag}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{flag}{flag}}
+{\footnotesize\ttfamily int flag = INT32\+\_\+\+MAX}
+
+\Hypertarget{gamesprites_8c_a916cc765160cf7f6fc51144ca57337c4}\label{gamesprites_8c_a916cc765160cf7f6fc51144ca57337c4} 
+\index{gamesprites.c@{gamesprites.c}!flag\_2@{flag\_2}}
+\index{flag\_2@{flag\_2}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{flag\_2}{flag\_2}}
+{\footnotesize\ttfamily bool flag\+\_\+2 = true}
+
+\Hypertarget{gamesprites_8c_aaeb8cc5ede934ddf385bdc31c0a20434}\label{gamesprites_8c_aaeb8cc5ede934ddf385bdc31c0a20434} 
+\index{gamesprites.c@{gamesprites.c}!flag\_3@{flag\_3}}
+\index{flag\_3@{flag\_3}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{flag\_3}{flag\_3}}
+{\footnotesize\ttfamily bool flag\+\_\+3 = true}
+
+\Hypertarget{gamesprites_8c_a16a6fb48d831768f1f28aeb648fb4adf}\label{gamesprites_8c_a16a6fb48d831768f1f28aeb648fb4adf} 
+\index{gamesprites.c@{gamesprites.c}!lst\_pos@{lst\_pos}}
+\index{lst\_pos@{lst\_pos}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{lst\_pos}{lst\_pos}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structtarget}{target}} lst\+\_\+pos = \{0, 0\}}
+
+\Hypertarget{gamesprites_8c_a99e3a39a732a4347b2b972bc06245eb5}\label{gamesprites_8c_a99e3a39a732a4347b2b972bc06245eb5} 
+\index{gamesprites.c@{gamesprites.c}!modeinf@{modeinf}}
+\index{modeinf@{modeinf}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{modeinf}{modeinf}}
+{\footnotesize\ttfamily vbe\+\_\+mode\+\_\+info\+\_\+t modeinf\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{gamesprites_8c_a419ddb548814ee8d98648423c8caad82}\label{gamesprites_8c_a419ddb548814ee8d98648423c8caad82} 
+\index{gamesprites.c@{gamesprites.c}!mouse\_packet@{mouse\_packet}}
+\index{mouse\_packet@{mouse\_packet}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{mouse\_packet}{mouse\_packet}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_mouse_info}{Mouse\+Info}} mouse\+\_\+packet\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{gamesprites_8c_a392d0ea37638a1b7cbf2ef228289ca74}\label{gamesprites_8c_a392d0ea37638a1b7cbf2ef228289ca74} 
+\index{gamesprites.c@{gamesprites.c}!react\_mode@{react\_mode}}
+\index{react\_mode@{react\_mode}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{react\_mode}{react\_mode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17}{Reactmode}} react\+\_\+mode\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{gamesprites_8c_a5a96239d4e1af3871b12fb3ee351fa83}\label{gamesprites_8c_a5a96239d4e1af3871b12fb3ee351fa83} 
+\index{gamesprites.c@{gamesprites.c}!saved\_pixels@{saved\_pixels}}
+\index{saved\_pixels@{saved\_pixels}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{saved\_pixels}{saved\_pixels}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_pixel_color}{Pixel\+Color}} saved\+\_\+pixels\mbox{[}21 \texorpdfstring{$\ast$}{*}21\mbox{]}}
+
+\Hypertarget{gamesprites_8c_aa831213680110009b8f1edc309da68b0}\label{gamesprites_8c_aa831213680110009b8f1edc309da68b0} 
+\index{gamesprites.c@{gamesprites.c}!saved\_pixels\_count@{saved\_pixels\_count}}
+\index{saved\_pixels\_count@{saved\_pixels\_count}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{saved\_pixels\_count}{saved\_pixels\_count}}
+{\footnotesize\ttfamily uint16\+\_\+t saved\+\_\+pixels\+\_\+count = 0}
+
+\Hypertarget{gamesprites_8c_a25362b33bad9ff6222dc40646c411649}\label{gamesprites_8c_a25362b33bad9ff6222dc40646c411649} 
+\index{gamesprites.c@{gamesprites.c}!state@{state}}
+\index{state@{state}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{state}{state}}
+{\footnotesize\ttfamily \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} state\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{gamesprites_8c_adb5154305833f07824822bfc997bd9e6}\label{gamesprites_8c_adb5154305833f07824822bfc997bd9e6} 
+\index{gamesprites.c@{gamesprites.c}!targets\_left@{targets\_left}}
+\index{targets\_left@{targets\_left}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{targets\_left}{targets\_left}}
+{\footnotesize\ttfamily int targets\+\_\+left\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{gamesprites_8c_aa2c23cb5d2ffda53366267c486dcdb5e}\label{gamesprites_8c_aa2c23cb5d2ffda53366267c486dcdb5e} 
+\index{gamesprites.c@{gamesprites.c}!tgt@{tgt}}
+\index{tgt@{tgt}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{tgt}{tgt}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structtarget}{target}} tgt\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{gamesprites_8c_a6f4a1b33d7f6e9dcba9d6e3ae70eee77}\label{gamesprites_8c_a6f4a1b33d7f6e9dcba9d6e3ae70eee77} 
+\index{gamesprites.c@{gamesprites.c}!timer\_counter\_aim@{timer\_counter\_aim}}
+\index{timer\_counter\_aim@{timer\_counter\_aim}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{timer\_counter\_aim}{timer\_counter\_aim}}
+{\footnotesize\ttfamily int timer\+\_\+counter\+\_\+aim\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{gamesprites_8c_a9dd86e05eb51b73ffa496d0478503939}\label{gamesprites_8c_a9dd86e05eb51b73ffa496d0478503939} 
+\index{gamesprites.c@{gamesprites.c}!timer\_interrupts@{timer\_interrupts}}
+\index{timer\_interrupts@{timer\_interrupts}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{timer\_interrupts}{timer\_interrupts}}
+{\footnotesize\ttfamily int timer\+\_\+interrupts\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{gamesprites_8c_a23958e610207eb28549d8d13255aa129}\label{gamesprites_8c_a23958e610207eb28549d8d13255aa129} 
+\index{gamesprites.c@{gamesprites.c}!timer\_running@{timer\_running}}
+\index{timer\_running@{timer\_running}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{timer\_running}{timer\_running}}
+{\footnotesize\ttfamily bool timer\+\_\+running\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{gamesprites_8c_ae9bc5feef97e9701305a26e94e61f90c}\label{gamesprites_8c_ae9bc5feef97e9701305a26e94e61f90c} 
+\index{gamesprites.c@{gamesprites.c}!usr@{usr}}
+\index{usr@{usr}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{usr}{usr}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structuser}{user}} usr\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{gamesprites_8c_a3fbbadb0b253dadd11ee69ebe56a2145}\label{gamesprites_8c_a3fbbadb0b253dadd11ee69ebe56a2145} 
+\index{gamesprites.c@{gamesprites.c}!vidio\_mem@{vidio\_mem}}
+\index{vidio\_mem@{vidio\_mem}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{vidio\_mem}{vidio\_mem}}
+{\footnotesize\ttfamily char\texorpdfstring{$\ast$}{*} vidio\+\_\+mem\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{gamesprites_8c_a3c96a3477831ce66c00afeb7d9e2bce7}\label{gamesprites_8c_a3c96a3477831ce66c00afeb7d9e2bce7} 
+\index{gamesprites.c@{gamesprites.c}!white\_text@{white\_text}}
+\index{white\_text@{white\_text}!gamesprites.c@{gamesprites.c}}
+\doxysubsubsection{\texorpdfstring{white\_text}{white\_text}}
+{\footnotesize\ttfamily bool white\+\_\+text = false}
+

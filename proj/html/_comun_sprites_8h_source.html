@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Gamers Gym: Código-Fonte de src/GameControlers/ComunSprites.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Gamers Gym
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_comun_sprites_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrada</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">ComunSprites.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_comun_sprites_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef COMMUNSPRITES_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define COMMUNSPRITES_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="sprites_8h.html">GameControlers/sprites.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;lcom/lcf.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">// xpm files</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;xpm/Aim-Menu.xpm&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;xpm/MainMenu.xpm&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;xpm/ReactionTime_click.xpm&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;xpm/ReactionTime_start.xpm&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;xpm/ReactionTime_time.xpm&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;xpm/ReactionTime_toosoon.xpm&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;xpm/ReactionTime_waitforgreen.xpm&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;xpm/aim.xpm&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;xpm/letters/a.xpm&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;xpm/letters/b.xpm&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;xpm/letters/c.xpm&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;xpm/letters/d.xpm&quot;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &quot;xpm/letters/e.xpm&quot;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &quot;xpm/letters/f.xpm&quot;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;xpm/letters/g.xpm&quot;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &quot;xpm/letters/h.xpm&quot;</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#include &quot;xpm/letters/i.xpm&quot;</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &quot;xpm/letters/j.xpm&quot;</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &quot;xpm/letters/k.xpm&quot;</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &quot;xpm/letters/l.xpm&quot;</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &quot;xpm/letters/m.xpm&quot;</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &quot;xpm/letters/n.xpm&quot;</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &quot;xpm/letters/o.xpm&quot;</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &quot;xpm/letters/p.xpm&quot;</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &quot;xpm/letters/q.xpm&quot;</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#include &quot;xpm/letters/r.xpm&quot;</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#include &quot;xpm/letters/s.xpm&quot;</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#include &quot;xpm/letters/t.xpm&quot;</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#include &quot;xpm/letters/u.xpm&quot;</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#include &quot;xpm/letters/v.xpm&quot;</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#include &quot;xpm/letters/w.xpm&quot;</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &quot;xpm/letters/x.xpm&quot;</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &quot;xpm/letters/y.xpm&quot;</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#include &quot;xpm/letters/z.xpm&quot;</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#include &quot;xpm/mouse.xpm&quot;</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#include &quot;xpm/numbers/eight.xpm&quot;</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#include &quot;xpm/numbers/equal.xpm&quot;</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#include &quot;xpm/numbers/five.xpm&quot;</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#include &quot;xpm/numbers/four.xpm&quot;</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#include &quot;xpm/numbers/nine.xpm&quot;</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#include &quot;xpm/numbers/one.xpm&quot;</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#include &quot;xpm/numbers/seven.xpm&quot;</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#include &quot;xpm/numbers/six.xpm&quot;</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#include &quot;xpm/numbers/slash.xpm&quot;</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#include &quot;xpm/numbers/three.xpm&quot;</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#include &quot;xpm/numbers/two.xpm&quot;</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#include &quot;xpm/numbers/two_points.xpm&quot;</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#include &quot;xpm/numbers/zero.xpm&quot;</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#include &quot;xpm/target.xpm&quot;</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment">// React Menu</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a9eabbc4f6889dccf6bc82be74175a46f">   58</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a9eabbc4f6889dccf6bc82be74175a46f">black_background</a>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a43be049f74dc2822a92ede7202c38950">   59</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a43be049f74dc2822a92ede7202c38950">react_Start</a>;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a157d8c2cd864806c9ebf0c4a2550e79c">   60</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a157d8c2cd864806c9ebf0c4a2550e79c">react_Wait</a>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#aaf6144982c7db9468595f14ba4e17cb4">   61</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#aaf6144982c7db9468595f14ba4e17cb4">react_ToSoon</a>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a60e06294651b34f9aa8521513bd72b89">   62</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a60e06294651b34f9aa8521513bd72b89">react_Click</a>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a9a18f27c9d71a23493fc76fe408ab2e7">   63</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a9a18f27c9d71a23493fc76fe408ab2e7">react_Restart</a>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="comment">// Aim Menu</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a16d8fd18ef98763c21edd28224c53516">   65</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a16d8fd18ef98763c21edd28224c53516">aim_menu</a>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#aa5d416448a952808a0dbddf47128b6c0">   66</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#aa5d416448a952808a0dbddf47128b6c0">aim_menu_background</a>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment">// Main Menu</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#ada1feacea0c4cb9c592c6d5e2e9c7e53">   68</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#ada1feacea0c4cb9c592c6d5e2e9c7e53">main_menu</a>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a69029e1da2c4f0e68659b34088b8bf62">   69</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a69029e1da2c4f0e68659b34088b8bf62">main_menu_background</a>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="comment">// Sprites</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#aa3a81c820ffa4bb52ff7d3aa89667d6d">   71</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#aa3a81c820ffa4bb52ff7d3aa89667d6d">aim_sprite</a>;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#acb5f4a744bc2112f283f07f3fa64682a">   72</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#acb5f4a744bc2112f283f07f3fa64682a">mouse_sprite</a>;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#afc06c941a89c9db22f43772fae28411e">   73</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#afc06c941a89c9db22f43772fae28411e">target_Sprite</a>;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a76c647e94da059f567364128d6164d5b">   74</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a76c647e94da059f567364128d6164d5b">target_background</a>;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a69a7242ee147decd9b827b0c721a728c">   75</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a69a7242ee147decd9b827b0c721a728c">background</a>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a31783d10552ff6cec2e53a9e37c4ae71">   76</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a31783d10552ff6cec2e53a9e37c4ae71">red_background</a>;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="comment">// Numbers</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a809002180d5d3880febfd0bae533bcbf">   78</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a809002180d5d3880febfd0bae533bcbf">one_sprite</a>;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#ad62db5e04cf91ff238987bba5f41b3a5">   79</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#ad62db5e04cf91ff238987bba5f41b3a5">two_sprite</a>;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#aa474c76737b008222a0ea60f8cbe2504">   80</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#aa474c76737b008222a0ea60f8cbe2504">three_sprite</a>;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#adc652bea5d593f66fb3a1d78be05b2d4">   81</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#adc652bea5d593f66fb3a1d78be05b2d4">four_sprite</a>;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a72bde32065780dd350c2b687ea808572">   82</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a72bde32065780dd350c2b687ea808572">five_sprite</a>;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a0ea0115542a2a1b098cc003e29333f46">   83</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a0ea0115542a2a1b098cc003e29333f46">six_sprite</a>;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a4492a0079e72be1843a2ca0534dac76f">   84</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a4492a0079e72be1843a2ca0534dac76f">seven_sprite</a>;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a8729620291b34735974150e2d83a902c">   85</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a8729620291b34735974150e2d83a902c">eight_sprite</a>;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a59b8b6fbf0b122c36c45460192886737">   86</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a59b8b6fbf0b122c36c45460192886737">nine_sprite</a>;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#aa1c28de3b350826f4f3f37ba1e9b4a3b">   87</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#aa1c28de3b350826f4f3f37ba1e9b4a3b">zero_sprite</a>;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a2e329d2da7eb6648278f981231f04e7f">   88</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a2e329d2da7eb6648278f981231f04e7f">two_points_sprite</a>;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a2f896c2496649405e7c48964a44454a9">   89</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a2f896c2496649405e7c48964a44454a9">equal_sprite</a>;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#ae963694baa77716e025b5093a71340d0">   90</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#ae963694baa77716e025b5093a71340d0">slash_sprite</a>;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="comment">// Letters</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a6ea58f528a9148956872173fc1098d75">   92</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a6ea58f528a9148956872173fc1098d75">A_sprite</a>;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#adc7801db6a435bbed5263b6c925435e6">   93</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#adc7801db6a435bbed5263b6c925435e6">B_sprite</a>;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#af1c3cec05e455fc454e7e2c26399dd22">   94</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#af1c3cec05e455fc454e7e2c26399dd22">C_sprite</a>;</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a6a86c701bd994968f4c67f8a151233c7">   95</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a6a86c701bd994968f4c67f8a151233c7">D_sprite</a>;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#aed99e7fc07d53abd45960b5781d366c7">   96</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#aed99e7fc07d53abd45960b5781d366c7">E_sprite</a>;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a7014d35c6c234150a7ae1aa239ae9db5">   97</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a7014d35c6c234150a7ae1aa239ae9db5">F_sprite</a>;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a0855d315472301b65808c9e3463d00b5">   98</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a0855d315472301b65808c9e3463d00b5">G_sprite</a>;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a32b6af89b9a08797d979c363d6a7826f">   99</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a32b6af89b9a08797d979c363d6a7826f">H_sprite</a>;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a5920b380a1d706ae60b1053ac52ed6af">  100</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a5920b380a1d706ae60b1053ac52ed6af">I_sprite</a>;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a9a6dad080f4e9e2c03f1405f392a4582">  101</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a9a6dad080f4e9e2c03f1405f392a4582">J_sprite</a>;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a2ea2f0c24bd47ccde39ea092d6f111a0">  102</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a2ea2f0c24bd47ccde39ea092d6f111a0">K_sprite</a>;</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#aa3a973c815b58572b31a6eca221a1890">  103</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#aa3a973c815b58572b31a6eca221a1890">L_sprite</a>;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a517b0eb7d1636840700e6dec6b487a4f">  104</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a517b0eb7d1636840700e6dec6b487a4f">M_sprite</a>;</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a820512751344a28a31c4508489cd8921">  105</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a820512751344a28a31c4508489cd8921">N_sprite</a>;</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#adf03551e630da45110c2a349886e32ba">  106</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#adf03551e630da45110c2a349886e32ba">O_sprite</a>;</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#acb693a23b2b1ed99c49d64b4b83222bd">  107</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#acb693a23b2b1ed99c49d64b4b83222bd">P_sprite</a>;</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a35fe1b7c75d12016a0f52ba0e4112e58">  108</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a35fe1b7c75d12016a0f52ba0e4112e58">Q_sprite</a>;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#aac11935d90a156953a7485a9e77cec84">  109</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#aac11935d90a156953a7485a9e77cec84">R_sprite</a>;</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a728c0ffbfa501157f24d141b4a7b1eee">  110</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a728c0ffbfa501157f24d141b4a7b1eee">S_sprite</a>;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a26d209f2de578a797e0af03804376d5a">  111</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a26d209f2de578a797e0af03804376d5a">T_sprite</a>;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#aa5d6f49e04c0b1545f66cf303d34c9df">  112</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#aa5d6f49e04c0b1545f66cf303d34c9df">U_sprite</a>;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a7f38394753d1a2eaa980e30c31ed2dfa">  113</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a7f38394753d1a2eaa980e30c31ed2dfa">V_sprite</a>;</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a3ebd391262be113c373b81f0113e6b83">  114</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a3ebd391262be113c373b81f0113e6b83">W_sprite</a>;</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#a7b75abe690e92e60557622eb71229ad4">  115</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#a7b75abe690e92e60557622eb71229ad4">X_sprite</a>;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#abb173a8bd71a6d78f421b71cb76c4c7a">  116</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#abb173a8bd71a6d78f421b71cb76c4c7a">Y_sprite</a>;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="_comun_sprites_8h.html#ad28e5399304edbb4066a4c834cd6ead8">  117</a></span><a class="code hl_struct" href="struct_sprite.html">Sprite</a> *<a class="code hl_variable" href="_comun_sprites_8h.html#ad28e5399304edbb4066a4c834cd6ead8">Z_sprite</a>;</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="preprocessor">#endif </span><span class="comment">// COMMUNSPRITES_H</span></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a0855d315472301b65808c9e3463d00b5"><div class="ttname"><a href="_comun_sprites_8h.html#a0855d315472301b65808c9e3463d00b5">G_sprite</a></div><div class="ttdeci">Sprite * G_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:98</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a0ea0115542a2a1b098cc003e29333f46"><div class="ttname"><a href="_comun_sprites_8h.html#a0ea0115542a2a1b098cc003e29333f46">six_sprite</a></div><div class="ttdeci">Sprite * six_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:83</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a157d8c2cd864806c9ebf0c4a2550e79c"><div class="ttname"><a href="_comun_sprites_8h.html#a157d8c2cd864806c9ebf0c4a2550e79c">react_Wait</a></div><div class="ttdeci">Sprite * react_Wait</div><div class="ttdef"><b>Definição</b> ComunSprites.h:60</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a16d8fd18ef98763c21edd28224c53516"><div class="ttname"><a href="_comun_sprites_8h.html#a16d8fd18ef98763c21edd28224c53516">aim_menu</a></div><div class="ttdeci">Sprite * aim_menu</div><div class="ttdef"><b>Definição</b> ComunSprites.h:65</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a26d209f2de578a797e0af03804376d5a"><div class="ttname"><a href="_comun_sprites_8h.html#a26d209f2de578a797e0af03804376d5a">T_sprite</a></div><div class="ttdeci">Sprite * T_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:111</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a2e329d2da7eb6648278f981231f04e7f"><div class="ttname"><a href="_comun_sprites_8h.html#a2e329d2da7eb6648278f981231f04e7f">two_points_sprite</a></div><div class="ttdeci">Sprite * two_points_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:88</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a2ea2f0c24bd47ccde39ea092d6f111a0"><div class="ttname"><a href="_comun_sprites_8h.html#a2ea2f0c24bd47ccde39ea092d6f111a0">K_sprite</a></div><div class="ttdeci">Sprite * K_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:102</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a2f896c2496649405e7c48964a44454a9"><div class="ttname"><a href="_comun_sprites_8h.html#a2f896c2496649405e7c48964a44454a9">equal_sprite</a></div><div class="ttdeci">Sprite * equal_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:89</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a31783d10552ff6cec2e53a9e37c4ae71"><div class="ttname"><a href="_comun_sprites_8h.html#a31783d10552ff6cec2e53a9e37c4ae71">red_background</a></div><div class="ttdeci">Sprite * red_background</div><div class="ttdef"><b>Definição</b> ComunSprites.h:76</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a32b6af89b9a08797d979c363d6a7826f"><div class="ttname"><a href="_comun_sprites_8h.html#a32b6af89b9a08797d979c363d6a7826f">H_sprite</a></div><div class="ttdeci">Sprite * H_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:99</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a35fe1b7c75d12016a0f52ba0e4112e58"><div class="ttname"><a href="_comun_sprites_8h.html#a35fe1b7c75d12016a0f52ba0e4112e58">Q_sprite</a></div><div class="ttdeci">Sprite * Q_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:108</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a3ebd391262be113c373b81f0113e6b83"><div class="ttname"><a href="_comun_sprites_8h.html#a3ebd391262be113c373b81f0113e6b83">W_sprite</a></div><div class="ttdeci">Sprite * W_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:114</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a43be049f74dc2822a92ede7202c38950"><div class="ttname"><a href="_comun_sprites_8h.html#a43be049f74dc2822a92ede7202c38950">react_Start</a></div><div class="ttdeci">Sprite * react_Start</div><div class="ttdef"><b>Definição</b> ComunSprites.h:59</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a4492a0079e72be1843a2ca0534dac76f"><div class="ttname"><a href="_comun_sprites_8h.html#a4492a0079e72be1843a2ca0534dac76f">seven_sprite</a></div><div class="ttdeci">Sprite * seven_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:84</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a517b0eb7d1636840700e6dec6b487a4f"><div class="ttname"><a href="_comun_sprites_8h.html#a517b0eb7d1636840700e6dec6b487a4f">M_sprite</a></div><div class="ttdeci">Sprite * M_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:104</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a5920b380a1d706ae60b1053ac52ed6af"><div class="ttname"><a href="_comun_sprites_8h.html#a5920b380a1d706ae60b1053ac52ed6af">I_sprite</a></div><div class="ttdeci">Sprite * I_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:100</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a59b8b6fbf0b122c36c45460192886737"><div class="ttname"><a href="_comun_sprites_8h.html#a59b8b6fbf0b122c36c45460192886737">nine_sprite</a></div><div class="ttdeci">Sprite * nine_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:86</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a60e06294651b34f9aa8521513bd72b89"><div class="ttname"><a href="_comun_sprites_8h.html#a60e06294651b34f9aa8521513bd72b89">react_Click</a></div><div class="ttdeci">Sprite * react_Click</div><div class="ttdef"><b>Definição</b> ComunSprites.h:62</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a69029e1da2c4f0e68659b34088b8bf62"><div class="ttname"><a href="_comun_sprites_8h.html#a69029e1da2c4f0e68659b34088b8bf62">main_menu_background</a></div><div class="ttdeci">Sprite * main_menu_background</div><div class="ttdef"><b>Definição</b> ComunSprites.h:69</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a69a7242ee147decd9b827b0c721a728c"><div class="ttname"><a href="_comun_sprites_8h.html#a69a7242ee147decd9b827b0c721a728c">background</a></div><div class="ttdeci">Sprite * background</div><div class="ttdef"><b>Definição</b> ComunSprites.h:75</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a6a86c701bd994968f4c67f8a151233c7"><div class="ttname"><a href="_comun_sprites_8h.html#a6a86c701bd994968f4c67f8a151233c7">D_sprite</a></div><div class="ttdeci">Sprite * D_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:95</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a6ea58f528a9148956872173fc1098d75"><div class="ttname"><a href="_comun_sprites_8h.html#a6ea58f528a9148956872173fc1098d75">A_sprite</a></div><div class="ttdeci">Sprite * A_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:92</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a7014d35c6c234150a7ae1aa239ae9db5"><div class="ttname"><a href="_comun_sprites_8h.html#a7014d35c6c234150a7ae1aa239ae9db5">F_sprite</a></div><div class="ttdeci">Sprite * F_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:97</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a728c0ffbfa501157f24d141b4a7b1eee"><div class="ttname"><a href="_comun_sprites_8h.html#a728c0ffbfa501157f24d141b4a7b1eee">S_sprite</a></div><div class="ttdeci">Sprite * S_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:110</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a72bde32065780dd350c2b687ea808572"><div class="ttname"><a href="_comun_sprites_8h.html#a72bde32065780dd350c2b687ea808572">five_sprite</a></div><div class="ttdeci">Sprite * five_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:82</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a76c647e94da059f567364128d6164d5b"><div class="ttname"><a href="_comun_sprites_8h.html#a76c647e94da059f567364128d6164d5b">target_background</a></div><div class="ttdeci">Sprite * target_background</div><div class="ttdef"><b>Definição</b> ComunSprites.h:74</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a7b75abe690e92e60557622eb71229ad4"><div class="ttname"><a href="_comun_sprites_8h.html#a7b75abe690e92e60557622eb71229ad4">X_sprite</a></div><div class="ttdeci">Sprite * X_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:115</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a7f38394753d1a2eaa980e30c31ed2dfa"><div class="ttname"><a href="_comun_sprites_8h.html#a7f38394753d1a2eaa980e30c31ed2dfa">V_sprite</a></div><div class="ttdeci">Sprite * V_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:113</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a809002180d5d3880febfd0bae533bcbf"><div class="ttname"><a href="_comun_sprites_8h.html#a809002180d5d3880febfd0bae533bcbf">one_sprite</a></div><div class="ttdeci">Sprite * one_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:78</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a820512751344a28a31c4508489cd8921"><div class="ttname"><a href="_comun_sprites_8h.html#a820512751344a28a31c4508489cd8921">N_sprite</a></div><div class="ttdeci">Sprite * N_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:105</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a8729620291b34735974150e2d83a902c"><div class="ttname"><a href="_comun_sprites_8h.html#a8729620291b34735974150e2d83a902c">eight_sprite</a></div><div class="ttdeci">Sprite * eight_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:85</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a9a18f27c9d71a23493fc76fe408ab2e7"><div class="ttname"><a href="_comun_sprites_8h.html#a9a18f27c9d71a23493fc76fe408ab2e7">react_Restart</a></div><div class="ttdeci">Sprite * react_Restart</div><div class="ttdef"><b>Definição</b> ComunSprites.h:63</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a9a6dad080f4e9e2c03f1405f392a4582"><div class="ttname"><a href="_comun_sprites_8h.html#a9a6dad080f4e9e2c03f1405f392a4582">J_sprite</a></div><div class="ttdeci">Sprite * J_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:101</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_a9eabbc4f6889dccf6bc82be74175a46f"><div class="ttname"><a href="_comun_sprites_8h.html#a9eabbc4f6889dccf6bc82be74175a46f">black_background</a></div><div class="ttdeci">Sprite * black_background</div><div class="ttdef"><b>Definição</b> ComunSprites.h:58</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_aa1c28de3b350826f4f3f37ba1e9b4a3b"><div class="ttname"><a href="_comun_sprites_8h.html#aa1c28de3b350826f4f3f37ba1e9b4a3b">zero_sprite</a></div><div class="ttdeci">Sprite * zero_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:87</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_aa3a81c820ffa4bb52ff7d3aa89667d6d"><div class="ttname"><a href="_comun_sprites_8h.html#aa3a81c820ffa4bb52ff7d3aa89667d6d">aim_sprite</a></div><div class="ttdeci">Sprite * aim_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:71</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_aa3a973c815b58572b31a6eca221a1890"><div class="ttname"><a href="_comun_sprites_8h.html#aa3a973c815b58572b31a6eca221a1890">L_sprite</a></div><div class="ttdeci">Sprite * L_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:103</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_aa474c76737b008222a0ea60f8cbe2504"><div class="ttname"><a href="_comun_sprites_8h.html#aa474c76737b008222a0ea60f8cbe2504">three_sprite</a></div><div class="ttdeci">Sprite * three_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:80</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_aa5d416448a952808a0dbddf47128b6c0"><div class="ttname"><a href="_comun_sprites_8h.html#aa5d416448a952808a0dbddf47128b6c0">aim_menu_background</a></div><div class="ttdeci">Sprite * aim_menu_background</div><div class="ttdef"><b>Definição</b> ComunSprites.h:66</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_aa5d6f49e04c0b1545f66cf303d34c9df"><div class="ttname"><a href="_comun_sprites_8h.html#aa5d6f49e04c0b1545f66cf303d34c9df">U_sprite</a></div><div class="ttdeci">Sprite * U_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:112</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_aac11935d90a156953a7485a9e77cec84"><div class="ttname"><a href="_comun_sprites_8h.html#aac11935d90a156953a7485a9e77cec84">R_sprite</a></div><div class="ttdeci">Sprite * R_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:109</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_aaf6144982c7db9468595f14ba4e17cb4"><div class="ttname"><a href="_comun_sprites_8h.html#aaf6144982c7db9468595f14ba4e17cb4">react_ToSoon</a></div><div class="ttdeci">Sprite * react_ToSoon</div><div class="ttdef"><b>Definição</b> ComunSprites.h:61</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_abb173a8bd71a6d78f421b71cb76c4c7a"><div class="ttname"><a href="_comun_sprites_8h.html#abb173a8bd71a6d78f421b71cb76c4c7a">Y_sprite</a></div><div class="ttdeci">Sprite * Y_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:116</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_acb5f4a744bc2112f283f07f3fa64682a"><div class="ttname"><a href="_comun_sprites_8h.html#acb5f4a744bc2112f283f07f3fa64682a">mouse_sprite</a></div><div class="ttdeci">Sprite * mouse_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:72</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_acb693a23b2b1ed99c49d64b4b83222bd"><div class="ttname"><a href="_comun_sprites_8h.html#acb693a23b2b1ed99c49d64b4b83222bd">P_sprite</a></div><div class="ttdeci">Sprite * P_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:107</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_ad28e5399304edbb4066a4c834cd6ead8"><div class="ttname"><a href="_comun_sprites_8h.html#ad28e5399304edbb4066a4c834cd6ead8">Z_sprite</a></div><div class="ttdeci">Sprite * Z_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:117</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_ad62db5e04cf91ff238987bba5f41b3a5"><div class="ttname"><a href="_comun_sprites_8h.html#ad62db5e04cf91ff238987bba5f41b3a5">two_sprite</a></div><div class="ttdeci">Sprite * two_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:79</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_ada1feacea0c4cb9c592c6d5e2e9c7e53"><div class="ttname"><a href="_comun_sprites_8h.html#ada1feacea0c4cb9c592c6d5e2e9c7e53">main_menu</a></div><div class="ttdeci">Sprite * main_menu</div><div class="ttdef"><b>Definição</b> ComunSprites.h:68</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_adc652bea5d593f66fb3a1d78be05b2d4"><div class="ttname"><a href="_comun_sprites_8h.html#adc652bea5d593f66fb3a1d78be05b2d4">four_sprite</a></div><div class="ttdeci">Sprite * four_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:81</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_adc7801db6a435bbed5263b6c925435e6"><div class="ttname"><a href="_comun_sprites_8h.html#adc7801db6a435bbed5263b6c925435e6">B_sprite</a></div><div class="ttdeci">Sprite * B_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:93</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_adf03551e630da45110c2a349886e32ba"><div class="ttname"><a href="_comun_sprites_8h.html#adf03551e630da45110c2a349886e32ba">O_sprite</a></div><div class="ttdeci">Sprite * O_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:106</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_ae963694baa77716e025b5093a71340d0"><div class="ttname"><a href="_comun_sprites_8h.html#ae963694baa77716e025b5093a71340d0">slash_sprite</a></div><div class="ttdeci">Sprite * slash_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:90</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_aed99e7fc07d53abd45960b5781d366c7"><div class="ttname"><a href="_comun_sprites_8h.html#aed99e7fc07d53abd45960b5781d366c7">E_sprite</a></div><div class="ttdeci">Sprite * E_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:96</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_af1c3cec05e455fc454e7e2c26399dd22"><div class="ttname"><a href="_comun_sprites_8h.html#af1c3cec05e455fc454e7e2c26399dd22">C_sprite</a></div><div class="ttdeci">Sprite * C_sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:94</div></div>
+<div class="ttc" id="a_comun_sprites_8h_html_afc06c941a89c9db22f43772fae28411e"><div class="ttname"><a href="_comun_sprites_8h.html#afc06c941a89c9db22f43772fae28411e">target_Sprite</a></div><div class="ttdeci">Sprite * target_Sprite</div><div class="ttdef"><b>Definição</b> ComunSprites.h:73</div></div>
+<div class="ttc" id="asprites_8h_html"><div class="ttname"><a href="sprites_8h.html">sprites.h</a></div></div>
+<div class="ttc" id="astruct_sprite_html"><div class="ttname"><a href="struct_sprite.html">Sprite</a></div><div class="ttdoc">Structure representing a sprite.</div><div class="ttdef"><b>Definição</b> sprites.h:10</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_258b3435e0b7e84529fdf417ba8a4d46.html">GameControlers</a></li><li class="navelem"><a class="el" href="_comun_sprites_8h.html">ComunSprites.h</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

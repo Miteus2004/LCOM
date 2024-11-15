@@ -1,0 +1,14 @@
+<map id="vg_draw_rectangle" name="vg_draw_rectangle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,133,57"/>
+<area shape="rect" id="Node000002" href="$graphics_8c.html#a5e5b25bd525250f61f40b9e9f212d5e6" title=" " alt="" coords="222,56,324,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,49,207,59,206,64,133,55"/>
+<area shape="rect" id="Node000006" href="$graphics_8c.html#a44e494a51a5dc0493c86b36a9a7789e1" title=" " alt="" coords="181,5,365,32"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="133,33,165,29,165,35,133,39"/>
+<area shape="rect" id="Node000003" href="$graphics_8c.html#a5a414d4675d3674e1b3c5fb28511fce9" title=" " alt="" coords="413,5,571,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="323,55,416,33,417,39,324,60"/>
+<area shape="rect" id="Node000005" href="$graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741" title=" " alt="" coords="442,56,543,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="324,67,426,67,426,72,324,72"/>
+<area shape="rect" id="Node000004" href="$graphics_8c.html#a249385ce2aecc014c24f3466c0a4df18" title=" " alt="" coords="619,5,778,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="572,16,604,16,604,21,572,21"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="365,16,397,16,397,21,365,21"/>
+</map>

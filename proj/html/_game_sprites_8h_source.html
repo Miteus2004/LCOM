@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Gamers Gym: Código-Fonte de src/GameControlers/GameSprites.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Gamers Gym
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_game_sprites_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrada</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">GameSprites.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_game_sprites_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef GAME_SPRITES_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define GAME_SPRITES_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="_comun_sprites_8h.html">ComunSprites.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="graphics_8h.html">Controlers/Graphic/graphics.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="mouse_8h.html">Controlers/Mouse/mouse.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="rtc_8h.html">Controlers/RTC/rtc.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="aim_train_controler_8h.html">aimTrainControler.h</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="reactgamecontroller_8h.html">reactgamecontroller.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="sprites_8h.html">sprites.h</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="statecontroler_8h.html">statecontroler.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;lcom/lcf.h&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="struct_pixel_color.html">   17</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="struct_pixel_color.html#a212e3d5d44f18f5da0915854e333b55d">   18</a></span>  uint16_t <a class="code hl_variable" href="struct_pixel_color.html#a212e3d5d44f18f5da0915854e333b55d">x</a>, y;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="struct_pixel_color.html#a647ce556e63ea90995ed22205b229f9f">   19</a></span>  uint32_t <a class="code hl_variable" href="struct_pixel_color.html#a647ce556e63ea90995ed22205b229f9f">color</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>} <a class="code hl_struct" href="struct_pixel_color.html">PixelColor</a>;</div>
+</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keywordtype">void</span> <a class="code hl_function" href="_game_sprites_8h.html#a5d3caa7baa1425fd524c2ec534bfa195">set_sprites</a>();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#a635abe6a737bd73ea80961a4e586057e">clearscreen</a>();</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#ad7ca2d21a727f7d55afef2392de3b5f8">draw_main_menu</a>();</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#a0f9d87b0bea416d794ed80855026d550">draw_mouse</a>();</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#aaadb40633585246dd2fc128ab9261c1d">draw_new_frame</a>();</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#a0b802f104ca32f74bba7c10d268f62bd">draw_aimgame_TimeAttack_timer</a>();</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#ad0225bbf4c247808169cb1ee090e8397">draw_aimgame_TimeAttack</a>();</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#a72d331b4a543229a69309d4d13789919">draw_target</a>();</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#a136358b65a4b1da395e1a3ba01974ddf">draw_number</a>(<span class="keywordtype">int</span> n, uint16_t x, uint16_t y);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#a98df738d799160ad7eaed940e2d355d2">draw_letter</a>(<span class="keywordtype">char</span> letter, uint16_t x, uint16_t y);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#ab87a1cbf955ab6fd560c1f828f376627">draw_word</a>(<span class="keywordtype">char</span> *word, uint16_t x, uint16_t y);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#aeb63be465c741ae51e0874a314a682f0">draw_number_seq</a>(<span class="keywordtype">int</span> number, uint16_t x, uint16_t y);</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#a3a165ac61ac007924b5995cdc587ca0d">draw_scores</a>();</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#a2685da685f57bd8d4830a8666841f7ad">draw_targets_left</a>();</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#a55112505a8b21469d6177ca28da3fb07">draw_aimgame_Classic</a>();</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#a730c8a7c508cd635c98fc2cb306b4467">draw_lifes</a>();</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#a3b764e2be2f1f847d1eac30e8731398d">draw_aim_menu</a>();</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#a4d7b9dff337c1bcb1246dcb372a954b5">draw_rtc</a>();</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span><span class="keywordtype">void</span> <a class="code hl_function" href="_game_sprites_8h.html#a398be22361f60b332d3b144abeababa0">save_background_pixels</a>(<a class="code hl_struct" href="struct_sprite.html">Sprite</a> *sprite, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y);</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="keywordtype">void</span> <a class="code hl_function" href="_game_sprites_8h.html#a0fac03a448f8539b9d6086faea55da46">restore_background_pixels</a>();</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#aa2b95ae978ca2f4d0b19eb6e46a11424">update_TimeAttack</a>();</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#af478a74d86725664e37780605e956463">update_Classic</a>();</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#ac2b86e6734da9968f44dc28660b368b0">update_rtc</a>();</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#a31c317bc65751b0b9347dd0a414ea178">update_ReactGame</a>();</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#a41144cb4bcf7eb8be99015b3b13e09c3">draw_timer_scores</a>();</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span> </div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span><span class="keywordtype">int</span> <a class="code hl_function" href="_game_sprites_8h.html#a88cba00d2cb5ca3d4ce59740a3019db0">draw_title_score_react</a>();</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span> </div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span><span class="preprocessor">#endif </span><span class="comment">// GAME_SPRITES_H</span></div>
+<div class="ttc" id="a_comun_sprites_8h_html"><div class="ttname"><a href="_comun_sprites_8h.html">ComunSprites.h</a></div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a0b802f104ca32f74bba7c10d268f62bd"><div class="ttname"><a href="_game_sprites_8h.html#a0b802f104ca32f74bba7c10d268f62bd">draw_aimgame_TimeAttack_timer</a></div><div class="ttdeci">int draw_aimgame_TimeAttack_timer()</div><div class="ttdoc">Draws the timer for the aim game in time attack mode.</div><div class="ttdef"><b>Definição</b> gamesprites.c:476</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a0f9d87b0bea416d794ed80855026d550"><div class="ttname"><a href="_game_sprites_8h.html#a0f9d87b0bea416d794ed80855026d550">draw_mouse</a></div><div class="ttdeci">int draw_mouse()</div><div class="ttdoc">Draws the mouse cursor.</div><div class="ttdef"><b>Definição</b> gamesprites.c:289</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a0fac03a448f8539b9d6086faea55da46"><div class="ttname"><a href="_game_sprites_8h.html#a0fac03a448f8539b9d6086faea55da46">restore_background_pixels</a></div><div class="ttdeci">void restore_background_pixels()</div><div class="ttdoc">Restores the background pixels that were saved previously.</div><div class="ttdef"><b>Definição</b> gamesprites.c:1191</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a136358b65a4b1da395e1a3ba01974ddf"><div class="ttname"><a href="_game_sprites_8h.html#a136358b65a4b1da395e1a3ba01974ddf">draw_number</a></div><div class="ttdeci">int draw_number(int n, uint16_t x, uint16_t y)</div><div class="ttdoc">Draws a number at a specified position.</div><div class="ttdef"><b>Definição</b> gamesprites.c:661</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a2685da685f57bd8d4830a8666841f7ad"><div class="ttname"><a href="_game_sprites_8h.html#a2685da685f57bd8d4830a8666841f7ad">draw_targets_left</a></div><div class="ttdeci">int draw_targets_left()</div><div class="ttdoc">Draws the number of targets left in the aim game.</div><div class="ttdef"><b>Definição</b> gamesprites.c:622</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a31c317bc65751b0b9347dd0a414ea178"><div class="ttname"><a href="_game_sprites_8h.html#a31c317bc65751b0b9347dd0a414ea178">update_ReactGame</a></div><div class="ttdeci">int update_ReactGame()</div><div class="ttdoc">Updates the reaction game.</div><div class="ttdef"><b>Definição</b> gamesprites.c:221</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a398be22361f60b332d3b144abeababa0"><div class="ttname"><a href="_game_sprites_8h.html#a398be22361f60b332d3b144abeababa0">save_background_pixels</a></div><div class="ttdeci">void save_background_pixels(Sprite *sprite, int x, int y)</div><div class="ttdoc">Saves the background pixels of a sprite at a specified position.</div><div class="ttdef"><b>Definição</b> gamesprites.c:1168</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a3a165ac61ac007924b5995cdc587ca0d"><div class="ttname"><a href="_game_sprites_8h.html#a3a165ac61ac007924b5995cdc587ca0d">draw_scores</a></div><div class="ttdeci">int draw_scores()</div><div class="ttdoc">Draws the scores in the game.</div><div class="ttdef"><b>Definição</b> gamesprites.c:530</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a3b764e2be2f1f847d1eac30e8731398d"><div class="ttname"><a href="_game_sprites_8h.html#a3b764e2be2f1f847d1eac30e8731398d">draw_aim_menu</a></div><div class="ttdeci">int draw_aim_menu()</div><div class="ttdoc">Draws the aim menu.</div><div class="ttdef"><b>Definição</b> gamesprites.c:1198</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a41144cb4bcf7eb8be99015b3b13e09c3"><div class="ttname"><a href="_game_sprites_8h.html#a41144cb4bcf7eb8be99015b3b13e09c3">draw_timer_scores</a></div><div class="ttdeci">int draw_timer_scores()</div><div class="ttdoc">Draws the timer and scores for the reaction game.</div><div class="ttdef"><b>Definição</b> gamesprites.c:254</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a4d7b9dff337c1bcb1246dcb372a954b5"><div class="ttname"><a href="_game_sprites_8h.html#a4d7b9dff337c1bcb1246dcb372a954b5">draw_rtc</a></div><div class="ttdeci">int draw_rtc()</div><div class="ttdoc">Draws the real-time clock.</div><div class="ttdef"><b>Definição</b> gamesprites.c:1233</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a55112505a8b21469d6177ca28da3fb07"><div class="ttname"><a href="_game_sprites_8h.html#a55112505a8b21469d6177ca28da3fb07">draw_aimgame_Classic</a></div><div class="ttdeci">int draw_aimgame_Classic()</div><div class="ttdoc">Draws the aim game in classic mode.</div><div class="ttdef"><b>Definição</b> gamesprites.c:634</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a5d3caa7baa1425fd524c2ec534bfa195"><div class="ttname"><a href="_game_sprites_8h.html#a5d3caa7baa1425fd524c2ec534bfa195">set_sprites</a></div><div class="ttdeci">void set_sprites()</div><div class="ttdoc">Sets up the game sprites.</div><div class="ttdef"><b>Definição</b> gamesprites.c:37</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a635abe6a737bd73ea80961a4e586057e"><div class="ttname"><a href="_game_sprites_8h.html#a635abe6a737bd73ea80961a4e586057e">clearscreen</a></div><div class="ttdeci">int clearscreen()</div><div class="ttdoc">Clears the screen.</div><div class="ttdef"><b>Definição</b> gamesprites.c:29</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a72d331b4a543229a69309d4d13789919"><div class="ttname"><a href="_game_sprites_8h.html#a72d331b4a543229a69309d4d13789919">draw_target</a></div><div class="ttdeci">int draw_target()</div><div class="ttdoc">Draws a target.</div><div class="ttdef"><b>Definição</b> gamesprites.c:280</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a730c8a7c508cd635c98fc2cb306b4467"><div class="ttname"><a href="_game_sprites_8h.html#a730c8a7c508cd635c98fc2cb306b4467">draw_lifes</a></div><div class="ttdeci">int draw_lifes()</div><div class="ttdoc">Draws the remaining lives of the player.</div><div class="ttdef"><b>Definição</b> gamesprites.c:654</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a88cba00d2cb5ca3d4ce59740a3019db0"><div class="ttname"><a href="_game_sprites_8h.html#a88cba00d2cb5ca3d4ce59740a3019db0">draw_title_score_react</a></div><div class="ttdeci">int draw_title_score_react()</div><div class="ttdoc">Draws the title and score for the reaction game.</div><div class="ttdef"><b>Definição</b> gamesprites.c:240</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_a98df738d799160ad7eaed940e2d355d2"><div class="ttname"><a href="_game_sprites_8h.html#a98df738d799160ad7eaed940e2d355d2">draw_letter</a></div><div class="ttdeci">int draw_letter(char letter, uint16_t x, uint16_t y)</div><div class="ttdoc">Draws a letter at a specified position.</div><div class="ttdef"><b>Definição</b> gamesprites.c:800</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_aa2b95ae978ca2f4d0b19eb6e46a11424"><div class="ttname"><a href="_game_sprites_8h.html#aa2b95ae978ca2f4d0b19eb6e46a11424">update_TimeAttack</a></div><div class="ttdeci">int update_TimeAttack()</div><div class="ttdoc">Updates the time attack mode of the aim game.</div><div class="ttdef"><b>Definição</b> gamesprites.c:567</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_aaadb40633585246dd2fc128ab9261c1d"><div class="ttname"><a href="_game_sprites_8h.html#aaadb40633585246dd2fc128ab9261c1d">draw_new_frame</a></div><div class="ttdeci">int draw_new_frame()</div><div class="ttdoc">Draws a new frame.</div><div class="ttdef"><b>Definição</b> gamesprites.c:130</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_ab87a1cbf955ab6fd560c1f828f376627"><div class="ttname"><a href="_game_sprites_8h.html#ab87a1cbf955ab6fd560c1f828f376627">draw_word</a></div><div class="ttdeci">int draw_word(char *word, uint16_t x, uint16_t y)</div><div class="ttdoc">Draws a word starting at a specified position.</div><div class="ttdef"><b>Definição</b> gamesprites.c:1147</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_ac2b86e6734da9968f44dc28660b368b0"><div class="ttname"><a href="_game_sprites_8h.html#ac2b86e6734da9968f44dc28660b368b0">update_rtc</a></div><div class="ttdeci">int update_rtc()</div><div class="ttdoc">Updates the real-time clock.</div><div class="ttdef"><b>Definição</b> gamesprites.c:1340</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_ad0225bbf4c247808169cb1ee090e8397"><div class="ttname"><a href="_game_sprites_8h.html#ad0225bbf4c247808169cb1ee090e8397">draw_aimgame_TimeAttack</a></div><div class="ttdeci">int draw_aimgame_TimeAttack()</div><div class="ttdoc">Draws the aim game in time attack mode.</div><div class="ttdef"><b>Definição</b> gamesprites.c:506</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_ad7ca2d21a727f7d55afef2392de3b5f8"><div class="ttname"><a href="_game_sprites_8h.html#ad7ca2d21a727f7d55afef2392de3b5f8">draw_main_menu</a></div><div class="ttdeci">int draw_main_menu()</div><div class="ttdoc">Draws the main menu of the game.</div><div class="ttdef"><b>Definição</b> gamesprites.c:109</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_aeb63be465c741ae51e0874a314a682f0"><div class="ttname"><a href="_game_sprites_8h.html#aeb63be465c741ae51e0874a314a682f0">draw_number_seq</a></div><div class="ttdeci">int draw_number_seq(int number, uint16_t x, uint16_t y)</div><div class="ttdoc">Draws a sequence of numbers starting at a specified position.</div><div class="ttdef"><b>Definição</b> gamesprites.c:1157</div></div>
+<div class="ttc" id="a_game_sprites_8h_html_af478a74d86725664e37780605e956463"><div class="ttname"><a href="_game_sprites_8h.html#af478a74d86725664e37780605e956463">update_Classic</a></div><div class="ttdeci">int update_Classic()</div><div class="ttdoc">Updates the classic mode of the aim game.</div><div class="ttdef"><b>Definição</b> gamesprites.c:589</div></div>
+<div class="ttc" id="aaim_train_controler_8h_html"><div class="ttname"><a href="aim_train_controler_8h.html">aimTrainControler.h</a></div></div>
+<div class="ttc" id="agraphics_8h_html"><div class="ttname"><a href="graphics_8h.html">graphics.h</a></div></div>
+<div class="ttc" id="amouse_8h_html"><div class="ttname"><a href="mouse_8h.html">mouse.h</a></div></div>
+<div class="ttc" id="areactgamecontroller_8h_html"><div class="ttname"><a href="reactgamecontroller_8h.html">reactgamecontroller.h</a></div></div>
+<div class="ttc" id="artc_8h_html"><div class="ttname"><a href="rtc_8h.html">rtc.h</a></div></div>
+<div class="ttc" id="asprites_8h_html"><div class="ttname"><a href="sprites_8h.html">sprites.h</a></div></div>
+<div class="ttc" id="astatecontroler_8h_html"><div class="ttname"><a href="statecontroler_8h.html">statecontroler.h</a></div></div>
+<div class="ttc" id="astruct_pixel_color_html"><div class="ttname"><a href="struct_pixel_color.html">PixelColor</a></div><div class="ttdoc">Represents a pixel with its coordinates and color.</div><div class="ttdef"><b>Definição</b> GameSprites.h:17</div></div>
+<div class="ttc" id="astruct_pixel_color_html_a212e3d5d44f18f5da0915854e333b55d"><div class="ttname"><a href="struct_pixel_color.html#a212e3d5d44f18f5da0915854e333b55d">PixelColor::x</a></div><div class="ttdeci">uint16_t x</div><div class="ttdef"><b>Definição</b> GameSprites.h:18</div></div>
+<div class="ttc" id="astruct_pixel_color_html_a647ce556e63ea90995ed22205b229f9f"><div class="ttname"><a href="struct_pixel_color.html#a647ce556e63ea90995ed22205b229f9f">PixelColor::color</a></div><div class="ttdeci">uint32_t color</div><div class="ttdef"><b>Definição</b> GameSprites.h:19</div></div>
+<div class="ttc" id="astruct_sprite_html"><div class="ttname"><a href="struct_sprite.html">Sprite</a></div><div class="ttdoc">Structure representing a sprite.</div><div class="ttdef"><b>Definição</b> sprites.h:10</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_258b3435e0b7e84529fdf417ba8a4d46.html">GameControlers</a></li><li class="navelem"><a class="el" href="_game_sprites_8h.html">GameSprites.h</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

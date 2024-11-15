@@ -1,0 +1,159 @@
+\doxysection{Referência ao ficheiro src/\+Game\+Controlers/sprites.c}
+\hypertarget{sprites_8c}{}\label{sprites_8c}\index{src/GameControlers/sprites.c@{src/GameControlers/sprites.c}}
+{\ttfamily \#include "{}Game\+Controlers/sprites.\+h"{}}\newline
+Diagrama de dependências de inclusão para sprites.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{sprites_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_sprite}{Sprite}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{sprites_8c_acb93792ebc27a32413e0b31624c6d9b1}{create\+\_\+sprite\+\_\+xpm}} (xpm\+\_\+map\+\_\+t sprite)
+\begin{DoxyCompactList}\small\item\em Function to create a sprite from an XPM file. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{sprites_8c_a6db4230a0003a09515d78b790d8ec52d}{draw\+\_\+sprite\+\_\+xpm}} (\mbox{\hyperlink{struct_sprite}{Sprite}} \texorpdfstring{$\ast$}{*}sprite, int x, int y)
+\begin{DoxyCompactList}\small\item\em Function to draw a sprite on the screen. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{sprites_8c_a68f38f4a0ef4671439737a88745eb2d9}{draw\+\_\+white\+\_\+sprite}} (\mbox{\hyperlink{struct_sprite}{Sprite}} \texorpdfstring{$\ast$}{*}sprite, int x, int y)
+\begin{DoxyCompactList}\small\item\em Function to draw a sprite on the screen, changing white pixels to a specified color. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{sprites_8c_a607cfeb4f019a84c346eb3bce9da0420}{destroy\+\_\+sprite}} (\mbox{\hyperlink{struct_sprite}{Sprite}} \texorpdfstring{$\ast$}{*}sprite)
+\begin{DoxyCompactList}\small\item\em Function to destroy a sprite and free its memory. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_sprite}{Sprite}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{sprites_8c_a0cb4eb30b44aa9d8b9a64f0117d65395}{create\+\_\+rectangle\+\_\+sprite}} (int width, int height, uint32\+\_\+t color)
+\begin{DoxyCompactList}\small\item\em Function to create a rectangular sprite with a specified color. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{sprites_8c_a0cb4eb30b44aa9d8b9a64f0117d65395}\label{sprites_8c_a0cb4eb30b44aa9d8b9a64f0117d65395} 
+\index{sprites.c@{sprites.c}!create\_rectangle\_sprite@{create\_rectangle\_sprite}}
+\index{create\_rectangle\_sprite@{create\_rectangle\_sprite}!sprites.c@{sprites.c}}
+\doxysubsubsection{\texorpdfstring{create\_rectangle\_sprite()}{create\_rectangle\_sprite()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_sprite}{Sprite}} \texorpdfstring{$\ast$}{*} create\+\_\+rectangle\+\_\+sprite (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height,  }\item[{uint32\+\_\+t}]{color }\end{DoxyParamCaption})}
+
+
+
+Function to create a rectangular sprite with a specified color. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em width} & Width of the rectangular sprite. \\
+\hline
+{\em height} & Height of the rectangular sprite. \\
+\hline
+{\em color} & Color of the rectangular sprite. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+A pointer to the created \doxylink{struct_sprite}{Sprite} struct, or NULL on failure. 
+\end{DoxyReturn}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sprites_8c_a0cb4eb30b44aa9d8b9a64f0117d65395_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{sprites_8c_acb93792ebc27a32413e0b31624c6d9b1}\label{sprites_8c_acb93792ebc27a32413e0b31624c6d9b1} 
+\index{sprites.c@{sprites.c}!create\_sprite\_xpm@{create\_sprite\_xpm}}
+\index{create\_sprite\_xpm@{create\_sprite\_xpm}!sprites.c@{sprites.c}}
+\doxysubsubsection{\texorpdfstring{create\_sprite\_xpm()}{create\_sprite\_xpm()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_sprite}{Sprite}} \texorpdfstring{$\ast$}{*} create\+\_\+sprite\+\_\+xpm (\begin{DoxyParamCaption}\item[{xpm\+\_\+map\+\_\+t}]{sprite }\end{DoxyParamCaption})}
+
+
+
+Function to create a sprite from an XPM file. 
+
+The \doxylink{struct_sprite}{Sprite} Management module handles the creation, drawing, and destruction of sprites used in the game. It provides functions to load sprites from XPM files, draw them on the screen, and manage their memory. This module also includes functionality for creating rectangular sprites with a specified color. The module is essential for rendering visual elements in the game, contributing significantly to the graphical representation of game states. Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sprites_8c_acb93792ebc27a32413e0b31624c6d9b1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{sprites_8c_a607cfeb4f019a84c346eb3bce9da0420}\label{sprites_8c_a607cfeb4f019a84c346eb3bce9da0420} 
+\index{sprites.c@{sprites.c}!destroy\_sprite@{destroy\_sprite}}
+\index{destroy\_sprite@{destroy\_sprite}!sprites.c@{sprites.c}}
+\doxysubsubsection{\texorpdfstring{destroy\_sprite()}{destroy\_sprite()}}
+{\footnotesize\ttfamily void destroy\+\_\+sprite (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_sprite}{Sprite}} \texorpdfstring{$\ast$}{*}}]{sprite }\end{DoxyParamCaption})}
+
+
+
+Function to destroy a sprite and free its memory. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sprite} & Pointer to the sprite to be destroyed. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{sprites_8c_a6db4230a0003a09515d78b790d8ec52d}\label{sprites_8c_a6db4230a0003a09515d78b790d8ec52d} 
+\index{sprites.c@{sprites.c}!draw\_sprite\_xpm@{draw\_sprite\_xpm}}
+\index{draw\_sprite\_xpm@{draw\_sprite\_xpm}!sprites.c@{sprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_sprite\_xpm()}{draw\_sprite\_xpm()}}
+{\footnotesize\ttfamily int draw\+\_\+sprite\+\_\+xpm (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_sprite}{Sprite}} \texorpdfstring{$\ast$}{*}}]{sprite,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Function to draw a sprite on the screen. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sprite} & Pointer to the sprite to be drawn. \\
+\hline
+{\em x} & X-\/coordinate of the top-\/left corner of the sprite. \\
+\hline
+{\em y} & Y-\/coordinate of the top-\/left corner of the sprite. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+0 on success, 1 on failure. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{sprites_8c_a6db4230a0003a09515d78b790d8ec52d_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sprites_8c_a6db4230a0003a09515d78b790d8ec52d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{sprites_8c_a68f38f4a0ef4671439737a88745eb2d9}\label{sprites_8c_a68f38f4a0ef4671439737a88745eb2d9} 
+\index{sprites.c@{sprites.c}!draw\_white\_sprite@{draw\_white\_sprite}}
+\index{draw\_white\_sprite@{draw\_white\_sprite}!sprites.c@{sprites.c}}
+\doxysubsubsection{\texorpdfstring{draw\_white\_sprite()}{draw\_white\_sprite()}}
+{\footnotesize\ttfamily int draw\+\_\+white\+\_\+sprite (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_sprite}{Sprite}} \texorpdfstring{$\ast$}{*}}]{sprite,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Function to draw a sprite on the screen, changing white pixels to a specified color. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sprite} & Pointer to the sprite to be drawn. \\
+\hline
+{\em x} & The x-\/coordinate on the screen where the sprite should be drawn. \\
+\hline
+{\em y} & The y-\/coordinate on the screen where the sprite should be drawn. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+0 on success, 1 on failure. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{sprites_8c_a68f38f4a0ef4671439737a88745eb2d9_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sprites_8c_a68f38f4a0ef4671439737a88745eb2d9_icgraph}
+\end{center}
+\end{figure}

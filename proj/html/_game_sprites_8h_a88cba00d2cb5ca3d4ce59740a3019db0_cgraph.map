@@ -1,0 +1,14 @@
+<map id="draw_title_score_react" name="draw_title_score_react">
+<area shape="rect" id="Node000001" title="Draws the title and score for the reaction game." alt="" coords="5,31,157,57"/>
+<area shape="rect" id="Node000002" href="$gamesprites_8c.html#a15e08b9e3a391846626898577dc44a18" title="Draws a word starting at a specified position." alt="" coords="205,31,287,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,41,189,41,189,47,157,47"/>
+<area shape="rect" id="Node000003" href="$gamesprites_8c.html#adbbc28980f638e62a4f25f2c2a71a927" title="Draws a letter at a specified position." alt="" coords="335,31,419,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="288,41,320,41,320,47,288,47"/>
+<area shape="rect" id="Node000004" href="$sprites_8c.html#a6db4230a0003a09515d78b790d8ec52d" title="Function to draw a sprite on the screen." alt="" coords="470,5,589,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="419,34,454,28,455,34,420,40"/>
+<area shape="rect" id="Node000006" href="$sprites_8c.html#a68f38f4a0ef4671439737a88745eb2d9" title="Function to draw a sprite on the screen, changing white pixels to a specified color." alt="" coords="467,56,592,83"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="420,48,452,54,451,59,419,54"/>
+<area shape="rect" id="Node000005" href="$graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741" title=" " alt="" coords="640,31,741,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="590,25,625,31,624,36,589,31"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="592,57,624,52,625,57,592,62"/>
+</map>

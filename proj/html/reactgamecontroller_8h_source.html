@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Gamers Gym: Código-Fonte de src/GameControlers/reactgamecontroller.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Gamers Gym
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('reactgamecontroller_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrada</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">reactgamecontroller.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="reactgamecontroller_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef REACT_GAME_CONTROLLER_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define REACT_GAME_CONTROLLER_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;lcom/lcf.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="_game_sprites_8h.html">gamesprites.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="timer_8h.html">Controlers/Timers/timer.h</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="keyboard_8h.html">Controlers/Keyboard/keyboard.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="reactgamecontroller_8h.html#ac549af174c10dd391777f6eb04393984">time_react_countdown</a>;  </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17">   16</a></span><span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17a059732a250c811eb9bd4c51c2f9283ef">   17</a></span>    <a class="code hl_enumvalue" href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17a059732a250c811eb9bd4c51c2f9283ef">Start_menu</a>,</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17a6246a3600e21ceb6ab2938ee763c4c86">   18</a></span>    <a class="code hl_enumvalue" href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17a6246a3600e21ceb6ab2938ee763c4c86">Wait_Game</a>,</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17a15a5d393ca49c8a18561f0eed759dfa7">   19</a></span>    <a class="code hl_enumvalue" href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17a15a5d393ca49c8a18561f0eed759dfa7">Stop_Game</a>,</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17aaa6dad843fc2791dcddea868d023bbc8">   20</a></span>    <a class="code hl_enumvalue" href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17aaa6dad843fc2791dcddea868d023bbc8">Early_Stop</a>,</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <a class="code hl_enumvalue" href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17a39b13e93f226f233e2fbd45c24224230">Restart_menu</a></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17a39b13e93f226f233e2fbd45c24224230">   22</a></span>} <a class="code hl_enumeration" href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17">Reactmode</a>;</div>
+</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keywordtype">int</span> <a class="code hl_function" href="reactgamecontroller_8h.html#a8a0ef8204f56d27e39a9590d8507eb78">print_react_mode</a>();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keywordtype">int</span> <a class="code hl_function" href="reactgamecontroller_8h.html#ae5653f1b9cd3edb315fad8b85ffd73cb">start_react_game</a>();</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keywordtype">void</span> <a class="code hl_function" href="reactgamecontroller_8h.html#ae976514e32707158d01bb38814ad2769">react_game_space_pressed</a>();</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keywordtype">void</span> <a class="code hl_function" href="reactgamecontroller_8h.html#a66509b494102a5c28ba6c8be3eab7733">StartTimer</a>();</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keywordtype">void</span> <a class="code hl_function" href="reactgamecontroller_8h.html#af3619f34a9bc0184b4578e5337069856">StopTimer</a>();</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keywordtype">int</span> <a class="code hl_function" href="reactgamecontroller_8h.html#a3d60f84d486731f678669b9cfe660de3">give_random_time_wait</a>();</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#endif </span><span class="comment">// REACT_GAME_CONTROLLER_H</span></div>
+<div class="ttc" id="a_game_sprites_8h_html"><div class="ttname"><a href="_game_sprites_8h.html">GameSprites.h</a></div></div>
+<div class="ttc" id="akeyboard_8h_html"><div class="ttname"><a href="keyboard_8h.html">keyboard.h</a></div></div>
+<div class="ttc" id="areactgamecontroller_8h_html_a3d60f84d486731f678669b9cfe660de3"><div class="ttname"><a href="reactgamecontroller_8h.html#a3d60f84d486731f678669b9cfe660de3">give_random_time_wait</a></div><div class="ttdeci">int give_random_time_wait()</div><div class="ttdoc">Function to generate a random time for the user to wait. Generates a random countdown time between 2 ...</div><div class="ttdef"><b>Definição</b> reactgamecontroller.c:135</div></div>
+<div class="ttc" id="areactgamecontroller_8h_html_a66509b494102a5c28ba6c8be3eab7733"><div class="ttname"><a href="reactgamecontroller_8h.html#a66509b494102a5c28ba6c8be3eab7733">StartTimer</a></div><div class="ttdeci">void StartTimer()</div><div class="ttdoc">Function to start the timer for measuring reaction time. Sets the timer_running flag to true and rese...</div><div class="ttdef"><b>Definição</b> reactgamecontroller.c:116</div></div>
+<div class="ttc" id="areactgamecontroller_8h_html_a8a0ef8204f56d27e39a9590d8507eb78"><div class="ttname"><a href="reactgamecontroller_8h.html#a8a0ef8204f56d27e39a9590d8507eb78">print_react_mode</a></div><div class="ttdeci">int print_react_mode()</div><div class="ttdoc">Function to print the current react mode and draw corresponding sprites.</div><div class="ttdef"><b>Definição</b> reactgamecontroller.c:35</div></div>
+<div class="ttc" id="areactgamecontroller_8h_html_aaf725db219ef004145c523da8615ae17"><div class="ttname"><a href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17">Reactmode</a></div><div class="ttdeci">Reactmode</div><div class="ttdoc">Enum defining the different states of the reaction game.</div><div class="ttdef"><b>Definição</b> reactgamecontroller.h:16</div></div>
+<div class="ttc" id="areactgamecontroller_8h_html_aaf725db219ef004145c523da8615ae17a059732a250c811eb9bd4c51c2f9283ef"><div class="ttname"><a href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17a059732a250c811eb9bd4c51c2f9283ef">Start_menu</a></div><div class="ttdeci">@ Start_menu</div><div class="ttdef"><b>Definição</b> reactgamecontroller.h:17</div></div>
+<div class="ttc" id="areactgamecontroller_8h_html_aaf725db219ef004145c523da8615ae17a15a5d393ca49c8a18561f0eed759dfa7"><div class="ttname"><a href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17a15a5d393ca49c8a18561f0eed759dfa7">Stop_Game</a></div><div class="ttdeci">@ Stop_Game</div><div class="ttdef"><b>Definição</b> reactgamecontroller.h:19</div></div>
+<div class="ttc" id="areactgamecontroller_8h_html_aaf725db219ef004145c523da8615ae17a39b13e93f226f233e2fbd45c24224230"><div class="ttname"><a href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17a39b13e93f226f233e2fbd45c24224230">Restart_menu</a></div><div class="ttdeci">@ Restart_menu</div><div class="ttdef"><b>Definição</b> reactgamecontroller.h:21</div></div>
+<div class="ttc" id="areactgamecontroller_8h_html_aaf725db219ef004145c523da8615ae17a6246a3600e21ceb6ab2938ee763c4c86"><div class="ttname"><a href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17a6246a3600e21ceb6ab2938ee763c4c86">Wait_Game</a></div><div class="ttdeci">@ Wait_Game</div><div class="ttdef"><b>Definição</b> reactgamecontroller.h:18</div></div>
+<div class="ttc" id="areactgamecontroller_8h_html_aaf725db219ef004145c523da8615ae17aaa6dad843fc2791dcddea868d023bbc8"><div class="ttname"><a href="reactgamecontroller_8h.html#aaf725db219ef004145c523da8615ae17aaa6dad843fc2791dcddea868d023bbc8">Early_Stop</a></div><div class="ttdeci">@ Early_Stop</div><div class="ttdef"><b>Definição</b> reactgamecontroller.h:20</div></div>
+<div class="ttc" id="areactgamecontroller_8h_html_ac549af174c10dd391777f6eb04393984"><div class="ttname"><a href="reactgamecontroller_8h.html#ac549af174c10dd391777f6eb04393984">time_react_countdown</a></div><div class="ttdeci">int time_react_countdown</div></div>
+<div class="ttc" id="areactgamecontroller_8h_html_ae5653f1b9cd3edb315fad8b85ffd73cb"><div class="ttname"><a href="reactgamecontroller_8h.html#ae5653f1b9cd3edb315fad8b85ffd73cb">start_react_game</a></div><div class="ttdeci">int start_react_game()</div><div class="ttdoc">Function to start the reaction game. Initializes the game and sets the initial state to Start_menu.</div><div class="ttdef"><b>Definição</b> reactgamecontroller.c:21</div></div>
+<div class="ttc" id="areactgamecontroller_8h_html_ae976514e32707158d01bb38814ad2769"><div class="ttname"><a href="reactgamecontroller_8h.html#ae976514e32707158d01bb38814ad2769">react_game_space_pressed</a></div><div class="ttdeci">void react_game_space_pressed()</div><div class="ttdoc">Function to handle space key press event in the reaction game. Updates the game state based on the cu...</div><div class="ttdef"><b>Definição</b> reactgamecontroller.c:90</div></div>
+<div class="ttc" id="areactgamecontroller_8h_html_af3619f34a9bc0184b4578e5337069856"><div class="ttname"><a href="reactgamecontroller_8h.html#af3619f34a9bc0184b4578e5337069856">StopTimer</a></div><div class="ttdeci">void StopTimer()</div><div class="ttdoc">Function to stop the timer and update the best reaction time. Sets the timer_running flag to false,...</div><div class="ttdef"><b>Definição</b> reactgamecontroller.c:123</div></div>
+<div class="ttc" id="atimer_8h_html"><div class="ttname"><a href="timer_8h.html">timer.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_258b3435e0b7e84529fdf417ba8a4d46.html">GameControlers</a></li><li class="navelem"><a class="el" href="reactgamecontroller_8h.html">reactgamecontroller.h</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

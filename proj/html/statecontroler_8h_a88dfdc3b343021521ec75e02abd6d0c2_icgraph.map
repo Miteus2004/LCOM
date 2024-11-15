@@ -1,0 +1,11 @@
+<map id="reactgame" name="reactgame">
+<area shape="rect" id="Node000001" title="Transitions the game to the reaction game state. This function sets up the reaction game and transiti..." alt="" coords="607,5,689,32"/>
+<area shape="rect" id="Node000002" href="$gamehandlers_8c.html#a0799773fe68b229a25bff9ee444c6eba" title=" " alt="" coords="445,5,559,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="591,21,559,21,559,16,591,16"/>
+<area shape="rect" id="Node000003" href="$gamehandlers_8c.html#a1d865d087780c7f07862aa420ca32182" title="Function to handle mouse events. This function processes mouse input events and updates the game stat..." alt="" coords="288,5,397,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="430,21,398,21,398,16,430,16"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a22613a4ed426179d00643f6bf2d90320" title="Main game loop." alt="" coords="162,5,240,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="273,21,240,21,240,16,273,16"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,114,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="146,21,114,21,114,16,146,16"/>
+</map>

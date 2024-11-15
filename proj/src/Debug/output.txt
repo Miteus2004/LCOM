@@ -1,0 +1,147 @@
+ret_video success
+set_frame_buffers success
+Starting react game
+Updating React Game
+React Mode: 0
+Current R: -1
+New mode: 1
+Updating React Game
+React Mode: 1
+Current R: 0
+Updating React Game
+React Mode: 2
+Current R: 1
+Starting timer
+Stop_Game
+New mode: 4
+Updating React Game
+React Mode: 4
+Current R: 2
+First time
+384
+New mode: 1
+Updating React Game
+React Mode: 1
+Current R: 4
+Updating React Game
+React Mode: 2
+Current R: 1
+Starting timer
+Stop_Game
+New mode: 4
+Updating React Game
+React Mode: 4
+Current R: 2
+512
+miss_target
+miss_target v2
+take life
+lifes: 2
+miss_target
+miss_target v2
+take life
+lifes: 1
+miss_target
+miss_target v2
+take life
+lifes: 0
+game over
+start_time_attack
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+target hit
+game over
+run finished
+Exited successfully

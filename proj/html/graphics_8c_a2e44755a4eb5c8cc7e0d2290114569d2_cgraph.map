@@ -1,0 +1,15 @@
+<map id="direct_mode_raw" name="direct_mode_raw">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,125,83"/>
+<area shape="rect" id="Node000002" href="$graphics_8c.html#a83fd02ad635b3d382b8ab30d465ca4a9" title=" " alt="" coords="177,5,225,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,53,162,30,164,35,104,58"/>
+<area shape="rect" id="Node000004" href="$graphics_8c.html#a6001a01c37fe85b5dec7bbd242386ade" title=" " alt="" coords="173,56,229,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="125,67,157,67,157,72,125,72"/>
+<area shape="rect" id="Node000006" href="$graphics_8c.html#ae3578c57c17dced18fd11d48af250188" title=" " alt="" coords="179,107,223,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="104,81,165,104,163,109,102,86"/>
+<area shape="rect" id="Node000003" href="$graphics_8c.html#a1c221f260a94426d6e484757ff49491a" title=" " alt="" coords="277,5,315,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="225,16,261,16,261,21,225,21"/>
+<area shape="rect" id="Node000005" href="$graphics_8c.html#a34103732d16ab1b6ad266f756d0ec569" title=" " alt="" coords="277,56,315,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="229,67,261,67,261,72,229,72"/>
+<area shape="rect" id="Node000007" href="$graphics_8c.html#a3b0ee3706bd0c5bd06c24cd519b26f39" title=" " alt="" coords="277,107,315,133"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="223,117,261,117,261,123,223,123"/>
+</map>

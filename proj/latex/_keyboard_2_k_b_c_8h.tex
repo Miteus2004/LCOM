@@ -1,0 +1,49 @@
+\doxysection{Referência ao ficheiro src/\+Controlers/\+Keyboard/\+KBC.h}
+\hypertarget{_keyboard_2_k_b_c_8h}{}\label{_keyboard_2_k_b_c_8h}\index{src/Controlers/Keyboard/KBC.h@{src/Controlers/Keyboard/KBC.h}}
+{\ttfamily \#include $<$minix/sysutil.\+h$>$}\newline
+{\ttfamily \#include "{}Controlers/\+Timers/i8042.\+h"{}}\newline
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+Diagrama de dependências de inclusão para KBC.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_keyboard_2_k_b_c_8h__incl}
+\end{center}
+\end{figure}
+Este grafo mostra quais são os ficheiros que incluem directamente ou indirectamente este ficheiro\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_keyboard_2_k_b_c_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int() \mbox{\hyperlink{_keyboard_2_k_b_c_8h_ac024af91b156e4fc61ee3886b891de21}{read\+\_\+\+KBC\+\_\+status}} (uint8\+\_\+t \texorpdfstring{$\ast$}{*}status)
+\item 
+int() \mbox{\hyperlink{_keyboard_2_k_b_c_8h_ac7f264677f62648ac34476a46980af2f}{read\+\_\+\+KBC\+\_\+output}} (uint8\+\_\+t port, uint8\+\_\+t \texorpdfstring{$\ast$}{*}output, uint8\+\_\+t mouse)
+\item 
+int() \mbox{\hyperlink{_keyboard_2_k_b_c_8h_a34b653b3939fffe883c903cdadb36d3a}{write\+\_\+\+KBC\+\_\+command}} (uint8\+\_\+t port, uint8\+\_\+t command\+Byte)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{_keyboard_2_k_b_c_8h_ac7f264677f62648ac34476a46980af2f}\label{_keyboard_2_k_b_c_8h_ac7f264677f62648ac34476a46980af2f} 
+\index{KBC.h@{KBC.h}!read\_KBC\_output@{read\_KBC\_output}}
+\index{read\_KBC\_output@{read\_KBC\_output}!KBC.h@{KBC.h}}
+\doxysubsubsection{\texorpdfstring{read\_KBC\_output()}{read\_KBC\_output()}}
+{\footnotesize\ttfamily int() read\+\_\+\+KBC\+\_\+output (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{port,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{output,  }\item[{uint8\+\_\+t}]{mouse }\end{DoxyParamCaption})}
+
+\Hypertarget{_keyboard_2_k_b_c_8h_ac024af91b156e4fc61ee3886b891de21}\label{_keyboard_2_k_b_c_8h_ac024af91b156e4fc61ee3886b891de21} 
+\index{KBC.h@{KBC.h}!read\_KBC\_status@{read\_KBC\_status}}
+\index{read\_KBC\_status@{read\_KBC\_status}!KBC.h@{KBC.h}}
+\doxysubsubsection{\texorpdfstring{read\_KBC\_status()}{read\_KBC\_status()}}
+{\footnotesize\ttfamily int() read\+\_\+\+KBC\+\_\+status (\begin{DoxyParamCaption}\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{status }\end{DoxyParamCaption})}
+
+\Hypertarget{_keyboard_2_k_b_c_8h_a34b653b3939fffe883c903cdadb36d3a}\label{_keyboard_2_k_b_c_8h_a34b653b3939fffe883c903cdadb36d3a} 
+\index{KBC.h@{KBC.h}!write\_KBC\_command@{write\_KBC\_command}}
+\index{write\_KBC\_command@{write\_KBC\_command}!KBC.h@{KBC.h}}
+\doxysubsubsection{\texorpdfstring{write\_KBC\_command()}{write\_KBC\_command()}}
+{\footnotesize\ttfamily int() write\+\_\+\+KBC\+\_\+command (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{port,  }\item[{uint8\+\_\+t}]{command\+Byte }\end{DoxyParamCaption})}
+

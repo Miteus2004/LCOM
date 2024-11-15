@@ -1,0 +1,31 @@
+<map id="startgame" name="startgame">
+<area shape="rect" id="Node000001" title="Initializes the game to the main menu state. This function sets up the main menu and transitions the ..." alt="" coords="5,107,85,133"/>
+<area shape="rect" id="Node000002" href="$gamesprites_8c.html#a827220a6b9f738eba8b094586855b0b7" title="Draws the main menu of the game." alt="" coords="133,107,255,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,117,117,117,117,123,85,123"/>
+<area shape="rect" id="Node000003" href="$gamesprites_8c.html#a903c5d1ee8efee13250ccac7022306c0" title="Draws the real&#45;time clock." alt="" coords="330,56,400,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="241,103,315,81,316,86,242,109"/>
+<area shape="rect" id="Node000006" href="$sprites_8c.html#a6db4230a0003a09515d78b790d8ec52d" title="Function to draw a sprite on the screen." alt="" coords="799,56,918,83"/>
+<area shape="poly" id="edge10_Node000002_Node000006" title=" " alt="" coords="255,113,783,72,783,78,256,118"/>
+<area shape="rect" id="Node000009" href="$rtc_8c.html#a0197bede1e4328f24aced9c462662281" title=" " alt="" coords="303,183,427,209"/>
+<area shape="poly" id="edge11_Node000002_Node000009" title=" " alt="" coords="227,132,321,174,318,178,225,136"/>
+<area shape="rect" id="Node000004" href="$gamesprites_8c.html#a4743c346aef3789257d9b7329015d479" title="Draws a sequence of numbers starting at a specified position." alt="" coords="475,5,602,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="400,57,475,34,476,39,401,62"/>
+<area shape="poly" id="edge9_Node000003_Node000006" title=" " alt="" coords="401,67,783,67,783,72,401,72"/>
+<area shape="rect" id="Node000005" href="$gamesprites_8c.html#af3c7e15abf4b4b99529968fb2b709107" title="Draws a number at a specified position." alt="" coords="650,5,748,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="602,16,634,16,634,21,602,21"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="744,30,800,48,799,53,743,35"/>
+<area shape="rect" id="Node000008" href="$sprites_8c.html#a68f38f4a0ef4671439737a88745eb2d9" title="Function to draw a sprite on the screen, changing white pixels to a specified color." alt="" coords="796,5,920,32"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="748,16,780,16,780,21,748,21"/>
+<area shape="rect" id="Node000007" href="$graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741" title=" " alt="" coords="968,31,1070,57"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="918,57,953,52,954,57,919,63"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="921,26,954,31,953,36,920,31"/>
+<area shape="rect" id="Node000010" href="$rtc_8c.html#afafa8030361ab3092516837d1fac4412" title=" " alt="" coords="665,208,733,235"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="428,189,511,187,602,193,650,203,649,209,601,199,510,193,428,194"/>
+<area shape="rect" id="Node000012" href="$rtc_8c.html#a891509fed13e0cac396e9c401f887d72" title=" " alt="" coords="501,208,576,235"/>
+<area shape="poly" id="edge14_Node000009_Node000012" title=" " alt="" coords="428,202,486,211,486,216,427,208"/>
+<area shape="rect" id="Node000013" href="$rtc_8c.html#a7fe883c461adb41cb2e74695c14bbec8" title=" " alt="" coords="492,259,585,285"/>
+<area shape="poly" id="edge15_Node000009_Node000013" title=" " alt="" coords="397,207,476,244,489,250,487,255,474,249,394,212"/>
+<area shape="rect" id="Node000011" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="813,208,903,235"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="733,219,797,219,797,224,733,224"/>
+<area shape="poly" id="edge16_Node000013_Node000010" title=" " alt="" coords="583,255,649,234,651,239,584,261"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="start_react_game" name="start_react_game">
+<area shape="rect" id="Node000001" title="Function to start the reaction game. Initializes the game and sets the initial state to Start_menu." alt="" coords="5,31,128,57"/>
+<area shape="rect" id="Node000002" href="$gamesprites_8c.html#ac103e63dac5103633d00970cf59e1543" title="Clears the screen." alt="" coords="375,5,463,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,37,359,20,360,26,128,42"/>
+<area shape="rect" id="Node000005" href="$gamesprites_8c.html#a200295a23b82ace74b8d576bf2c53439" title="Draws the title and score for the reaction game." alt="" coords="176,56,327,83"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="128,50,161,54,160,60,128,55"/>
+<area shape="rect" id="Node000003" href="$sprites_8c.html#a6db4230a0003a09515d78b790d8ec52d" title="Function to draw a sprite on the screen." alt="" coords="646,5,766,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="464,16,630,16,630,21,464,21"/>
+<area shape="rect" id="Node000004" href="$graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741" title=" " alt="" coords="816,31,917,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="766,25,801,31,800,36,766,31"/>
+<area shape="rect" id="Node000006" href="$gamesprites_8c.html#a15e08b9e3a391846626898577dc44a18" title="Draws a word starting at a specified position." alt="" coords="378,56,460,83"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="328,67,362,67,362,72,328,72"/>
+<area shape="rect" id="Node000007" href="$gamesprites_8c.html#adbbc28980f638e62a4f25f2c2a71a927" title="Draws a letter at a specified position." alt="" coords="511,56,596,83"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="461,67,496,67,496,72,461,72"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="595,53,648,35,650,40,597,58"/>
+<area shape="rect" id="Node000008" href="$sprites_8c.html#a68f38f4a0ef4671439737a88745eb2d9" title="Function to draw a sprite on the screen, changing white pixels to a specified color." alt="" coords="644,56,768,83"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="596,67,628,67,628,72,596,72"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="768,57,800,52,801,57,769,62"/>
+</map>

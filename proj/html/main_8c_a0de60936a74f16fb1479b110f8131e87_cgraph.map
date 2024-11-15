@@ -1,0 +1,41 @@
+<map id="set_up" name="set_up">
+<area shape="rect" id="Node000001" title="Set up the initial configuration for the game." alt="" coords="5,208,66,235"/>
+<area shape="rect" id="Node000002" href="$keyboard_8c.html#a178b1db0b319dccad2840cc3fd273132" title=" " alt="" coords="114,5,272,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="36,207,43,174,57,130,79,83,94,61,112,42,116,38,120,42,115,46,98,64,84,86,62,132,48,175,41,208"/>
+<area shape="rect" id="Node000003" href="$mouse_8c.html#a20285aed4b3ef45812cd967532dd09db" title=" " alt="" coords="121,56,265,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="40,206,66,155,87,125,112,99,129,88,132,92,115,103,91,129,71,158,45,209"/>
+<area shape="rect" id="Node000004" href="$mouse_8c.html#a1703c3c5b61eef30d724b15cafd1d75e" title=" " alt="" coords="351,183,445,209"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="44,206,71,172,90,156,113,143,145,133,179,129,212,130,246,135,308,153,358,173,356,178,306,158,245,141,212,136,179,135,146,138,115,148,93,160,75,176,48,209"/>
+<area shape="rect" id="Node000009" href="$graphics_8c.html#a8a1eed03f0ea8ebba149f4336a90b73f" title=" " alt="" coords="157,157,229,184"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="65,209,113,193,141,184,143,189,114,199,67,214"/>
+<area shape="rect" id="Node000010" href="$rtc_8c.html#abd8de825e876e8ef94c64ac616f68a11" title=" " alt="" coords="133,208,253,235"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="66,219,117,219,117,224,66,224"/>
+<area shape="rect" id="Node000011" href="$buffering_8c.html#ac7aece56d0d111161c91b4b9cddfaf40" title="Initializes the frame buffers based on the provided video mode. This function sets up the frame buffe..." alt="" coords="131,309,255,336"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="49,233,77,264,115,295,125,301,123,305,112,300,73,268,45,237"/>
+<area shape="rect" id="Node000014" href="$mouse_8c.html#a1d1e0d0e4bfdbf729105c13188094e1b" title=" " alt="" coords="134,259,252,285"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="67,228,114,244,135,251,134,256,113,249,65,234"/>
+<area shape="rect" id="Node000015" href="$gamesprites_8c.html#a412f5ccd4b1f1245c4d96dedebd31d8d" title="Sets up the game sprites." alt="" coords="150,360,236,387"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="44,234,69,288,89,319,115,346,137,358,134,363,112,350,85,323,64,291,39,236"/>
+<area shape="rect" id="Node000018" href="$group__timer.html#gac57a7e1140a7e00ad95ac5488d2a671b" title="Subscribes and enables Timer 0 interrupts." alt="" coords="126,411,260,437"/>
+<area shape="poly" id="edge21_Node000001_Node000018" title=" " alt="" coords="41,235,48,267,62,311,84,357,98,378,115,397,120,400,116,404,112,401,94,381,79,360,57,313,43,269,36,236"/>
+<area shape="rect" id="Node000005" href="$_keyboard_2_k_b_c_8c.html#ac7f264677f62648ac34476a46980af2f" title=" " alt="" coords="536,215,659,241"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="446,201,521,213,520,218,445,206"/>
+<area shape="rect" id="Node000008" href="$_keyboard_2_k_b_c_8c.html#a34b653b3939fffe883c903cdadb36d3a" title=" " alt="" coords="524,164,671,191"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="445,189,509,183,509,188,446,194"/>
+<area shape="rect" id="Node000006" href="$_keyboard_2_k_b_c_8c.html#ac024af91b156e4fc61ee3886b891de21" title=" " alt="" coords="719,164,842,191"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="648,211,714,193,716,198,649,217"/>
+<area shape="rect" id="Node000007" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="890,189,980,216"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="659,221,874,204,875,210,660,226"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="843,185,875,190,874,195,842,190"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="671,175,703,175,703,180,671,180"/>
+<area shape="rect" id="Node000012" href="$graphics_8c.html#a1f8aa1e788ea34bf127d6b69808343cb" title=" " alt="" coords="552,277,643,304"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="252,306,320,295,435,287,536,286,536,292,435,292,320,300,253,311"/>
+<area shape="rect" id="Node000013" href="$graphics_8c.html#a000daa65e22edd8402677354b598eb93" title=" " alt="" coords="324,309,472,336"/>
+<area shape="poly" id="edge14_Node000011_Node000013" title=" " alt="" coords="255,320,309,320,309,325,255,325"/>
+<area shape="poly" id="edge15_Node000013_Node000012" title=" " alt="" coords="472,308,536,298,537,303,473,313"/>
+<area shape="poly" id="edge17_Node000014_Node000004" title=" " alt="" coords="238,256,271,244,349,213,351,218,273,249,240,261"/>
+<area shape="rect" id="Node000016" href="$sprites_8c.html#a0cb4eb30b44aa9d8b9a64f0117d65395" title="Function to create a rectangular sprite with a specified color." alt="" coords="320,360,476,387"/>
+<area shape="poly" id="edge19_Node000015_Node000016" title=" " alt="" coords="236,371,305,371,305,376,236,376"/>
+<area shape="rect" id="Node000017" href="$sprites_8c.html#acb93792ebc27a32413e0b31624c6d9b1" title="Function to create a sprite from an XPM file." alt="" coords="334,411,462,437"/>
+<area shape="poly" id="edge20_Node000015_Node000017" title=" " alt="" coords="237,381,327,404,326,409,236,386"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="draw_number_seq" name="draw_number_seq">
+<area shape="rect" id="Node000001" title="Draws a sequence of numbers starting at a specified position." alt="" coords="5,31,132,57"/>
+<area shape="rect" id="Node000002" href="$gamesprites_8c.html#af3c7e15abf4b4b99529968fb2b709107" title="Draws a number at a specified position." alt="" coords="180,31,278,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,41,164,41,164,47,132,47"/>
+<area shape="rect" id="Node000003" href="$sprites_8c.html#a6db4230a0003a09515d78b790d8ec52d" title="Function to draw a sprite on the screen." alt="" coords="329,5,448,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="278,34,313,28,314,33,279,39"/>
+<area shape="rect" id="Node000005" href="$sprites_8c.html#a68f38f4a0ef4671439737a88745eb2d9" title="Function to draw a sprite on the screen, changing white pixels to a specified color." alt="" coords="326,56,450,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="279,49,311,54,310,60,278,54"/>
+<area shape="rect" id="Node000004" href="$graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741" title=" " alt="" coords="498,31,600,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="449,25,484,31,483,36,448,31"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="450,57,483,52,484,57,451,62"/>
+</map>

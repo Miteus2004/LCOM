@@ -1,0 +1,15 @@
+<map id="startgame" name="startgame">
+<area shape="rect" id="Node000001" title="Initializes the game to the main menu state. This function sets up the main menu and transitions the ..." alt="" coords="621,56,700,83"/>
+<area shape="rect" id="Node000002" href="$gamehandlers_8c.html#a0799773fe68b229a25bff9ee444c6eba" title=" " alt="" coords="459,56,573,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="605,72,573,72,573,67,605,67"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,81,114,108"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="607,90,573,97,444,109,316,112,202,108,114,102,114,97,202,103,316,106,444,104,572,92,605,85"/>
+<area shape="rect" id="Node000006" href="$gamehandlers_8c.html#a0fb71e2b76b368ba43295cdc9174558b" title="Function to handle keyboard events. This function processes keyboard input events and updates the gam..." alt="" coords="288,5,411,32"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="605,55,572,47,488,33,411,25,412,20,489,28,573,41,606,50"/>
+<area shape="rect" id="Node000003" href="$gamehandlers_8c.html#a1d865d087780c7f07862aa420ca32182" title="Function to handle mouse events. This function processes mouse input events and updates the game stat..." alt="" coords="295,56,404,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="444,72,405,72,405,67,444,67"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a22613a4ed426179d00643f6bf2d90320" title="Main game loop." alt="" coords="162,56,240,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="280,72,241,72,241,67,280,67"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="147,82,114,88,114,82,146,76"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="294,40,241,59,239,54,293,35"/>
+</map>

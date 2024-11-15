@@ -1,0 +1,36 @@
+<map id="read_KBC_status" name="read_KBC_status">
+<area shape="rect" id="Node000001" title=" " alt="" coords="823,107,946,133"/>
+<area shape="rect" id="Node000002" href="$_keyboard_2_k_b_c_8c.html#ac7f264677f62648ac34476a46980af2f" title=" " alt="" coords="640,81,764,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="807,112,764,106,764,101,808,107"/>
+<area shape="rect" id="Node000014" href="$_keyboard_2_k_b_c_8c.html#a34b653b3939fffe883c903cdadb36d3a" title=" " alt="" coords="629,132,775,159"/>
+<area shape="poly" id="edge18_Node000001_Node000014" title=" " alt="" coords="808,133,776,138,775,133,807,128"/>
+<area shape="rect" id="Node000003" href="$keyboard_8c.html#aea970a154161a35f6894898a092ed70a" title=" " alt="" coords="490,56,550,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="625,87,550,76,551,71,625,81"/>
+<area shape="rect" id="Node000007" href="$keyboard_8c.html#a58017421d19bb2004825d339ebb600fa" title=" " alt="" coords="459,107,581,133"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="625,108,582,114,581,109,625,103"/>
+<area shape="rect" id="Node000008" href="$mouse_8c.html#a210374b50462acdedab00df64d5cea3c" title=" " alt="" coords="481,5,559,32"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="652,77,553,35,555,30,655,72"/>
+<area shape="rect" id="Node000010" href="$mouse_8c.html#a1703c3c5b61eef30d724b15cafd1d75e" title=" " alt="" coords="473,157,567,184"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="644,116,630,122,582,148,557,159,554,154,579,143,628,118,642,111"/>
+<area shape="rect" id="Node000004" href="$gamehandlers_8c.html#a0fb71e2b76b368ba43295cdc9174558b" title="Function to handle keyboard events. This function processes keyboard input events and updates the gam..." alt="" coords="288,56,411,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="475,72,412,72,412,67,475,67"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a22613a4ed426179d00643f6bf2d90320" title="Main game loop." alt="" coords="162,56,240,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="272,72,240,72,240,67,272,67"/>
+<area shape="rect" id="Node000006" href="$main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,107,114,133"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="148,91,100,109,98,104,146,86"/>
+<area shape="rect" id="Node000009" href="$gamehandlers_8c.html#a1d865d087780c7f07862aa420ca32182" title="Function to handle mouse events. This function processes mouse input events and updates the game stat..." alt="" coords="295,5,404,32"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="466,21,404,21,404,16,466,16"/>
+<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="294,40,241,59,239,54,293,35"/>
+<area shape="rect" id="Node000011" href="$main_8c.html#a88e1b2b26622517143098307a971d9ed" title="Clean up resources and exit the game." alt="" coords="316,107,383,133"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="457,155,383,132,385,127,458,150"/>
+<area shape="rect" id="Node000012" href="$mouse_8c.html#a1d1e0d0e4bfdbf729105c13188094e1b" title=" " alt="" coords="291,157,408,184"/>
+<area shape="poly" id="edge14_Node000010_Node000012" title=" " alt="" coords="458,173,408,173,408,168,458,168"/>
+<area shape="rect" id="Node000013" href="$main_8c.html#a0de60936a74f16fb1479b110f8131e87" title="Set up the initial configuration for the game." alt="" coords="171,157,231,184"/>
+<area shape="poly" id="edge17_Node000010_Node000013" title=" " alt="" coords="458,190,412,199,350,204,288,199,231,184,232,179,288,193,350,199,411,193,457,185"/>
+<area shape="poly" id="edge13_Node000011_Node000005" title=" " alt="" coords="300,106,240,85,241,80,302,101"/>
+<area shape="poly" id="edge12_Node000011_Node000006" title=" " alt="" coords="300,123,114,123,114,117,300,117"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="276,173,231,173,231,168,276,168"/>
+<area shape="poly" id="edge16_Node000013_Node000006" title=" " alt="" coords="155,157,98,136,100,131,157,152"/>
+<area shape="poly" id="edge19_Node000014_Node000007" title=" " alt="" coords="613,136,580,131,581,126,614,130"/>
+<area shape="poly" id="edge20_Node000014_Node000010" title=" " alt="" coords="614,160,568,167,567,161,613,155"/>
+</map>

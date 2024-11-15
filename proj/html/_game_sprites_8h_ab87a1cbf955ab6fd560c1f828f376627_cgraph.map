@@ -1,0 +1,12 @@
+<map id="draw_word" name="draw_word">
+<area shape="rect" id="Node000001" title="Draws a word starting at a specified position." alt="" coords="5,31,88,57"/>
+<area shape="rect" id="Node000002" href="$gamesprites_8c.html#adbbc28980f638e62a4f25f2c2a71a927" title="Draws a letter at a specified position." alt="" coords="136,31,220,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,41,120,41,120,47,88,47"/>
+<area shape="rect" id="Node000003" href="$sprites_8c.html#a6db4230a0003a09515d78b790d8ec52d" title="Function to draw a sprite on the screen." alt="" coords="271,5,390,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="220,34,255,28,256,34,221,40"/>
+<area shape="rect" id="Node000005" href="$sprites_8c.html#a68f38f4a0ef4671439737a88745eb2d9" title="Function to draw a sprite on the screen, changing white pixels to a specified color." alt="" coords="268,56,392,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="221,48,253,54,252,59,220,54"/>
+<area shape="rect" id="Node000004" href="$graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741" title=" " alt="" coords="440,31,542,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="391,25,426,31,425,36,390,31"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="392,57,425,52,426,57,393,62"/>
+</map>

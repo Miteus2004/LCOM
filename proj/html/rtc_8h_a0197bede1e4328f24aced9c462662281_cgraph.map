@@ -1,0 +1,12 @@
+<map id="update_time_date" name="update_time_date">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,22,130,48"/>
+<area shape="rect" id="Node000002" href="$rtc_8c.html#afafa8030361ab3092516837d1fac4412" title=" " alt="" coords="318,22,386,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,18,177,7,224,3,270,7,304,15,302,20,270,12,224,8,178,12,118,24"/>
+<area shape="rect" id="Node000004" href="$rtc_8c.html#a891509fed13e0cac396e9c401f887d72" title=" " alt="" coords="187,22,261,48"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="130,32,171,32,171,38,130,38"/>
+<area shape="rect" id="Node000005" href="$rtc_8c.html#a7fe883c461adb41cb2e74695c14bbec8" title=" " alt="" coords="178,72,270,99"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="112,46,167,64,165,70,110,51"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="434,22,525,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="387,32,419,32,419,38,387,38"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="259,69,303,52,305,56,261,74"/>
+</map>

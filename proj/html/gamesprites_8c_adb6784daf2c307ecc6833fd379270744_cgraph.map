@@ -1,0 +1,7 @@
+<map id="draw_target" name="draw_target">
+<area shape="rect" id="Node000001" title="Draws a target." alt="" coords="5,5,94,32"/>
+<area shape="rect" id="Node000002" href="$sprites_8c.html#a6db4230a0003a09515d78b790d8ec52d" title="Function to draw a sprite on the screen." alt="" coords="142,5,261,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,16,126,16,126,21,94,21"/>
+<area shape="rect" id="Node000003" href="$graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741" title=" " alt="" coords="309,5,410,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="262,16,293,16,293,21,262,21"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="write_KBC_command" name="write_KBC_command">
+<area shape="rect" id="Node000001" title=" " alt="" coords="623,31,769,57"/>
+<area shape="rect" id="Node000002" href="$keyboard_8c.html#a58017421d19bb2004825d339ebb600fa" title=" " alt="" coords="453,5,575,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="607,34,574,30,575,24,608,29"/>
+<area shape="rect" id="Node000003" href="$mouse_8c.html#a1703c3c5b61eef30d724b15cafd1d75e" title=" " alt="" coords="467,56,561,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="608,59,562,65,561,60,607,54"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a88e1b2b26622517143098307a971d9ed" title="Clean up resources and exit the game." alt="" coords="313,5,380,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="452,53,380,31,382,26,453,48"/>
+<area shape="rect" id="Node000007" href="$mouse_8c.html#a1d1e0d0e4bfdbf729105c13188094e1b" title=" " alt="" coords="288,56,405,83"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="451,72,406,72,406,67,451,67"/>
+<area shape="rect" id="Node000008" href="$main_8c.html#a0de60936a74f16fb1479b110f8131e87" title="Set up the initial configuration for the game." alt="" coords="171,81,231,108"/>
+<area shape="poly" id="edge10_Node000003_Node000008" title=" " alt="" coords="452,89,406,97,310,102,231,99,232,94,310,97,405,92,451,84"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,31,114,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="297,18,233,17,162,21,107,33,106,28,161,16,233,12,297,13"/>
+<area shape="rect" id="Node000006" href="$main_8c.html#a22613a4ed426179d00643f6bf2d90320" title="Main game loop." alt="" coords="162,31,240,57"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="298,30,241,40,240,35,297,24"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="146,47,114,47,114,41,146,41"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="273,85,232,92,231,87,272,80"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="155,81,98,60,100,55,157,76"/>
+</map>

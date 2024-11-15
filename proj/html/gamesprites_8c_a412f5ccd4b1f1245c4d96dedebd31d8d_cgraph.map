@@ -1,0 +1,7 @@
+<map id="set_sprites" name="set_sprites">
+<area shape="rect" id="Node000001" title="Sets up the game sprites." alt="" coords="5,31,91,57"/>
+<area shape="rect" id="Node000002" href="$sprites_8c.html#a0cb4eb30b44aa9d8b9a64f0117d65395" title="Function to create a rectangular sprite with a specified color." alt="" coords="139,5,295,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,35,123,30,124,35,92,40"/>
+<area shape="rect" id="Node000003" href="$sprites_8c.html#acb93792ebc27a32413e0b31624c6d9b1" title="Function to create a sprite from an XPM file." alt="" coords="153,56,281,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="92,48,138,55,137,60,91,53"/>
+</map>

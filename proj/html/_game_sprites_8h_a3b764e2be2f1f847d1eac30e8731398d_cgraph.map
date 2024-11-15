@@ -1,0 +1,21 @@
+<map id="draw_aim_menu" name="draw_aim_menu">
+<area shape="rect" id="Node000001" title="Draws the aim menu." alt="" coords="5,28,121,55"/>
+<area shape="rect" id="Node000002" href="$gamesprites_8c.html#a4743c346aef3789257d9b7329015d479" title="Draws a sequence of numbers starting at a specified position." alt="" coords="169,79,295,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,53,171,71,169,76,109,58"/>
+<area shape="rect" id="Node000004" href="$sprites_8c.html#a6db4230a0003a09515d78b790d8ec52d" title="Function to draw a sprite on the screen." alt="" coords="492,28,611,55"/>
+<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="111,25,168,13,245,5,305,3,365,5,442,13,487,21,486,27,441,19,365,11,305,8,245,11,169,19,112,30"/>
+<area shape="rect" id="Node000007" href="$gamesprites_8c.html#a15e08b9e3a391846626898577dc44a18" title="Draws a word starting at a specified position." alt="" coords="191,28,273,55"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="121,39,175,39,175,44,121,44"/>
+<area shape="rect" id="Node000003" href="$gamesprites_8c.html#af3c7e15abf4b4b99529968fb2b709107" title="Draws a number at a specified position." alt="" coords="343,79,441,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="295,89,327,89,327,95,295,95"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="436,75,492,57,494,62,438,81"/>
+<area shape="rect" id="Node000006" href="$sprites_8c.html#a68f38f4a0ef4671439737a88745eb2d9" title="Function to draw a sprite on the screen, changing white pixels to a specified color." alt="" coords="489,79,614,105"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="442,89,474,89,474,95,442,95"/>
+<area shape="rect" id="Node000005" href="$graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741" title=" " alt="" coords="662,53,763,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="612,48,647,54,646,59,611,53"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="614,80,646,74,647,80,614,85"/>
+<area shape="rect" id="Node000008" href="$gamesprites_8c.html#adbbc28980f638e62a4f25f2c2a71a927" title="Draws a letter at a specified position." alt="" coords="350,28,434,55"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="273,39,335,39,335,44,273,44"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="435,39,477,39,477,44,435,44"/>
+<area shape="poly" id="edge11_Node000008_Node000006" title=" " alt="" coords="435,52,494,71,492,76,434,57"/>
+</map>

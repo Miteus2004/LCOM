@@ -1,0 +1,9 @@
+<map id="create_sprite_xpm" name="create_sprite_xpm">
+<area shape="rect" id="Node000001" title="Function to create a sprite from an XPM file." alt="" coords="403,5,532,32"/>
+<area shape="rect" id="Node000002" href="$gamesprites_8c.html#a412f5ccd4b1f1245c4d96dedebd31d8d" title="Sets up the game sprites." alt="" coords="270,5,355,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="388,21,356,21,356,16,388,16"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#a0de60936a74f16fb1479b110f8131e87" title="Set up the initial configuration for the game." alt="" coords="162,5,222,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="254,21,222,21,222,16,254,16"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,114,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="146,21,114,21,114,16,146,16"/>
+</map>

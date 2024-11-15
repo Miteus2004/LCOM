@@ -1,0 +1,236 @@
+\doxysection{Referência ao ficheiro src/\+Game\+Controlers/reactgamecontroller.h}
+\hypertarget{reactgamecontroller_8h}{}\label{reactgamecontroller_8h}\index{src/GameControlers/reactgamecontroller.h@{src/GameControlers/reactgamecontroller.h}}
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include "{}gamesprites.\+h"{}}\newline
+{\ttfamily \#include "{}Controlers/\+Timers/timer.\+h"{}}\newline
+{\ttfamily \#include "{}Controlers/\+Keyboard/keyboard.\+h"{}}\newline
+Diagrama de dependências de inclusão para reactgamecontroller.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{reactgamecontroller_8h__incl}
+\end{center}
+\end{figure}
+Este grafo mostra quais são os ficheiros que incluem directamente ou indirectamente este ficheiro\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{reactgamecontroller_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Enumerações}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17}{Reactmode}} \{ \newline
+\mbox{\hyperlink{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17a059732a250c811eb9bd4c51c2f9283ef}{Start\+\_\+menu}}
+, \mbox{\hyperlink{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17a6246a3600e21ceb6ab2938ee763c4c86}{Wait\+\_\+\+Game}}
+, \mbox{\hyperlink{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17a15a5d393ca49c8a18561f0eed759dfa7}{Stop\+\_\+\+Game}}
+, \mbox{\hyperlink{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17aaa6dad843fc2791dcddea868d023bbc8}{Early\+\_\+\+Stop}}
+, \newline
+\mbox{\hyperlink{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17a39b13e93f226f233e2fbd45c24224230}{Restart\+\_\+menu}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enum defining the different states of the reaction game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{reactgamecontroller_8h_a8a0ef8204f56d27e39a9590d8507eb78}{print\+\_\+react\+\_\+mode}} ()
+\begin{DoxyCompactList}\small\item\em Function to print the current react mode and draw corresponding sprites. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{reactgamecontroller_8h_ae5653f1b9cd3edb315fad8b85ffd73cb}{start\+\_\+react\+\_\+game}} ()
+\begin{DoxyCompactList}\small\item\em Function to start the reaction game. Initializes the game and sets the initial state to Start\+\_\+menu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{reactgamecontroller_8h_ae976514e32707158d01bb38814ad2769}{react\+\_\+game\+\_\+space\+\_\+pressed}} ()
+\begin{DoxyCompactList}\small\item\em Function to handle space key press event in the reaction game. Updates the game state based on the current react\+\_\+mode. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{reactgamecontroller_8h_a66509b494102a5c28ba6c8be3eab7733}{Start\+Timer}} ()
+\begin{DoxyCompactList}\small\item\em Function to start the timer for measuring reaction time. Sets the timer\+\_\+running flag to true and resets elapsed time and interrupt counter. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{reactgamecontroller_8h_af3619f34a9bc0184b4578e5337069856}{Stop\+Timer}} ()
+\begin{DoxyCompactList}\small\item\em Function to stop the timer and update the best reaction time. Sets the timer\+\_\+running flag to false, prints the elapsed time, and updates the best reaction time. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{reactgamecontroller_8h_a3d60f84d486731f678669b9cfe660de3}{give\+\_\+random\+\_\+time\+\_\+wait}} ()
+\begin{DoxyCompactList}\small\item\em Function to generate a random time for the user to wait. Generates a random countdown time between 2 and 10 seconds. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variáveis}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{reactgamecontroller_8h_ac549af174c10dd391777f6eb04393984}{time\+\_\+react\+\_\+countdown}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação dos valores da enumeração}
+\Hypertarget{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17}\label{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17} 
+\index{reactgamecontroller.h@{reactgamecontroller.h}!Reactmode@{Reactmode}}
+\index{Reactmode@{Reactmode}!reactgamecontroller.h@{reactgamecontroller.h}}
+\doxysubsubsection{\texorpdfstring{Reactmode}{Reactmode}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17}{Reactmode}}}
+
+
+
+Enum defining the different states of the reaction game. 
+
+\begin{DoxyEnumFields}{Valores de enumerações}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Start\_menu@{Start\_menu}!reactgamecontroller.h@{reactgamecontroller.h}}\index{reactgamecontroller.h@{reactgamecontroller.h}!Start\_menu@{Start\_menu}}}\Hypertarget{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17a059732a250c811eb9bd4c51c2f9283ef}\label{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17a059732a250c811eb9bd4c51c2f9283ef} 
+Start\+\_\+menu&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Wait\_Game@{Wait\_Game}!reactgamecontroller.h@{reactgamecontroller.h}}\index{reactgamecontroller.h@{reactgamecontroller.h}!Wait\_Game@{Wait\_Game}}}\Hypertarget{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17a6246a3600e21ceb6ab2938ee763c4c86}\label{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17a6246a3600e21ceb6ab2938ee763c4c86} 
+Wait\+\_\+\+Game&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Stop\_Game@{Stop\_Game}!reactgamecontroller.h@{reactgamecontroller.h}}\index{reactgamecontroller.h@{reactgamecontroller.h}!Stop\_Game@{Stop\_Game}}}\Hypertarget{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17a15a5d393ca49c8a18561f0eed759dfa7}\label{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17a15a5d393ca49c8a18561f0eed759dfa7} 
+Stop\+\_\+\+Game&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Early\_Stop@{Early\_Stop}!reactgamecontroller.h@{reactgamecontroller.h}}\index{reactgamecontroller.h@{reactgamecontroller.h}!Early\_Stop@{Early\_Stop}}}\Hypertarget{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17aaa6dad843fc2791dcddea868d023bbc8}\label{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17aaa6dad843fc2791dcddea868d023bbc8} 
+Early\+\_\+\+Stop&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Restart\_menu@{Restart\_menu}!reactgamecontroller.h@{reactgamecontroller.h}}\index{reactgamecontroller.h@{reactgamecontroller.h}!Restart\_menu@{Restart\_menu}}}\Hypertarget{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17a39b13e93f226f233e2fbd45c24224230}\label{reactgamecontroller_8h_aaf725db219ef004145c523da8615ae17a39b13e93f226f233e2fbd45c24224230} 
+Restart\+\_\+menu&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{reactgamecontroller_8h_a3d60f84d486731f678669b9cfe660de3}\label{reactgamecontroller_8h_a3d60f84d486731f678669b9cfe660de3} 
+\index{reactgamecontroller.h@{reactgamecontroller.h}!give\_random\_time\_wait@{give\_random\_time\_wait}}
+\index{give\_random\_time\_wait@{give\_random\_time\_wait}!reactgamecontroller.h@{reactgamecontroller.h}}
+\doxysubsubsection{\texorpdfstring{give\_random\_time\_wait()}{give\_random\_time\_wait()}}
+{\footnotesize\ttfamily int give\+\_\+random\+\_\+time\+\_\+wait (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to generate a random time for the user to wait. Generates a random countdown time between 2 and 10 seconds. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success. 
+\end{DoxyReturn}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{reactgamecontroller_8h_a3d60f84d486731f678669b9cfe660de3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{reactgamecontroller_8h_a8a0ef8204f56d27e39a9590d8507eb78}\label{reactgamecontroller_8h_a8a0ef8204f56d27e39a9590d8507eb78} 
+\index{reactgamecontroller.h@{reactgamecontroller.h}!print\_react\_mode@{print\_react\_mode}}
+\index{print\_react\_mode@{print\_react\_mode}!reactgamecontroller.h@{reactgamecontroller.h}}
+\doxysubsubsection{\texorpdfstring{print\_react\_mode()}{print\_react\_mode()}}
+{\footnotesize\ttfamily int print\+\_\+react\+\_\+mode (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to print the current react mode and draw corresponding sprites. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, 1 on failure. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{reactgamecontroller_8h_a8a0ef8204f56d27e39a9590d8507eb78_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{reactgamecontroller_8h_a8a0ef8204f56d27e39a9590d8507eb78_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{reactgamecontroller_8h_ae976514e32707158d01bb38814ad2769}\label{reactgamecontroller_8h_ae976514e32707158d01bb38814ad2769} 
+\index{reactgamecontroller.h@{reactgamecontroller.h}!react\_game\_space\_pressed@{react\_game\_space\_pressed}}
+\index{react\_game\_space\_pressed@{react\_game\_space\_pressed}!reactgamecontroller.h@{reactgamecontroller.h}}
+\doxysubsubsection{\texorpdfstring{react\_game\_space\_pressed()}{react\_game\_space\_pressed()}}
+{\footnotesize\ttfamily void react\+\_\+game\+\_\+space\+\_\+pressed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to handle space key press event in the reaction game. Updates the game state based on the current react\+\_\+mode. 
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{reactgamecontroller_8h_ae976514e32707158d01bb38814ad2769_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{reactgamecontroller_8h_ae976514e32707158d01bb38814ad2769_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{reactgamecontroller_8h_ae5653f1b9cd3edb315fad8b85ffd73cb}\label{reactgamecontroller_8h_ae5653f1b9cd3edb315fad8b85ffd73cb} 
+\index{reactgamecontroller.h@{reactgamecontroller.h}!start\_react\_game@{start\_react\_game}}
+\index{start\_react\_game@{start\_react\_game}!reactgamecontroller.h@{reactgamecontroller.h}}
+\doxysubsubsection{\texorpdfstring{start\_react\_game()}{start\_react\_game()}}
+{\footnotesize\ttfamily int start\+\_\+react\+\_\+game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to start the reaction game. Initializes the game and sets the initial state to Start\+\_\+menu. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success.
+\end{DoxyReturn}
+The React Game Controller module is responsible for managing the state and flow of a ~\newline
+ reaction-\/based game. It initiates the game, updates game states, and manages the timer functionality. The module contains functions to start the game, switch between different game states (such as start menu, waiting for user input, early stop, and stop game), and draw appropriate sprites based on the current state. It also includes functionalities to start and stop a timer, which measures the user\textquotesingle{}s reaction time and updates the best reaction time for the user. This module represents approximately 22\% of the overall project. Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{reactgamecontroller_8h_ae5653f1b9cd3edb315fad8b85ffd73cb_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{reactgamecontroller_8h_ae5653f1b9cd3edb315fad8b85ffd73cb_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{reactgamecontroller_8h_a66509b494102a5c28ba6c8be3eab7733}\label{reactgamecontroller_8h_a66509b494102a5c28ba6c8be3eab7733} 
+\index{reactgamecontroller.h@{reactgamecontroller.h}!StartTimer@{StartTimer}}
+\index{StartTimer@{StartTimer}!reactgamecontroller.h@{reactgamecontroller.h}}
+\doxysubsubsection{\texorpdfstring{StartTimer()}{StartTimer()}}
+{\footnotesize\ttfamily void Start\+Timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to start the timer for measuring reaction time. Sets the timer\+\_\+running flag to true and resets elapsed time and interrupt counter. 
+
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{reactgamecontroller_8h_a66509b494102a5c28ba6c8be3eab7733_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{reactgamecontroller_8h_af3619f34a9bc0184b4578e5337069856}\label{reactgamecontroller_8h_af3619f34a9bc0184b4578e5337069856} 
+\index{reactgamecontroller.h@{reactgamecontroller.h}!StopTimer@{StopTimer}}
+\index{StopTimer@{StopTimer}!reactgamecontroller.h@{reactgamecontroller.h}}
+\doxysubsubsection{\texorpdfstring{StopTimer()}{StopTimer()}}
+{\footnotesize\ttfamily void Stop\+Timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to stop the timer and update the best reaction time. Sets the timer\+\_\+running flag to false, prints the elapsed time, and updates the best reaction time. 
+
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{reactgamecontroller_8h_af3619f34a9bc0184b4578e5337069856_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Documentação das variáveis}
+\Hypertarget{reactgamecontroller_8h_ac549af174c10dd391777f6eb04393984}\label{reactgamecontroller_8h_ac549af174c10dd391777f6eb04393984} 
+\index{reactgamecontroller.h@{reactgamecontroller.h}!time\_react\_countdown@{time\_react\_countdown}}
+\index{time\_react\_countdown@{time\_react\_countdown}!reactgamecontroller.h@{reactgamecontroller.h}}
+\doxysubsubsection{\texorpdfstring{time\_react\_countdown}{time\_react\_countdown}}
+{\footnotesize\ttfamily int time\+\_\+react\+\_\+countdown\hspace{0.3cm}{\ttfamily [extern]}}
+

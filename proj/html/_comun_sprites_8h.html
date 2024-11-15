@@ -1,0 +1,1095 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Gamers Gym: Referência ao ficheiro src/GameControlers/ComunSprites.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Gamers Gym
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_comun_sprites_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrada</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#var-members">Variáveis</a>  </div>
+  <div class="headertitle"><div class="title">Referência ao ficheiro ComunSprites.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="sprites_8h_source.html">GameControlers/sprites.h</a>&quot;</code><br />
+<code>#include &lt;lcom/lcf.h&gt;</code><br />
+<code>#include &quot;xpm/Aim-Menu.xpm&quot;</code><br />
+<code>#include &quot;xpm/MainMenu.xpm&quot;</code><br />
+<code>#include &quot;xpm/ReactionTime_click.xpm&quot;</code><br />
+<code>#include &quot;xpm/ReactionTime_start.xpm&quot;</code><br />
+<code>#include &quot;xpm/ReactionTime_time.xpm&quot;</code><br />
+<code>#include &quot;xpm/ReactionTime_toosoon.xpm&quot;</code><br />
+<code>#include &quot;xpm/ReactionTime_waitforgreen.xpm&quot;</code><br />
+<code>#include &quot;xpm/aim.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/a.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/b.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/c.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/d.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/e.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/f.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/g.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/h.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/i.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/j.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/k.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/l.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/m.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/n.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/o.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/p.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/q.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/r.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/s.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/t.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/u.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/v.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/w.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/x.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/y.xpm&quot;</code><br />
+<code>#include &quot;xpm/letters/z.xpm&quot;</code><br />
+<code>#include &quot;xpm/mouse.xpm&quot;</code><br />
+<code>#include &quot;xpm/numbers/eight.xpm&quot;</code><br />
+<code>#include &quot;xpm/numbers/equal.xpm&quot;</code><br />
+<code>#include &quot;xpm/numbers/five.xpm&quot;</code><br />
+<code>#include &quot;xpm/numbers/four.xpm&quot;</code><br />
+<code>#include &quot;xpm/numbers/nine.xpm&quot;</code><br />
+<code>#include &quot;xpm/numbers/one.xpm&quot;</code><br />
+<code>#include &quot;xpm/numbers/seven.xpm&quot;</code><br />
+<code>#include &quot;xpm/numbers/six.xpm&quot;</code><br />
+<code>#include &quot;xpm/numbers/slash.xpm&quot;</code><br />
+<code>#include &quot;xpm/numbers/three.xpm&quot;</code><br />
+<code>#include &quot;xpm/numbers/two.xpm&quot;</code><br />
+<code>#include &quot;xpm/numbers/two_points.xpm&quot;</code><br />
+<code>#include &quot;xpm/numbers/zero.xpm&quot;</code><br />
+<code>#include &quot;xpm/target.xpm&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Este grafo mostra quais são os ficheiros que incluem directamente ou indirectamente este ficheiro:</div>
+<div class="dyncontent">
+<div class="center"><img src="_comun_sprites_8h__dep__incl.png" border="0" usemap="#asrc_2_game_controlers_2_comun_sprites_8hdep" alt=""/></div>
+<map name="asrc_2_game_controlers_2_comun_sprites_8hdep" id="asrc_2_game_controlers_2_comun_sprites_8hdep">
+<area shape="rect" title=" " alt="" coords="501,5,639,48"/>
+<area shape="rect" href="_game_sprites_8h.html" title=" " alt="" coords="501,96,639,139"/>
+<area shape="poly" title=" " alt="" coords="573,64,573,96,567,96,567,64"/>
+<area shape="rect" href="aim_train_controler_8h.html" title=" " alt="" coords="257,187,395,229"/>
+<area shape="poly" title=" " alt="" coords="492,147,376,189,375,184,490,142"/>
+<area shape="rect" href="main_8c.html" title=" " alt="" coords="373,467,455,493"/>
+<area shape="poly" title=" " alt="" coords="523,150,503,167,486,188,470,234,451,316,419,467,414,466,445,315,465,233,481,185,499,164,520,146"/>
+<area shape="rect" href="gamesprites_8c.html" title=" " alt="" coords="744,187,881,229"/>
+<area shape="poly" title=" " alt="" coords="642,142,757,184,755,189,640,147"/>
+<area shape="rect" href="reactgamecontroller_8h.html" title=" " alt="" coords="495,187,645,229"/>
+<area shape="poly" title=" " alt="" coords="564,154,565,186,560,186,558,154"/>
+<area shape="rect" href="statecontroler_8h.html" title=" " alt="" coords="669,277,807,320"/>
+<area shape="poly" title=" " alt="" coords="603,146,647,185,686,232,719,275,715,278,682,235,643,189,600,150"/>
+<area shape="poly" title=" " alt="" coords="404,179,520,137,521,142,406,184"/>
+<area shape="rect" href="aim_train_controler_8c.html" title=" " alt="" coords="232,277,369,320"/>
+<area shape="poly" title=" " alt="" coords="319,245,309,278,304,276,313,243"/>
+<area shape="rect" href="buffering_8h.html" title=" " alt="" coords="19,277,156,320"/>
+<area shape="poly" title=" " alt="" coords="257,238,144,279,142,274,255,233"/>
+<area shape="rect" href="gamehandlers_8h.html" title=" " alt="" coords="219,368,356,411"/>
+<area shape="poly" title=" " alt="" coords="262,240,240,257,223,279,217,298,223,319,239,345,260,366,257,369,235,348,218,321,212,298,218,276,236,253,259,235"/>
+<area shape="poly" title=" " alt="" coords="360,240,384,276,402,330,412,384,417,466,412,466,407,385,397,331,380,279,356,243"/>
+<area shape="rect" href="buffering_8c.html" title=" " alt="" coords="5,368,143,411"/>
+<area shape="poly" title=" " alt="" coords="85,336,80,368,74,367,79,335"/>
+<area shape="poly" title=" " alt="" coords="149,324,241,365,239,370,147,329"/>
+<area shape="poly" title=" " alt="" coords="120,329,168,376,209,408,249,428,283,437,319,444,363,456,383,464,381,469,361,461,317,449,282,442,247,433,206,413,164,380,116,333"/>
+<area shape="rect" href="gamehandlers_8c.html" title=" " alt="" coords="212,459,349,501"/>
+<area shape="poly" title=" " alt="" coords="287,426,285,459,280,458,282,426"/>
+<area shape="poly" title=" " alt="" coords="330,417,398,464,395,468,327,422"/>
+<area shape="poly" title=" " alt="" coords="576,171,575,139,580,139,582,171"/>
+<area shape="rect" href="reactgamecontroller_8c.html" title=" " alt="" coords="495,277,645,320"/>
+<area shape="poly" title=" " alt="" coords="573,245,573,277,567,277,567,245"/>
+<area shape="poly" title=" " alt="" coords="624,235,700,274,698,279,622,239"/>
+<area shape="poly" title=" " alt="" coords="725,265,699,227,667,189,639,163,609,141,612,137,642,159,671,185,703,224,729,262"/>
+<area shape="poly" title=" " alt="" coords="654,323,357,379,356,374,653,318"/>
+<area shape="poly" title=" " alt="" coords="742,336,735,376,727,395,715,413,696,426,669,437,599,456,522,469,456,477,455,472,521,464,598,450,667,432,693,421,711,409,723,393,730,374,736,335"/>
+<area shape="rect" href="statecontroler_8c.html" title=" " alt="" coords="563,368,700,411"/>
+<area shape="poly" title=" " alt="" coords="703,332,658,369,655,365,700,328"/>
+</map>
+</div>
+</div>
+<p><a href="_comun_sprites_8h_source.html">Ir para o código fonte deste ficheiro.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variáveis</h2></td></tr>
+<tr class="memitem:a9eabbc4f6889dccf6bc82be74175a46f" id="r_a9eabbc4f6889dccf6bc82be74175a46f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a9eabbc4f6889dccf6bc82be74175a46f">black_background</a></td></tr>
+<tr class="separator:a9eabbc4f6889dccf6bc82be74175a46f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43be049f74dc2822a92ede7202c38950" id="r_a43be049f74dc2822a92ede7202c38950"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a43be049f74dc2822a92ede7202c38950">react_Start</a></td></tr>
+<tr class="separator:a43be049f74dc2822a92ede7202c38950"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a157d8c2cd864806c9ebf0c4a2550e79c" id="r_a157d8c2cd864806c9ebf0c4a2550e79c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a157d8c2cd864806c9ebf0c4a2550e79c">react_Wait</a></td></tr>
+<tr class="separator:a157d8c2cd864806c9ebf0c4a2550e79c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf6144982c7db9468595f14ba4e17cb4" id="r_aaf6144982c7db9468595f14ba4e17cb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#aaf6144982c7db9468595f14ba4e17cb4">react_ToSoon</a></td></tr>
+<tr class="separator:aaf6144982c7db9468595f14ba4e17cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e06294651b34f9aa8521513bd72b89" id="r_a60e06294651b34f9aa8521513bd72b89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a60e06294651b34f9aa8521513bd72b89">react_Click</a></td></tr>
+<tr class="separator:a60e06294651b34f9aa8521513bd72b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a18f27c9d71a23493fc76fe408ab2e7" id="r_a9a18f27c9d71a23493fc76fe408ab2e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a9a18f27c9d71a23493fc76fe408ab2e7">react_Restart</a></td></tr>
+<tr class="separator:a9a18f27c9d71a23493fc76fe408ab2e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16d8fd18ef98763c21edd28224c53516" id="r_a16d8fd18ef98763c21edd28224c53516"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a16d8fd18ef98763c21edd28224c53516">aim_menu</a></td></tr>
+<tr class="separator:a16d8fd18ef98763c21edd28224c53516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5d416448a952808a0dbddf47128b6c0" id="r_aa5d416448a952808a0dbddf47128b6c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#aa5d416448a952808a0dbddf47128b6c0">aim_menu_background</a></td></tr>
+<tr class="separator:aa5d416448a952808a0dbddf47128b6c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada1feacea0c4cb9c592c6d5e2e9c7e53" id="r_ada1feacea0c4cb9c592c6d5e2e9c7e53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#ada1feacea0c4cb9c592c6d5e2e9c7e53">main_menu</a></td></tr>
+<tr class="separator:ada1feacea0c4cb9c592c6d5e2e9c7e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69029e1da2c4f0e68659b34088b8bf62" id="r_a69029e1da2c4f0e68659b34088b8bf62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a69029e1da2c4f0e68659b34088b8bf62">main_menu_background</a></td></tr>
+<tr class="separator:a69029e1da2c4f0e68659b34088b8bf62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3a81c820ffa4bb52ff7d3aa89667d6d" id="r_aa3a81c820ffa4bb52ff7d3aa89667d6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#aa3a81c820ffa4bb52ff7d3aa89667d6d">aim_sprite</a></td></tr>
+<tr class="separator:aa3a81c820ffa4bb52ff7d3aa89667d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb5f4a744bc2112f283f07f3fa64682a" id="r_acb5f4a744bc2112f283f07f3fa64682a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#acb5f4a744bc2112f283f07f3fa64682a">mouse_sprite</a></td></tr>
+<tr class="separator:acb5f4a744bc2112f283f07f3fa64682a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc06c941a89c9db22f43772fae28411e" id="r_afc06c941a89c9db22f43772fae28411e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#afc06c941a89c9db22f43772fae28411e">target_Sprite</a></td></tr>
+<tr class="separator:afc06c941a89c9db22f43772fae28411e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76c647e94da059f567364128d6164d5b" id="r_a76c647e94da059f567364128d6164d5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a76c647e94da059f567364128d6164d5b">target_background</a></td></tr>
+<tr class="separator:a76c647e94da059f567364128d6164d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69a7242ee147decd9b827b0c721a728c" id="r_a69a7242ee147decd9b827b0c721a728c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a69a7242ee147decd9b827b0c721a728c">background</a></td></tr>
+<tr class="separator:a69a7242ee147decd9b827b0c721a728c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31783d10552ff6cec2e53a9e37c4ae71" id="r_a31783d10552ff6cec2e53a9e37c4ae71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a31783d10552ff6cec2e53a9e37c4ae71">red_background</a></td></tr>
+<tr class="separator:a31783d10552ff6cec2e53a9e37c4ae71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a809002180d5d3880febfd0bae533bcbf" id="r_a809002180d5d3880febfd0bae533bcbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a809002180d5d3880febfd0bae533bcbf">one_sprite</a></td></tr>
+<tr class="separator:a809002180d5d3880febfd0bae533bcbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad62db5e04cf91ff238987bba5f41b3a5" id="r_ad62db5e04cf91ff238987bba5f41b3a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#ad62db5e04cf91ff238987bba5f41b3a5">two_sprite</a></td></tr>
+<tr class="separator:ad62db5e04cf91ff238987bba5f41b3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa474c76737b008222a0ea60f8cbe2504" id="r_aa474c76737b008222a0ea60f8cbe2504"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#aa474c76737b008222a0ea60f8cbe2504">three_sprite</a></td></tr>
+<tr class="separator:aa474c76737b008222a0ea60f8cbe2504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc652bea5d593f66fb3a1d78be05b2d4" id="r_adc652bea5d593f66fb3a1d78be05b2d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#adc652bea5d593f66fb3a1d78be05b2d4">four_sprite</a></td></tr>
+<tr class="separator:adc652bea5d593f66fb3a1d78be05b2d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72bde32065780dd350c2b687ea808572" id="r_a72bde32065780dd350c2b687ea808572"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a72bde32065780dd350c2b687ea808572">five_sprite</a></td></tr>
+<tr class="separator:a72bde32065780dd350c2b687ea808572"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ea0115542a2a1b098cc003e29333f46" id="r_a0ea0115542a2a1b098cc003e29333f46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a0ea0115542a2a1b098cc003e29333f46">six_sprite</a></td></tr>
+<tr class="separator:a0ea0115542a2a1b098cc003e29333f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4492a0079e72be1843a2ca0534dac76f" id="r_a4492a0079e72be1843a2ca0534dac76f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a4492a0079e72be1843a2ca0534dac76f">seven_sprite</a></td></tr>
+<tr class="separator:a4492a0079e72be1843a2ca0534dac76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8729620291b34735974150e2d83a902c" id="r_a8729620291b34735974150e2d83a902c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a8729620291b34735974150e2d83a902c">eight_sprite</a></td></tr>
+<tr class="separator:a8729620291b34735974150e2d83a902c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59b8b6fbf0b122c36c45460192886737" id="r_a59b8b6fbf0b122c36c45460192886737"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a59b8b6fbf0b122c36c45460192886737">nine_sprite</a></td></tr>
+<tr class="separator:a59b8b6fbf0b122c36c45460192886737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1c28de3b350826f4f3f37ba1e9b4a3b" id="r_aa1c28de3b350826f4f3f37ba1e9b4a3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#aa1c28de3b350826f4f3f37ba1e9b4a3b">zero_sprite</a></td></tr>
+<tr class="separator:aa1c28de3b350826f4f3f37ba1e9b4a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e329d2da7eb6648278f981231f04e7f" id="r_a2e329d2da7eb6648278f981231f04e7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a2e329d2da7eb6648278f981231f04e7f">two_points_sprite</a></td></tr>
+<tr class="separator:a2e329d2da7eb6648278f981231f04e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f896c2496649405e7c48964a44454a9" id="r_a2f896c2496649405e7c48964a44454a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a2f896c2496649405e7c48964a44454a9">equal_sprite</a></td></tr>
+<tr class="separator:a2f896c2496649405e7c48964a44454a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae963694baa77716e025b5093a71340d0" id="r_ae963694baa77716e025b5093a71340d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#ae963694baa77716e025b5093a71340d0">slash_sprite</a></td></tr>
+<tr class="separator:ae963694baa77716e025b5093a71340d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ea58f528a9148956872173fc1098d75" id="r_a6ea58f528a9148956872173fc1098d75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a6ea58f528a9148956872173fc1098d75">A_sprite</a></td></tr>
+<tr class="separator:a6ea58f528a9148956872173fc1098d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc7801db6a435bbed5263b6c925435e6" id="r_adc7801db6a435bbed5263b6c925435e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#adc7801db6a435bbed5263b6c925435e6">B_sprite</a></td></tr>
+<tr class="separator:adc7801db6a435bbed5263b6c925435e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1c3cec05e455fc454e7e2c26399dd22" id="r_af1c3cec05e455fc454e7e2c26399dd22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#af1c3cec05e455fc454e7e2c26399dd22">C_sprite</a></td></tr>
+<tr class="separator:af1c3cec05e455fc454e7e2c26399dd22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a86c701bd994968f4c67f8a151233c7" id="r_a6a86c701bd994968f4c67f8a151233c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a6a86c701bd994968f4c67f8a151233c7">D_sprite</a></td></tr>
+<tr class="separator:a6a86c701bd994968f4c67f8a151233c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed99e7fc07d53abd45960b5781d366c7" id="r_aed99e7fc07d53abd45960b5781d366c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#aed99e7fc07d53abd45960b5781d366c7">E_sprite</a></td></tr>
+<tr class="separator:aed99e7fc07d53abd45960b5781d366c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7014d35c6c234150a7ae1aa239ae9db5" id="r_a7014d35c6c234150a7ae1aa239ae9db5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a7014d35c6c234150a7ae1aa239ae9db5">F_sprite</a></td></tr>
+<tr class="separator:a7014d35c6c234150a7ae1aa239ae9db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0855d315472301b65808c9e3463d00b5" id="r_a0855d315472301b65808c9e3463d00b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a0855d315472301b65808c9e3463d00b5">G_sprite</a></td></tr>
+<tr class="separator:a0855d315472301b65808c9e3463d00b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32b6af89b9a08797d979c363d6a7826f" id="r_a32b6af89b9a08797d979c363d6a7826f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a32b6af89b9a08797d979c363d6a7826f">H_sprite</a></td></tr>
+<tr class="separator:a32b6af89b9a08797d979c363d6a7826f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5920b380a1d706ae60b1053ac52ed6af" id="r_a5920b380a1d706ae60b1053ac52ed6af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a5920b380a1d706ae60b1053ac52ed6af">I_sprite</a></td></tr>
+<tr class="separator:a5920b380a1d706ae60b1053ac52ed6af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a6dad080f4e9e2c03f1405f392a4582" id="r_a9a6dad080f4e9e2c03f1405f392a4582"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a9a6dad080f4e9e2c03f1405f392a4582">J_sprite</a></td></tr>
+<tr class="separator:a9a6dad080f4e9e2c03f1405f392a4582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ea2f0c24bd47ccde39ea092d6f111a0" id="r_a2ea2f0c24bd47ccde39ea092d6f111a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a2ea2f0c24bd47ccde39ea092d6f111a0">K_sprite</a></td></tr>
+<tr class="separator:a2ea2f0c24bd47ccde39ea092d6f111a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3a973c815b58572b31a6eca221a1890" id="r_aa3a973c815b58572b31a6eca221a1890"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#aa3a973c815b58572b31a6eca221a1890">L_sprite</a></td></tr>
+<tr class="separator:aa3a973c815b58572b31a6eca221a1890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a517b0eb7d1636840700e6dec6b487a4f" id="r_a517b0eb7d1636840700e6dec6b487a4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a517b0eb7d1636840700e6dec6b487a4f">M_sprite</a></td></tr>
+<tr class="separator:a517b0eb7d1636840700e6dec6b487a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a820512751344a28a31c4508489cd8921" id="r_a820512751344a28a31c4508489cd8921"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a820512751344a28a31c4508489cd8921">N_sprite</a></td></tr>
+<tr class="separator:a820512751344a28a31c4508489cd8921"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf03551e630da45110c2a349886e32ba" id="r_adf03551e630da45110c2a349886e32ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#adf03551e630da45110c2a349886e32ba">O_sprite</a></td></tr>
+<tr class="separator:adf03551e630da45110c2a349886e32ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb693a23b2b1ed99c49d64b4b83222bd" id="r_acb693a23b2b1ed99c49d64b4b83222bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#acb693a23b2b1ed99c49d64b4b83222bd">P_sprite</a></td></tr>
+<tr class="separator:acb693a23b2b1ed99c49d64b4b83222bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35fe1b7c75d12016a0f52ba0e4112e58" id="r_a35fe1b7c75d12016a0f52ba0e4112e58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a35fe1b7c75d12016a0f52ba0e4112e58">Q_sprite</a></td></tr>
+<tr class="separator:a35fe1b7c75d12016a0f52ba0e4112e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac11935d90a156953a7485a9e77cec84" id="r_aac11935d90a156953a7485a9e77cec84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#aac11935d90a156953a7485a9e77cec84">R_sprite</a></td></tr>
+<tr class="separator:aac11935d90a156953a7485a9e77cec84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728c0ffbfa501157f24d141b4a7b1eee" id="r_a728c0ffbfa501157f24d141b4a7b1eee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a728c0ffbfa501157f24d141b4a7b1eee">S_sprite</a></td></tr>
+<tr class="separator:a728c0ffbfa501157f24d141b4a7b1eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26d209f2de578a797e0af03804376d5a" id="r_a26d209f2de578a797e0af03804376d5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a26d209f2de578a797e0af03804376d5a">T_sprite</a></td></tr>
+<tr class="separator:a26d209f2de578a797e0af03804376d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5d6f49e04c0b1545f66cf303d34c9df" id="r_aa5d6f49e04c0b1545f66cf303d34c9df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#aa5d6f49e04c0b1545f66cf303d34c9df">U_sprite</a></td></tr>
+<tr class="separator:aa5d6f49e04c0b1545f66cf303d34c9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f38394753d1a2eaa980e30c31ed2dfa" id="r_a7f38394753d1a2eaa980e30c31ed2dfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a7f38394753d1a2eaa980e30c31ed2dfa">V_sprite</a></td></tr>
+<tr class="separator:a7f38394753d1a2eaa980e30c31ed2dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ebd391262be113c373b81f0113e6b83" id="r_a3ebd391262be113c373b81f0113e6b83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a3ebd391262be113c373b81f0113e6b83">W_sprite</a></td></tr>
+<tr class="separator:a3ebd391262be113c373b81f0113e6b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b75abe690e92e60557622eb71229ad4" id="r_a7b75abe690e92e60557622eb71229ad4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#a7b75abe690e92e60557622eb71229ad4">X_sprite</a></td></tr>
+<tr class="separator:a7b75abe690e92e60557622eb71229ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb173a8bd71a6d78f421b71cb76c4c7a" id="r_abb173a8bd71a6d78f421b71cb76c4c7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#abb173a8bd71a6d78f421b71cb76c4c7a">Y_sprite</a></td></tr>
+<tr class="separator:abb173a8bd71a6d78f421b71cb76c4c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad28e5399304edbb4066a4c834cd6ead8" id="r_ad28e5399304edbb4066a4c834cd6ead8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_comun_sprites_8h.html#ad28e5399304edbb4066a4c834cd6ead8">Z_sprite</a></td></tr>
+<tr class="separator:ad28e5399304edbb4066a4c834cd6ead8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentação das variáveis</h2>
+<a id="a6ea58f528a9148956872173fc1098d75" name="a6ea58f528a9148956872173fc1098d75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ea58f528a9148956872173fc1098d75">&#9670;&#160;</a></span>A_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* A_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a16d8fd18ef98763c21edd28224c53516" name="a16d8fd18ef98763c21edd28224c53516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16d8fd18ef98763c21edd28224c53516">&#9670;&#160;</a></span>aim_menu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* aim_menu</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5d416448a952808a0dbddf47128b6c0" name="aa5d416448a952808a0dbddf47128b6c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5d416448a952808a0dbddf47128b6c0">&#9670;&#160;</a></span>aim_menu_background</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* aim_menu_background</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa3a81c820ffa4bb52ff7d3aa89667d6d" name="aa3a81c820ffa4bb52ff7d3aa89667d6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3a81c820ffa4bb52ff7d3aa89667d6d">&#9670;&#160;</a></span>aim_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* aim_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc7801db6a435bbed5263b6c925435e6" name="adc7801db6a435bbed5263b6c925435e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc7801db6a435bbed5263b6c925435e6">&#9670;&#160;</a></span>B_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* B_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69a7242ee147decd9b827b0c721a728c" name="a69a7242ee147decd9b827b0c721a728c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69a7242ee147decd9b827b0c721a728c">&#9670;&#160;</a></span>background</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* background</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9eabbc4f6889dccf6bc82be74175a46f" name="a9eabbc4f6889dccf6bc82be74175a46f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eabbc4f6889dccf6bc82be74175a46f">&#9670;&#160;</a></span>black_background</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* black_background</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1c3cec05e455fc454e7e2c26399dd22" name="af1c3cec05e455fc454e7e2c26399dd22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1c3cec05e455fc454e7e2c26399dd22">&#9670;&#160;</a></span>C_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* C_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a86c701bd994968f4c67f8a151233c7" name="a6a86c701bd994968f4c67f8a151233c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a86c701bd994968f4c67f8a151233c7">&#9670;&#160;</a></span>D_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* D_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed99e7fc07d53abd45960b5781d366c7" name="aed99e7fc07d53abd45960b5781d366c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed99e7fc07d53abd45960b5781d366c7">&#9670;&#160;</a></span>E_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* E_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8729620291b34735974150e2d83a902c" name="a8729620291b34735974150e2d83a902c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8729620291b34735974150e2d83a902c">&#9670;&#160;</a></span>eight_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* eight_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f896c2496649405e7c48964a44454a9" name="a2f896c2496649405e7c48964a44454a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f896c2496649405e7c48964a44454a9">&#9670;&#160;</a></span>equal_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* equal_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7014d35c6c234150a7ae1aa239ae9db5" name="a7014d35c6c234150a7ae1aa239ae9db5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7014d35c6c234150a7ae1aa239ae9db5">&#9670;&#160;</a></span>F_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* F_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72bde32065780dd350c2b687ea808572" name="a72bde32065780dd350c2b687ea808572"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72bde32065780dd350c2b687ea808572">&#9670;&#160;</a></span>five_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* five_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc652bea5d593f66fb3a1d78be05b2d4" name="adc652bea5d593f66fb3a1d78be05b2d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc652bea5d593f66fb3a1d78be05b2d4">&#9670;&#160;</a></span>four_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* four_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0855d315472301b65808c9e3463d00b5" name="a0855d315472301b65808c9e3463d00b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0855d315472301b65808c9e3463d00b5">&#9670;&#160;</a></span>G_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* G_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a32b6af89b9a08797d979c363d6a7826f" name="a32b6af89b9a08797d979c363d6a7826f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32b6af89b9a08797d979c363d6a7826f">&#9670;&#160;</a></span>H_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* H_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5920b380a1d706ae60b1053ac52ed6af" name="a5920b380a1d706ae60b1053ac52ed6af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5920b380a1d706ae60b1053ac52ed6af">&#9670;&#160;</a></span>I_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* I_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a6dad080f4e9e2c03f1405f392a4582" name="a9a6dad080f4e9e2c03f1405f392a4582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a6dad080f4e9e2c03f1405f392a4582">&#9670;&#160;</a></span>J_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* J_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ea2f0c24bd47ccde39ea092d6f111a0" name="a2ea2f0c24bd47ccde39ea092d6f111a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ea2f0c24bd47ccde39ea092d6f111a0">&#9670;&#160;</a></span>K_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* K_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa3a973c815b58572b31a6eca221a1890" name="aa3a973c815b58572b31a6eca221a1890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3a973c815b58572b31a6eca221a1890">&#9670;&#160;</a></span>L_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* L_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a517b0eb7d1636840700e6dec6b487a4f" name="a517b0eb7d1636840700e6dec6b487a4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a517b0eb7d1636840700e6dec6b487a4f">&#9670;&#160;</a></span>M_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* M_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada1feacea0c4cb9c592c6d5e2e9c7e53" name="ada1feacea0c4cb9c592c6d5e2e9c7e53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada1feacea0c4cb9c592c6d5e2e9c7e53">&#9670;&#160;</a></span>main_menu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* main_menu</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69029e1da2c4f0e68659b34088b8bf62" name="a69029e1da2c4f0e68659b34088b8bf62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69029e1da2c4f0e68659b34088b8bf62">&#9670;&#160;</a></span>main_menu_background</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* main_menu_background</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb5f4a744bc2112f283f07f3fa64682a" name="acb5f4a744bc2112f283f07f3fa64682a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb5f4a744bc2112f283f07f3fa64682a">&#9670;&#160;</a></span>mouse_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* mouse_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a820512751344a28a31c4508489cd8921" name="a820512751344a28a31c4508489cd8921"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a820512751344a28a31c4508489cd8921">&#9670;&#160;</a></span>N_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* N_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a59b8b6fbf0b122c36c45460192886737" name="a59b8b6fbf0b122c36c45460192886737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59b8b6fbf0b122c36c45460192886737">&#9670;&#160;</a></span>nine_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* nine_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf03551e630da45110c2a349886e32ba" name="adf03551e630da45110c2a349886e32ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf03551e630da45110c2a349886e32ba">&#9670;&#160;</a></span>O_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* O_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a809002180d5d3880febfd0bae533bcbf" name="a809002180d5d3880febfd0bae533bcbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a809002180d5d3880febfd0bae533bcbf">&#9670;&#160;</a></span>one_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* one_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb693a23b2b1ed99c49d64b4b83222bd" name="acb693a23b2b1ed99c49d64b4b83222bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb693a23b2b1ed99c49d64b4b83222bd">&#9670;&#160;</a></span>P_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* P_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a35fe1b7c75d12016a0f52ba0e4112e58" name="a35fe1b7c75d12016a0f52ba0e4112e58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35fe1b7c75d12016a0f52ba0e4112e58">&#9670;&#160;</a></span>Q_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* Q_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac11935d90a156953a7485a9e77cec84" name="aac11935d90a156953a7485a9e77cec84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac11935d90a156953a7485a9e77cec84">&#9670;&#160;</a></span>R_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* R_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a60e06294651b34f9aa8521513bd72b89" name="a60e06294651b34f9aa8521513bd72b89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60e06294651b34f9aa8521513bd72b89">&#9670;&#160;</a></span>react_Click</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* react_Click</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a18f27c9d71a23493fc76fe408ab2e7" name="a9a18f27c9d71a23493fc76fe408ab2e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a18f27c9d71a23493fc76fe408ab2e7">&#9670;&#160;</a></span>react_Restart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* react_Restart</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43be049f74dc2822a92ede7202c38950" name="a43be049f74dc2822a92ede7202c38950"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43be049f74dc2822a92ede7202c38950">&#9670;&#160;</a></span>react_Start</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* react_Start</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf6144982c7db9468595f14ba4e17cb4" name="aaf6144982c7db9468595f14ba4e17cb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf6144982c7db9468595f14ba4e17cb4">&#9670;&#160;</a></span>react_ToSoon</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* react_ToSoon</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a157d8c2cd864806c9ebf0c4a2550e79c" name="a157d8c2cd864806c9ebf0c4a2550e79c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a157d8c2cd864806c9ebf0c4a2550e79c">&#9670;&#160;</a></span>react_Wait</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* react_Wait</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31783d10552ff6cec2e53a9e37c4ae71" name="a31783d10552ff6cec2e53a9e37c4ae71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31783d10552ff6cec2e53a9e37c4ae71">&#9670;&#160;</a></span>red_background</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* red_background</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a728c0ffbfa501157f24d141b4a7b1eee" name="a728c0ffbfa501157f24d141b4a7b1eee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a728c0ffbfa501157f24d141b4a7b1eee">&#9670;&#160;</a></span>S_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* S_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4492a0079e72be1843a2ca0534dac76f" name="a4492a0079e72be1843a2ca0534dac76f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4492a0079e72be1843a2ca0534dac76f">&#9670;&#160;</a></span>seven_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* seven_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ea0115542a2a1b098cc003e29333f46" name="a0ea0115542a2a1b098cc003e29333f46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ea0115542a2a1b098cc003e29333f46">&#9670;&#160;</a></span>six_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* six_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae963694baa77716e025b5093a71340d0" name="ae963694baa77716e025b5093a71340d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae963694baa77716e025b5093a71340d0">&#9670;&#160;</a></span>slash_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* slash_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a26d209f2de578a797e0af03804376d5a" name="a26d209f2de578a797e0af03804376d5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26d209f2de578a797e0af03804376d5a">&#9670;&#160;</a></span>T_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* T_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76c647e94da059f567364128d6164d5b" name="a76c647e94da059f567364128d6164d5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76c647e94da059f567364128d6164d5b">&#9670;&#160;</a></span>target_background</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* target_background</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc06c941a89c9db22f43772fae28411e" name="afc06c941a89c9db22f43772fae28411e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc06c941a89c9db22f43772fae28411e">&#9670;&#160;</a></span>target_Sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* target_Sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa474c76737b008222a0ea60f8cbe2504" name="aa474c76737b008222a0ea60f8cbe2504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa474c76737b008222a0ea60f8cbe2504">&#9670;&#160;</a></span>three_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* three_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e329d2da7eb6648278f981231f04e7f" name="a2e329d2da7eb6648278f981231f04e7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e329d2da7eb6648278f981231f04e7f">&#9670;&#160;</a></span>two_points_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* two_points_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad62db5e04cf91ff238987bba5f41b3a5" name="ad62db5e04cf91ff238987bba5f41b3a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad62db5e04cf91ff238987bba5f41b3a5">&#9670;&#160;</a></span>two_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* two_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5d6f49e04c0b1545f66cf303d34c9df" name="aa5d6f49e04c0b1545f66cf303d34c9df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5d6f49e04c0b1545f66cf303d34c9df">&#9670;&#160;</a></span>U_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* U_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f38394753d1a2eaa980e30c31ed2dfa" name="a7f38394753d1a2eaa980e30c31ed2dfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f38394753d1a2eaa980e30c31ed2dfa">&#9670;&#160;</a></span>V_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* V_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3ebd391262be113c373b81f0113e6b83" name="a3ebd391262be113c373b81f0113e6b83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ebd391262be113c373b81f0113e6b83">&#9670;&#160;</a></span>W_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* W_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b75abe690e92e60557622eb71229ad4" name="a7b75abe690e92e60557622eb71229ad4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b75abe690e92e60557622eb71229ad4">&#9670;&#160;</a></span>X_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* X_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb173a8bd71a6d78f421b71cb76c4c7a" name="abb173a8bd71a6d78f421b71cb76c4c7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb173a8bd71a6d78f421b71cb76c4c7a">&#9670;&#160;</a></span>Y_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* Y_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad28e5399304edbb4066a4c834cd6ead8" name="ad28e5399304edbb4066a4c834cd6ead8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad28e5399304edbb4066a4c834cd6ead8">&#9670;&#160;</a></span>Z_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* Z_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1c28de3b350826f4f3f37ba1e9b4a3b" name="aa1c28de3b350826f4f3f37ba1e9b4a3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1c28de3b350826f4f3f37ba1e9b4a3b">&#9670;&#160;</a></span>zero_sprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_sprite.html">Sprite</a>* zero_sprite</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_258b3435e0b7e84529fdf417ba8a4d46.html">GameControlers</a></li><li class="navelem"><a class="el" href="_comun_sprites_8h.html">ComunSprites.h</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

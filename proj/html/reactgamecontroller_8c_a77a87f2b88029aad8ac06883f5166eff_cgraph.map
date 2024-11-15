@@ -1,0 +1,11 @@
+<map id="print_react_mode" name="print_react_mode">
+<area shape="rect" id="Node000001" title="Function to print the current react mode and draw corresponding sprites." alt="" coords="5,56,127,83"/>
+<area shape="rect" id="Node000002" href="$sprites_8c.html#a6db4230a0003a09515d78b790d8ec52d" title="Function to draw a sprite on the screen." alt="" coords="175,5,294,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,53,172,35,174,40,114,58"/>
+<area shape="rect" id="Node000004" href="$reactgamecontroller_8c.html#a66509b494102a5c28ba6c8be3eab7733" title="Function to start the timer for measuring reaction time. Sets the timer_running flag to true and rese..." alt="" coords="194,56,275,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="127,67,178,67,178,72,127,72"/>
+<area shape="rect" id="Node000005" href="$reactgamecontroller_8c.html#af3619f34a9bc0184b4578e5337069856" title="Function to stop the timer and update the best reaction time. Sets the timer_running flag to false,..." alt="" coords="194,107,275,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="114,81,180,101,179,106,112,86"/>
+<area shape="rect" id="Node000003" href="$graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741" title=" " alt="" coords="342,5,443,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="295,16,326,16,326,21,295,21"/>
+</map>

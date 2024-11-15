@@ -1,0 +1,30 @@
+<map id="read_KBC_output" name="read_KBC_output">
+<area shape="rect" id="Node000001" title=" " alt="" coords="629,81,752,108"/>
+<area shape="rect" id="Node000002" href="$keyboard_8c.html#aea970a154161a35f6894898a092ed70a" title=" " alt="" coords="490,5,550,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="645,77,580,46,549,33,551,28,582,42,648,72"/>
+<area shape="rect" id="Node000006" href="$keyboard_8c.html#a58017421d19bb2004825d339ebb600fa" title=" " alt="" coords="459,56,581,83"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="613,86,581,81,582,76,614,81"/>
+<area shape="rect" id="Node000007" href="$mouse_8c.html#a210374b50462acdedab00df64d5cea3c" title=" " alt="" coords="481,107,559,133"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="614,109,559,117,558,112,613,103"/>
+<area shape="rect" id="Node000009" href="$mouse_8c.html#a1703c3c5b61eef30d724b15cafd1d75e" title=" " alt="" coords="473,157,567,184"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="648,117,582,148,555,159,553,154,580,143,645,113"/>
+<area shape="rect" id="Node000003" href="$gamehandlers_8c.html#a0fb71e2b76b368ba43295cdc9174558b" title="Function to handle keyboard events. This function processes keyboard input events and updates the gam..." alt="" coords="288,5,411,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="475,21,412,21,412,16,475,16"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a22613a4ed426179d00643f6bf2d90320" title="Main game loop." alt="" coords="162,56,240,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="294,40,241,59,239,54,293,35"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,107,114,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="148,91,100,109,98,104,146,86"/>
+<area shape="rect" id="Node000008" href="$gamehandlers_8c.html#a1d865d087780c7f07862aa420ca32182" title="Function to handle mouse events. This function processes mouse input events and updates the game stat..." alt="" coords="295,56,404,83"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="466,107,396,86,398,81,468,102"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="280,72,241,72,241,67,280,67"/>
+<area shape="rect" id="Node000010" href="$main_8c.html#a88e1b2b26622517143098307a971d9ed" title="Clean up resources and exit the game." alt="" coords="316,107,383,133"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="457,155,383,132,385,127,458,150"/>
+<area shape="rect" id="Node000011" href="$mouse_8c.html#a1d1e0d0e4bfdbf729105c13188094e1b" title=" " alt="" coords="291,157,408,184"/>
+<area shape="poly" id="edge13_Node000009_Node000011" title=" " alt="" coords="458,173,408,173,408,168,458,168"/>
+<area shape="rect" id="Node000012" href="$main_8c.html#a0de60936a74f16fb1479b110f8131e87" title="Set up the initial configuration for the game." alt="" coords="171,157,231,184"/>
+<area shape="poly" id="edge16_Node000009_Node000012" title=" " alt="" coords="458,190,412,199,350,204,288,199,231,184,232,179,288,193,350,199,411,193,457,185"/>
+<area shape="poly" id="edge12_Node000010_Node000004" title=" " alt="" coords="300,106,240,85,241,80,302,101"/>
+<area shape="poly" id="edge11_Node000010_Node000005" title=" " alt="" coords="300,123,114,123,114,117,300,117"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="276,173,231,173,231,168,276,168"/>
+<area shape="poly" id="edge15_Node000012_Node000005" title=" " alt="" coords="155,157,98,136,100,131,157,152"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="frame_buffer" name="frame_buffer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="638,31,729,57"/>
+<area shape="rect" id="Node000002" href="$graphics_8c.html#a000daa65e22edd8402677354b598eb93" title=" " alt="" coords="441,5,590,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="622,38,590,33,591,27,623,32"/>
+<area shape="rect" id="Node000003" href="$buffering_8c.html#ac7aece56d0d111161c91b4b9cddfaf40" title="Initializes the frame buffers based on the provided video mode. This function sets up the frame buffe..." alt="" coords="270,31,393,57"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="622,47,394,47,394,41,622,41"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="426,34,394,38,393,33,426,28"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a0de60936a74f16fb1479b110f8131e87" title="Set up the initial configuration for the game." alt="" coords="162,31,222,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="254,47,222,47,222,41,254,41"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,31,114,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="146,47,114,47,114,41,146,41"/>
+</map>

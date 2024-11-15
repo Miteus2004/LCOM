@@ -1,0 +1,36 @@
+\doxysection{mouse.\+h}
+\hypertarget{mouse_8h_source}{}\label{mouse_8h_source}\index{src/Controlers/Mouse/mouse.h@{src/Controlers/Mouse/mouse.h}}
+\mbox{\hyperlink{mouse_8h}{Ir para a documentação deste ficheiro.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ \_LCOM\_MOUSE\_H\_}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ \_LCOM\_MOUSE\_H\_}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_mouse_2_k_b_c_8h}{Controlers/Mouse/KBC.h}}"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{i8042_8h}{Controlers/Timers/i8042.h}}"{}}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <lcom/lcf.h>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <stdint.h>}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00010\ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{struct_mouse_info_a9b6838d784ecb311f1dc86be9aef8091}{right\_click}};}
+\DoxyCodeLine{00011\ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{struct_mouse_info_a4274462be259dab89437b753d72cace7}{left\_click}};}
+\DoxyCodeLine{00012\ \ \ int16\_t\ \mbox{\hyperlink{struct_mouse_info_adb99988f306f351395685c70bba1fde0}{x}};}
+\DoxyCodeLine{00013\ \ \ int16\_t\ \mbox{\hyperlink{struct_mouse_info_aa7a6bd8f32f999e498fbd703482b3d6f}{y}};}
+\DoxyCodeLine{00014\ \}\ \mbox{\hyperlink{struct_mouse_info}{MouseInfo}};}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ int(\mbox{\hyperlink{mouse_8h_a20285aed4b3ef45812cd967532dd09db}{mouse\_subscribe\_int}})(uint8\_t\ *bit\_no);}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00018\ int(\mbox{\hyperlink{mouse_8h_a3ecf823d80520009ae5e0d76ae40a3c3}{mouse\_unsubscribe\_int}})();}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ void(\mbox{\hyperlink{mouse_8h_a210374b50462acdedab00df64d5cea3c}{mouse\_ih}})();}
+\DoxyCodeLine{00021\ }
+\DoxyCodeLine{00022\ void(\mbox{\hyperlink{mouse_8h_a1538254b8ccba2f68e02cc3d5547722c}{mouse\_sync\_bytes}})();}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ void(\mbox{\hyperlink{mouse_8h_a38c00abcff29c777f8e956e7ed9ffb77}{mouse\_set\_info}})();}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ int(\mbox{\hyperlink{mouse_8h_a1703c3c5b61eef30d724b15cafd1d75e}{mouse\_write}})(uint8\_t\ command);}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{mouse_8h_a1d1e0d0e4bfdbf729105c13188094e1b}{set\_sample\_rate}}(uint8\_t\ rate);}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

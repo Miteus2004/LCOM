@@ -1,0 +1,10 @@
+<map id="draw_letter" name="draw_letter">
+<area shape="rect" id="Node000001" title="Draws a letter at a specified position." alt="" coords="5,31,90,57"/>
+<area shape="rect" id="Node000002" href="$sprites_8c.html#a6db4230a0003a09515d78b790d8ec52d" title="Function to draw a sprite on the screen." alt="" coords="140,5,260,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,34,124,28,125,34,91,40"/>
+<area shape="rect" id="Node000004" href="$sprites_8c.html#a68f38f4a0ef4671439737a88745eb2d9" title="Function to draw a sprite on the screen, changing white pixels to a specified color." alt="" coords="138,56,262,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="91,48,123,54,122,59,90,54"/>
+<area shape="rect" id="Node000003" href="$graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741" title=" " alt="" coords="310,31,411,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="260,25,295,31,294,36,260,31"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="262,57,294,52,295,57,263,62"/>
+</map>

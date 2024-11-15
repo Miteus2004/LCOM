@@ -1,0 +1,13 @@
+<map id="keyboard_restore" name="keyboard_restore">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,127,57"/>
+<area shape="rect" id="Node000002" href="$_keyboard_2_k_b_c_8c.html#ac7f264677f62648ac34476a46980af2f" title=" " alt="" coords="186,56,310,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,50,171,56,170,61,127,55"/>
+<area shape="rect" id="Node000005" href="$_keyboard_2_k_b_c_8c.html#a34b653b3939fffe883c903cdadb36d3a" title=" " alt="" coords="175,5,321,32"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="127,33,158,28,159,34,127,38"/>
+<area shape="rect" id="Node000003" href="$_keyboard_2_k_b_c_8c.html#ac024af91b156e4fc61ee3886b891de21" title=" " alt="" coords="369,5,492,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="298,53,364,34,366,39,300,58"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="540,31,631,57"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="310,62,525,46,525,51,310,67"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="493,26,525,31,524,37,492,31"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="321,16,353,16,353,21,321,21"/>
+</map>

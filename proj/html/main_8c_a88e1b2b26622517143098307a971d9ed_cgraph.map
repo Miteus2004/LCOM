@@ -1,0 +1,23 @@
+<map id="exit_run" name="exit_run">
+<area shape="rect" id="Node000001" title="Clean up resources and exit the game." alt="" coords="5,107,73,133"/>
+<area shape="rect" id="Node000002" href="$keyboard_8c.html#a32cc4de66854f8a7bd909e7aa8b901ed" title=" " alt="" coords="121,5,293,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="49,104,79,73,119,42,131,36,133,40,122,46,82,77,53,108"/>
+<area shape="rect" id="Node000003" href="$mouse_8c.html#a3ecf823d80520009ae5e0d76ae40a3c3" title=" " alt="" coords="128,56,286,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="72,107,120,92,143,85,144,90,121,97,74,112"/>
+<area shape="rect" id="Node000004" href="$mouse_8c.html#a1703c3c5b61eef30d724b15cafd1d75e" title=" " alt="" coords="160,107,254,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="73,117,144,117,144,123,73,123"/>
+<area shape="rect" id="Node000009" href="$rtc_8c.html#ab8f17bf5280c908c8b199a90fefcc758" title=" " alt="" coords="140,157,274,184"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="74,128,121,143,144,150,143,155,120,148,72,133"/>
+<area shape="rect" id="Node000010" href="$group__timer.html#gafabd21de449be154dd65d5fdb2d8045d" title="Unsubscribes Timer 0 interrupts." alt="" coords="133,208,281,235"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="53,132,82,163,122,194,133,200,131,204,119,198,79,167,49,136"/>
+<area shape="rect" id="Node000005" href="$_keyboard_2_k_b_c_8c.html#ac7f264677f62648ac34476a46980af2f" title=" " alt="" coords="353,132,476,159"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="255,123,337,133,337,139,254,128"/>
+<area shape="rect" id="Node000008" href="$_keyboard_2_k_b_c_8c.html#a34b653b3939fffe883c903cdadb36d3a" title=" " alt="" coords="341,81,487,108"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="254,112,325,103,326,108,255,117"/>
+<area shape="rect" id="Node000006" href="$_keyboard_2_k_b_c_8c.html#ac024af91b156e4fc61ee3886b891de21" title=" " alt="" coords="535,81,659,108"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="464,129,531,110,532,115,466,134"/>
+<area shape="rect" id="Node000007" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="707,107,797,133"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="476,138,691,122,692,127,476,143"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="659,102,691,107,691,113,658,107"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="488,92,520,92,520,97,488,97"/>
+</map>

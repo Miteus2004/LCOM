@@ -1,0 +1,51 @@
+\doxysection{aim\+Train\+Controler.\+h}
+\hypertarget{aim_train_controler_8h_source}{}\label{aim_train_controler_8h_source}\index{src/GameControlers/aimTrainControler.h@{src/GameControlers/aimTrainControler.h}}
+\mbox{\hyperlink{aim_train_controler_8h}{Ir para a documentação deste ficheiro.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ AIMTRAINCONTROLER\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ AIMTRAINCONTROLER\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{timer_8h}{Controlers/Timers/timer.h}}"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_game_sprites_8h}{gamesprites.h}}"{}}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <lcom/lcf.h>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <stdlib.h>}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00014\ \ \ uint16\_t\ \mbox{\hyperlink{structtarget_aef48a2fa09494a5a492717fae5e7b0f1}{x}};}
+\DoxyCodeLine{00015\ \ \ uint16\_t\ \mbox{\hyperlink{structtarget_aa4be4dacf72f304cb1b8c6a9dfd81ac0}{y}};}
+\DoxyCodeLine{00016\ \}\ \mbox{\hyperlink{structtarget}{target}};}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00022\ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structuser_a03dd7ba7351a27e321aa6a2f5b265a78}{lifes}};}
+\DoxyCodeLine{00023\ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structuser_a0b1facb8357fe286de79eb139299d620}{score}};}
+\DoxyCodeLine{00024\ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structuser_ac1e43b827f324d38ad8d9405a88c9d67}{high\_score\_time\_attack}};}
+\DoxyCodeLine{00025\ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structuser_aba69b3d1a19007d67e68f3f0e7e145b8}{high\_score\_classic}};}
+\DoxyCodeLine{00026\ \ \ uint32\_t\ \mbox{\hyperlink{structuser_a658e8074cf49823e2b09ca82094fd343}{best\_react\_timer}};}
+\DoxyCodeLine{00027\ \}\ \mbox{\hyperlink{structuser}{user}};}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00033\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\ \{}
+\DoxyCodeLine{00034\ \ \ \mbox{\hyperlink{aim_train_controler_8h_a8cb4c92db9bb83fa36c66e5e6907b291a5d5a8aa8f016711cf286fd27974f0298}{CLASSIC}},}
+\DoxyCodeLine{00035\ \ \ \mbox{\hyperlink{aim_train_controler_8h_a8cb4c92db9bb83fa36c66e5e6907b291a96ba96ab90a6d298e658668c6f7e9d29}{TIME\_ATTACK}},}
+\DoxyCodeLine{00036\ \ \ \mbox{\hyperlink{aim_train_controler_8h_a8cb4c92db9bb83fa36c66e5e6907b291a70e4bd6bfe223430f1680ad0daddb9be}{AIM\_TRAIN\_MENU}},}
+\DoxyCodeLine{00037\ \ \ \mbox{\hyperlink{aim_train_controler_8h_a8cb4c92db9bb83fa36c66e5e6907b291acf1fe4dcdb78536e92f4228c52c9b77b}{GAME\_OVER\_AIM}}}
+\DoxyCodeLine{00038\ \}\ \mbox{\hyperlink{aim_train_controler_8h_a8cb4c92db9bb83fa36c66e5e6907b291}{AimMode}};}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00044\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{aim_train_controler_8h_a5a247b5d762457265132f315ca9e05f2}{start\_aim\_game}}();}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00050\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{aim_train_controler_8h_a4b999fbcc3f9daf879b8de3def1c2919}{give\_random\_position}}();}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00056\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{aim_train_controler_8h_aa0954c35efb87790edf4b5114dd816a5}{start\_time\_attack}}();}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00062\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{aim_train_controler_8h_acda34b3323fb8eaa01ea73ae967b7945}{start\_classic}}();}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00068\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{aim_train_controler_8h_aaca9d09569d5ad992cff9c384a7fc6a4}{take\_life}}();}
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00074\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{aim_train_controler_8h_a9b22b72ca7f8d05c24e67261e6e247b4}{target\_hit}}();}
+\DoxyCodeLine{00075\ }
+\DoxyCodeLine{00080\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{aim_train_controler_8h_af0f0c4ff3fc35cdeda765d7e55057ba6}{miss\_target}}();}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00082\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ AIMTRAINCONTROLER\_H}}
+
+\end{DoxyCode}

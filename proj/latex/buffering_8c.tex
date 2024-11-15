@@ -1,0 +1,139 @@
+\doxysection{Referência ao ficheiro src/\+Game\+Controlers/buffering.c}
+\hypertarget{buffering_8c}{}\label{buffering_8c}\index{src/GameControlers/buffering.c@{src/GameControlers/buffering.c}}
+{\ttfamily \#include "{}buffering.\+h"{}}\newline
+Diagrama de dependências de inclusão para buffering.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{buffering_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int() \mbox{\hyperlink{buffering_8c_ac7aece56d0d111161c91b4b9cddfaf40}{set\+\_\+frame\+\_\+buffers}} (uint16\+\_\+t mode)
+\begin{DoxyCompactList}\small\item\em Initializes the frame buffers based on the provided video mode. This function sets up the frame buffers for rendering graphics. If optimization is enabled, it utilizes double buffering by allocating memory for both the main and secondary frame buffers. Otherwise, it initializes a single frame buffer. \end{DoxyCompactList}\item 
+void() \mbox{\hyperlink{buffering_8c_aa3eb82d3b44f0375e27216392595fdb3}{swap\+\_\+buffers}} ()
+\begin{DoxyCompactList}\small\item\em Swaps the contents of the secondary frame buffer to the main frame buffer. This function performs the buffer swap necessary for optimized rendering. It copies the contents of the off-\/screen rendered frame from the secondary buffer to the main buffer, ensuring smooth visual updates. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variáveis}
+\begin{DoxyCompactItemize}
+\item 
+char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{buffering_8c_af5e61e8c4be207864207cae3d6caed7b}{main\+\_\+frame\+\_\+buffer}}
+\item 
+char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{buffering_8c_a129a2b65d07af2fd6053c5fab46ba83e}{secondary\+\_\+frame\+\_\+buffer}}
+\item 
+char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{buffering_8c_a3fbbadb0b253dadd11ee69ebe56a2145}{vidio\+\_\+mem}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{buffering_8c_a0edf3f8c28b403daaa9927c7e883696a}{frame\+\_\+buffer\+\_\+size}}
+\item 
+int \mbox{\hyperlink{buffering_8c_a9dd86e05eb51b73ffa496d0478503939}{timer\+\_\+interrupts}}
+\item 
+vbe\+\_\+mode\+\_\+info\+\_\+t \mbox{\hyperlink{buffering_8c_a99e3a39a732a4347b2b972bc06245eb5}{modeinf}}
+\item 
+\mbox{\hyperlink{struct_mouse_info}{Mouse\+Info}} \mbox{\hyperlink{buffering_8c_a419ddb548814ee8d98648423c8caad82}{mouse\+\_\+packet}}
+\item 
+bool \mbox{\hyperlink{buffering_8c_a3b357b6d80b9f1d4dfa293a7c35ed7a5}{Otimized}}
+\item 
+int \mbox{\hyperlink{buffering_8c_a45b67662d620a977a2cfe519f7ab6273}{fps}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{buffering_8c_ac7aece56d0d111161c91b4b9cddfaf40}\label{buffering_8c_ac7aece56d0d111161c91b4b9cddfaf40} 
+\index{buffering.c@{buffering.c}!set\_frame\_buffers@{set\_frame\_buffers}}
+\index{set\_frame\_buffers@{set\_frame\_buffers}!buffering.c@{buffering.c}}
+\doxysubsubsection{\texorpdfstring{set\_frame\_buffers()}{set\_frame\_buffers()}}
+{\footnotesize\ttfamily int() set\+\_\+frame\+\_\+buffers (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{mode }\end{DoxyParamCaption})}
+
+
+
+Initializes the frame buffers based on the provided video mode. This function sets up the frame buffers for rendering graphics. If optimization is enabled, it utilizes double buffering by allocating memory for both the main and secondary frame buffers. Otherwise, it initializes a single frame buffer. 
+
+The buffering module is responsible for handling frame buffers used in rendering graphics for the game. It provides functionality to set up and manage the main and secondary frame buffers, allowing for optimized rendering techniques such as double buffering. The module includes functions to initialize the frame buffers based on the current video mode and to swap buffers efficiently. This swapping mechanism is crucial for minimizing screen tearing and ensuring smooth visual updates. Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{buffering_8c_ac7aece56d0d111161c91b4b9cddfaf40_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{buffering_8c_ac7aece56d0d111161c91b4b9cddfaf40_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{buffering_8c_aa3eb82d3b44f0375e27216392595fdb3}\label{buffering_8c_aa3eb82d3b44f0375e27216392595fdb3} 
+\index{buffering.c@{buffering.c}!swap\_buffers@{swap\_buffers}}
+\index{swap\_buffers@{swap\_buffers}!buffering.c@{buffering.c}}
+\doxysubsubsection{\texorpdfstring{swap\_buffers()}{swap\_buffers()}}
+{\footnotesize\ttfamily void() swap\+\_\+buffers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Swaps the contents of the secondary frame buffer to the main frame buffer. This function performs the buffer swap necessary for optimized rendering. It copies the contents of the off-\/screen rendered frame from the secondary buffer to the main buffer, ensuring smooth visual updates. 
+
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{buffering_8c_aa3eb82d3b44f0375e27216392595fdb3_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Documentação das variáveis}
+\Hypertarget{buffering_8c_a45b67662d620a977a2cfe519f7ab6273}\label{buffering_8c_a45b67662d620a977a2cfe519f7ab6273} 
+\index{buffering.c@{buffering.c}!fps@{fps}}
+\index{fps@{fps}!buffering.c@{buffering.c}}
+\doxysubsubsection{\texorpdfstring{fps}{fps}}
+{\footnotesize\ttfamily int fps\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{buffering_8c_a0edf3f8c28b403daaa9927c7e883696a}\label{buffering_8c_a0edf3f8c28b403daaa9927c7e883696a} 
+\index{buffering.c@{buffering.c}!frame\_buffer\_size@{frame\_buffer\_size}}
+\index{frame\_buffer\_size@{frame\_buffer\_size}!buffering.c@{buffering.c}}
+\doxysubsubsection{\texorpdfstring{frame\_buffer\_size}{frame\_buffer\_size}}
+{\footnotesize\ttfamily uint32\+\_\+t frame\+\_\+buffer\+\_\+size}
+
+\Hypertarget{buffering_8c_af5e61e8c4be207864207cae3d6caed7b}\label{buffering_8c_af5e61e8c4be207864207cae3d6caed7b} 
+\index{buffering.c@{buffering.c}!main\_frame\_buffer@{main\_frame\_buffer}}
+\index{main\_frame\_buffer@{main\_frame\_buffer}!buffering.c@{buffering.c}}
+\doxysubsubsection{\texorpdfstring{main\_frame\_buffer}{main\_frame\_buffer}}
+{\footnotesize\ttfamily char\texorpdfstring{$\ast$}{*} main\+\_\+frame\+\_\+buffer}
+
+\Hypertarget{buffering_8c_a99e3a39a732a4347b2b972bc06245eb5}\label{buffering_8c_a99e3a39a732a4347b2b972bc06245eb5} 
+\index{buffering.c@{buffering.c}!modeinf@{modeinf}}
+\index{modeinf@{modeinf}!buffering.c@{buffering.c}}
+\doxysubsubsection{\texorpdfstring{modeinf}{modeinf}}
+{\footnotesize\ttfamily vbe\+\_\+mode\+\_\+info\+\_\+t modeinf\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{buffering_8c_a419ddb548814ee8d98648423c8caad82}\label{buffering_8c_a419ddb548814ee8d98648423c8caad82} 
+\index{buffering.c@{buffering.c}!mouse\_packet@{mouse\_packet}}
+\index{mouse\_packet@{mouse\_packet}!buffering.c@{buffering.c}}
+\doxysubsubsection{\texorpdfstring{mouse\_packet}{mouse\_packet}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_mouse_info}{Mouse\+Info}} mouse\+\_\+packet\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{buffering_8c_a3b357b6d80b9f1d4dfa293a7c35ed7a5}\label{buffering_8c_a3b357b6d80b9f1d4dfa293a7c35ed7a5} 
+\index{buffering.c@{buffering.c}!Otimized@{Otimized}}
+\index{Otimized@{Otimized}!buffering.c@{buffering.c}}
+\doxysubsubsection{\texorpdfstring{Otimized}{Otimized}}
+{\footnotesize\ttfamily bool Otimized\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{buffering_8c_a129a2b65d07af2fd6053c5fab46ba83e}\label{buffering_8c_a129a2b65d07af2fd6053c5fab46ba83e} 
+\index{buffering.c@{buffering.c}!secondary\_frame\_buffer@{secondary\_frame\_buffer}}
+\index{secondary\_frame\_buffer@{secondary\_frame\_buffer}!buffering.c@{buffering.c}}
+\doxysubsubsection{\texorpdfstring{secondary\_frame\_buffer}{secondary\_frame\_buffer}}
+{\footnotesize\ttfamily char\texorpdfstring{$\ast$}{*} secondary\+\_\+frame\+\_\+buffer}
+
+\Hypertarget{buffering_8c_a9dd86e05eb51b73ffa496d0478503939}\label{buffering_8c_a9dd86e05eb51b73ffa496d0478503939} 
+\index{buffering.c@{buffering.c}!timer\_interrupts@{timer\_interrupts}}
+\index{timer\_interrupts@{timer\_interrupts}!buffering.c@{buffering.c}}
+\doxysubsubsection{\texorpdfstring{timer\_interrupts}{timer\_interrupts}}
+{\footnotesize\ttfamily int timer\+\_\+interrupts\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{buffering_8c_a3fbbadb0b253dadd11ee69ebe56a2145}\label{buffering_8c_a3fbbadb0b253dadd11ee69ebe56a2145} 
+\index{buffering.c@{buffering.c}!vidio\_mem@{vidio\_mem}}
+\index{vidio\_mem@{vidio\_mem}!buffering.c@{buffering.c}}
+\doxysubsubsection{\texorpdfstring{vidio\_mem}{vidio\_mem}}
+{\footnotesize\ttfamily char\texorpdfstring{$\ast$}{*} vidio\+\_\+mem\hspace{0.3cm}{\ttfamily [extern]}}
+

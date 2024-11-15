@@ -1,0 +1,148 @@
+\doxysection{Referência ao ficheiro src/\+Game\+Controlers/statecontroler.c}
+\hypertarget{statecontroler_8c}{}\label{statecontroler_8c}\index{src/GameControlers/statecontroler.c@{src/GameControlers/statecontroler.c}}
+{\ttfamily \#include "{}statecontroler.\+h"{}}\newline
+Diagrama de dependências de inclusão para statecontroler.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{statecontroler_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} \mbox{\hyperlink{statecontroler_8c_afb7e8eee947a2d603dfd05cf396fd0a6}{startgame}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the game to the main menu state. This function sets up the main menu and transitions the game to the MAINMENU state. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} \mbox{\hyperlink{statecontroler_8c_a88dfdc3b343021521ec75e02abd6d0c2}{reactgame}} ()
+\begin{DoxyCompactList}\small\item\em Transitions the game to the reaction game state. This function sets up the reaction game and transitions the game to the REACTGAME state. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} \mbox{\hyperlink{statecontroler_8c_a12768f066e85226b4dca9e09ae9e0f98}{aimgame}} ()
+\begin{DoxyCompactList}\small\item\em Transitions the game to the aiming game state. This function sets the aiming mode and transitions the game to the AIMGAME state. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} \mbox{\hyperlink{statecontroler_8c_a85f6eeaa505d59f446654eeb0ab227fd}{gameover}} ()
+\begin{DoxyCompactList}\small\item\em Handles the game over state. This function transitions the game to the GAME\+\_\+\+OVER state. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} \mbox{\hyperlink{statecontroler_8c_abf2136845d70126601842fb39e74665d}{scoreboard}} ()
+\begin{DoxyCompactList}\small\item\em Displays the scoreboard and transitions to the scoreboard state. This function handles the logic for displaying the scoreboard and transitions the game to the SCOREBOARD state. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variáveis}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{aim_train_controler_8h_a8cb4c92db9bb83fa36c66e5e6907b291}{Aim\+Mode}} \mbox{\hyperlink{statecontroler_8c_a7c3c9fb57af63e2a638526757dabe7a5}{aim\+\_\+mode}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{statecontroler_8c_a12768f066e85226b4dca9e09ae9e0f98}\label{statecontroler_8c_a12768f066e85226b4dca9e09ae9e0f98} 
+\index{statecontroler.c@{statecontroler.c}!aimgame@{aimgame}}
+\index{aimgame@{aimgame}!statecontroler.c@{statecontroler.c}}
+\doxysubsubsection{\texorpdfstring{aimgame()}{aimgame()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} aimgame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Transitions the game to the aiming game state. This function sets the aiming mode and transitions the game to the AIMGAME state. 
+
+\begin{DoxyReturn}{Retorna}
+The new state of the game (AIMGAME or EXIT if an error occurs). 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{statecontroler_8c_a12768f066e85226b4dca9e09ae9e0f98_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{statecontroler_8c_a12768f066e85226b4dca9e09ae9e0f98_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{statecontroler_8c_a85f6eeaa505d59f446654eeb0ab227fd}\label{statecontroler_8c_a85f6eeaa505d59f446654eeb0ab227fd} 
+\index{statecontroler.c@{statecontroler.c}!gameover@{gameover}}
+\index{gameover@{gameover}!statecontroler.c@{statecontroler.c}}
+\doxysubsubsection{\texorpdfstring{gameover()}{gameover()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} gameover (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Handles the game over state. This function transitions the game to the GAME\+\_\+\+OVER state. 
+
+\begin{DoxyReturn}{Retorna}
+The new state of the game (GAME\+\_\+\+OVER). 
+\end{DoxyReturn}
+\Hypertarget{statecontroler_8c_a88dfdc3b343021521ec75e02abd6d0c2}\label{statecontroler_8c_a88dfdc3b343021521ec75e02abd6d0c2} 
+\index{statecontroler.c@{statecontroler.c}!reactgame@{reactgame}}
+\index{reactgame@{reactgame}!statecontroler.c@{statecontroler.c}}
+\doxysubsubsection{\texorpdfstring{reactgame()}{reactgame()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} reactgame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Transitions the game to the reaction game state. This function sets up the reaction game and transitions the game to the REACTGAME state. 
+
+\begin{DoxyReturn}{Retorna}
+The new state of the game (REACTGAME or EXIT if an error occurs). 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{statecontroler_8c_a88dfdc3b343021521ec75e02abd6d0c2_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{statecontroler_8c_a88dfdc3b343021521ec75e02abd6d0c2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{statecontroler_8c_abf2136845d70126601842fb39e74665d}\label{statecontroler_8c_abf2136845d70126601842fb39e74665d} 
+\index{statecontroler.c@{statecontroler.c}!scoreboard@{scoreboard}}
+\index{scoreboard@{scoreboard}!statecontroler.c@{statecontroler.c}}
+\doxysubsubsection{\texorpdfstring{scoreboard()}{scoreboard()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} scoreboard (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Displays the scoreboard and transitions to the scoreboard state. This function handles the logic for displaying the scoreboard and transitions the game to the SCOREBOARD state. 
+
+\begin{DoxyReturn}{Retorna}
+The new state of the game (SCOREBOARD). 
+\end{DoxyReturn}
+\Hypertarget{statecontroler_8c_afb7e8eee947a2d603dfd05cf396fd0a6}\label{statecontroler_8c_afb7e8eee947a2d603dfd05cf396fd0a6} 
+\index{statecontroler.c@{statecontroler.c}!startgame@{startgame}}
+\index{startgame@{startgame}!statecontroler.c@{statecontroler.c}}
+\doxysubsubsection{\texorpdfstring{startgame()}{startgame()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} startgame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes the game to the main menu state. This function sets up the main menu and transitions the game to the MAINMENU state. 
+
+\begin{DoxyReturn}{Retorna}
+The new state of the game (MAINMENU or EXIT if an error occurs). 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{statecontroler_8c_afb7e8eee947a2d603dfd05cf396fd0a6_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{statecontroler_8c_afb7e8eee947a2d603dfd05cf396fd0a6_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Documentação das variáveis}
+\Hypertarget{statecontroler_8c_a7c3c9fb57af63e2a638526757dabe7a5}\label{statecontroler_8c_a7c3c9fb57af63e2a638526757dabe7a5} 
+\index{statecontroler.c@{statecontroler.c}!aim\_mode@{aim\_mode}}
+\index{aim\_mode@{aim\_mode}!statecontroler.c@{statecontroler.c}}
+\doxysubsubsection{\texorpdfstring{aim\_mode}{aim\_mode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{aim_train_controler_8h_a8cb4c92db9bb83fa36c66e5e6907b291}{Aim\+Mode}} aim\+\_\+mode\hspace{0.3cm}{\ttfamily [extern]}}
+
+The State Controller module is responsible for managing the overall state and flow of the game. It provides functions to initialize different game states, such as displaying the main menu, starting the game of testing the reaction speed, aiming, handling game over scenarios, and displaying the scoreboard. Each function within the module transitions the game to a specific state and ensures proper initialization by invoking necessary setup functions. If any setup function fails, the state transitions to EXIT, signaling an error state. 

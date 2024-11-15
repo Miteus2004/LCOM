@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Gamers Gym: Código-Fonte de src/GameControlers/statecontroler.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Gamers Gym
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('statecontroler_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrada</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">statecontroler.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="statecontroler_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef STATECONTROLER_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define STATECONTROLER_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;lcom/lcf.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="_game_sprites_8h.html">GameControlers/gamesprites.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="reactgamecontroller_8h.html">GameControlers/reactgamecontroller.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285">   14</a></span><span class="keyword">typedef</span> <span class="keyword">enum</span>  {</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285a4308178099d62c4081c711b763591792">   15</a></span>    <a class="code hl_enumvalue" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285a4308178099d62c4081c711b763591792">MAINMENU</a>,</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285abe1717bd3214fb5d74a9c658d69295d1">   16</a></span>    <a class="code hl_enumvalue" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285abe1717bd3214fb5d74a9c658d69295d1">REACTGAME</a>,</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285a580366f37edaf84f9fca0e1f273c6482">   17</a></span>    <a class="code hl_enumvalue" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285a580366f37edaf84f9fca0e1f273c6482">AIMGAME</a>,</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285a871723195985a4ae22d7e10d99bf8a00">   18</a></span>    <a class="code hl_enumvalue" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285a871723195985a4ae22d7e10d99bf8a00">GAME_OVER</a>,</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285aedb8021c05603471ad7d382d8288223b">   19</a></span>    <a class="code hl_enumvalue" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285aedb8021c05603471ad7d382d8288223b">SCOREBOARD</a>,</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <a class="code hl_enumvalue" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285a7a10b5d68d31711288e1fe0fa17dbf4f">EXIT</a></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285a7a10b5d68d31711288e1fe0fa17dbf4f">   21</a></span>}<a class="code hl_enumeration" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285">GameState</a>;</div>
+</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="gamehandlers_8c.html#a25362b33bad9ff6222dc40646c411649">   23</a></span><a class="code hl_enumeration" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285">GameState</a> <a class="code hl_variable" href="statecontroler_8h.html#a25362b33bad9ff6222dc40646c411649">state</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><a class="code hl_enumeration" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285">GameState</a> <a class="code hl_function" href="statecontroler_8h.html#afb7e8eee947a2d603dfd05cf396fd0a6">startgame</a>();</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><a class="code hl_enumeration" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285">GameState</a> <a class="code hl_function" href="statecontroler_8h.html#a88dfdc3b343021521ec75e02abd6d0c2">reactgame</a>();</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><a class="code hl_enumeration" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285">GameState</a> <a class="code hl_function" href="statecontroler_8h.html#a12768f066e85226b4dca9e09ae9e0f98">aimgame</a>();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><a class="code hl_enumeration" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285">GameState</a> <a class="code hl_function" href="statecontroler_8h.html#a85f6eeaa505d59f446654eeb0ab227fd">gameover</a>();</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><a class="code hl_enumeration" href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285">GameState</a> <a class="code hl_function" href="statecontroler_8h.html#abf2136845d70126601842fb39e74665d">scoreboard</a>();</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#endif </span><span class="comment">// STATECONTROLER_H</span></div>
+<div class="ttc" id="a_game_sprites_8h_html"><div class="ttname"><a href="_game_sprites_8h.html">GameSprites.h</a></div></div>
+<div class="ttc" id="areactgamecontroller_8h_html"><div class="ttname"><a href="reactgamecontroller_8h.html">reactgamecontroller.h</a></div></div>
+<div class="ttc" id="astatecontroler_8h_html_a12768f066e85226b4dca9e09ae9e0f98"><div class="ttname"><a href="statecontroler_8h.html#a12768f066e85226b4dca9e09ae9e0f98">aimgame</a></div><div class="ttdeci">GameState aimgame()</div><div class="ttdoc">Transitions the game to the aiming game state. This function sets the aiming mode and transitions the...</div><div class="ttdef"><b>Definição</b> statecontroler.c:27</div></div>
+<div class="ttc" id="astatecontroler_8h_html_a25362b33bad9ff6222dc40646c411649"><div class="ttname"><a href="statecontroler_8h.html#a25362b33bad9ff6222dc40646c411649">state</a></div><div class="ttdeci">GameState state</div><div class="ttdef"><b>Definição</b> statecontroler.h:23</div></div>
+<div class="ttc" id="astatecontroler_8h_html_a7899b65f1ea0f655e4bbf8d2a5714285"><div class="ttname"><a href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285">GameState</a></div><div class="ttdeci">GameState</div><div class="ttdoc">Enumeration for the different states the game can be in. This enumeration defines the possible states...</div><div class="ttdef"><b>Definição</b> statecontroler.h:14</div></div>
+<div class="ttc" id="astatecontroler_8h_html_a7899b65f1ea0f655e4bbf8d2a5714285a4308178099d62c4081c711b763591792"><div class="ttname"><a href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285a4308178099d62c4081c711b763591792">MAINMENU</a></div><div class="ttdeci">@ MAINMENU</div><div class="ttdef"><b>Definição</b> statecontroler.h:15</div></div>
+<div class="ttc" id="astatecontroler_8h_html_a7899b65f1ea0f655e4bbf8d2a5714285a580366f37edaf84f9fca0e1f273c6482"><div class="ttname"><a href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285a580366f37edaf84f9fca0e1f273c6482">AIMGAME</a></div><div class="ttdeci">@ AIMGAME</div><div class="ttdef"><b>Definição</b> statecontroler.h:17</div></div>
+<div class="ttc" id="astatecontroler_8h_html_a7899b65f1ea0f655e4bbf8d2a5714285a7a10b5d68d31711288e1fe0fa17dbf4f"><div class="ttname"><a href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285a7a10b5d68d31711288e1fe0fa17dbf4f">EXIT</a></div><div class="ttdeci">@ EXIT</div><div class="ttdef"><b>Definição</b> statecontroler.h:20</div></div>
+<div class="ttc" id="astatecontroler_8h_html_a7899b65f1ea0f655e4bbf8d2a5714285a871723195985a4ae22d7e10d99bf8a00"><div class="ttname"><a href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285a871723195985a4ae22d7e10d99bf8a00">GAME_OVER</a></div><div class="ttdeci">@ GAME_OVER</div><div class="ttdef"><b>Definição</b> statecontroler.h:18</div></div>
+<div class="ttc" id="astatecontroler_8h_html_a7899b65f1ea0f655e4bbf8d2a5714285abe1717bd3214fb5d74a9c658d69295d1"><div class="ttname"><a href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285abe1717bd3214fb5d74a9c658d69295d1">REACTGAME</a></div><div class="ttdeci">@ REACTGAME</div><div class="ttdef"><b>Definição</b> statecontroler.h:16</div></div>
+<div class="ttc" id="astatecontroler_8h_html_a7899b65f1ea0f655e4bbf8d2a5714285aedb8021c05603471ad7d382d8288223b"><div class="ttname"><a href="statecontroler_8h.html#a7899b65f1ea0f655e4bbf8d2a5714285aedb8021c05603471ad7d382d8288223b">SCOREBOARD</a></div><div class="ttdeci">@ SCOREBOARD</div><div class="ttdef"><b>Definição</b> statecontroler.h:19</div></div>
+<div class="ttc" id="astatecontroler_8h_html_a85f6eeaa505d59f446654eeb0ab227fd"><div class="ttname"><a href="statecontroler_8h.html#a85f6eeaa505d59f446654eeb0ab227fd">gameover</a></div><div class="ttdeci">GameState gameover()</div><div class="ttdoc">Handles the game over state. This function transitions the game to the GAME_OVER state.</div><div class="ttdef"><b>Definição</b> statecontroler.c:36</div></div>
+<div class="ttc" id="astatecontroler_8h_html_a88dfdc3b343021521ec75e02abd6d0c2"><div class="ttname"><a href="statecontroler_8h.html#a88dfdc3b343021521ec75e02abd6d0c2">reactgame</a></div><div class="ttdeci">GameState reactgame()</div><div class="ttdoc">Transitions the game to the reaction game state. This function sets up the reaction game and transiti...</div><div class="ttdef"><b>Definição</b> statecontroler.c:19</div></div>
+<div class="ttc" id="astatecontroler_8h_html_abf2136845d70126601842fb39e74665d"><div class="ttname"><a href="statecontroler_8h.html#abf2136845d70126601842fb39e74665d">scoreboard</a></div><div class="ttdeci">GameState scoreboard()</div><div class="ttdoc">Displays the scoreboard and transitions to the scoreboard state. This function handles the logic for ...</div><div class="ttdef"><b>Definição</b> statecontroler.c:40</div></div>
+<div class="ttc" id="astatecontroler_8h_html_afb7e8eee947a2d603dfd05cf396fd0a6"><div class="ttname"><a href="statecontroler_8h.html#afb7e8eee947a2d603dfd05cf396fd0a6">startgame</a></div><div class="ttdeci">GameState startgame()</div><div class="ttdoc">Initializes the game to the main menu state. This function sets up the main menu and transitions the ...</div><div class="ttdef"><b>Definição</b> statecontroler.c:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_258b3435e0b7e84529fdf417ba8a4d46.html">GameControlers</a></li><li class="navelem"><a class="el" href="statecontroler_8h.html">statecontroler.h</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

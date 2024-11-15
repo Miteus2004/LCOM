@@ -1,0 +1,260 @@
+\doxysection{Referência ao ficheiro src/main.c}
+\hypertarget{main_8c}{}\label{main_8c}\index{src/main.c@{src/main.c}}
+{\ttfamily \#include "{}Controlers/\+Graphic/graphics.\+h"{}}\newline
+{\ttfamily \#include "{}Controlers/\+Keyboard/keyboard.\+h"{}}\newline
+{\ttfamily \#include "{}Controlers/\+Mouse/mouse.\+h"{}}\newline
+{\ttfamily \#include "{}Controlers/\+RTC/rtc.\+h"{}}\newline
+{\ttfamily \#include "{}Controlers/\+Timers/timer.\+h"{}}\newline
+{\ttfamily \#include "{}Game\+Controlers/aim\+Train\+Controler.\+h"{}}\newline
+{\ttfamily \#include "{}Game\+Controlers/buffering.\+h"{}}\newline
+{\ttfamily \#include "{}Game\+Controlers/gamehandlers.\+h"{}}\newline
+{\ttfamily \#include "{}Game\+Controlers/gamesprites.\+h"{}}\newline
+{\ttfamily \#include "{}Game\+Controlers/statecontroler.\+h"{}}\newline
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+Diagrama de dependências de inclusão para main.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8c_a3c04138a5bfe5d72780bb7e82a18e627}{main}} (int argc, char \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}argv)
+\begin{DoxyCompactList}\small\item\em Main function, serves as the entry point for the application. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_a0de60936a74f16fb1479b110f8131e87}{set\+\_\+up}} ()
+\begin{DoxyCompactList}\small\item\em Set up the initial configuration for the game. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_a88e1b2b26622517143098307a971d9ed}{exit\+\_\+run}} ()
+\begin{DoxyCompactList}\small\item\em Clean up resources and exit the game. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_a22613a4ed426179d00643f6bf2d90320}{run\+\_\+game}} ()
+\begin{DoxyCompactList}\small\item\em Main game loop. \end{DoxyCompactList}\item 
+int() \mbox{\hyperlink{main_8c_a2a16f651eccbd248e1ad3b3b924b143b}{proj\+\_\+main\+\_\+loop}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variáveis}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8c_aac1c4f6eb254d51260b7bcde4de14091}{next\+\_\+target\+\_\+sec}}
+\item 
+\mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} \mbox{\hyperlink{main_8c_a25362b33bad9ff6222dc40646c411649}{state}}
+\item 
+\mbox{\hyperlink{aim_train_controler_8h_a8cb4c92db9bb83fa36c66e5e6907b291}{Aim\+Mode}} \mbox{\hyperlink{main_8c_a7c3c9fb57af63e2a638526757dabe7a5}{aim\+\_\+mode}}
+\item 
+int \mbox{\hyperlink{main_8c_a9dd86e05eb51b73ffa496d0478503939}{timer\+\_\+interrupts}}
+\item 
+bool \mbox{\hyperlink{main_8c_a23958e610207eb28549d8d13255aa129}{timer\+\_\+running}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{main_8c_a0639e9161e9b5e2bf1178945359f0f78}{elapsed\+\_\+time\+\_\+ms}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{main_8c_a754bd7a12f60d6ee7d8862dbd323ad3f}{irq\+\_\+set\+\_\+\+TIMER}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{main_8c_a5fccf4a07d42856c860717dfac2c4eb9}{irq\+\_\+set\+\_\+\+KBC}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{main_8c_a731a027d64f713496f7df517cf7aa45c}{irq\+\_\+set\+\_\+\+MOUSE}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{main_8c_abf83a6011e412a6b4647e90bba72dc1c}{irq\+\_\+set\+\_\+\+RTC}}
+\item 
+int \mbox{\hyperlink{main_8c_a45b67662d620a977a2cfe519f7ab6273}{fps}} = 60
+\item 
+int \mbox{\hyperlink{main_8c_a7a4fe15fd0ec6d1b25e4138e27267ffc}{mouse\+\_\+rate}} = 40
+\item 
+bool \mbox{\hyperlink{main_8c_a3b357b6d80b9f1d4dfa293a7c35ed7a5}{Otimized}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{main_8c_a88e1b2b26622517143098307a971d9ed}\label{main_8c_a88e1b2b26622517143098307a971d9ed} 
+\index{main.c@{main.c}!exit\_run@{exit\_run}}
+\index{exit\_run@{exit\_run}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{exit\_run()}{exit\_run()}}
+{\footnotesize\ttfamily int exit\+\_\+run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clean up resources and exit the game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, 1 on failure. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8c_a88e1b2b26622517143098307a971d9ed_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{main_8c_a88e1b2b26622517143098307a971d9ed_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{main_8c_a3c04138a5bfe5d72780bb7e82a18e627}\label{main_8c_a3c04138a5bfe5d72780bb7e82a18e627} 
+\index{main.c@{main.c}!main@{main}}
+\index{main@{main}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}}]{argv }\end{DoxyParamCaption})}
+
+
+
+Main function, serves as the entry point for the application. 
+
+This module serves as the entry point for the application. It orchestrates the setup, execution, and cleanup of the game loop. 
+\begin{DoxyParams}{Parâmetros}
+{\em argc} & Number of command-\/line arguments. \\
+\hline
+{\em argv} & Array of command-\/line arguments. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+0 on success, 1 on failure. 
+\end{DoxyReturn}
+\Hypertarget{main_8c_a2a16f651eccbd248e1ad3b3b924b143b}\label{main_8c_a2a16f651eccbd248e1ad3b3b924b143b} 
+\index{main.c@{main.c}!proj\_main\_loop@{proj\_main\_loop}}
+\index{proj\_main\_loop@{proj\_main\_loop}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{proj\_main\_loop()}{proj\_main\_loop()}}
+{\footnotesize\ttfamily int() proj\+\_\+main\+\_\+loop (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char \texorpdfstring{$\ast$}{*}}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8c_a2a16f651eccbd248e1ad3b3b924b143b_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{main_8c_a22613a4ed426179d00643f6bf2d90320}\label{main_8c_a22613a4ed426179d00643f6bf2d90320} 
+\index{main.c@{main.c}!run\_game@{run\_game}}
+\index{run\_game@{run\_game}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{run\_game()}{run\_game()}}
+{\footnotesize\ttfamily int run\+\_\+game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Main game loop. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, 1 on failure. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8c_a22613a4ed426179d00643f6bf2d90320_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{main_8c_a22613a4ed426179d00643f6bf2d90320_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{main_8c_a0de60936a74f16fb1479b110f8131e87}\label{main_8c_a0de60936a74f16fb1479b110f8131e87} 
+\index{main.c@{main.c}!set\_up@{set\_up}}
+\index{set\_up@{set\_up}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{set\_up()}{set\_up()}}
+{\footnotesize\ttfamily int set\+\_\+up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Set up the initial configuration for the game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, 1 on failure. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8c_a0de60936a74f16fb1479b110f8131e87_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=243pt]{main_8c_a0de60936a74f16fb1479b110f8131e87_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Documentação das variáveis}
+\Hypertarget{main_8c_a7c3c9fb57af63e2a638526757dabe7a5}\label{main_8c_a7c3c9fb57af63e2a638526757dabe7a5} 
+\index{main.c@{main.c}!aim\_mode@{aim\_mode}}
+\index{aim\_mode@{aim\_mode}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{aim\_mode}{aim\_mode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{aim_train_controler_8h_a8cb4c92db9bb83fa36c66e5e6907b291}{Aim\+Mode}} aim\+\_\+mode\hspace{0.3cm}{\ttfamily [extern]}}
+
+The State Controller module is responsible for managing the overall state and flow of the game. It provides functions to initialize different game states, such as displaying the main menu, starting the game of testing the reaction speed, aiming, handling game over scenarios, and displaying the scoreboard. Each function within the module transitions the game to a specific state and ensures proper initialization by invoking necessary setup functions. If any setup function fails, the state transitions to EXIT, signaling an error state. \Hypertarget{main_8c_a0639e9161e9b5e2bf1178945359f0f78}\label{main_8c_a0639e9161e9b5e2bf1178945359f0f78} 
+\index{main.c@{main.c}!elapsed\_time\_ms@{elapsed\_time\_ms}}
+\index{elapsed\_time\_ms@{elapsed\_time\_ms}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{elapsed\_time\_ms}{elapsed\_time\_ms}}
+{\footnotesize\ttfamily uint32\+\_\+t elapsed\+\_\+time\+\_\+ms\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{main_8c_a45b67662d620a977a2cfe519f7ab6273}\label{main_8c_a45b67662d620a977a2cfe519f7ab6273} 
+\index{main.c@{main.c}!fps@{fps}}
+\index{fps@{fps}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{fps}{fps}}
+{\footnotesize\ttfamily int fps = 60}
+
+\Hypertarget{main_8c_a5fccf4a07d42856c860717dfac2c4eb9}\label{main_8c_a5fccf4a07d42856c860717dfac2c4eb9} 
+\index{main.c@{main.c}!irq\_set\_KBC@{irq\_set\_KBC}}
+\index{irq\_set\_KBC@{irq\_set\_KBC}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{irq\_set\_KBC}{irq\_set\_KBC}}
+{\footnotesize\ttfamily uint8\+\_\+t irq\+\_\+set\+\_\+\+KBC}
+
+\Hypertarget{main_8c_a731a027d64f713496f7df517cf7aa45c}\label{main_8c_a731a027d64f713496f7df517cf7aa45c} 
+\index{main.c@{main.c}!irq\_set\_MOUSE@{irq\_set\_MOUSE}}
+\index{irq\_set\_MOUSE@{irq\_set\_MOUSE}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{irq\_set\_MOUSE}{irq\_set\_MOUSE}}
+{\footnotesize\ttfamily uint8\+\_\+t irq\+\_\+set\+\_\+\+MOUSE}
+
+\Hypertarget{main_8c_abf83a6011e412a6b4647e90bba72dc1c}\label{main_8c_abf83a6011e412a6b4647e90bba72dc1c} 
+\index{main.c@{main.c}!irq\_set\_RTC@{irq\_set\_RTC}}
+\index{irq\_set\_RTC@{irq\_set\_RTC}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{irq\_set\_RTC}{irq\_set\_RTC}}
+{\footnotesize\ttfamily uint8\+\_\+t irq\+\_\+set\+\_\+\+RTC}
+
+\Hypertarget{main_8c_a754bd7a12f60d6ee7d8862dbd323ad3f}\label{main_8c_a754bd7a12f60d6ee7d8862dbd323ad3f} 
+\index{main.c@{main.c}!irq\_set\_TIMER@{irq\_set\_TIMER}}
+\index{irq\_set\_TIMER@{irq\_set\_TIMER}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{irq\_set\_TIMER}{irq\_set\_TIMER}}
+{\footnotesize\ttfamily uint8\+\_\+t irq\+\_\+set\+\_\+\+TIMER}
+
+\Hypertarget{main_8c_a7a4fe15fd0ec6d1b25e4138e27267ffc}\label{main_8c_a7a4fe15fd0ec6d1b25e4138e27267ffc} 
+\index{main.c@{main.c}!mouse\_rate@{mouse\_rate}}
+\index{mouse\_rate@{mouse\_rate}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{mouse\_rate}{mouse\_rate}}
+{\footnotesize\ttfamily int mouse\+\_\+rate = 40}
+
+\Hypertarget{main_8c_aac1c4f6eb254d51260b7bcde4de14091}\label{main_8c_aac1c4f6eb254d51260b7bcde4de14091} 
+\index{main.c@{main.c}!next\_target\_sec@{next\_target\_sec}}
+\index{next\_target\_sec@{next\_target\_sec}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{next\_target\_sec}{next\_target\_sec}}
+{\footnotesize\ttfamily int next\+\_\+target\+\_\+sec\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{main_8c_a3b357b6d80b9f1d4dfa293a7c35ed7a5}\label{main_8c_a3b357b6d80b9f1d4dfa293a7c35ed7a5} 
+\index{main.c@{main.c}!Otimized@{Otimized}}
+\index{Otimized@{Otimized}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{Otimized}{Otimized}}
+{\footnotesize\ttfamily bool Otimized = false}
+
+\Hypertarget{main_8c_a25362b33bad9ff6222dc40646c411649}\label{main_8c_a25362b33bad9ff6222dc40646c411649} 
+\index{main.c@{main.c}!state@{state}}
+\index{state@{state}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{state}{state}}
+{\footnotesize\ttfamily \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} state\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{main_8c_a9dd86e05eb51b73ffa496d0478503939}\label{main_8c_a9dd86e05eb51b73ffa496d0478503939} 
+\index{main.c@{main.c}!timer\_interrupts@{timer\_interrupts}}
+\index{timer\_interrupts@{timer\_interrupts}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{timer\_interrupts}{timer\_interrupts}}
+{\footnotesize\ttfamily int timer\+\_\+interrupts\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{main_8c_a23958e610207eb28549d8d13255aa129}\label{main_8c_a23958e610207eb28549d8d13255aa129} 
+\index{main.c@{main.c}!timer\_running@{timer\_running}}
+\index{timer\_running@{timer\_running}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{timer\_running}{timer\_running}}
+{\footnotesize\ttfamily bool timer\+\_\+running\hspace{0.3cm}{\ttfamily [extern]}}
+

@@ -1,0 +1,10 @@
+<map id="kbc_ih" name="kbc_ih">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,65,57"/>
+<area shape="rect" id="Node000002" href="$_keyboard_2_k_b_c_8c.html#ac7f264677f62648ac34476a46980af2f" title=" " alt="" coords="113,31,236,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,41,97,41,97,47,65,47"/>
+<area shape="rect" id="Node000003" href="$_keyboard_2_k_b_c_8c.html#ac024af91b156e4fc61ee3886b891de21" title=" " alt="" coords="284,5,407,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="236,32,268,27,269,33,237,37"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="455,31,546,57"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="237,41,440,41,440,47,237,47"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="408,26,440,31,439,37,407,31"/>
+</map>

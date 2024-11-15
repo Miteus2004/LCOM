@@ -1,0 +1,15 @@
+<map id="draw_scores" name="draw_scores">
+<area shape="rect" id="Node000001" title="Draws the scores in the game." alt="" coords="5,31,100,57"/>
+<area shape="rect" id="Node000002" href="$gamesprites_8c.html#a4743c346aef3789257d9b7329015d479" title="Draws a sequence of numbers starting at a specified position." alt="" coords="148,5,274,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,34,132,29,133,34,101,39"/>
+<area shape="rect" id="Node000004" href="$sprites_8c.html#a6db4230a0003a09515d78b790d8ec52d" title="Function to draw a sprite on the screen." alt="" coords="471,56,590,83"/>
+<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="100,44,455,63,455,68,100,49"/>
+<area shape="rect" id="Node000003" href="$gamesprites_8c.html#af3c7e15abf4b4b99529968fb2b709107" title="Draws a number at a specified position." alt="" coords="322,5,420,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="274,16,306,16,306,21,274,21"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="417,30,473,48,471,53,415,35"/>
+<area shape="rect" id="Node000006" href="$sprites_8c.html#a68f38f4a0ef4671439737a88745eb2d9" title="Function to draw a sprite on the screen, changing white pixels to a specified color." alt="" coords="468,5,593,32"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="421,16,453,16,453,21,421,21"/>
+<area shape="rect" id="Node000005" href="$graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741" title=" " alt="" coords="641,31,742,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="590,57,625,52,626,57,591,63"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="593,26,626,31,625,36,593,31"/>
+</map>

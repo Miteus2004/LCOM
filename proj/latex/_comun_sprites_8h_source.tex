@@ -1,0 +1,125 @@
+\doxysection{Comun\+Sprites.\+h}
+\hypertarget{_comun_sprites_8h_source}{}\label{_comun_sprites_8h_source}\index{src/GameControlers/ComunSprites.h@{src/GameControlers/ComunSprites.h}}
+\mbox{\hyperlink{_comun_sprites_8h}{Ir para a documentação deste ficheiro.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ COMMUNSPRITES\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ COMMUNSPRITES\_H}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{sprites_8h}{GameControlers/sprites.h}}"{}}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <lcom/lcf.h>}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{comment}{//\ xpm\ files}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ "{}xpm/Aim-\/Menu.xpm"{}}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ "{}xpm/MainMenu.xpm"{}}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ "{}xpm/ReactionTime\_click.xpm"{}}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}xpm/ReactionTime\_start.xpm"{}}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}xpm/ReactionTime\_time.xpm"{}}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}xpm/ReactionTime\_toosoon.xpm"{}}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ "{}xpm/ReactionTime\_waitforgreen.xpm"{}}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ "{}xpm/aim.xpm"{}}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/a.xpm"{}}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/b.xpm"{}}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/c.xpm"{}}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/d.xpm"{}}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/e.xpm"{}}}
+\DoxyCodeLine{00020\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/f.xpm"{}}}
+\DoxyCodeLine{00021\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/g.xpm"{}}}
+\DoxyCodeLine{00022\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/h.xpm"{}}}
+\DoxyCodeLine{00023\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/i.xpm"{}}}
+\DoxyCodeLine{00024\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/j.xpm"{}}}
+\DoxyCodeLine{00025\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/k.xpm"{}}}
+\DoxyCodeLine{00026\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/l.xpm"{}}}
+\DoxyCodeLine{00027\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/m.xpm"{}}}
+\DoxyCodeLine{00028\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/n.xpm"{}}}
+\DoxyCodeLine{00029\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/o.xpm"{}}}
+\DoxyCodeLine{00030\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/p.xpm"{}}}
+\DoxyCodeLine{00031\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/q.xpm"{}}}
+\DoxyCodeLine{00032\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/r.xpm"{}}}
+\DoxyCodeLine{00033\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/s.xpm"{}}}
+\DoxyCodeLine{00034\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/t.xpm"{}}}
+\DoxyCodeLine{00035\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/u.xpm"{}}}
+\DoxyCodeLine{00036\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/v.xpm"{}}}
+\DoxyCodeLine{00037\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/w.xpm"{}}}
+\DoxyCodeLine{00038\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/x.xpm"{}}}
+\DoxyCodeLine{00039\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/y.xpm"{}}}
+\DoxyCodeLine{00040\ \textcolor{preprocessor}{\#include\ "{}xpm/letters/z.xpm"{}}}
+\DoxyCodeLine{00041\ \textcolor{preprocessor}{\#include\ "{}xpm/mouse.xpm"{}}}
+\DoxyCodeLine{00042\ \textcolor{preprocessor}{\#include\ "{}xpm/numbers/eight.xpm"{}}}
+\DoxyCodeLine{00043\ \textcolor{preprocessor}{\#include\ "{}xpm/numbers/equal.xpm"{}}}
+\DoxyCodeLine{00044\ \textcolor{preprocessor}{\#include\ "{}xpm/numbers/five.xpm"{}}}
+\DoxyCodeLine{00045\ \textcolor{preprocessor}{\#include\ "{}xpm/numbers/four.xpm"{}}}
+\DoxyCodeLine{00046\ \textcolor{preprocessor}{\#include\ "{}xpm/numbers/nine.xpm"{}}}
+\DoxyCodeLine{00047\ \textcolor{preprocessor}{\#include\ "{}xpm/numbers/one.xpm"{}}}
+\DoxyCodeLine{00048\ \textcolor{preprocessor}{\#include\ "{}xpm/numbers/seven.xpm"{}}}
+\DoxyCodeLine{00049\ \textcolor{preprocessor}{\#include\ "{}xpm/numbers/six.xpm"{}}}
+\DoxyCodeLine{00050\ \textcolor{preprocessor}{\#include\ "{}xpm/numbers/slash.xpm"{}}}
+\DoxyCodeLine{00051\ \textcolor{preprocessor}{\#include\ "{}xpm/numbers/three.xpm"{}}}
+\DoxyCodeLine{00052\ \textcolor{preprocessor}{\#include\ "{}xpm/numbers/two.xpm"{}}}
+\DoxyCodeLine{00053\ \textcolor{preprocessor}{\#include\ "{}xpm/numbers/two\_points.xpm"{}}}
+\DoxyCodeLine{00054\ \textcolor{preprocessor}{\#include\ "{}xpm/numbers/zero.xpm"{}}}
+\DoxyCodeLine{00055\ \textcolor{preprocessor}{\#include\ "{}xpm/target.xpm"{}}}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ \textcolor{comment}{//\ React\ Menu}}
+\DoxyCodeLine{00058\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a9eabbc4f6889dccf6bc82be74175a46f}{black\_background}};}
+\DoxyCodeLine{00059\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a43be049f74dc2822a92ede7202c38950}{react\_Start}};}
+\DoxyCodeLine{00060\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a157d8c2cd864806c9ebf0c4a2550e79c}{react\_Wait}};}
+\DoxyCodeLine{00061\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_aaf6144982c7db9468595f14ba4e17cb4}{react\_ToSoon}};}
+\DoxyCodeLine{00062\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a60e06294651b34f9aa8521513bd72b89}{react\_Click}};}
+\DoxyCodeLine{00063\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a9a18f27c9d71a23493fc76fe408ab2e7}{react\_Restart}};}
+\DoxyCodeLine{00064\ \textcolor{comment}{//\ Aim\ Menu}}
+\DoxyCodeLine{00065\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a16d8fd18ef98763c21edd28224c53516}{aim\_menu}};}
+\DoxyCodeLine{00066\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_aa5d416448a952808a0dbddf47128b6c0}{aim\_menu\_background}};}
+\DoxyCodeLine{00067\ \textcolor{comment}{//\ Main\ Menu}}
+\DoxyCodeLine{00068\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_ada1feacea0c4cb9c592c6d5e2e9c7e53}{main\_menu}};}
+\DoxyCodeLine{00069\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a69029e1da2c4f0e68659b34088b8bf62}{main\_menu\_background}};}
+\DoxyCodeLine{00070\ \textcolor{comment}{//\ Sprites}}
+\DoxyCodeLine{00071\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_aa3a81c820ffa4bb52ff7d3aa89667d6d}{aim\_sprite}};}
+\DoxyCodeLine{00072\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_acb5f4a744bc2112f283f07f3fa64682a}{mouse\_sprite}};}
+\DoxyCodeLine{00073\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_afc06c941a89c9db22f43772fae28411e}{target\_Sprite}};}
+\DoxyCodeLine{00074\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a76c647e94da059f567364128d6164d5b}{target\_background}};}
+\DoxyCodeLine{00075\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a69a7242ee147decd9b827b0c721a728c}{background}};}
+\DoxyCodeLine{00076\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a31783d10552ff6cec2e53a9e37c4ae71}{red\_background}};}
+\DoxyCodeLine{00077\ \textcolor{comment}{//\ Numbers}}
+\DoxyCodeLine{00078\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a809002180d5d3880febfd0bae533bcbf}{one\_sprite}};}
+\DoxyCodeLine{00079\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_ad62db5e04cf91ff238987bba5f41b3a5}{two\_sprite}};}
+\DoxyCodeLine{00080\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_aa474c76737b008222a0ea60f8cbe2504}{three\_sprite}};}
+\DoxyCodeLine{00081\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_adc652bea5d593f66fb3a1d78be05b2d4}{four\_sprite}};}
+\DoxyCodeLine{00082\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a72bde32065780dd350c2b687ea808572}{five\_sprite}};}
+\DoxyCodeLine{00083\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a0ea0115542a2a1b098cc003e29333f46}{six\_sprite}};}
+\DoxyCodeLine{00084\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a4492a0079e72be1843a2ca0534dac76f}{seven\_sprite}};}
+\DoxyCodeLine{00085\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a8729620291b34735974150e2d83a902c}{eight\_sprite}};}
+\DoxyCodeLine{00086\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a59b8b6fbf0b122c36c45460192886737}{nine\_sprite}};}
+\DoxyCodeLine{00087\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_aa1c28de3b350826f4f3f37ba1e9b4a3b}{zero\_sprite}};}
+\DoxyCodeLine{00088\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a2e329d2da7eb6648278f981231f04e7f}{two\_points\_sprite}};}
+\DoxyCodeLine{00089\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a2f896c2496649405e7c48964a44454a9}{equal\_sprite}};}
+\DoxyCodeLine{00090\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_ae963694baa77716e025b5093a71340d0}{slash\_sprite}};}
+\DoxyCodeLine{00091\ \textcolor{comment}{//\ Letters}}
+\DoxyCodeLine{00092\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a6ea58f528a9148956872173fc1098d75}{A\_sprite}};}
+\DoxyCodeLine{00093\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_adc7801db6a435bbed5263b6c925435e6}{B\_sprite}};}
+\DoxyCodeLine{00094\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_af1c3cec05e455fc454e7e2c26399dd22}{C\_sprite}};}
+\DoxyCodeLine{00095\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a6a86c701bd994968f4c67f8a151233c7}{D\_sprite}};}
+\DoxyCodeLine{00096\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_aed99e7fc07d53abd45960b5781d366c7}{E\_sprite}};}
+\DoxyCodeLine{00097\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a7014d35c6c234150a7ae1aa239ae9db5}{F\_sprite}};}
+\DoxyCodeLine{00098\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a0855d315472301b65808c9e3463d00b5}{G\_sprite}};}
+\DoxyCodeLine{00099\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a32b6af89b9a08797d979c363d6a7826f}{H\_sprite}};}
+\DoxyCodeLine{00100\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a5920b380a1d706ae60b1053ac52ed6af}{I\_sprite}};}
+\DoxyCodeLine{00101\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a9a6dad080f4e9e2c03f1405f392a4582}{J\_sprite}};}
+\DoxyCodeLine{00102\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a2ea2f0c24bd47ccde39ea092d6f111a0}{K\_sprite}};}
+\DoxyCodeLine{00103\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_aa3a973c815b58572b31a6eca221a1890}{L\_sprite}};}
+\DoxyCodeLine{00104\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a517b0eb7d1636840700e6dec6b487a4f}{M\_sprite}};}
+\DoxyCodeLine{00105\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a820512751344a28a31c4508489cd8921}{N\_sprite}};}
+\DoxyCodeLine{00106\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_adf03551e630da45110c2a349886e32ba}{O\_sprite}};}
+\DoxyCodeLine{00107\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_acb693a23b2b1ed99c49d64b4b83222bd}{P\_sprite}};}
+\DoxyCodeLine{00108\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a35fe1b7c75d12016a0f52ba0e4112e58}{Q\_sprite}};}
+\DoxyCodeLine{00109\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_aac11935d90a156953a7485a9e77cec84}{R\_sprite}};}
+\DoxyCodeLine{00110\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a728c0ffbfa501157f24d141b4a7b1eee}{S\_sprite}};}
+\DoxyCodeLine{00111\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a26d209f2de578a797e0af03804376d5a}{T\_sprite}};}
+\DoxyCodeLine{00112\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_aa5d6f49e04c0b1545f66cf303d34c9df}{U\_sprite}};}
+\DoxyCodeLine{00113\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a7f38394753d1a2eaa980e30c31ed2dfa}{V\_sprite}};}
+\DoxyCodeLine{00114\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a3ebd391262be113c373b81f0113e6b83}{W\_sprite}};}
+\DoxyCodeLine{00115\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_a7b75abe690e92e60557622eb71229ad4}{X\_sprite}};}
+\DoxyCodeLine{00116\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_abb173a8bd71a6d78f421b71cb76c4c7a}{Y\_sprite}};}
+\DoxyCodeLine{00117\ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\mbox{\hyperlink{_comun_sprites_8h_ad28e5399304edbb4066a4c834cd6ead8}{Z\_sprite}};}
+\DoxyCodeLine{00118\ }
+\DoxyCodeLine{00119\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ COMMUNSPRITES\_H}}
+
+\end{DoxyCode}

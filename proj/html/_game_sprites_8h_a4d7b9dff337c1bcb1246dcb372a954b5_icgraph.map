@@ -1,0 +1,24 @@
+<map id="draw_rtc" name="draw_rtc">
+<area shape="rect" id="Node000001" title="Draws the real&#45;time clock." alt="" coords="914,56,985,83"/>
+<area shape="rect" id="Node000002" href="$gamesprites_8c.html#a827220a6b9f738eba8b094586855b0b7" title="Draws the main menu of the game." alt="" coords="744,81,866,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="900,81,867,87,866,81,899,75"/>
+<area shape="rect" id="Node000009" href="$gamesprites_8c.html#a72c28731734c5ecb2afd804648cf7de8" title="Updates the real&#45;time clock." alt="" coords="764,31,846,57"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="898,63,846,54,847,49,899,58"/>
+<area shape="rect" id="Node000003" href="$statecontroler_8c.html#afb7e8eee947a2d603dfd05cf396fd0a6" title="Initializes the game to the main menu state. This function sets up the main menu and transitions the ..." alt="" coords="617,81,696,108"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="728,97,697,97,697,92,728,92"/>
+<area shape="rect" id="Node000004" href="$gamehandlers_8c.html#a0799773fe68b229a25bff9ee444c6eba" title=" " alt="" coords="450,107,564,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="602,107,564,113,564,108,601,101"/>
+<area shape="rect" id="Node000007" href="$main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,132,114,159"/>
+<area shape="poly" id="edge9_Node000003_Node000007" title=" " alt="" coords="627,120,600,136,569,148,507,161,443,170,316,174,202,168,114,157,115,152,203,162,317,169,443,164,506,156,568,143,598,131,624,115"/>
+<area shape="rect" id="Node000008" href="$gamehandlers_8c.html#a0fb71e2b76b368ba43295cdc9174558b" title="Function to handle keyboard events. This function processes keyboard input events and updates the gam..." alt="" coords="445,56,569,83"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="601,88,569,82,569,77,602,83"/>
+<area shape="rect" id="Node000005" href="$gamehandlers_8c.html#a1d865d087780c7f07862aa420ca32182" title="Function to handle mouse events. This function processes mouse input events and updates the game stat..." alt="" coords="288,107,397,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="435,123,398,123,398,117,435,117"/>
+<area shape="rect" id="Node000006" href="$main_8c.html#a22613a4ed426179d00643f6bf2d90320" title="Main game loop." alt="" coords="162,81,240,108"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="272,110,240,104,241,99,273,105"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="148,116,100,134,98,129,146,111"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="430,78,241,94,240,89,430,73"/>
+<area shape="rect" id="Node000010" href="$gamehandlers_8c.html#a8a299763beeb94c941b3dc4aa97be5f7" title="Function to handle RTC (Real&#45;Time Clock) events. This function is responsible for handling RTC events..." alt="" coords="300,5,385,32"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="748,44,386,24,386,18,748,38"/>
+<area shape="poly" id="edge12_Node000010_Node000006" title=" " alt="" coords="304,42,229,83,226,78,301,38"/>
+</map>

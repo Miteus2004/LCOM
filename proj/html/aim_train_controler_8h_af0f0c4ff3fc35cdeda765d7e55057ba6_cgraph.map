@@ -1,0 +1,5 @@
+<map id="miss_target" name="miss_target">
+<area shape="rect" id="Node000001" title="Handles a target is miss." alt="" coords="5,5,95,32"/>
+<area shape="rect" id="Node000002" href="$aim_train_controler_8h.html#a4b999fbcc3f9daf879b8de3def1c2919" title="Generates a random position for the target." alt="" coords="143,5,288,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,16,127,16,127,21,95,21"/>
+</map>

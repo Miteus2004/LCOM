@@ -1,0 +1,819 @@
+\doxysection{Referência ao ficheiro src/\+Game\+Controlers/\+Game\+Sprites.h}
+\hypertarget{_game_sprites_8h}{}\label{_game_sprites_8h}\index{src/GameControlers/GameSprites.h@{src/GameControlers/GameSprites.h}}
+{\ttfamily \#include "{}Comun\+Sprites.\+h"{}}\newline
+{\ttfamily \#include "{}Controlers/\+Graphic/graphics.\+h"{}}\newline
+{\ttfamily \#include "{}Controlers/\+Mouse/mouse.\+h"{}}\newline
+{\ttfamily \#include "{}Controlers/\+RTC/rtc.\+h"{}}\newline
+{\ttfamily \#include "{}aim\+Train\+Controler.\+h"{}}\newline
+{\ttfamily \#include "{}reactgamecontroller.\+h"{}}\newline
+{\ttfamily \#include "{}sprites.\+h"{}}\newline
+{\ttfamily \#include "{}statecontroler.\+h"{}}\newline
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+Diagrama de dependências de inclusão para Game\+Sprites.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h__incl}
+\end{center}
+\end{figure}
+Este grafo mostra quais são os ficheiros que incluem directamente ou indirectamente este ficheiro\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Componentes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_pixel_color}{Pixel\+Color}}
+\begin{DoxyCompactList}\small\item\em Represents a pixel with its coordinates and color. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_game_sprites_8h_a5d3caa7baa1425fd524c2ec534bfa195}{set\+\_\+sprites}} ()
+\begin{DoxyCompactList}\small\item\em Sets up the game sprites. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_a635abe6a737bd73ea80961a4e586057e}{clearscreen}} ()
+\begin{DoxyCompactList}\small\item\em Clears the screen. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_ad7ca2d21a727f7d55afef2392de3b5f8}{draw\+\_\+main\+\_\+menu}} ()
+\begin{DoxyCompactList}\small\item\em Draws the main menu of the game. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_a0f9d87b0bea416d794ed80855026d550}{draw\+\_\+mouse}} ()
+\begin{DoxyCompactList}\small\item\em Draws the mouse cursor. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_aaadb40633585246dd2fc128ab9261c1d}{draw\+\_\+new\+\_\+frame}} ()
+\begin{DoxyCompactList}\small\item\em Draws a new frame. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_a0b802f104ca32f74bba7c10d268f62bd}{draw\+\_\+aimgame\+\_\+\+Time\+Attack\+\_\+timer}} ()
+\begin{DoxyCompactList}\small\item\em Draws the timer for the aim game in time attack mode. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_ad0225bbf4c247808169cb1ee090e8397}{draw\+\_\+aimgame\+\_\+\+Time\+Attack}} ()
+\begin{DoxyCompactList}\small\item\em Draws the aim game in time attack mode. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_a72d331b4a543229a69309d4d13789919}{draw\+\_\+target}} ()
+\begin{DoxyCompactList}\small\item\em Draws a target. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_a136358b65a4b1da395e1a3ba01974ddf}{draw\+\_\+number}} (int n, uint16\+\_\+t x, uint16\+\_\+t y)
+\begin{DoxyCompactList}\small\item\em Draws a number at a specified position. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_a98df738d799160ad7eaed940e2d355d2}{draw\+\_\+letter}} (char letter, uint16\+\_\+t x, uint16\+\_\+t y)
+\begin{DoxyCompactList}\small\item\em Draws a letter at a specified position. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_ab87a1cbf955ab6fd560c1f828f376627}{draw\+\_\+word}} (char \texorpdfstring{$\ast$}{*}word, uint16\+\_\+t x, uint16\+\_\+t y)
+\begin{DoxyCompactList}\small\item\em Draws a word starting at a specified position. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_aeb63be465c741ae51e0874a314a682f0}{draw\+\_\+number\+\_\+seq}} (int number, uint16\+\_\+t x, uint16\+\_\+t y)
+\begin{DoxyCompactList}\small\item\em Draws a sequence of numbers starting at a specified position. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_a3a165ac61ac007924b5995cdc587ca0d}{draw\+\_\+scores}} ()
+\begin{DoxyCompactList}\small\item\em Draws the scores in the game. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_a2685da685f57bd8d4830a8666841f7ad}{draw\+\_\+targets\+\_\+left}} ()
+\begin{DoxyCompactList}\small\item\em Draws the number of targets left in the aim game. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_a55112505a8b21469d6177ca28da3fb07}{draw\+\_\+aimgame\+\_\+\+Classic}} ()
+\begin{DoxyCompactList}\small\item\em Draws the aim game in classic mode. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_a730c8a7c508cd635c98fc2cb306b4467}{draw\+\_\+lifes}} ()
+\begin{DoxyCompactList}\small\item\em Draws the remaining lives of the player. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_a3b764e2be2f1f847d1eac30e8731398d}{draw\+\_\+aim\+\_\+menu}} ()
+\begin{DoxyCompactList}\small\item\em Draws the aim menu. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_a4d7b9dff337c1bcb1246dcb372a954b5}{draw\+\_\+rtc}} ()
+\begin{DoxyCompactList}\small\item\em Draws the real-\/time clock. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_game_sprites_8h_a398be22361f60b332d3b144abeababa0}{save\+\_\+background\+\_\+pixels}} (\mbox{\hyperlink{struct_sprite}{Sprite}} \texorpdfstring{$\ast$}{*}sprite, int x, int y)
+\begin{DoxyCompactList}\small\item\em Saves the background pixels of a sprite at a specified position. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_game_sprites_8h_a0fac03a448f8539b9d6086faea55da46}{restore\+\_\+background\+\_\+pixels}} ()
+\begin{DoxyCompactList}\small\item\em Restores the background pixels that were saved previously. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_aa2b95ae978ca2f4d0b19eb6e46a11424}{update\+\_\+\+Time\+Attack}} ()
+\begin{DoxyCompactList}\small\item\em Updates the time attack mode of the aim game. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_af478a74d86725664e37780605e956463}{update\+\_\+\+Classic}} ()
+\begin{DoxyCompactList}\small\item\em Updates the classic mode of the aim game. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_ac2b86e6734da9968f44dc28660b368b0}{update\+\_\+rtc}} ()
+\begin{DoxyCompactList}\small\item\em Updates the real-\/time clock. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_a31c317bc65751b0b9347dd0a414ea178}{update\+\_\+\+React\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Updates the reaction game. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_a41144cb4bcf7eb8be99015b3b13e09c3}{draw\+\_\+timer\+\_\+scores}} ()
+\begin{DoxyCompactList}\small\item\em Draws the timer and scores for the reaction game. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_game_sprites_8h_a88cba00d2cb5ca3d4ce59740a3019db0}{draw\+\_\+title\+\_\+score\+\_\+react}} ()
+\begin{DoxyCompactList}\small\item\em Draws the title and score for the reaction game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{_game_sprites_8h_a635abe6a737bd73ea80961a4e586057e}\label{_game_sprites_8h_a635abe6a737bd73ea80961a4e586057e} 
+\index{GameSprites.h@{GameSprites.h}!clearscreen@{clearscreen}}
+\index{clearscreen@{clearscreen}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{clearscreen()}{clearscreen()}}
+{\footnotesize\ttfamily int clearscreen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clears the screen. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a635abe6a737bd73ea80961a4e586057e_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a635abe6a737bd73ea80961a4e586057e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a3b764e2be2f1f847d1eac30e8731398d}\label{_game_sprites_8h_a3b764e2be2f1f847d1eac30e8731398d} 
+\index{GameSprites.h@{GameSprites.h}!draw\_aim\_menu@{draw\_aim\_menu}}
+\index{draw\_aim\_menu@{draw\_aim\_menu}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_aim\_menu()}{draw\_aim\_menu()}}
+{\footnotesize\ttfamily int draw\+\_\+aim\+\_\+menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the aim menu. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a3b764e2be2f1f847d1eac30e8731398d_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a3b764e2be2f1f847d1eac30e8731398d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a55112505a8b21469d6177ca28da3fb07}\label{_game_sprites_8h_a55112505a8b21469d6177ca28da3fb07} 
+\index{GameSprites.h@{GameSprites.h}!draw\_aimgame\_Classic@{draw\_aimgame\_Classic}}
+\index{draw\_aimgame\_Classic@{draw\_aimgame\_Classic}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_aimgame\_Classic()}{draw\_aimgame\_Classic()}}
+{\footnotesize\ttfamily int draw\+\_\+aimgame\+\_\+\+Classic (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the aim game in classic mode. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a55112505a8b21469d6177ca28da3fb07_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a55112505a8b21469d6177ca28da3fb07_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_ad0225bbf4c247808169cb1ee090e8397}\label{_game_sprites_8h_ad0225bbf4c247808169cb1ee090e8397} 
+\index{GameSprites.h@{GameSprites.h}!draw\_aimgame\_TimeAttack@{draw\_aimgame\_TimeAttack}}
+\index{draw\_aimgame\_TimeAttack@{draw\_aimgame\_TimeAttack}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_aimgame\_TimeAttack()}{draw\_aimgame\_TimeAttack()}}
+{\footnotesize\ttfamily int draw\+\_\+aimgame\+\_\+\+Time\+Attack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the aim game in time attack mode. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_ad0225bbf4c247808169cb1ee090e8397_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_ad0225bbf4c247808169cb1ee090e8397_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a0b802f104ca32f74bba7c10d268f62bd}\label{_game_sprites_8h_a0b802f104ca32f74bba7c10d268f62bd} 
+\index{GameSprites.h@{GameSprites.h}!draw\_aimgame\_TimeAttack\_timer@{draw\_aimgame\_TimeAttack\_timer}}
+\index{draw\_aimgame\_TimeAttack\_timer@{draw\_aimgame\_TimeAttack\_timer}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_aimgame\_TimeAttack\_timer()}{draw\_aimgame\_TimeAttack\_timer()}}
+{\footnotesize\ttfamily int draw\+\_\+aimgame\+\_\+\+Time\+Attack\+\_\+timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the timer for the aim game in time attack mode. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a0b802f104ca32f74bba7c10d268f62bd_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a0b802f104ca32f74bba7c10d268f62bd_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a98df738d799160ad7eaed940e2d355d2}\label{_game_sprites_8h_a98df738d799160ad7eaed940e2d355d2} 
+\index{GameSprites.h@{GameSprites.h}!draw\_letter@{draw\_letter}}
+\index{draw\_letter@{draw\_letter}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_letter()}{draw\_letter()}}
+{\footnotesize\ttfamily int draw\+\_\+letter (\begin{DoxyParamCaption}\item[{char}]{letter,  }\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y }\end{DoxyParamCaption})}
+
+
+
+Draws a letter at a specified position. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em letter} & The letter to draw. \\
+\hline
+{\em x} & The x-\/coordinate of the position. \\
+\hline
+{\em y} & The y-\/coordinate of the position. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a98df738d799160ad7eaed940e2d355d2_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a98df738d799160ad7eaed940e2d355d2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a730c8a7c508cd635c98fc2cb306b4467}\label{_game_sprites_8h_a730c8a7c508cd635c98fc2cb306b4467} 
+\index{GameSprites.h@{GameSprites.h}!draw\_lifes@{draw\_lifes}}
+\index{draw\_lifes@{draw\_lifes}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_lifes()}{draw\_lifes()}}
+{\footnotesize\ttfamily int draw\+\_\+lifes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the remaining lives of the player. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a730c8a7c508cd635c98fc2cb306b4467_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a730c8a7c508cd635c98fc2cb306b4467_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_ad7ca2d21a727f7d55afef2392de3b5f8}\label{_game_sprites_8h_ad7ca2d21a727f7d55afef2392de3b5f8} 
+\index{GameSprites.h@{GameSprites.h}!draw\_main\_menu@{draw\_main\_menu}}
+\index{draw\_main\_menu@{draw\_main\_menu}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_main\_menu()}{draw\_main\_menu()}}
+{\footnotesize\ttfamily int draw\+\_\+main\+\_\+menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the main menu of the game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise.
+\end{DoxyReturn}
+The Game Sprites Controller module manages graphics rendering, user input, and game logic. It handles drawing various elements such as numbers, letters, sprites, and rectangles essential for the game\textquotesingle{}s visual representation and interaction. Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_ad7ca2d21a727f7d55afef2392de3b5f8_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_ad7ca2d21a727f7d55afef2392de3b5f8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a0f9d87b0bea416d794ed80855026d550}\label{_game_sprites_8h_a0f9d87b0bea416d794ed80855026d550} 
+\index{GameSprites.h@{GameSprites.h}!draw\_mouse@{draw\_mouse}}
+\index{draw\_mouse@{draw\_mouse}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_mouse()}{draw\_mouse()}}
+{\footnotesize\ttfamily int draw\+\_\+mouse (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the mouse cursor. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a0f9d87b0bea416d794ed80855026d550_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a0f9d87b0bea416d794ed80855026d550_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_aaadb40633585246dd2fc128ab9261c1d}\label{_game_sprites_8h_aaadb40633585246dd2fc128ab9261c1d} 
+\index{GameSprites.h@{GameSprites.h}!draw\_new\_frame@{draw\_new\_frame}}
+\index{draw\_new\_frame@{draw\_new\_frame}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_new\_frame()}{draw\_new\_frame()}}
+{\footnotesize\ttfamily int draw\+\_\+new\+\_\+frame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws a new frame. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_aaadb40633585246dd2fc128ab9261c1d_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_aaadb40633585246dd2fc128ab9261c1d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a136358b65a4b1da395e1a3ba01974ddf}\label{_game_sprites_8h_a136358b65a4b1da395e1a3ba01974ddf} 
+\index{GameSprites.h@{GameSprites.h}!draw\_number@{draw\_number}}
+\index{draw\_number@{draw\_number}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_number()}{draw\_number()}}
+{\footnotesize\ttfamily int draw\+\_\+number (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y }\end{DoxyParamCaption})}
+
+
+
+Draws a number at a specified position. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em n} & The number to draw. \\
+\hline
+{\em x} & The x-\/coordinate of the position. \\
+\hline
+{\em y} & The y-\/coordinate of the position. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a136358b65a4b1da395e1a3ba01974ddf_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a136358b65a4b1da395e1a3ba01974ddf_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_aeb63be465c741ae51e0874a314a682f0}\label{_game_sprites_8h_aeb63be465c741ae51e0874a314a682f0} 
+\index{GameSprites.h@{GameSprites.h}!draw\_number\_seq@{draw\_number\_seq}}
+\index{draw\_number\_seq@{draw\_number\_seq}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_number\_seq()}{draw\_number\_seq()}}
+{\footnotesize\ttfamily int draw\+\_\+number\+\_\+seq (\begin{DoxyParamCaption}\item[{int}]{number,  }\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y }\end{DoxyParamCaption})}
+
+
+
+Draws a sequence of numbers starting at a specified position. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em number} & The number to draw. \\
+\hline
+{\em x} & The x-\/coordinate of the starting position. \\
+\hline
+{\em y} & The y-\/coordinate of the starting position. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_aeb63be465c741ae51e0874a314a682f0_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_aeb63be465c741ae51e0874a314a682f0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a4d7b9dff337c1bcb1246dcb372a954b5}\label{_game_sprites_8h_a4d7b9dff337c1bcb1246dcb372a954b5} 
+\index{GameSprites.h@{GameSprites.h}!draw\_rtc@{draw\_rtc}}
+\index{draw\_rtc@{draw\_rtc}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_rtc()}{draw\_rtc()}}
+{\footnotesize\ttfamily int draw\+\_\+rtc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the real-\/time clock. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a4d7b9dff337c1bcb1246dcb372a954b5_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a4d7b9dff337c1bcb1246dcb372a954b5_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a3a165ac61ac007924b5995cdc587ca0d}\label{_game_sprites_8h_a3a165ac61ac007924b5995cdc587ca0d} 
+\index{GameSprites.h@{GameSprites.h}!draw\_scores@{draw\_scores}}
+\index{draw\_scores@{draw\_scores}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_scores()}{draw\_scores()}}
+{\footnotesize\ttfamily int draw\+\_\+scores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the scores in the game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a3a165ac61ac007924b5995cdc587ca0d_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a3a165ac61ac007924b5995cdc587ca0d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a72d331b4a543229a69309d4d13789919}\label{_game_sprites_8h_a72d331b4a543229a69309d4d13789919} 
+\index{GameSprites.h@{GameSprites.h}!draw\_target@{draw\_target}}
+\index{draw\_target@{draw\_target}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_target()}{draw\_target()}}
+{\footnotesize\ttfamily int draw\+\_\+target (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws a target. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a72d331b4a543229a69309d4d13789919_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a72d331b4a543229a69309d4d13789919_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a2685da685f57bd8d4830a8666841f7ad}\label{_game_sprites_8h_a2685da685f57bd8d4830a8666841f7ad} 
+\index{GameSprites.h@{GameSprites.h}!draw\_targets\_left@{draw\_targets\_left}}
+\index{draw\_targets\_left@{draw\_targets\_left}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_targets\_left()}{draw\_targets\_left()}}
+{\footnotesize\ttfamily int draw\+\_\+targets\+\_\+left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the number of targets left in the aim game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a2685da685f57bd8d4830a8666841f7ad_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a2685da685f57bd8d4830a8666841f7ad_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a41144cb4bcf7eb8be99015b3b13e09c3}\label{_game_sprites_8h_a41144cb4bcf7eb8be99015b3b13e09c3} 
+\index{GameSprites.h@{GameSprites.h}!draw\_timer\_scores@{draw\_timer\_scores}}
+\index{draw\_timer\_scores@{draw\_timer\_scores}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_timer\_scores()}{draw\_timer\_scores()}}
+{\footnotesize\ttfamily int draw\+\_\+timer\+\_\+scores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the timer and scores for the reaction game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a41144cb4bcf7eb8be99015b3b13e09c3_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a41144cb4bcf7eb8be99015b3b13e09c3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a88cba00d2cb5ca3d4ce59740a3019db0}\label{_game_sprites_8h_a88cba00d2cb5ca3d4ce59740a3019db0} 
+\index{GameSprites.h@{GameSprites.h}!draw\_title\_score\_react@{draw\_title\_score\_react}}
+\index{draw\_title\_score\_react@{draw\_title\_score\_react}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_title\_score\_react()}{draw\_title\_score\_react()}}
+{\footnotesize\ttfamily int draw\+\_\+title\+\_\+score\+\_\+react (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the title and score for the reaction game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a88cba00d2cb5ca3d4ce59740a3019db0_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a88cba00d2cb5ca3d4ce59740a3019db0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_ab87a1cbf955ab6fd560c1f828f376627}\label{_game_sprites_8h_ab87a1cbf955ab6fd560c1f828f376627} 
+\index{GameSprites.h@{GameSprites.h}!draw\_word@{draw\_word}}
+\index{draw\_word@{draw\_word}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{draw\_word()}{draw\_word()}}
+{\footnotesize\ttfamily int draw\+\_\+word (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{word,  }\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y }\end{DoxyParamCaption})}
+
+
+
+Draws a word starting at a specified position. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em word} & The word to draw. \\
+\hline
+{\em x} & The x-\/coordinate of the starting position. \\
+\hline
+{\em y} & The y-\/coordinate of the starting position. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_ab87a1cbf955ab6fd560c1f828f376627_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_ab87a1cbf955ab6fd560c1f828f376627_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a0fac03a448f8539b9d6086faea55da46}\label{_game_sprites_8h_a0fac03a448f8539b9d6086faea55da46} 
+\index{GameSprites.h@{GameSprites.h}!restore\_background\_pixels@{restore\_background\_pixels}}
+\index{restore\_background\_pixels@{restore\_background\_pixels}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{restore\_background\_pixels()}{restore\_background\_pixels()}}
+{\footnotesize\ttfamily void restore\+\_\+background\+\_\+pixels (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Restores the background pixels that were saved previously. 
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{_game_sprites_8h_a0fac03a448f8539b9d6086faea55da46_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a0fac03a448f8539b9d6086faea55da46_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a398be22361f60b332d3b144abeababa0}\label{_game_sprites_8h_a398be22361f60b332d3b144abeababa0} 
+\index{GameSprites.h@{GameSprites.h}!save\_background\_pixels@{save\_background\_pixels}}
+\index{save\_background\_pixels@{save\_background\_pixels}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{save\_background\_pixels()}{save\_background\_pixels()}}
+{\footnotesize\ttfamily void save\+\_\+background\+\_\+pixels (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_sprite}{Sprite}} \texorpdfstring{$\ast$}{*}}]{sprite,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Saves the background pixels of a sprite at a specified position. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sprite} & The sprite whose background pixels are to be saved. \\
+\hline
+{\em x} & The x-\/coordinate of the position. \\
+\hline
+{\em y} & The y-\/coordinate of the position. \\
+\hline
+\end{DoxyParams}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a398be22361f60b332d3b144abeababa0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a5d3caa7baa1425fd524c2ec534bfa195}\label{_game_sprites_8h_a5d3caa7baa1425fd524c2ec534bfa195} 
+\index{GameSprites.h@{GameSprites.h}!set\_sprites@{set\_sprites}}
+\index{set\_sprites@{set\_sprites}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{set\_sprites()}{set\_sprites()}}
+{\footnotesize\ttfamily void set\+\_\+sprites (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Sets up the game sprites. 
+
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{_game_sprites_8h_a5d3caa7baa1425fd524c2ec534bfa195_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{_game_sprites_8h_a5d3caa7baa1425fd524c2ec534bfa195_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_af478a74d86725664e37780605e956463}\label{_game_sprites_8h_af478a74d86725664e37780605e956463} 
+\index{GameSprites.h@{GameSprites.h}!update\_Classic@{update\_Classic}}
+\index{update\_Classic@{update\_Classic}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{update\_Classic()}{update\_Classic()}}
+{\footnotesize\ttfamily int update\+\_\+\+Classic (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Updates the classic mode of the aim game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_af478a74d86725664e37780605e956463_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_af478a74d86725664e37780605e956463_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_a31c317bc65751b0b9347dd0a414ea178}\label{_game_sprites_8h_a31c317bc65751b0b9347dd0a414ea178} 
+\index{GameSprites.h@{GameSprites.h}!update\_ReactGame@{update\_ReactGame}}
+\index{update\_ReactGame@{update\_ReactGame}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{update\_ReactGame()}{update\_ReactGame()}}
+{\footnotesize\ttfamily int update\+\_\+\+React\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Updates the reaction game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a31c317bc65751b0b9347dd0a414ea178_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_a31c317bc65751b0b9347dd0a414ea178_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_ac2b86e6734da9968f44dc28660b368b0}\label{_game_sprites_8h_ac2b86e6734da9968f44dc28660b368b0} 
+\index{GameSprites.h@{GameSprites.h}!update\_rtc@{update\_rtc}}
+\index{update\_rtc@{update\_rtc}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{update\_rtc()}{update\_rtc()}}
+{\footnotesize\ttfamily int update\+\_\+rtc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Updates the real-\/time clock. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_ac2b86e6734da9968f44dc28660b368b0_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_ac2b86e6734da9968f44dc28660b368b0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_game_sprites_8h_aa2b95ae978ca2f4d0b19eb6e46a11424}\label{_game_sprites_8h_aa2b95ae978ca2f4d0b19eb6e46a11424} 
+\index{GameSprites.h@{GameSprites.h}!update\_TimeAttack@{update\_TimeAttack}}
+\index{update\_TimeAttack@{update\_TimeAttack}!GameSprites.h@{GameSprites.h}}
+\doxysubsubsection{\texorpdfstring{update\_TimeAttack()}{update\_TimeAttack()}}
+{\footnotesize\ttfamily int update\+\_\+\+Time\+Attack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Updates the time attack mode of the aim game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, non-\/zero otherwise. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_aa2b95ae978ca2f4d0b19eb6e46a11424_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_sprites_8h_aa2b95ae978ca2f4d0b19eb6e46a11424_icgraph}
+\end{center}
+\end{figure}

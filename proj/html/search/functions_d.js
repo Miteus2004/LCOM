@@ -1,0 +1,15 @@
+var searchData=
+[
+  ['take_5flife_0',['take_life',['../aim_train_controler_8c.html#aaca9d09569d5ad992cff9c384a7fc6a4',1,'take_life():&#160;aimTrainControler.c'],['../aim_train_controler_8h.html#aaca9d09569d5ad992cff9c384a7fc6a4',1,'take_life():&#160;aimTrainControler.c']]],
+  ['target_5fhit_1',['target_hit',['../aim_train_controler_8c.html#a9b22b72ca7f8d05c24e67261e6e247b4',1,'target_hit():&#160;aimTrainControler.c'],['../aim_train_controler_8h.html#a9b22b72ca7f8d05c24e67261e6e247b4',1,'target_hit():&#160;aimTrainControler.c']]],
+  ['timer_5fdisplay_5fconf_2',['timer_display_conf',['../group__timer.html#ga140d8f092c0913cabdca949c4a1cc650',1,'timer_display_conf(uint8_t timer, uint8_t st, enum timer_status_field field):&#160;timer.c'],['../group__timer.html#ga140d8f092c0913cabdca949c4a1cc650',1,'timer_display_conf(uint8_t timer, uint8_t st, enum timer_status_field field):&#160;timer.c']]],
+  ['timer_5fget_5fconf_3',['timer_get_conf',['../group__timer.html#ga703c60b40c8c49607d6ecb6fef82d27a',1,'timer_get_conf(uint8_t timer, uint8_t *st):&#160;timer.c'],['../group__timer.html#ga703c60b40c8c49607d6ecb6fef82d27a',1,'timer_get_conf(uint8_t timer, uint8_t *st):&#160;timer.c']]],
+  ['timer_5fhandler_4',['timer_handler',['../gamehandlers_8c.html#a8759d40e96a35c89970bcd4c2e03c241',1,'timer_handler():&#160;gamehandlers.c'],['../gamehandlers_8h.html#a8759d40e96a35c89970bcd4c2e03c241',1,'timer_handler():&#160;gamehandlers.c']]],
+  ['timer_5fint_5fhandler_5',['timer_int_handler',['../group__timer.html#ga91a2072306c68353712a6b771287dc2c',1,'timer_int_handler():&#160;timer.c'],['../group__timer.html#ga91a2072306c68353712a6b771287dc2c',1,'timer_int_handler():&#160;timer.c']]],
+  ['timer_5fprint_5fconfig_6',['timer_print_config',['../group__timer.html#gad3902e029b27c80982873394c0290496',1,'timer.h']]],
+  ['timer_5fprint_5felapsed_5ftime_7',['timer_print_elapsed_time',['../group__timer.html#ga43b221cba0c39b32f89688dcfee5aefa',1,'timer.h']]],
+  ['timer_5fset_5ffrequency_8',['timer_set_frequency',['../group__timer.html#gaf2c04fa8e97ffa748fd3f612886a92a7',1,'timer_set_frequency(uint8_t timer, uint32_t freq):&#160;timer.c'],['../group__timer.html#gaf2c04fa8e97ffa748fd3f612886a92a7',1,'timer_set_frequency(uint8_t timer, uint32_t freq):&#160;timer.c']]],
+  ['timer_5fsubscribe_5fint_9',['timer_subscribe_int',['../group__timer.html#gac57a7e1140a7e00ad95ac5488d2a671b',1,'timer_subscribe_int(uint8_t *bit_no):&#160;timer.c'],['../group__timer.html#gac57a7e1140a7e00ad95ac5488d2a671b',1,'timer_subscribe_int(uint8_t *bit_no):&#160;timer.c']]],
+  ['timer_5funsubscribe_5fint_10',['timer_unsubscribe_int',['../group__timer.html#gafabd21de449be154dd65d5fdb2d8045d',1,'timer_unsubscribe_int():&#160;timer.c'],['../group__timer.html#gafabd21de449be154dd65d5fdb2d8045d',1,'timer_unsubscribe_int():&#160;timer.c']]],
+  ['to_5fbinary_11',['to_binary',['../rtc_8c.html#a891509fed13e0cac396e9c401f887d72',1,'to_binary(uint8_t bcd_number):&#160;rtc.c'],['../rtc_8h.html#a891509fed13e0cac396e9c401f887d72',1,'to_binary(uint8_t bcd_number):&#160;rtc.c']]]
+];

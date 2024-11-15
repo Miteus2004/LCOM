@@ -1,0 +1,24 @@
+<map id="update_ReactGame" name="update_ReactGame">
+<area shape="rect" id="Node000001" title="Updates the reaction game." alt="" coords="5,107,142,133"/>
+<area shape="rect" id="Node000002" href="$gamesprites_8c.html#a680b9b6bf1feeb927e76c706fff2db60" title="Draws the timer and scores for the reaction game." alt="" coords="190,56,320,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,103,189,85,191,90,125,109"/>
+<area shape="rect" id="Node000008" href="$reactgamecontroller_8c.html#a77a87f2b88029aad8ac06883f5166eff" title="Function to print the current react mode and draw corresponding sprites." alt="" coords="194,132,316,159"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="142,127,179,132,178,137,141,132"/>
+<area shape="rect" id="Node000003" href="$gamesprites_8c.html#a4743c346aef3789257d9b7329015d479" title="Draws a sequence of numbers starting at a specified position." alt="" coords="368,5,494,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="303,53,367,34,368,39,305,58"/>
+<area shape="rect" id="Node000005" href="$sprites_8c.html#a6db4230a0003a09515d78b790d8ec52d" title="Function to draw a sprite on the screen." alt="" coords="691,56,811,83"/>
+<area shape="poly" id="edge8_Node000002_Node000005" title=" " alt="" coords="321,67,676,67,676,72,321,72"/>
+<area shape="rect" id="Node000004" href="$gamesprites_8c.html#af3c7e15abf4b4b99529968fb2b709107" title="Draws a number at a specified position." alt="" coords="542,5,641,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="495,16,527,16,527,21,495,21"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="637,30,693,48,691,53,635,35"/>
+<area shape="rect" id="Node000007" href="$sprites_8c.html#a68f38f4a0ef4671439737a88745eb2d9" title="Function to draw a sprite on the screen, changing white pixels to a specified color." alt="" coords="689,5,813,32"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="641,16,673,16,673,21,641,21"/>
+<area shape="rect" id="Node000006" href="$graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741" title=" " alt="" coords="861,31,962,57"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="811,57,845,52,846,57,811,63"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="814,26,846,31,845,36,813,31"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="316,133,675,78,676,83,317,139"/>
+<area shape="rect" id="Node000009" href="$reactgamecontroller_8c.html#a66509b494102a5c28ba6c8be3eab7733" title="Function to start the timer for measuring reaction time. Sets the timer_running flag to true and rese..." alt="" coords="391,157,472,184"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="316,151,375,160,375,165,316,157"/>
+<area shape="rect" id="Node000010" href="$reactgamecontroller_8c.html#af3619f34a9bc0184b4578e5337069856" title="Function to stop the timer and update the best reaction time. Sets the timer_running flag to false,..." alt="" coords="391,208,471,235"/>
+<area shape="poly" id="edge12_Node000008_Node000010" title=" " alt="" coords="287,157,369,194,382,199,380,204,367,198,285,162"/>
+</map>

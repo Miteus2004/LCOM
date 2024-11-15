@@ -1,0 +1,146 @@
+\doxysection{Referência ao ficheiro src/\+Game\+Controlers/gamehandlers.h}
+\hypertarget{gamehandlers_8h}{}\label{gamehandlers_8h}\index{src/GameControlers/gamehandlers.h@{src/GameControlers/gamehandlers.h}}
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include "{}Game\+Controlers/statecontroler.\+h"{}}\newline
+{\ttfamily \#include "{}Controlers/\+Keyboard/keyboard.\+h"{}}\newline
+{\ttfamily \#include "{}Controlers/\+Mouse/mouse.\+h"{}}\newline
+{\ttfamily \#include "{}Controlers/\+RTC/rtc.\+h"{}}\newline
+{\ttfamily \#include "{}Controlers/\+Timers/timer.\+h"{}}\newline
+{\ttfamily \#include "{}Game\+Controlers/aim\+Train\+Controler.\+h"{}}\newline
+{\ttfamily \#include "{}buffering.\+h"{}}\newline
+Diagrama de dependências de inclusão para gamehandlers.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamehandlers_8h__incl}
+\end{center}
+\end{figure}
+Este grafo mostra quais são os ficheiros que incluem directamente ou indirectamente este ficheiro\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{gamehandlers_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{gamehandlers_8h_a8759d40e96a35c89970bcd4c2e03c241}{timer\+\_\+handler}} ()
+\begin{DoxyCompactList}\small\item\em Function to handle timer events and update game state accordingly. This function is responsible for managing timed events within the game, such as updating the target appearance in aim training mode or transitioning between game modes based on elapsed time. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{gamehandlers_8h_a0fb71e2b76b368ba43295cdc9174558b}{keyboard\+\_\+handler}} ()
+\begin{DoxyCompactList}\small\item\em Function to handle keyboard events. This function processes keyboard input events and updates the game state accordingly, such as starting or exiting the game. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{gamehandlers_8h_a1d865d087780c7f07862aa420ca32182}{mouse\+\_\+handler}} ()
+\begin{DoxyCompactList}\small\item\em Function to handle mouse events. This function processes mouse input events and updates the game state accordingly, such as detecting clicks on game elements like targets. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{gamehandlers_8h_a8a299763beeb94c941b3dc4aa97be5f7}{rtc\+\_\+handler}} ()
+\begin{DoxyCompactList}\small\item\em Function to handle RTC (Real-\/\+Time Clock) events. This function is responsible for handling RTC events, such as updating the integraded clock displayed on the screen. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{gamehandlers_8h_a0fb71e2b76b368ba43295cdc9174558b}\label{gamehandlers_8h_a0fb71e2b76b368ba43295cdc9174558b} 
+\index{gamehandlers.h@{gamehandlers.h}!keyboard\_handler@{keyboard\_handler}}
+\index{keyboard\_handler@{keyboard\_handler}!gamehandlers.h@{gamehandlers.h}}
+\doxysubsubsection{\texorpdfstring{keyboard\_handler()}{keyboard\_handler()}}
+{\footnotesize\ttfamily int keyboard\+\_\+handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to handle keyboard events. This function processes keyboard input events and updates the game state accordingly, such as starting or exiting the game. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, 1 on failure. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamehandlers_8h_a0fb71e2b76b368ba43295cdc9174558b_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamehandlers_8h_a0fb71e2b76b368ba43295cdc9174558b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamehandlers_8h_a1d865d087780c7f07862aa420ca32182}\label{gamehandlers_8h_a1d865d087780c7f07862aa420ca32182} 
+\index{gamehandlers.h@{gamehandlers.h}!mouse\_handler@{mouse\_handler}}
+\index{mouse\_handler@{mouse\_handler}!gamehandlers.h@{gamehandlers.h}}
+\doxysubsubsection{\texorpdfstring{mouse\_handler()}{mouse\_handler()}}
+{\footnotesize\ttfamily int mouse\+\_\+handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to handle mouse events. This function processes mouse input events and updates the game state accordingly, such as detecting clicks on game elements like targets. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, 1 on failure. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamehandlers_8h_a1d865d087780c7f07862aa420ca32182_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamehandlers_8h_a1d865d087780c7f07862aa420ca32182_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamehandlers_8h_a8a299763beeb94c941b3dc4aa97be5f7}\label{gamehandlers_8h_a8a299763beeb94c941b3dc4aa97be5f7} 
+\index{gamehandlers.h@{gamehandlers.h}!rtc\_handler@{rtc\_handler}}
+\index{rtc\_handler@{rtc\_handler}!gamehandlers.h@{gamehandlers.h}}
+\doxysubsubsection{\texorpdfstring{rtc\_handler()}{rtc\_handler()}}
+{\footnotesize\ttfamily int rtc\+\_\+handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to handle RTC (Real-\/\+Time Clock) events. This function is responsible for handling RTC events, such as updating the integraded clock displayed on the screen. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, 1 on failure. 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamehandlers_8h_a8a299763beeb94c941b3dc4aa97be5f7_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamehandlers_8h_a8a299763beeb94c941b3dc4aa97be5f7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{gamehandlers_8h_a8759d40e96a35c89970bcd4c2e03c241}\label{gamehandlers_8h_a8759d40e96a35c89970bcd4c2e03c241} 
+\index{gamehandlers.h@{gamehandlers.h}!timer\_handler@{timer\_handler}}
+\index{timer\_handler@{timer\_handler}!gamehandlers.h@{gamehandlers.h}}
+\doxysubsubsection{\texorpdfstring{timer\_handler()}{timer\_handler()}}
+{\footnotesize\ttfamily int timer\+\_\+handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to handle timer events and update game state accordingly. This function is responsible for managing timed events within the game, such as updating the target appearance in aim training mode or transitioning between game modes based on elapsed time. 
+
+\begin{DoxyReturn}{Retorna}
+0 on success, 1 in failure.
+\end{DoxyReturn}
+The Game Handlers module manages the core interactions and event handling within the game, including timer, keyboard, mouse, rtc, and button events. It is responsible for updating the game state based on user input and timed events, ensuring that the game logic runs smoothly. This module includes functions to handle different games, such as reaction game and aim training, and transitions between game modes. Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamehandlers_8h_a8759d40e96a35c89970bcd4c2e03c241_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gamehandlers_8h_a8759d40e96a35c89970bcd4c2e03c241_icgraph}
+\end{center}
+\end{figure}

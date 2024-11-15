@@ -1,0 +1,7 @@
+<map id="timer_subscribe_int" name="timer_subscribe_int">
+<area shape="rect" id="Node000001" title="Subscribes and enables Timer 0 interrupts." alt="" coords="270,5,404,32"/>
+<area shape="rect" id="Node000002" href="$main_8c.html#a0de60936a74f16fb1479b110f8131e87" title="Set up the initial configuration for the game." alt="" coords="162,5,222,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,21,223,21,223,16,254,16"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,114,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="146,21,114,21,114,16,146,16"/>
+</map>

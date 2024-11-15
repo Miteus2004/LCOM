@@ -1,0 +1,11 @@
+<map id="restore_background_pixels" name="restore_background_pixels">
+<area shape="rect" id="Node000001" title="Restores the background pixels that were saved previously." alt="" coords="596,5,731,48"/>
+<area shape="rect" id="Node000002" href="$gamesprites_8c.html#a0f9d87b0bea416d794ed80855026d550" title="Draws the mouse cursor." alt="" coords="453,13,548,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="580,29,548,29,548,24,580,24"/>
+<area shape="rect" id="Node000003" href="$gamesprites_8c.html#a9fe4780cd99177b2f789bc9c22b4dbd3" title="Draws a new frame." alt="" coords="288,13,405,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="438,29,406,29,406,24,438,24"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a22613a4ed426179d00643f6bf2d90320" title="Main game loop." alt="" coords="162,13,240,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="272,29,240,29,240,24,272,24"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,13,114,40"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="146,29,114,29,114,24,146,24"/>
+</map>

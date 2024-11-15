@@ -1,0 +1,44 @@
+<map id="src/Controlers/Timers/timer.h" name="src/Controlers/Timers/timer.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="436,5,581,48"/>
+<area shape="rect" id="Node000002" href="$timer_8c.html" title=" " alt="" coords="5,96,151,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="421,48,171,99,152,103,151,97,169,93,420,43"/>
+<area shape="rect" id="Node000003" href="$aim_train_controler_8h.html" title=" " alt="" coords="440,96,577,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="511,64,511,96,506,96,506,64"/>
+<area shape="rect" id="Node000006" href="$reactgamecontroller_8h.html" title=" " alt="" coords="778,277,928,320"/>
+<area shape="poly" id="edge26_Node000001_Node000006" title=" " alt="" coords="548,55,828,275,825,279,545,60"/>
+<area shape="rect" id="Node000009" href="$gamehandlers_8h.html" title=" " alt="" coords="809,459,947,501"/>
+<area shape="poly" id="edge25_Node000001_Node000009" title=" " alt="" coords="597,38,724,61,861,97,922,119,972,145,1005,174,1015,190,1018,206,1018,300,1015,335,1005,361,967,412,941,439,913,460,910,456,937,435,963,409,1000,358,1010,334,1013,300,1013,207,1010,192,1001,177,969,149,920,124,860,102,723,67,596,43"/>
+<area shape="rect" id="Node000011" href="$main_8c.html" title=" " alt="" coords="493,557,575,584"/>
+<area shape="poly" id="edge27_Node000001_Node000011" title=" " alt="" coords="421,42,345,60,307,74,271,92,239,113,214,139,197,170,191,207,191,391,194,414,200,436,211,455,225,472,262,502,307,524,357,541,407,552,493,564,492,570,406,558,355,546,305,529,259,506,221,476,207,458,195,438,188,415,186,391,186,206,192,169,209,136,235,109,268,87,305,69,344,55,420,36"/>
+<area shape="rect" id="Node000004" href="$_game_sprites_8h.html" title=" " alt="" coords="497,187,635,229"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="524,151,547,185,543,188,520,154"/>
+<area shape="poly" id="edge23_Node000003_Node000009" title=" " alt="" coords="593,120,679,132,727,144,776,159,823,179,868,205,908,237,942,276,959,310,963,342,956,374,942,412,926,439,906,460,902,457,922,435,937,410,951,373,957,341,954,312,937,279,904,241,865,209,821,184,774,164,726,149,678,138,593,125"/>
+<area shape="poly" id="edge24_Node000003_Node000011" title=" " alt="" coords="474,151,406,218,370,260,338,307,313,356,300,406,298,430,302,454,310,477,323,500,339,518,358,532,403,552,450,563,493,567,492,572,450,568,402,557,356,537,335,522,319,503,305,480,296,455,293,430,294,405,308,354,333,304,366,257,402,214,470,147"/>
+<area shape="rect" id="Node000013" href="$aim_train_controler_8c.html" title=" " alt="" coords="227,187,364,229"/>
+<area shape="poly" id="edge18_Node000003_Node000013" title=" " alt="" coords="446,148,346,188,344,184,444,143"/>
+<area shape="rect" id="Node000014" href="$buffering_8h.html" title=" " alt="" coords="384,368,521,411"/>
+<area shape="poly" id="edge19_Node000003_Node000014" title=" " alt="" coords="498,154,487,187,468,288,457,368,452,367,462,288,482,186,492,153"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="551,175,527,141,532,138,555,172"/>
+<area shape="rect" id="Node000005" href="$gamesprites_8c.html" title=" " alt="" coords="616,277,753,320"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="607,237,658,275,655,279,604,241"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="641,232,778,274,777,279,639,237"/>
+<area shape="rect" id="Node000008" href="$statecontroler_8h.html" title=" " alt="" coords="607,368,744,411"/>
+<area shape="poly" id="edge16_Node000004_Node000008" title=" " alt="" coords="566,244,576,281,594,319,615,344,639,366,636,370,611,348,589,321,571,283,560,246"/>
+<area shape="poly" id="edge17_Node000004_Node000011" title=" " alt="" coords="566,245,538,557,532,557,560,244"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="778,275,634,231,636,226,780,270"/>
+<area shape="rect" id="Node000007" href="$reactgamecontroller_8c.html" title=" " alt="" coords="778,368,928,411"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="855,336,855,368,850,368,850,336"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="799,330,718,370,715,365,796,325"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="646,359,613,321,591,274,576,231,581,229,596,272,618,319,650,356"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="738,415,831,456,829,460,736,420"/>
+<area shape="poly" id="edge15_Node000008_Node000011" title=" " alt="" coords="652,424,546,559,542,555,648,421"/>
+<area shape="rect" id="Node000012" href="$statecontroler_8c.html" title=" " alt="" coords="648,459,785,501"/>
+<area shape="poly" id="edge14_Node000008_Node000012" title=" " alt="" coords="694,424,710,457,705,460,689,426"/>
+<area shape="rect" id="Node000010" href="$gamehandlers_8c.html" title=" " alt="" coords="809,549,947,592"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="881,517,881,549,875,549,875,517"/>
+<area shape="poly" id="edge13_Node000009_Node000011" title=" " alt="" coords="795,505,576,561,575,556,793,500"/>
+<area shape="poly" id="edge21_Node000014_Node000009" title=" " alt="" coords="537,403,799,456,809,459,808,464,797,461,536,409"/>
+<area shape="poly" id="edge22_Node000014_Node000011" title=" " alt="" coords="471,424,531,556,526,558,466,426"/>
+<area shape="rect" id="Node000015" href="$buffering_8c.html" title=" " alt="" coords="333,459,471,501"/>
+<area shape="poly" id="edge20_Node000014_Node000015" title=" " alt="" coords="436,426,416,460,411,457,431,423"/>
+</map>

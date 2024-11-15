@@ -1,0 +1,77 @@
+\doxysection{Referência ao ficheiro src/\+Game\+Controlers/buffering.h}
+\hypertarget{buffering_8h}{}\label{buffering_8h}\index{src/GameControlers/buffering.h@{src/GameControlers/buffering.h}}
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include "{}aim\+Train\+Controler.\+h"{}}\newline
+Diagrama de dependências de inclusão para buffering.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{buffering_8h__incl}
+\end{center}
+\end{figure}
+Este grafo mostra quais são os ficheiros que incluem directamente ou indirectamente este ficheiro\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{buffering_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int() \mbox{\hyperlink{buffering_8h_ac7aece56d0d111161c91b4b9cddfaf40}{set\+\_\+frame\+\_\+buffers}} (uint16\+\_\+t mode)
+\begin{DoxyCompactList}\small\item\em Initializes the frame buffers based on the provided video mode. This function sets up the frame buffers for rendering graphics. If optimization is enabled, it utilizes double buffering by allocating memory for both the main and secondary frame buffers. Otherwise, it initializes a single frame buffer. \end{DoxyCompactList}\item 
+void() \mbox{\hyperlink{buffering_8h_aa3eb82d3b44f0375e27216392595fdb3}{swap\+\_\+buffers}} ()
+\begin{DoxyCompactList}\small\item\em Swaps the contents of the secondary frame buffer to the main frame buffer. This function performs the buffer swap necessary for optimized rendering. It copies the contents of the off-\/screen rendered frame from the secondary buffer to the main buffer, ensuring smooth visual updates. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{buffering_8h_ac7aece56d0d111161c91b4b9cddfaf40}\label{buffering_8h_ac7aece56d0d111161c91b4b9cddfaf40} 
+\index{buffering.h@{buffering.h}!set\_frame\_buffers@{set\_frame\_buffers}}
+\index{set\_frame\_buffers@{set\_frame\_buffers}!buffering.h@{buffering.h}}
+\doxysubsubsection{\texorpdfstring{set\_frame\_buffers()}{set\_frame\_buffers()}}
+{\footnotesize\ttfamily int() set\+\_\+frame\+\_\+buffers (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{mode }\end{DoxyParamCaption})}
+
+
+
+Initializes the frame buffers based on the provided video mode. This function sets up the frame buffers for rendering graphics. If optimization is enabled, it utilizes double buffering by allocating memory for both the main and secondary frame buffers. Otherwise, it initializes a single frame buffer. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em mode} & The video mode used for initialization. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+0 on success, 1 on failure.
+\end{DoxyReturn}
+The buffering module is responsible for handling frame buffers used in rendering graphics for the game. It provides functionality to set up and manage the main and secondary frame buffers, allowing for optimized rendering techniques such as double buffering. The module includes functions to initialize the frame buffers based on the current video mode and to swap buffers efficiently. This swapping mechanism is crucial for minimizing screen tearing and ensuring smooth visual updates. Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{buffering_8h_ac7aece56d0d111161c91b4b9cddfaf40_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{buffering_8h_ac7aece56d0d111161c91b4b9cddfaf40_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{buffering_8h_aa3eb82d3b44f0375e27216392595fdb3}\label{buffering_8h_aa3eb82d3b44f0375e27216392595fdb3} 
+\index{buffering.h@{buffering.h}!swap\_buffers@{swap\_buffers}}
+\index{swap\_buffers@{swap\_buffers}!buffering.h@{buffering.h}}
+\doxysubsubsection{\texorpdfstring{swap\_buffers()}{swap\_buffers()}}
+{\footnotesize\ttfamily void() swap\+\_\+buffers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Swaps the contents of the secondary frame buffer to the main frame buffer. This function performs the buffer swap necessary for optimized rendering. It copies the contents of the off-\/screen rendered frame from the secondary buffer to the main buffer, ensuring smooth visual updates. 
+
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{buffering_8h_aa3eb82d3b44f0375e27216392595fdb3_icgraph}
+\end{center}
+\end{figure}

@@ -1,0 +1,12 @@
+<map id="draw_lifes" name="draw_lifes">
+<area shape="rect" id="Node000001" title="Draws the remaining lives of the player." alt="" coords="5,31,84,57"/>
+<area shape="rect" id="Node000002" href="$gamesprites_8c.html#af3c7e15abf4b4b99529968fb2b709107" title="Draws a number at a specified position." alt="" coords="132,31,230,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,41,116,41,116,47,84,47"/>
+<area shape="rect" id="Node000003" href="$sprites_8c.html#a6db4230a0003a09515d78b790d8ec52d" title="Function to draw a sprite on the screen." alt="" coords="281,5,400,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="230,34,265,28,266,33,231,39"/>
+<area shape="rect" id="Node000005" href="$sprites_8c.html#a68f38f4a0ef4671439737a88745eb2d9" title="Function to draw a sprite on the screen, changing white pixels to a specified color." alt="" coords="278,56,402,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="231,49,263,54,262,60,230,54"/>
+<area shape="rect" id="Node000004" href="$graphics_8c.html#a08c498ffeb0a3962e3b7711b57397741" title=" " alt="" coords="450,31,552,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="401,25,436,31,435,36,400,31"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="402,57,435,52,436,57,403,62"/>
+</map>

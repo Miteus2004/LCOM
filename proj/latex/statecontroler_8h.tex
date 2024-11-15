@@ -1,0 +1,208 @@
+\doxysection{Referência ao ficheiro src/\+Game\+Controlers/statecontroler.h}
+\hypertarget{statecontroler_8h}{}\label{statecontroler_8h}\index{src/GameControlers/statecontroler.h@{src/GameControlers/statecontroler.h}}
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include "{}Game\+Controlers/gamesprites.\+h"{}}\newline
+{\ttfamily \#include "{}Game\+Controlers/reactgamecontroller.\+h"{}}\newline
+Diagrama de dependências de inclusão para statecontroler.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{statecontroler_8h__incl}
+\end{center}
+\end{figure}
+Este grafo mostra quais são os ficheiros que incluem directamente ou indirectamente este ficheiro\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{statecontroler_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Enumerações}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} \{ \newline
+\mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285a4308178099d62c4081c711b763591792}{MAINMENU}}
+, \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285abe1717bd3214fb5d74a9c658d69295d1}{REACTGAME}}
+, \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285a580366f37edaf84f9fca0e1f273c6482}{AIMGAME}}
+, \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285a871723195985a4ae22d7e10d99bf8a00}{GAME\+\_\+\+OVER}}
+, \newline
+\mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285aedb8021c05603471ad7d382d8288223b}{SCOREBOARD}}
+, \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285a7a10b5d68d31711288e1fe0fa17dbf4f}{EXIT}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enumeration for the different states the game can be in. This enumeration defines the possible states the game can transition between, such as the main menu, reaction game, aiming game, game over, scoreboard, and exit. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} \mbox{\hyperlink{statecontroler_8h_afb7e8eee947a2d603dfd05cf396fd0a6}{startgame}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the game to the main menu state. This function sets up the main menu and transitions the game to the MAINMENU state. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} \mbox{\hyperlink{statecontroler_8h_a88dfdc3b343021521ec75e02abd6d0c2}{reactgame}} ()
+\begin{DoxyCompactList}\small\item\em Transitions the game to the reaction game state. This function sets up the reaction game and transitions the game to the REACTGAME state. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} \mbox{\hyperlink{statecontroler_8h_a12768f066e85226b4dca9e09ae9e0f98}{aimgame}} ()
+\begin{DoxyCompactList}\small\item\em Transitions the game to the aiming game state. This function sets the aiming mode and transitions the game to the AIMGAME state. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} \mbox{\hyperlink{statecontroler_8h_a85f6eeaa505d59f446654eeb0ab227fd}{gameover}} ()
+\begin{DoxyCompactList}\small\item\em Handles the game over state. This function transitions the game to the GAME\+\_\+\+OVER state. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} \mbox{\hyperlink{statecontroler_8h_abf2136845d70126601842fb39e74665d}{scoreboard}} ()
+\begin{DoxyCompactList}\small\item\em Displays the scoreboard and transitions to the scoreboard state. This function handles the logic for displaying the scoreboard and transitions the game to the SCOREBOARD state. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variáveis}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} \mbox{\hyperlink{statecontroler_8h_a25362b33bad9ff6222dc40646c411649}{state}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação dos valores da enumeração}
+\Hypertarget{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}\label{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285} 
+\index{statecontroler.h@{statecontroler.h}!GameState@{GameState}}
+\index{GameState@{GameState}!statecontroler.h@{statecontroler.h}}
+\doxysubsubsection{\texorpdfstring{GameState}{GameState}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}}}
+
+
+
+Enumeration for the different states the game can be in. This enumeration defines the possible states the game can transition between, such as the main menu, reaction game, aiming game, game over, scoreboard, and exit. 
+
+\begin{DoxyEnumFields}{Valores de enumerações}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MAINMENU@{MAINMENU}!statecontroler.h@{statecontroler.h}}\index{statecontroler.h@{statecontroler.h}!MAINMENU@{MAINMENU}}}\Hypertarget{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285a4308178099d62c4081c711b763591792}\label{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285a4308178099d62c4081c711b763591792} 
+MAINMENU&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{REACTGAME@{REACTGAME}!statecontroler.h@{statecontroler.h}}\index{statecontroler.h@{statecontroler.h}!REACTGAME@{REACTGAME}}}\Hypertarget{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285abe1717bd3214fb5d74a9c658d69295d1}\label{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285abe1717bd3214fb5d74a9c658d69295d1} 
+REACTGAME&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AIMGAME@{AIMGAME}!statecontroler.h@{statecontroler.h}}\index{statecontroler.h@{statecontroler.h}!AIMGAME@{AIMGAME}}}\Hypertarget{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285a580366f37edaf84f9fca0e1f273c6482}\label{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285a580366f37edaf84f9fca0e1f273c6482} 
+AIMGAME&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GAME\_OVER@{GAME\_OVER}!statecontroler.h@{statecontroler.h}}\index{statecontroler.h@{statecontroler.h}!GAME\_OVER@{GAME\_OVER}}}\Hypertarget{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285a871723195985a4ae22d7e10d99bf8a00}\label{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285a871723195985a4ae22d7e10d99bf8a00} 
+GAME\+\_\+\+OVER&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SCOREBOARD@{SCOREBOARD}!statecontroler.h@{statecontroler.h}}\index{statecontroler.h@{statecontroler.h}!SCOREBOARD@{SCOREBOARD}}}\Hypertarget{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285aedb8021c05603471ad7d382d8288223b}\label{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285aedb8021c05603471ad7d382d8288223b} 
+SCOREBOARD&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXIT@{EXIT}!statecontroler.h@{statecontroler.h}}\index{statecontroler.h@{statecontroler.h}!EXIT@{EXIT}}}\Hypertarget{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285a7a10b5d68d31711288e1fe0fa17dbf4f}\label{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285a7a10b5d68d31711288e1fe0fa17dbf4f} 
+EXIT&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{statecontroler_8h_a12768f066e85226b4dca9e09ae9e0f98}\label{statecontroler_8h_a12768f066e85226b4dca9e09ae9e0f98} 
+\index{statecontroler.h@{statecontroler.h}!aimgame@{aimgame}}
+\index{aimgame@{aimgame}!statecontroler.h@{statecontroler.h}}
+\doxysubsubsection{\texorpdfstring{aimgame()}{aimgame()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} aimgame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Transitions the game to the aiming game state. This function sets the aiming mode and transitions the game to the AIMGAME state. 
+
+\begin{DoxyReturn}{Retorna}
+The new state of the game (AIMGAME or EXIT if an error occurs). 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{statecontroler_8h_a12768f066e85226b4dca9e09ae9e0f98_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{statecontroler_8h_a12768f066e85226b4dca9e09ae9e0f98_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{statecontroler_8h_a85f6eeaa505d59f446654eeb0ab227fd}\label{statecontroler_8h_a85f6eeaa505d59f446654eeb0ab227fd} 
+\index{statecontroler.h@{statecontroler.h}!gameover@{gameover}}
+\index{gameover@{gameover}!statecontroler.h@{statecontroler.h}}
+\doxysubsubsection{\texorpdfstring{gameover()}{gameover()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} gameover (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Handles the game over state. This function transitions the game to the GAME\+\_\+\+OVER state. 
+
+\begin{DoxyReturn}{Retorna}
+The new state of the game (GAME\+\_\+\+OVER). 
+\end{DoxyReturn}
+\Hypertarget{statecontroler_8h_a88dfdc3b343021521ec75e02abd6d0c2}\label{statecontroler_8h_a88dfdc3b343021521ec75e02abd6d0c2} 
+\index{statecontroler.h@{statecontroler.h}!reactgame@{reactgame}}
+\index{reactgame@{reactgame}!statecontroler.h@{statecontroler.h}}
+\doxysubsubsection{\texorpdfstring{reactgame()}{reactgame()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} reactgame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Transitions the game to the reaction game state. This function sets up the reaction game and transitions the game to the REACTGAME state. 
+
+\begin{DoxyReturn}{Retorna}
+The new state of the game (REACTGAME or EXIT if an error occurs). 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{statecontroler_8h_a88dfdc3b343021521ec75e02abd6d0c2_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{statecontroler_8h_a88dfdc3b343021521ec75e02abd6d0c2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{statecontroler_8h_abf2136845d70126601842fb39e74665d}\label{statecontroler_8h_abf2136845d70126601842fb39e74665d} 
+\index{statecontroler.h@{statecontroler.h}!scoreboard@{scoreboard}}
+\index{scoreboard@{scoreboard}!statecontroler.h@{statecontroler.h}}
+\doxysubsubsection{\texorpdfstring{scoreboard()}{scoreboard()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} scoreboard (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Displays the scoreboard and transitions to the scoreboard state. This function handles the logic for displaying the scoreboard and transitions the game to the SCOREBOARD state. 
+
+\begin{DoxyReturn}{Retorna}
+The new state of the game (SCOREBOARD). 
+\end{DoxyReturn}
+\Hypertarget{statecontroler_8h_afb7e8eee947a2d603dfd05cf396fd0a6}\label{statecontroler_8h_afb7e8eee947a2d603dfd05cf396fd0a6} 
+\index{statecontroler.h@{statecontroler.h}!startgame@{startgame}}
+\index{startgame@{startgame}!statecontroler.h@{statecontroler.h}}
+\doxysubsubsection{\texorpdfstring{startgame()}{startgame()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} startgame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes the game to the main menu state. This function sets up the main menu and transitions the game to the MAINMENU state. 
+
+\begin{DoxyReturn}{Retorna}
+The new state of the game (MAINMENU or EXIT if an error occurs). 
+\end{DoxyReturn}
+Grafo de chamadas desta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{statecontroler_8h_afb7e8eee947a2d603dfd05cf396fd0a6_cgraph}
+\end{center}
+\end{figure}
+Este é o diagrama das funções que utilizam esta função\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{statecontroler_8h_afb7e8eee947a2d603dfd05cf396fd0a6_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Documentação das variáveis}
+\Hypertarget{statecontroler_8h_a25362b33bad9ff6222dc40646c411649}\label{statecontroler_8h_a25362b33bad9ff6222dc40646c411649} 
+\index{statecontroler.h@{statecontroler.h}!state@{state}}
+\index{state@{state}!statecontroler.h@{statecontroler.h}}
+\doxysubsubsection{\texorpdfstring{state}{state}}
+{\footnotesize\ttfamily \mbox{\hyperlink{statecontroler_8h_a7899b65f1ea0f655e4bbf8d2a5714285}{Game\+State}} state}
+

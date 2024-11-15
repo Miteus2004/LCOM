@@ -1,0 +1,10 @@
+<map id="src/GameControlers/sprites.c" name="src/GameControlers/sprites.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="21,5,159,48"/>
+<area shape="rect" id="Node000002" href="$sprites_8h.html" title=" " alt="" coords="5,96,175,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,49,93,80,87,80,87,49"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="51,261,129,288"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,124,75,146,67,171,65,192,67,213,79,247,74,248,62,214,59,192,62,170,70,144,81,122"/>
+<area shape="rect" id="Node000004" href="$graphics_8h.html" title=" " alt="" coords="77,171,207,213"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="100,122,123,156,118,159,96,125"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="131,215,109,250,104,247,126,212"/>
+</map>
